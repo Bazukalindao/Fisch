@@ -65,7 +65,7 @@ end
 function UI.Initialize()
     --UI
 
-    local Windows = NEVERLOSE:AddWindow("Bazuka Hub","Fuck the Tsuo Hub - Fisch - V0.1.8 - discord.gg/ckggnhbPa2")
+    local Windows = NEVERLOSE:AddWindow("Bazuka Hub"," Bazuka Hub Fisch - V0.1.8 - discord.gg/ckggnhbPa2")
 
     local FishingTab = Windows:AddTab("Fishing", "earth")
 
