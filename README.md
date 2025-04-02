@@ -1,4215 +1,5231 @@
+-- This script was protected using the Bazuka Obfuscator v1 🇧🇷
 
----Hey you! If youre reading this you prolly just want the source code.
----BUT Subcribing on my channel would make my day better!
-
----Sub:
----https://www.youtube.com/@Bazuka.zz1
-
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Knuxy92/Ui-linoria/main/Fluent/Fluent.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
-
-local Window = Fluent:CreateWindow({
-	Title = "Bazuka Hub",
-	SubTitle = "Fisch",
-	TabWidth = 160,
-	Size = UDim2.fromOffset(550, 350),
-	Acrylic = false, 
-	Theme = "Normal Theme",
-	MinimizeKey = Enum.KeyCode.LeftControl
-})
-
-do 
-	Config = {
-
-	}
-	_G.Config = Config
-	AllFuncs = {}
-	Threads = getgenv().Threads
-	Players = game.Players
-	LocalPlayer = game.Players.LocalPlayer
-	Client = game.Players.LocalPlayer
-
-
-	-- \\ Module GetService // --
-
-	ReplicatedStorage = game:GetService('ReplicatedStorage')
-	RunService = game:GetService("RunService")
-	VirtualInputManager = game:GetService('VirtualInputManager')
-	CollectionService = game:GetService("CollectionService")
-	CoreGui = game:GetService("CoreGui")
-	HttpService = game:GetService("HttpService")
-	TeleportService = game:GetService("TeleportService")
-	VirtualUser = game:GetService("VirtualUser")
-	VirtualInputManager = game:GetService("VirtualInputManager")
-	UserInputService = game:GetService("UserInputService")
-
-
-	-- \\ Normal Module // --
-	
-	PlayerGui = LocalPlayer.PlayerGui
-	Backpack = LocalPlayer.Backpack
-	request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-
-	Char = Client.Character
-	Character = Client.Character
-	if not Threads then getgenv().Threads = {} end
-
-	repeat 
-		LocalPlayer = Players.LocalPlayer
-		wait()
-	until LocalPlayer
+local function Up(nk,Bk)
+    local Sm,rm,Go,op,ge,cq,fg,Np,Oc
+    fg,cq={[3090]=2661,[30397]=-3285,[-19999]=-17516,[18232]=-13564,[11354]=-27384,[4256]=2661,[-12288]=-15452,[26714]=7709,[-3363]=-6488,[-29503]=29735,[22429]=1492,[3218]=-13564,[25433]=32686,[30845]=20963},function(Uj)
+        return fg[Uj-31515]
+    end
+    Sm={[-18800]=function()
+        Np,ge=nk%(-259914008/-129957004),Bk%(1817939842-1817939840)
+        if Np~=ge then
+            op=cq(53944)
+            return true
+        end
+        op=-2.1432398055320891e-06*1532726292
+    end,[-6488]=function()
+        nk=Bk
+        op=cq(1461569628-1461512680)
+    end,[-27384]=function()
+        if nk>-0/-94555600 and Bk>0/428498401 then
+            op=9.0003364809305295e-06*-2088810795
+        else
+            op=cq(2012)
+        end
+    end,[-17516]=function()
+        rm=nk%(-58016535+58016537)
+        if rm>-0*-617178816 then
+            op=cq(19227)
+            return true
+        end
+        op=cq(35771)
+    end,[-3285]=function()
+        nk,Bk,Oc=(nk-Np)/(-1729640023+1729640025),(Bk-ge)/(-3188759204/-1594379602),Oc*(978562000+-978561998)
+        op=cq(0.0025295265833659834*16947440)
+    end,[1492]=function()
+        Go=Go+Oc
+        op=cq(0.00014854097170843432*416800828)
+    end,[-15452]=function()
+        Go=Go+Oc
+        op=cq(-37741268279475/-1090630495)
+    end,[2661]=function()
+        nk,Oc=(nk-rm)/(151053075+-151053073),Oc*(3748087054/1874043527)
+        op=cq(-53770206+53804939)
+    end,[-13564]=function()
+        if nk>0*1244903900 then
+            op=cq(11516)
+        else
+            op=cq(58229)
+        end
+    end}
+    op=cq(62360)
+    repeat
+        while true do
+            if Sm[op]~=nil then
+                if Sm[op]()then
+                    break
+                end
+            elseif op==13721054378369/1779874741 then
+                return Go
+            elseif op==-85460904- -85481867 then
+                Oc,Go=5.4075434984137381e-10*1849268527,-79139000- -79139000
+                op=-2.6634303770006039e-05*1028147769
+            elseif op==12060738477270/405607482 then
+                if nk<Bk then
+                    op=cq(28152)
+                    break
+                end
+                op=-1055384091+1055416777
+            elseif op==-28708295599532/-878305562 then
+                op=cq(49747);
+            end
+        end
+    until op==-9.5265333174258883e-05*217466305
 end
-
-function Notify(Des, Time, title)
-	Fluent:Notify({
-		Title= title or "Bazuka Hub Notify",
-		Content = Des,
-		Duration = Time or 3
-	})
+local function jn(cd,Ne)
+    local Xl,tj,Rj,E,Kq,In,ii,j,Qk,Hm,Co
+    Qk,E={[17782]=6205,[-25280]=-23647,[-26010]=-25493,[21379]=6205,[12169]=-16346},function(ol)
+        return Qk[ol+28461]
+    end
+    Hm={[13387]=function()
+        Xl=Xl..In(Up(ii(cd,Co+(-1037042040- -1037042041)),ii(Ne,Co%#Ne+(-1928821976+1928821977))))
+        tj=E(-114553326796740/2103014940)
+    end,[6205]=function()
+        if(Kq>=(-1521328620- -1521328620)/(-637917820+838876505)and Rj>j)or((Kq<2.7437930960508605e+18/-1841035393+(-178659595- -1669012853)or Kq~=Kq)and Rj<j)then
+            tj=-0.0010986145737814899*24576408
+        else
+            tj=2019521491+-2019508104
+        end
+    end,[-25493]=function()
+        Rj=Rj+Kq;
+        Co=Rj;
+        if Rj~=Rj then
+            tj=102313905+-102340905
+        else
+            tj=E(-10679)
+        end
+    end,[-23647]=function()
+        Co=Rj;
+        if j~=j then
+            tj=-725105674- -725078674
+        else
+            tj=E(-7082)
+        end
+    end}
+    tj=E(-16292)
+    repeat
+        while true do
+            if Hm[tj]~=nil then
+                if Hm[tj]()then
+                    break
+                end
+            elseif tj==1992028843+-1992045189 then
+                In,ii=string['char'],string['byte']
+                Xl=''
+                Kq,j,Rj=-823210783+823210784,#cd-332414820/332414820,0/1745764257
+                tj=E(-53741)
+            elseif tj==1.7092706252805436e-05*-1579621132 then
+                return Xl
+            end
+        end
+    until tj==2063308765+-2063305872
 end
-
-_G['Bazuka Hub Table'] = {
-	isWindows = UserInputService:GetPlatform() == Enum.Platform.Windows,
-	TypeOs = (table.find({Enum.Platform.Windows}, game:GetService('UserInputService'):GetPlatform()) ~= nil and 'Pc') or 'Mb',
-	SizeUi = (not isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600),
-	AutoSize = true,
-	TweenUiSize = true,
-	SpeedTweenUi = 0.25,
-	StyleTweenUi = Enum.EasingStyle.Quad,
-	Mutiply = 1.80,
-	SizeX = 550,
-	SafePercent = 20,
-
-	AnimationUiToggle = true,
-}
-
-_G['Bazuka Hub Table'].SizeUi = (not _G['Bazuka Hub Table'].isWindows and UDim2.fromOffset(600,300)) or UDim2.fromOffset(560,600)
-if not _G['Bazuka Hub Table'].isWindows then
-	if game.CoreGui:FindFirstChild('UIBUTTON') then
-		game.CoreGui:FindFirstChild('UIBUTTON'):Destroy()
-	end
-
-	local TweenService = game:GetService("TweenService")
-	local UserInputService = game:GetService("UserInputService")
-	local UIBUTTON = Instance.new("ScreenGui")
-	local Frame = Instance.new("Frame")
-	local ImageButton = Instance.new("ImageButton")
-	local UICorner = Instance.new("UICorner")
-	local UICorner_2 = Instance.new("UICorner")
-
-	UIBUTTON.Name = "UIBUTTON"
-	UIBUTTON.Parent = game.CoreGui
-	UIBUTTON.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-
-	Frame.Parent = UIBUTTON
-	Frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-	Frame.BorderSizePixel = 0
-	Frame.Transparency = 1
-	Frame.Position = UDim2.new(0.157012194, 0, 0.164366379, 0)
-	Frame.Size = UDim2.new(0, 115, 0, 49)
-
-ImageButton.Parent = Frame
-ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageButton.BorderSizePixel = 0
-ImageButton.Active = true
-ImageButton.Draggable = true
-ImageButton.Position = UDim2.new(0.218742043, 0, -0.155235752, 0)
-ImageButton.Size = UDim2.new(0, 64, 0, 64)
-
--- Set initial image to "open"
-ImageButton.Image = "rbxassetid://106120414256650" -- Open image asset ID
-local isOpen = true -- Variable to track the state
-
-ImageButton.MouseButton1Click:Connect(function()
-    -- Animate the button size
-    ImageButton:TweenSize(UDim2.new(0, 60, 0, 60), Enum.EasingDirection.In, Enum.EasingStyle.Elastic, 0.1)
-    delay(0.1, function()
-        ImageButton:TweenSize(UDim2.new(0, 64, 0, 64), Enum.EasingDirection.Out, Enum.EasingStyle.Elastic, 0.1)
+local Zi,ij,Il=type,getmetatable,pairs;
+local Ji={}
+local Qe=game[jn('=\195\0\137\n\b\208\29\185\n','z\166t\218o')](game,jn('#\244\212\155q|\212\213\n\5\232\210\162es\217\251\1\a','u\157\166\239\4\29\184\156d'))
+local mk={}
+local _k={[jn('\141+at\159\54tp\169','\204^\21\27')]=false,[jn('\220\164\18z\245(\243\184\1t\213$','\157\209f\21\184A')]=false,[jn('\14nY\26\1\181\196eL.vH7 \189\222mE;','O\27-uL\220\170\f+')]=false,[jn('\145\131S2\147\151T)',"\208\246\']")]=false,[jn('=N\142\186.\14_\191\189\56\25','m+\252\220K')]=false,[jn('m\239\193\54xU\225\246\f[',':\138\163^\23')]='',[jn('\r\26\163\219\178|N\198\223\233\51\25\168\208\188gL\231\222\238','Z\127\193\179\221\19%\136\176\157')]=false,[jn('\224\146\225\51\234\185\200\169\239&\251\132','\166\254\142R\158\246')]=false,[jn('B\209m\213','\14\190')]=false,[jn('\128r\239\193q\t\25\222\163_\253\206i\1\19\214','\205\23\136\160\29h}\177')]=false,[jn('\24\228Z\t\220!\226Z\3\221','H\150\51f\174')]={},[jn('\145U\16\0\167t\201\184p\28\r\189r\210\170',"\193\'yo\213\29\189")]=false,[jn('6\207\\\24\247I\a','w\186(')]=false,[jn(' \250\158u5\224\158\127\f','a\143\234\26')]=false}
+local Lb={[jn('\167\154\210\172xV6\52\215\219\139\138\226\172BQ\b8\194\239\150','\230\239\166\195\53?X]\176\186')]=-2020189235+2020189237,[jn('\249*+\206\136\204Z\229Z\177\rm\217\141\207\49\15\196\183\240D\197S\164\5z\243\131\212','\184__\161\197\165\52\140=\208\96\b\157\226')]=AutoMinigameDownPerUp,[jn('c\237Z\225E','7\132')]=-31534070855/-104764355,[jn('\170.\254\217\152\18\240\202\152','\236B\145\184')]=nil,[jn('r\240\131\184|\203ZQ\236\137\167p\192d','>\159\224\211\25\175\n')]=nil,[jn('RP\29\255\166\96\200\148qe\21\237\163u\197\148q','\31\53z\158\202\1\172\251')]=nil,[jn('{ju\246Znv\248X','6\15\18\151')]=false,[jn('~\234\193\235\182]\251\246\207\162G','3\143\166\163\195')]=nil,[jn('\206\217\173\140\a\237\200\154\171\1','\131\188\202\196r')]=nil,[jn('\239\209\5:N\135\169\248\207\20\aQ\181\169\217','\189\190an!\197\204')]='',[jn('\210\138\246\227\15\225\141\241\238#','\148\227\133\139G')]='',[jn('\186\152','\234')]=-1735906083+1735906083}
+local vn={}
+local Cf={}
+local W={}
+local pl={}
+local Aq=loadstring(game[jn('p\171\250H\152\235L','8\223\142')](game,jn('I\21\237{\134\18\186\vF\247\141h\196\b\31\178\229\15\23\241\141\17[N\234d\128Z\246AL\183\138)\221\t\14\240\224\3K\179\128\t','!a\153\v\245(\149$?\152\248F\179\96v\223\149je\223\245h')))()
+local xp=Aq[jn('\220{E>\247\200\241uE>\254\207','\146\20\49W\145\161')]();
+Aq[jn('_\236n\233n','\v\132')](Aq,jn('\166*\176 ','\194K'))
+for Wi,Ve in pairs(_k)do
+    local Hp,oj,wk,Ze
+    oj,Hp={[26879]=-14234,[-20090]=-16936,[-659]=-2113,[19612]=22512},function(hj)
+        return oj[hj-2779]
+    end
+    Ze={[22512]=function()
+        if Ve==false then
+            wk=Hp(-17311)
+            return true
+        end
+        wk=1.2372763643289963e-05*-1150430123
+    end,[-14234]=function()
+        wk=Hp(2120);
+        return true;
+    end,[-16936]=function()
+        Cf[Wi]=function(s)
+            _k[Wi]=s
+        end
+        wk=Hp(-491585978+491615636)
+    end}
+    wk=Hp(22391)
+    repeat
+        while true do
+            if Ze[wk]~=nil then
+                if Ze[wk]()then
+                    break
+                end
+            end
+        end
+    until wk==-1498734961- -1498732848
+end
+function Cf.Initialize()
+    local Gg=Aq[jn('\132\237\181~\172\231\181F\178','\197\137\209)')](Aq,jn('Z\133\25\203ay\196+\203h','\24\228c\190\n'),jn('6\189F\139\161\204\205\20\217\19e\139\251\172\128\152\21\205T\3A$\28\r\27.\223\n\209\176\206\223W\254\20c\133\218\162\220\152\22\138\30M\127vb]\a',"\22\255\'\241\212\167\172\52\145f\a\171\189\197\243\251}\237y#\23\20\50<5"))
+    local Ug=Gg[jn('\248[\149\237^\147','\185?\241')](Gg,jn('^\199Sp\199N\127','\24\174 '),jn('\6\155\17\142\v','c\250'))
+    local Nl=Gg[jn('6~ #{&','w\26D')](Gg,jn('a\226uH\235f','1\142\20'),jn('J\232]\253G','/\137'))
+    local ga=Gg[jn('\149!\238\128$\232','\212E\138')](Gg,jn('\4\23\f','B'),jn('\a\141\16\152\n','b\236'))
+    local rj=Gg[jn('L/PY*V','\rK4')](Gg,jn('-a\173\3\245\20\a{\176\t\233\6','d\15\217f\135u'),jn('c\170|\183','\15\195'))
+    local vk=Gg[jn('L\18\\Y\23Z','\rv8')](Gg,jn('\134\194\175\184\187\174<\171\213\186\182\233\142*','\199\176\202\217\155\250Y'),jn(' \249\55\236-','E\152'))
+    local Ia=Gg[jn('%\246\v0\243\r','d\146o')](Gg,jn('\177\203\141\211','\226\163'),jn('\240\247\231\226\253','\149\150'))
+    local Ok=Gg[jn('C\217NV\220H','\2\189*')](Gg,jn('ax\21p\185_Es\\S\162EE','1\n|\31\203\54'),jn('r\be\29\127','\23i'))
+    local _h=Gg[jn('\173J\185\184O\191','\236.\221')](Gg,jn('\31\158\251 \148\246#','H\251\153'),jn('\222p\193m','\178\25'))
+    local Fk=Gg[jn('\227\150O\246\147I','\162\242+')](Gg,jn('\221\55Wg\231<D\96','\142R#\19'),jn('\173\158\186\139\160','\200\255'))
+    local gi=Ug[jn("\200\'\231\49\53\234\55\234\r>",'\137C\131bP')](Ug,jn('\237\54\212n\193=\222e\211','\160S\183\6'),jn('\165\146\175\131','\201\247'))
+    local qk=Ug[jn('\226P\25\197\224\192@\20\249\235','\163\52}\150\133')](Ug,jn('\130\173b+Cc\177\176~\5\2P\169','\196\196\17Cc\"'),jn('\239\155\229\138','\131\254'))
+    local Yd=Ug[jn('\213\215\223m\229\247\199\210Q\238','\148\179\187>\128')](Ug,jn('\168\5\194cTQ\171\r\211\222\183\156\1\145X\17d\170\16\210\255\165','\238l\177\vt\16\222y\188\152\214'),jn('\23\23\29\6','{r'))
+    local Jn=Ug[jn('M\175p\134Go\191}\186L','\f\203\20\213\"')](Ug,jn('A\f\241\53Nl\n\250-Hg','\2c\159C+'),jn('|\153v\136','\16\252'))
+    local th=Ug[jn('\230l\f\181P\196|\1\137[','\167\bh\230\53')](Ug,jn('U\225br\250se','\22\147\a'),jn('\27\164\14\165\29','i\205'))
+    local X=vk[jn('P4\rv@r$\0JK','\17Pi%%')](vk,jn('\216J\207\52\252@\209%\255','\140/\163Q'),jn('e\232o\249','\t\141'))
+    local ym=vk[jn('\151\197fH\239\181\213kt\228','\214\161\2\27\138')](vk,jn('\5\127\160\158\"x\183\154','Q\r\197\255'),jn('m\222x\223k','\31\183'))
+    local Cj=rj[jn('\247\232^\202\209\213\248S\246\218','\182\140:\153\180')](rj,jn('\2\236!*\224;0','C\143U'),jn('\r*\a;','aO'))
+    local sg=_h[jn('4\254\198V\153\22\238\203j\146','u\154\162\5\252')](_h,jn('\219\129p\228\139}\231','\140\228\18'),jn('<\135\54\150','P\226'))
+    local Ud=Ia[jn('\21\174O\0\160\55\190B<\171','T\202+S\197')](Ia,jn('\189z\176Q\206S\179M','\238\18\223!'),jn('\238\178\228\163','\130\215'))
+    local xj=Ug[jn('\149\23\28\t\n\183\a\17\53\1','\212sxZo')](Ug,jn('\206\166\179\241\166\173','\157\195\223'),jn('&\6,\23','Jc'))
+    local Wk=vk[jn('\157#\254\22~\191\51\243*u','\220G\154E\27')](vk,jn('?H\235\14J\236',"k\'\159"),jn('\234W\224F','\134\50'))
+    local yh=vk[jn('S\152t\178\3q\136y\142\b','\18\252\16\225f')](vk,jn('\197_b\t\185D\215Fu\v\169\23','\146\48\16e\221d'),jn(')\182<\183/','[\223'))
+    local Pd=ga[jn('\22G&dD4W+XO','W#B7!')](ga,jn('\207\220\199','\137'),jn(',\179\57\178*','^\218'))
+    local Gn=Nl[jn('h!\128\132\177J1\141\184\186',')E\228\215\212')](Nl,jn('\196\n\226\53\235\237\180+\236(\231\249\237','\148f\131L\142\159'),jn('\223\26\213\v','\179\127'))
+    local Rl=Nl[jn('#\152Q]\246\1\136\\a\253','b\252\53\14\147')](Nl,jn('\156\146\205C\22\129\151\223YS\163','\209\251\190 6'),jn('\5\156\16\157\3','w\245'))
+    local vd=Fk[jn('\247\48\185\179<\213 \180\143\55','\182T\221\224Y')](Fk,jn('\219A\25y\225J\n~','\136$m\r'),jn('&\196\51\197 ','T\173'))
+    xj[jn('\24\224\15\219,\240\31\246\55','Y\132k\153')](xj,jn('\201\166H\128\186\130H\128','\154\195$\236'),pl[jn('2\134\r\143','a\227')])
+    Jn[jn('_\"\191\3q!\188;{','\30F\219W')](Jn,jn('{nK\202n\207jS\"s\202n\138W','=\2$\171\26\239%'),false,Cf[jn('\200\56s\6\226\3\224\3}\19\243>','\142T\28g\150L')])
+    Jn[jn('\241\217\230\226\209\223\231\194','\176\189\130\174')](Jn,jn("\3<\19N\212\177\b\202\128\140~\135\215x~\189\171\243\214\"\'\5\0\149\144\"\202\151\139\49\159\197q5\238\186\238\205y",'WIa \244\254F\234\244\227^\240\182\20\21\157\202\129\185'))
+    Jn[jn('\134\182\212\228\168\181\215\220\162','\199\210\176\176')](Jn,jn('\145\141\222\246_\253=\164\157\199\185*\218\55','\208\248\170\153\127\169R'),false,Cf[jn('\185b\237\164\172x\237\174\149','\248\23\153\203')])
+    Jn[jn('7N\244\b\25M\247\48\19','v*\144\\')](Jn,jn('\f\211k\255(\181\199p:\195w\25\212z\241{\148\229\53N\225\54=','M\166\31\144\b\225\151Pn\172W'),false,Cf[jn('\245Y\183\219a\162\196','\180,\195')])
+    ym[jn('\237h:\20\195k9,\201','\172\f^@')](ym,jn("\4IZq\169\172\151\21\188\19:pfWw\178\227\168\0\238\21:\'",'P,6\20\217\195\229a\156gU'),false,function()
+        local Vk=game[jn('\207ij\230\96y\236','\159\5\v')][jn('\30\n#\168V\2\t!\176_ ','Re@\201:')]
+        local Oe=Vk[jn('\16\21\57\213\50\30,\194!','S}X\167')][jn('8m\217S\24p\29O\216N2{',"o\f\176\'^\31")](Vk[jn('\16\21\57\213\50\30,\194!','S}X\167')],jn('a;\189\31C5RC{!\191\n};IS',")N\208~-Z;\'"))
+        Oe[jn('\242\n\a\208!\16','\177Lu')]=CFrame[jn('\141\134\148','\227')](-(3576937108848.9688/1266459791),-122195039742.01801/-570176238,7.1792050388936901e-07*2114621315)
     end)
-
-    -- Toggle the image based on the state
-    if isOpen then
-        ImageButton.Image = "rbxassetid://106120414256650" -- Replace with close image asset ID
-    else
-        ImageButton.Image = "rbxassetid://106120414256650" -- Open image asset ID
-    end
-    isOpen = not isOpen -- Toggle the state
-
-    -- Simulate key presses
-    local VirtualInputManager = game:GetService("VirtualInputManager")
-    VirtualInputManager:SendKeyEvent(true,"RightControl",false,game)
-    VirtualInputManager:SendKeyEvent(false,"RightControl",false,game)
-    VirtualInputManager:SendKeyEvent(true,"LeftControl",false,game)
-    VirtualInputManager:SendKeyEvent(false,"LeftControl",false,game)
-end)
-
-UICorner.CornerRadius = UDim.new(0, 100)
-UICorner.Parent = ImageButton
-
-	UICorner_2.CornerRadius = UDim.new(0, 10)
-	UICorner_2.Parent = Frame
-
-
-	local UIS = game:GetService('UserInputService')
-	local frame = Frame
-	local dragToggle = nil
-	local dragSpeed = 0.25
-	local dragStart = nil
-	local startPos = nil
-
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
-	end
-
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
-		end
-	end)
-
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				Frame.Transparency = 1
-				updateInput(input)
-			else
-				Frame.Transparency = 1
-			end
-		end
-	end)
-end
-
-do -- Settings Initializer
-	local path = "Bazuka Hub | fisch"
-	if not isfolder(path) then makefolder(path) end
-	DefaultConfigName = path.."/OriConfibg.json"
-	ConfigName = path.."/"..Client.UserId.."Config.json"
-	Config = isfile(ConfigName) and readfile(ConfigName)
-	DefaultConfig = isfile(DefaultConfigName) and readfile(DefaultConfigName)
-	if DefaultConfig then
-		if type(DefaultConfig) == "string" and DefaultConfig:find"{" then
-			local Success,Result
-			Success,Result = pcall(function()
-				return game:GetService("HttpService"):JSONDecode(DefaultConfig)
-			end)
-			wait(0.1)
-			if Success then
-				DefaultConfig = Result
-			else
-				DefaultConfig = nil
-			end
-		end
-	end
-	if isfile(tostring(Client.UserId).."ALC.txt") then
-		if readfile(tostring(Client.UserId).."ALC.txt") == "true"  then
-			if Config then
-				if type(Config) == "string" and Config:find"{" then
-					local Success,Result
-					Success,Result = pcall(function()
-						return game:GetService("HttpService"):JSONDecode(Config)
-					end)
-					wait(0.1)
-					if Success then
-						Config = Result
-					else
-						Config = {}
-					end
-				else
-					Config = {}
-				end
-			else
-				Config = {}
-			end
-		else
-			Config = {}
-		end
-	else
-		writefile(tostring(Client.UserId).."ALC.txt", "true")
-		Config = {}
-	end
-	if getgenv().Config then
-		Config = getgenv().Config
-	end
-end
-
-do -- Config Function
-	save = function()
-		if not isfolder('Normal Hub') then
-			makefolder('Normal Hub')
-		end
-		writefile(ConfigName,game:GetService("HttpService"):JSONEncode(Config))
-	end
-	setDefaultConfig = function()
-		if not isfolder('Bazuka Hub') then
-			makefolder('Bazuka Hub')
-		end
-		writefile(DefaultConfigName,game:GetService("HttpService"):JSONEncode(Config))
-	end
-end
-
-do -- INFO FISH
-	local fish = game:GetService("ReplicatedStorage"):WaitForChild("resources"):WaitForChild("animations"):WaitForChild("fish")
-	FISHDATA = {
-		Tire = {
-			WeightPool = {110, 110};
-			Chance = 17;
-			Rarity = "Trash";
-			Resilience = 130;
-			Description = "Who would leave this in an ocean? Seems to be in great condition too. A common tire for cars and pickup trucks.";
-			Hint = "Find it in cheap bodies of water.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 20;
-			XP = 10;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "A tire.?", "Who would put this in here?", "Oh. A tire.", "A tire!..?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			From = "None";
-		};
-		Boot = {
-			WeightPool = {12, 12};
-			Chance = 17;
-			Rarity = "Trash";
-			Resilience = 120;
-			Description = "Who would leave this in an ocean? Seems to be in great condition too. A common boot, must of fallen off of a boat?.. Or someONE must of fallen off of a boat.. Whatever. either way, it's yours now!";
-			Hint = "Find it in cheap bodies of water.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 15;
-			XP = 20;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Why only one..?", "A Boot.!", "A Boot...", "I caught!.. a Boot..?", "Erm.. A Boot?"};
-			SparkleColor = Color3.fromRGB(197, 152, 80);
-			From = "None";
-		};
-		["Fungal Cluster"] = {
-			WeightPool = {9, 9};
-			Chance = 22;
-			Rarity = "Trash";
-			Resilience = 120;
-			Description = "Offspring of the Giant Fungal Trees of Mushgrove Swamp. These mushrooms produce heavy spores which polute the surrounding area and sky; giving everything an uncomfortable and green feel.";
-			Hint = "Find it in Mushgrove Swamp. Gives off spores.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 9;
-			XP = 20;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Hmm..?"};
-			SparkleColor = Color3.fromRGB(255, 0, 0);
-			HoldAnimation = fish:WaitForChild("underweight");
-			From = "Mushgrove";
-		};
-		Driftwood = {
-			WeightPool = {6, 6};
-			Chance = 17;
-			Rarity = "Trash";
-			Resilience = 120;
-			Description = "A wood that has been washed up onto the shore by the tides. Could be great for a crafts project!";
-			Hint = "Find it washed on beaches.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 10;
-			XP = 30;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Uhmm..?", "Driftwood!", "Oh. Driftwood.", "It's!- Oh.. Driftwood..", "Driftwood.."};
-			SparkleColor = Color3.fromRGB(197, 107, 62);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "None";
-		};
-		Seaweed = {
-			WeightPool = {1, 3};
-			Chance = 20;
-			Rarity = "Trash";
-			Resilience = 90;
-			Description = "Some lovely seaweed that caught your hook. Not as cool as a fish, but it's better than finding a lonesome boot!";
-			Hint = "Find it in saltwater or near patches of seaweed.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 9;
-			XP = 20;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Uhmm..?", "Driftwood!", "Oh. Driftwood.", "It's!- Oh.. Driftwood..", "Driftwood.."};
-			SparkleColor = Color3.fromRGB(197, 107, 62);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "None";
-		};
-		Log = {
-			WeightPool = {45, 75};
-			Chance = 10;
-			Rarity = "Trash";
-			Resilience = 80;
-			Description = "A large log of wood than must have drifted on to shore. Could be great for house projects!";
-			Hint = "Find it washed on beaches and in the ocean.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 124;
-			XP = 45;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Oh.. a Log!", "A.. Log?", "How did I pull this up?", "A Log..?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "None";
-		};
-		Rock = {
-			WeightPool = {150, 210};
-			Chance = 50;
-			Rarity = "Trash";
-			Resilience = 90;
-			Description = "It's not a boulder.. It's a rock! Found in rocky bodies of water.";
-			Hint = "Found in rocky bodies of water.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 15;
-			XP = 10;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Uhmm..?", "A Rock!", "Oh. A Rock.", "It's!- Oh.. A Rock..", "A rock.."};
-			SparkleColor = Color3.fromRGB(80, 80, 80);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "None";
-		};
-		Ice = {
-			WeightPool = {40, 60};
-			Chance = 35;
-			Rarity = "Trash";
-			Resilience = 90;
-			Description = "Chunk of ice that broke off from a glacier in Snowcap. Kinda fun to lick..";
-			Hint = "Found in frozen bodies of water.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 15;
-			XP = 10;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Uhmm..?", "A block of Ice!", "Oh. Ice.", "Ouu! Let me lick it!", "Ice..", "It's not a popsicle, but it will do!"};
-			SparkleColor = Color3.fromRGB(171, 255, 245);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Basalt = {
-			WeightPool = {150, 210};
-			Chance = 55;
-			Rarity = "Trash";
-			Resilience = 120;
-			Description = "Basalt, also known as Lava Rock, is an igneous volcanic rock that forms when molten lava cools and solidifies. Very common to find when in a volcanic area.";
-			Hint = "Found in active Volcanoes";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 15;
-			XP = 10;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ermm..?", "Uhmm..?", "Some Basalt!", "Oh. A Piece of Basalt.", "It's!- Oh.. Basalt..", "Basalt.."};
-			SparkleColor = Color3.fromRGB(59, 59, 59);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit Volcano";
-		};
-		["Common Crate"] = {
-			WeightPool = {80, 80};
-			Chance = 17;
-			Rarity = "Uncommon";
-			Resilience = 120;
-			Description = "A moderately sized wooden crate seemingly lost from a fishing boat of some kind. The date of it's disappearance is unknown. Therefore, finders keepers?- Opening it might give you an array of fish, bait, and money!";
-			Hint = "Fallen off of a fishing boat.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			BuyMult = 1.6;
-			Price = 80;
-			XP = 20;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Common Crate!", "A Crate!", "Woah! A Crate!", "A Common Crate!", "Who left this here?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("crate");
-			IsCrate = true;
-			CrateType = "All";
-			BaitContents = {"Shrimp", "Bagel", "Squid", "Seaweed", "Magnet", "Worm", "Minnow", "Flakes", "Insect", "Maggot", "Rapid Catcher"};
-			FishContents = {"Sockeye Salmon", "Trout", "Carp", "Minnow", "Mackerel", "Gudgeon", "Cod", "Haddock", "White Bass", "Sea Bass", "Chub", "Pumpkinseed"};
-			CoinContents = {40, 120};
-			From = "None";
-		};
-		["Carbon Crate"] = {
-			WeightPool = {160, 160};
-			Chance = 2;
-			Rarity = "Rare";
-			Resilience = 50;
-			Description = "A large military grade crate, lost from some sort of commercial fishing boat. The date of it's disappearance is unkown. Therefore, finders keepers?- Opening it might give you an array of fish, bait, and money!";
-			Hint = "Fallen off of a commercial fishing boat.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			BuyMult = 3.5;
-			Price = 140;
-			XP = 50;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Carbon Crate!", "A Crate!", "Woah! A Crate!", "A Carbon Crate!", "Who left this here?", "Where is this from??"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("crate");
-			IsCrate = true;
-			CrateType = "FishOrCoins";
-			FishContents = {"Alligator Gar", "Nurse Shark", "Ribbon Eel", "Eel", "White Bass", "Longtail Bass", "Yellowfin Tuna", "Bluefin Tuna", "Squid", "Lobster", "Cod", "Pike", "Barracuda", "Arapaima", "Amberjack", "Sturgeon", "Longtail Bass", "Squid", "Mahi Mahi", "Halibut", "Coelacanth", "Abyssacuda"};
-			CoinContents = {130, 400};
-			From = "None";
-		};
-		["Fish Barrel"] = {
-			WeightPool = {150, 150};
-			Chance = 12;
-			Rarity = "Uncommon";
-			Resilience = 110;
-			Description = "A large wooden barrel with iron hoops. The barrel filled with a large array of ocean and freshwater fish that all seem pretty fresh. Therefore, finders keeps?- Opening it might give you an assortment of fish";
-			Hint = "Fallen off of a fishing boat.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			Price = 80;
-			XP = 40;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Common Crate!", "A Crate!", "Woah! A Crate!", "A Common Crate!", "Who left this here?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("crate");
-			From = "None";
-			IsCrate = true;
-			CrateType = "Fish";
-			FishContents = {"Sockeye Salmon", "Trout", "Bream", "Sturgeon", "Barracuda", "Carp", "Pufferfish", "Bluefin Tuna", "Yellowfin Tuna", "Sockeye Salmon", "Trout", "Bream", "Barracuda", "Carp", "Pike", "Alligator Gar", "Cod", "Minnow", "Longtail Bass", "Mahi Mahi", "Sardine", "Crab", "Amberjack", "Arapaima", "Perch", "Sea Bass", "Cod", "Haddock", "Sweetfish", "Goldfish", "Halibut", "Minnow", "Pale Tang", "Porgy", "Porgy", "White Bass", "Walleye", "Redeye Bass", "Sockeye Salmon", "Trout", "Bream", "Sturgeon", "Barracuda", "Carp", "Pufferfish", "Bluefin Tuna", "Yellowfin Tuna", "Sockeye Salmon", "Trout", "Bream", "Barracuda", "Carp", "Pike", "Alligator Gar", "Cod", "Minnow", "Longtail Bass", "Mahi Mahi", "Sardine", "Crab", "Amberjack", "Arapaima", "Perch", "Sea Bass", "Cod", "Haddock", "Sweetfish", "Goldfish", "Halibut", "Minnow", "Pale Tang", "Porgy", "Porgy", "White Bass", "Walleye", "Redeye Bass", "Golden Smallmouth Bass"};
-		};
-
-		["Bait Crate"] = {
-			WeightPool = {80, 80};
-			Chance = 15;
-			Rarity = "Uncommon";
-			Resilience = 120;
-			Description = "A wooden crate with fabric over top to preserve the bait inside. Seemingly lost from a fishing boat of some kind. The bait is still alive and fresh. Therefore, finders keepers?- Opening it might give you an array of common and rare baits!";
-			Hint = "Fallen off of a fishing boat.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			BuyMult = 1.6;
-			Price = 75;
-			XP = 40;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Crate of Bait!", "A Bait Crate!", "Woah! A Crate!", "A Crate!", "Who left this here?", "Oh, the shrimps still moving?", "A Crate full of Bait!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("crate");
-			From = "None";
-			IsCrate = true;
-			CrateType = "Bait";
-			BaitContents = {"Shrimp", "Seaweed", "Bagel", "Squid", "Magnet", "Worm", "Minnow", "Flakes", "Insect", "Fish Head", "Rapid Catcher", "instant Catcher", "Super Flakes", "Maggot"};
-		};
-		["Quality Bait Crate"] = {
-			WeightPool = {120, 120};
-			Chance = 8;
-			Rarity = "Rare";
-			Resilience = 120;
-			Description = "A metal bait box with a rubber seal to protect the bait inside. Seemingly lost from a fishing boat of some kind. The bait is still alive and fresh. Therefore, finders keepers?- Opening it might give you an array of baits!";
-			Hint = "Fallen off of a fishing boat.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			BuyMult = 3.5;
-			Price = 150;
-			XP = 40;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Crate of Bait!", "A Bait Crate!", "Woah! A Crate!", "A Crate!", "Who left this here?", "Oh, the shrimps still moving?", "A Crate full of Bait!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("downward");
-			From = "None";
-			IsCrate = true;
-			CrateType = "Bait";
-			BaitContents = {"Fish Head", "Rapid Catcher", "instant Catcher", "Seaweed", "Seaweed", "Squid", "Super Flakes", "Maggot", "Night Shrimp", "Maggot", "Maggot", "Weird Algae"};
-		};
-		["Volcanic Geode"] = {
-			WeightPool = {200, 200};
-			Chance = 17;
-			Rarity = "Rare";
-			Resilience = 120;
-			Description = "The Volcanic Geode encases a magma crystal core, preserving its contents with an amber-like quality. Within this geode, you might find a trove of rare or extinct treasuresâ€” it's like a volcanic Christmas!";
-			Hint = "Fallen off of a fishing boat.";
-			FavouriteBait = "Magnet";
-			FavouriteTime = nil;
-			BuyMult = 3;
-			Price = 200;
-			XP = 20;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Ooo, shiny!", "A rock...?!", "Woah! Glowy thing!", "A Geode!", "What's this thing?"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("crate");
-			IsCrate = true;
-			CrateType = "All";
-			BaitContents = {"Coal", "Coal", "Coal", "Coal", "Maggot", "Maggot", "Minnow", "Truffle Worm", "Coal", "Night Shrimp", "Rapid Catcher", "instant Catcher", "Super Flakes", "Night Shrimp", "Rapid Catcher", "Super Flakes"};
-			FishContents = {"Ember Snapper", "Pyrogrub", "Sturgeon", "Magma Tang", "Alligator Gar", "Pufferfish", "Sea Urchin", "Sea Urchin", "Perch", "Perch", "Perch", "Angelfish", "Rock", "Rock", "Rock", "Magma Tang"};
-			CoinContents = {150, 500};
-			From = "Roslit Volcano";
-		};
-		["Largemouth Bass"] = {
-			WeightPool = {10, 45};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Largemouth Bass is a common freshwater fish found in Moosewood known for its large mouth and aggressive feeding behavior. It's found in various habitats, such as lakes, ponds, and rivers, where the water is warm and there's plenty of vegetation. Largemouth Bass are also known for their camouflage, with a greenish color on their backs that helps them blend in with their surroundings.";
-			Hint = "Found in Moosewoods freshwater. Seems to prefer worms and other small baits.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 85;
-			XP = 20;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Rain"};
-			Quips = {"Now, where's the snare?", "Woah!", "Awesome!", "A Largemouth Bass!", "Ou! A Bass!"};
-			SparkleColor = Color3.fromRGB(172, 255, 134);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		["Sea Bass"] = {
-			WeightPool = {20, 60};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Sea Bass is a popular catch for many anglers, known for its elongated body and aggressive fighting behavior when hooked. They can be found all over the world in all sorts of salt waters.";
-			Hint = "In salt waters.";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 95;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Clear"};
-			Quips = {"A Sea Bass!", "I caught a Sea Bass!", "Woah! A Sea Bass!", "Ouu! A Bass!"};
-			SparkleColor = Color3.fromRGB(203, 203, 203);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		["Smallmouth Bass"] = {
-			WeightPool = {5, 17};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Smallmouth Bass is a popular freshwater fish known for its fighting spirit and preference for clear, cool waters. It has a streamlined body with a greenish-brown coloration and distinctive horizontal stripes.  It can be found in plenty of freshwaters, but is native to Terrapin Islands filtered water.";
-			Hint = "Can be found in freshwaters and in the filtered waters of Terrapin Island.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 70;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Windy"};
-			Quips = {"A Smallmouth Bass!", "I caught a Smallmouth Bass!", "Woah! A Smallmouth Bass!", "Ouu! A Bass!"};
-			SparkleColor = Color3.fromRGB(127, 255, 88);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		Anchovy = {
-			WeightPool = {1, 3};
-			Chance = 100;
-			Rarity = "Common";
-			Resilience = 100;
-			Description = "Anchovies are extremely small and slender fish, with a silvery sheen. They are known for their schooling behavior and are a common catch near Moosewood.";
-			Hint = "Caught in all saltwaters of Moosewood";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 30;
-			XP = 20;
-			Seasons = {"Spring"};
-			Weather = {"Clear"};
-			Quips = {"I caught an Anchovy..", "An Anchovy!", "It really put up a battle!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		["Swamp Bass"] = {
-			WeightPool = {20, 60};
-			Chance = 80;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Swamp Bass is species of Bass that can only be found in Swamp water. They are extremely similar to Smallmouth Bass besides their special adaptation; They have camelion-like camouflage. This allows them to nearly entirely avoid being a prey of larger fish and Alligators.";
-			Hint = "Can be found in Mushgrove Swamp.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 60;
-			XP = 50;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Windy"};
-			Quips = {"A Swamp Bass!", "I caught a Swamp Bass!", "Woah! A Swamp Bass!", "Ouu! A Swamp Bass!"};
-			SparkleColor = Color3.fromRGB(137, 255, 116);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Mushgrove";
-		};
-		Chub = {
-			WeightPool = {10, 30};
-			Chance = 100;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Chub is a hardy and adaptable freshwater fish, typically found in Roslit Pond. The Chub is an easy catch for novice anglers and is thankfully a common catch.";
-			Hint = "commonly caught in Roslit Pond.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = "Day";
-			Price = 40;
-			XP = 40;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"None"};
-			Quips = {"I caught a Chub!", "Woah, a Chub!!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["White Bass"] = {
-			WeightPool = {3, 25};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "The White Bass is a slender, silvery fish with horizontal black stripes running along its body. It can be found in plenty of freshwaters, but is native to Terrapin Islands filtered water.";
-			Hint = "Can be found in freshwaters and in the filtered waters of Terrapin Island during the day.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = "Day";
-			Price = 110;
-			XP = 50;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Foggy"};
-			Quips = {"A White Bass!", "I caught a White Bass!", "Woah! A White Bass!", "Ouu! A Bass!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		Blackfish = {
-			WeightPool = {5, 20};
-			Chance = 80;
-			Rarity = "Uncommon";
-			Resilience = 60;
-			Description = "Blackfish are small, black, nighttime swimmers that can be most commonly found in the cold the rocky waters of Snowcap Pond.";
-			Hint = "Found in Snowcap Pond during the night.";
-			FavouriteBait = "Worm";
-			FavouriteTime = "Night";
-			Price = 100;
-			XP = 100;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Blackfish!", "I caught a Blackfish!", "Oh, a Blackfish!"};
-			SparkleColor = Color3.fromRGB(113, 113, 113);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Burbot = {
-			WeightPool = {10, 35};
-			Chance = 50;
-			Rarity = "Uncommon";
-			Resilience = 50;
-			Description = "The Burbot is a long, slender freshwater fish with a mottled brown and green appearance, resembling a cross between a catfish and an eel. Burbots are known for being active in colder temperatures, particularly under the ice in Snowcap Pond.";
-			Hint = "Found in Snowcap Pond.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 80;
-			XP = 110;
-			Seasons = {"Autumn"};
-			Weather = {"Foggy"};
-			Quips = {"A Burbot!", "I caught a Burbot!", "Oh, a Burbot!"};
-			SparkleColor = Color3.fromRGB(194, 255, 129);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Grayling = {
-			WeightPool = {5, 20};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 70;
-			Description = "An interesting, cold-water fish with shimmering silver scales and a signature large, colourful dorsal fin. It is known for it's beauty and its agile swimming behaviour. The Grayling is often found in Snowcap Pond during the day, but it can rarely be found at night.";
-			Hint = "Found in Snowcap Pond during the day.";
-			FavouriteBait = "Insect";
-			FavouriteTime = "Day";
-			Price = 80;
-			XP = 100;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Foggy"};
-			Quips = {"A Grayling!", "I caught a Grayling!", "Oh, a Grayling!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		["Redeye Bass"] = {
-			WeightPool = {3, 15};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 50;
-			Description = "The Redeye Bass looks very similar to the Largemouth Bass. However, the Redeye bass has very distinct red or orange eyes to go along with its greenish brown body.";
-			Hint = "Can be found in freshwaters and in the filtered waters of Terrapin Island during the day.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 115;
-			XP = 100;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"Windy"};
-			Quips = {"A Redeyed Bass!", "I caught a Redeye Bass!", "Woah! A Redeye Bass!", "Ouu! A Redeye Bass!"};
-			SparkleColor = Color3.fromRGB(255, 29, 29);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		["Skipjack Tuna"] = {
-			WeightPool = {70, 160};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 45;
-			Description = "The Skipjack Tuna can be caught near Snowcap Island. They are extremely agile swimmers, allowing them to put up a strong fight against anglers.";
-			Hint = "Found near Snowcap Island.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 150;
-			XP = 100;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"I caught a Tuna!", "A Skipjack Tuna!", "Woah, a Skipjack Tuna!", "I caught a Skipjack Tuna!"};
-			SparkleColor = Color3.fromRGB(162, 174, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		Bream = {
-			WeightPool = {11, 27};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "Breams are school fish with deep bodies, flat sides and a small head. The bream loves worms and is most commonly found in Moosewoods freshwater.";
-			Hint = "Found in freshwaters, and along ocean beaches. Prefers day.";
-			FavouriteBait = "Worm";
-			FavouriteTime = "Day";
-			Price = 60;
-			XP = 30;
-			Seasons = {"Spring", "Winter"};
-			Weather = {"Foggy"};
-			Quips = {"A Bream!", "Bream!", "I caught a Bream!", "Woah, a Bream!", "Hello, Bream!"};
-			SparkleColor = Color3.fromRGB(255, 255, 193);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		Pumpkinseed = {
-			WeightPool = {1, 5};
-			Chance = 65;
-			Rarity = "Uncommon";
-			Resilience = 80;
-			Description = "Pumpkinseed are known for their distinctive red or orange edge on the ear flap and their round body shape. They prefer warmer waters and are often found in Roslit Bays freshwater. Pumpkinseed are also much less aggresive compared to other sunfish species.";
-			Hint = "Found in Roslit freshwater during warm days.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 90;
-			XP = 30;
-			Seasons = {"Summer"};
-			Weather = {"Clear"};
-			Quips = {"A Pumpkinseed!", "I caught a Pumpkinseed!", "Can it hear me?", "Woah.. Cool ears!"};
-			SparkleColor = Color3.fromRGB(255, 60, 60);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["Sockeye Salmon"] = {
-			WeightPool = {20, 70};
-			Chance = 90;
-			Rarity = "Common";
-			Resilience = 90;
-			ProgressEfficiency = 1.2;
-			Description = "The Sockeye Salmon are a very common type of salmon found near Moosewood, known for their vibrent red and green colours and interesting habits when laying eggs. They are very common during colder seasons such as Autumn, as that is the time most Sockeye Salmon lay their eggs.";
-			Hint = "Resides in oceans, some freshwaters along Moosewood. Prefers shrimp.";
-			FavouriteBait = "Bagel";
-			FavouriteTime = nil;
-			Price = 45;
-			XP = 25;
-			Seasons = {"Autumn", "Winter"};
-			Weather = {"Rain"};
-			Quips = {"Salmoff!", "Woah!", "Awesome!", "A Sockeye Salmon!", "Woah, A Sockeye Salmon!", "A Salmon!"};
-			SparkleColor = Color3.fromRGB(255, 160, 160);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Moosewood";
-		};
-		Sweetfish = {
-			WeightPool = {2, 5};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 85;
-			Description = "The Sweetfish is known for its delicate sweet flavor, and its golden hue. They are very commonly found in short river-like gap of Sunstone Island.";
-			Hint = "Found in the center gap of Sunstone Island.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 40;
-			XP = 25;
-			Seasons = {"Autumn"};
-			Weather = {"Clear"};
-			Quips = {"A Sweetfish!", "Is there a sour one?", "Woah! A Sweetfish!", "Hope it's not artificially sweet!"};
-			SparkleColor = Color3.fromRGB(157, 255, 96);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Sunstone";
-		};
-		Trout = {
-			WeightPool = {9, 50};
-			Chance = 85;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Trout is a common freshwater fish found in all waters of Moosewood & Roslit. Trouts are well recognized for their interesting dotted patterns and pinkish-red ribbon across the sides of their soft bodies. Trouts also interestingly have two hearts to help efficiently pump blood throughout their body.";
-			Hint = "Can be found in plenty of common waters in Moosewood & Roslit.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 65;
-			XP = 40;
-			Seasons = {"None"};
-			Weather = {"Clear"};
-			Quips = {"I thought theres a rainbow?", "Woah, a Trout!", "Woah!", "A Trout!", "I caught a Trout!"};
-			SparkleColor = Color3.fromRGB(99, 168, 94);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		Porgy = {
-			WeightPool = {5, 30};
-			Chance = 60;
-			Rarity = "Common";
-			Resilience = 65;
-			Description = "Porgies are a common catch for coasta anglers. They are a relatively easy to catch ocean fish with no real special qualities besides their taste and fun to say name.";
-			Hint = "Found all over the Ocean during the day and prefers shrimp.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = "Day";
-			Price = 90;
-			XP = 40;
-			Seasons = {"Summer", "Spring"};
-			Weather = {"Clear", "Foggy"};
-			Quips = {"A Corgi.. I mean Porgy??", "Woah, a Porgy!", "Nice, A Porgy!", "A Porgy!", "I caught a Porgy!"};
-			SparkleColor = Color3.fromRGB(248, 255, 169);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Walleye = {
-			WeightPool = {18, 40};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "The Walleye is a predatory fish known for its sharp teeth and distinctive large eyes. The Walleye can be found around the East side of Terrapin Island.";
-			Hint = "Can be found near Terrapin Island.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 90;
-			XP = 90;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"None"};
-			Quips = {"Woah! A Walleye!", "I caught a Walleye!", "Lovely, a Walleye!"};
-			SparkleColor = Color3.fromRGB(113, 188, 96);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		Bluegill = {
-			WeightPool = {1, 6};
-			Chance = 85;
-			Rarity = "Common";
-			Resilience = 90;
-			Description = "A small, round freshwater fish with bright blue and orange hues, easily recognized by its distinct gill spot. It can be found all over the waters of Snowcap.";
-			Hint = "Found in Saltwaters near Snowcap.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 60;
-			XP = 90;
-			Seasons = {"Summer", "Spring"};
-			Weather = {"Clear"};
-			Quips = {"A Bluegill!", "But I pinked the Red Pill!", "I caught a Bluegill!!", "Lovely, a Bluegill!"};
-			SparkleColor = Color3.fromRGB(149, 255, 188);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Sardine = {
-			WeightPool = {1, 3};
-			Chance = 90;
-			Rarity = "Common";
-			Resilience = 90;
-			Description = "Sarines are small schooling fish, known for their high oil content, silver scales, and long tiny bodies.";
-			Hint = "Found commonly in the open ocean.";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 30;
-			XP = 20;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Clear"};
-			Quips = {"I caught a Sardine!", "Ouu! A Sardine!", "A Sardine!"};
-			SparkleColor = Color3.fromRGB(185, 185, 185);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		["Arctic Char"] = {
-			WeightPool = {20, 60};
-			Chance = 40;
-			Rarity = "Uncommon";
-			Resilience = 50;
-			Description = "The Arctic Char is a striking fish commonly known for its vibrant reddish-orange belly and long mouth. They can be found in the cold salt-waters of Snowcap Island.";
-			Hint = "Found in open salt-water near Snowcap.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 80;
-			XP = 50;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Char!", "I caught an Arctic Char!", "Woah, a Char!", "It's an Arctic Char!"};
-			SparkleColor = Color3.fromRGB(255, 83, 83);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		["Red Drum"] = {
-			WeightPool = {10, 25};
-			Chance = 40;
-			Rarity = "Common";
-			Resilience = 50;
-			Description = "The Red Drum is a close relative to the Black Drum; Red Drum can be found all around Snowcaps vast salt-waters.";
-			Hint = "Found in salt-water of Snowcap.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 80;
-			XP = 50;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Red Drum!", "I caught a Red Drum!", "Woah, a Drum!", "It'a Red Drum!", "All I see is Red Drum."};
-			SparkleColor = Color3.fromRGB(255, 49, 49);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Herring = {
-			WeightPool = {5, 11};
-			Chance = 80;
-			Rarity = "Common";
-			Resilience = 80;
-			Description = "The Herring is a slender silvery fish known for its schooling behavior. Herring can often be found in costal waters during the day.";
-			Hint = "Found commonly in the coast of Snowcaps salt-water during the day.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = "Day";
-			Price = 70;
-			XP = 50;
-			Seasons = {"Summer", "Spring"};
-			Weather = {"Clear", "Windy"};
-			Quips = {"A Herring!", "I caught a Herring!", "Oh, a Herring!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Pollock = {
-			WeightPool = {10, 50};
-			Chance = 80;
-			Rarity = "Common";
-			Resilience = 60;
-			Description = "Pollock are sleek, silver fish with a light belly contrasting a darker dorsal. They are fast swimmers and often found feeding under Snowcap Islands docks.";
-			Hint = "Found in Snowcap island, especially near the docks.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 70;
-			XP = 50;
-			Seasons = {"Summer"};
-			Weather = {"Foggy", "Rain"};
-			Quips = {"A Pollock!", "I caught a Pollock!", "Woah, a Pollock!", "Look! A Pollock!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		Spiderfish = {
-			WeightPool = {3, 10};
-			Chance = 90;
-			Rarity = "Common";
-			Resilience = 90;
-			Description = "The Spiderfish is a rare void fish, caught only in Vertigos calm waters. They are schooling fish and are a common prey of Vertigos vicious predators.";
-			Hint = "Found commonly in Vertigo.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 30;
-			XP = 20;
-			Seasons = {"Winter"};
-			Weather = {"None"};
-			Quips = {"I caught a Spiderfish!", "Ouu! A Spiderfish!", "A Spiderfish!"};
-			SparkleColor = Color3.fromRGB(53, 60, 79);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Vertigo";
-		};
-		Bowfin = {
-			WeightPool = {30, 60};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 60;
-			Description = "The Mudfish, also known as Bowfin, is a resilient, ancient fish species known for its ability to survive in harsh, low-oxygen environments like swamps and muddy waters. They can be found all over Mushgrove Swamp, especially lurking in dense vegetation and during the night.";
-			Hint = "Caught in Mushgrove Swamp at night.";
-			FavouriteBait = "Worm";
-			FavouriteTime = "Night";
-			Price = 100;
-			XP = 50;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Rain"};
-			Quips = {"A Mudfish!", "Ouu, A Mudfish!", "I caught a Mudfish!"};
-			SparkleColor = Color3.fromRGB(189, 125, 95);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Mushgrove";
-		};
-		Snook = {
-			WeightPool = {30, 70};
-			Chance = 45;
-			Rarity = "Unusual";
-			Resilience = 85;
-			Description = "The Common Snook is a cute salt water swimmer found commonly near Moosewood Docks. They are easy noticable due to their thin black stripe across their body, and easily catchable due to schools during spawning season in spring.";
-			Hint = "Can be found close to ocean docks of Moosewood.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = nil;
-			Price = 110;
-			XP = 45;
-			Seasons = {"Spring"};
-			Weather = {"Clear", "Foggy"};
-			Quips = {"I caught a Snook!", "It's a Snook!", "A Snook!", "Look at this Snook!"};
-			SparkleColor = Color3.fromRGB(255, 233, 125);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Moosewood";
-		};
-		Carp = {
-			WeightPool = {10, 50};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "Carps are freshwater fish that are known for their whisker-like barbels around their mouth. Carps can adapt to plenty of different environments, as they can thrive in various water conditions. Due to their resilience, they are a common choice for stocking man-made ponds and lakes! They are also pretty cute, in my opinion.";
-			Hint = "Found in the back of Moosewood Pond.";
-			FavouriteBait = "Bagel";
-			FavouriteTime = nil;
-			Price = 110;
-			XP = 80;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Is it magic?", "Woah, a Carp!", "It's a Carp!", "Woahh! This is bigger than I thought.", "Carp-tastic!", "!!!", "Woah!", "A Carp! My skill are sharp!"};
-			SparkleColor = Color3.fromRGB(255, 186, 125);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Moosewood";
-		};
-		["Grey Carp"] = {
-			WeightPool = {20, 70};
-			Chance = 55;
-			Rarity = "Uncommon";
-			Resilience = 60;
-			Description = "The Grey Carp is a sturdy freshwater fish known for its strength and adaptability. They can be found in Mushgrove Swamp feeding on plants and small insects. The Grey Carp is extrremely strong, and is a tough battle to catch.";
-			Hint = "Found in Mushgrove Swamp near the fallen watch tower.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = nil;
-			Price = 120;
-			XP = 75;
-			Seasons = {"None"};
-			Weather = {"Autumn"};
-			Quips = {"Is it grey magic?", "Woah, a Grey Carp!", "It's a Carp!", "Woahh! A Grey Carp!!", "Carp-tastic!", "!!!", "Woah! Grey Carp!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Mushgrove";
-		};
-		["Red Snapper"] = {
-			WeightPool = {10, 70};
-			Chance = 75;
-			Rarity = "Common";
-			Resilience = 75;
-			Description = "The Red Snapper is a common salt water fish that can be commonly found all around Moosewoods oceans. They are a very noticable fish with their obvious red and light red tones.";
-			Hint = "Found in saltwater near Moosewood Docks. Prefers the the Summer and Autumn.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 70;
-			XP = 80;
-			Seasons = {"Summer", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Red Snapper!", "Woah! I caught a Red Snapper!", "I caught a Red Snapper!", "Red Snapper!!!"};
-			SparkleColor = Color3.fromRGB(255, 74, 74);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Moosewood";
-		};
-		Mackerel = {
-			WeightPool = {10, 40};
-			Chance = 100;
-			Rarity = "Common";
-			Resilience = 85;
-			Description = "The Mackerel is a fast-swimming, silver fish with distinctive stripes and high-oil content. Mackerel are most active from spring to autumn in mildly warm weather.";
-			Hint = "Found in mildly warm saltwater.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = "Day";
-			Price = 75;
-			XP = 80;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"Foggy"};
-			Quips = {"A Mackerel!", "I caught a Mackerel!", "Woah, a Mackerel!", "Mackerelllll!", "What's up, Mackerel!"};
-			SparkleColor = Color3.fromRGB(207, 207, 207);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Haddock = {
-			WeightPool = {15, 40};
-			Chance = 110;
-			Rarity = "Common";
-			Resilience = 85;
-			Description = "Haddock are small, silvery fish found in cold ocean waters. Haddock are often found in large schools, they are relatively easy to catch and are easy to find near their signature 'Haddock Rock'.";
-			Hint = "Found in schools near 'Haddock rock'.";
-			FavouriteBait = "Worm";
-			FavouriteTime = "Day";
-			Price = 50;
-			XP = 60;
-			Seasons = {"Autumn", "Winter"};
-			Weather = {"None"};
-			Quips = {"I caught a Haddock!", "Woah, a Haddock!!"};
-			SparkleColor = Color3.fromRGB(227, 227, 227);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Cod = {
-			WeightPool = {20, 100};
-			Chance = 75;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "Cod are robust, deep-water fish. Best found in the open cold oceans during winter and spring. Cods are a reliable and rewarding catch with substantial size and strong fighting ability.";
-			Hint = "Found in cold deep ocean water.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 90;
-			XP = 70;
-			Seasons = {"Winter", "Spring"};
-			Weather = {"Foggy"};
-			Quips = {"A Cod!", "I caught a Cod!", "Woah, a Cod!", "Cod of duty!", "What's up, Coddy!"};
-			SparkleColor = Color3.fromRGB(207, 158, 139);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		["Longtail Bass"] = {
-			WeightPool = {20, 40};
-			Chance = 50;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "The Longtail Bass is a striking species known for its elongated tail fin and vibrant coloration. It can be found all over the ocean, and is also a common catch of Sunstone Island!";
-			Hint = "Found in open ocean water and in Sunstone.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = nil;
-			Price = 120;
-			XP = 70;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Foggy"};
-			Quips = {"A Longtail Bass!", "I caught a Longtail Bass!"};
-			SparkleColor = Color3.fromRGB(255, 89, 89);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Sunstone";
-		};
-		Salmon = {
-			WeightPool = {40, 100};
-			Chance = 70;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "Salmon are visually known for their silver skin and streamlined bodies. They are extremely strong swimmers and leapers, making them a difficult catch. You can find these Ocean Salmon in any deep bodies of salt water, and some freshwaters.";
-			Hint = "Found in oceans and some freshwaters.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 130;
-			XP = 90;
-			Seasons = {"Spring", "Winter"};
-			Weather = {"Rain", "Clear"};
-			Quips = {"Salmoff!", "Woah!", "Awesome!", "A Salmon!", "Woah, A Salmon!", "A Salmon!!!"};
-			SparkleColor = Color3.fromRGB(65, 166, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Arapaima = {
-			WeightPool = {1000, 2000};
-			Chance = 15;
-			Rarity = "Rare";
-			Resilience = 30;
-			Description = "Arapaima are massive freshwater fish with large, broad bodies and a distinctive, armor-like scaled appearance. They have a unique respiratory system that allows them to breathe air, as well as gills.";
-			Hint = "Found in Roslit Bays freshwater durong the day.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 250;
-			XP = 150;
-			Seasons = {"None"};
-			Weather = {"Rain", "Fog"};
-			Quips = {"An Arapaima!", "I caught an Arapaima!", "Woah, an Arapaima!"};
-			SparkleColor = Color3.fromRGB(154, 39, 39);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Roslit";
-		};
-		["Twilight Eel"] = {
-			WeightPool = {100, 200};
-			Chance = 70;
-			Rarity = "Uncommon";
-			Resilience = 40;
-			Description = "The Twilight Eel, whilst resembaling a giant tadpole, is an Eel. Twilight Eels are extremely slimy, and use the bulb on their head to attract prey.";
-			Hint = "Found in Vertigo's Dip.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 90;
-			XP = 100;
-			Seasons = {"Winter"};
-			Weather = {"None"};
-			Quips = {"Woah, a Twilight Eel!", "I caught an Eel!", "It looks like a tadpole!"};
-			SparkleColor = Color3.fromRGB(128, 255, 121);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Vertigo";
-		};
-		["Bluefin Tuna"] = {
-			WeightPool = {1000, 2200};
-			Chance = 35;
-			Rarity = "Rare";
-			Resilience = 30;
-			Description = "The Bluefin Tuna is a very large and strong species of Tuna. They are highly migratory and can travel extremely long distances. Their population is critically low due to overfishing; Making them rarer than other Tuna.";
-			Hint = "Found in deep open.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 350;
-			XP = 120;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"A Bluefin Tuna!", "I caught a Bluefin Tuna!", "Woah, a Bluefin Tuna!", "Tunaaaaa!", "What's up, Tuna!"};
-			SparkleColor = Color3.fromRGB(125, 210, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Ocean";
-		};
-		["Yellowfin Tuna"] = {
-			WeightPool = {450, 1360};
-			Chance = 65;
-			Rarity = "Uncommon";
-			Resilience = 60;
-			Description = "The Yellowfin Tuna is a species of tuna known for their speed and agility. The Yellowfin Tuna cna be found best near Moosewoods waters, but you can fidn them in most open saltwater due to them being highly migratory. They are less endangered than Bluefin Tuna but still face threats.";
-			Hint = "Found in open saltwater near moosewood.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 120;
-			XP = 80;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"A Yellowfin Tuna!", "I caught a Yellowfin Tuna!", "Woah, a Yellowfin Tuna!", "Tunaaaaa!", "What's up, Tuna!"};
-			SparkleColor = Color3.fromRGB(255, 235, 135);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Moosewood";
-		};
-		Amberjack = {
-			WeightPool = {200, 400};
-			Chance = 75;
-			Rarity = "Uncommon";
-			Resilience = 40;
-			Description = "The Amberjack is a strong, fast-swimming fish known for their vigorous fights and robust body. Mostly active in spring, and best caught in open ocean waters with live baitfish such as small minnows. The Ambjerkack is not rare or hard to come by, but it does put up an impressive battle when trying to catch.";
-			Hint = "Found in open saltwater.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = "Day";
-			Price = 115;
-			XP = 80;
-			Seasons = {"Spring"};
-			Weather = {"Clear", "Rain"};
-			Quips = {"An Amberjack!", "I caught an Amberjack!", "Woah, an Amberjack!", "Lumberjack- I mean Amberjack!"};
-			SparkleColor = Color3.fromRGB(219, 219, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Lapisjack = {
-			WeightPool = {200, 400};
-			Chance = 55;
-			Rarity = "Rare";
-			Resilience = 20;
-			Description = "The Lapisjack is a strong, fast-swimming fish known for their vigorous fights and robust body. Mostly active in spring, and only found in Keepers Altar. They are capable of sustaining their conscious when the Altar is active.";
-			Hint = "Found in Keepers Altar.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = "Day";
-			Price = 115;
-			XP = 80;
-			Seasons = {"Spring"};
-			Weather = {"Clear", "Rain"};
-			Quips = {"An Amberjack!", "I caught an Amberjack!", "Woah, an Amberjack!", "Lumberjack- I mean Amberjack!"};
-			SparkleColor = Color3.fromRGB(219, 219, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Keepers Altar";
-		};
-		Lingcod = {
-			WeightPool = {40, 140};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 50;
-			ProgressEfficiency = 0.95;
-			Description = "A large, aggressive predator with mottled brown and green skin, known for its sharp teeth and oddly fierce fighting behavior when hooked. They can be found in ocean water near Snowcap during the day. They are especially active near the water-side enterance of Snowcap Cave.";
-			Hint = "Found in Snowcaps ocean water during the day. Especially active near the water-side enterance of Snowcap Cave.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = "Day";
-			Price = 110;
-			XP = 80;
-			Seasons = {"Autumn", "Summer"};
-			Weather = {"Windy"};
-			Quips = {"I caught a Lingcod!", "Woah! this is freaky!", "A Lingcod!", "It's a Lingcod!"};
-			SparkleColor = Color3.fromRGB(76, 115, 55);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		Gudgeon = {
-			WeightPool = {1, 3};
-			Chance = 80;
-			Rarity = "Common";
-			Resilience = 100;
-			Description = "The Gudgeon is an extrmely small, slender fish. They are adaptable and can thrive in a variety of freshwater environments but are native and commonly found near Terrapin Island.";
-			Hint = "Found in the water of Terrapin Island.";
-			FavouriteBait = "Insect";
-			FavouriteTime = "Day";
-			Price = 40;
-			XP = 10;
-			Seasons = {"Spring, Summer"};
-			Weather = {"None"};
-			Quips = {"I can barely see it!", "A Gudgeon.!", "Oh, cool!"};
-			SparkleColor = Color3.fromRGB(216, 251, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		Perch = {
-			WeightPool = {2, 12};
-			Chance = 80;
-			Rarity = "Common";
-			Resilience = 70;
-			Description = "The Perch is a common freshwater fish that is best found in Roslit Bays fresh water. They are known for their striped bodies and a playful behaviour.";
-			Hint = "Found in freshwater of Roslit.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 70;
-			XP = 80;
-			Seasons = {"None"};
-			Weather = {"Clear"};
-			Quips = {"A Perch!", "I caught a Perch!", "Woah, a Perch!", "Aww! A Perch!"};
-			SparkleColor = Color3.fromRGB(119, 163, 77);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["White Perch"] = {
-			WeightPool = {2, 12};
-			Chance = 80;
-			Rarity = "Common";
-			Resilience = 70;
-			Description = "The Perch is a common freshwater fish that is best found in Mushgrove Swamp; Unlike the classic Perch, the White Perch has no noticable stripes.";
-			Hint = "Found in Mushgrove.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 80;
-			XP = 80;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A White Perch!", "I caught a White Perch!", "Woah, a Perch!", "Aww! A Perch!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Mushgrove";
-		};
-		Goldfish = {
-			WeightPool = {2, 7};
-			Chance = 55;
-			Rarity = "Uncommon";
-			Resilience = 90;
-			Description = "Goldfish are found in Moosewoods pond and are best awake during the nice summer days. Even though they look weak, goldfish are highly tolerant of turbid waters, tempature fluctuations, and low levels of dissolved oxygen.";
-			Hint = "Lives in calm ponds. Very easy to catch with bagels.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 65;
-			XP = 75;
-			Seasons = {"Summer"};
-			Weather = {"Clear"};
-			Quips = {"Doesn't look very gold..", "Woah, a Goldfish!", "A goldfish!", "I caught a Goldfish!", "Aw! I caught a Goldfish!"};
-			SparkleColor = Color3.fromRGB(255, 184, 69);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		Bluefish = {
-			WeightPool = {4, 9};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 34;
-			Description = "Bluefish are found inside Keepers Altar. They can inhabit some of the powerful keepers power that is present in Keepers Altars water. They are only awake during the day, as the power of the Altar is too much for tem to handle during the night.";
-			Hint = "Swims quietly in Keepers Altar during the day.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 65;
-			XP = 75;
-			Seasons = {"Summer"};
-			Weather = {"Clear"};
-			Quips = {"Woah, a Bluefish!", "A Bluefish!", "I caught a Bluefish!", "Aw! I caught a Bluefish!"};
-			SparkleColor = Color3.fromRGB(60, 63, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Keepers Altar";
-		};
-		Minnow = {
-			WeightPool = {1, 6};
-			Chance = 60;
-			Rarity = "Common";
-			Resilience = 90;
-			Description = "Minnows are found in Roslit Bays pond and are easiest to find during the clear spring days. Minnows are commonly found in schools of 4 to 6 fish. They also create a great baitfish!";
-			Hint = "Lives in Roslit Bays pond. Very easy to catch with bagels.";
-			FavouriteBait = "Bagel";
-			FavouriteTime = nil;
-			Price = 45;
-			XP = 75;
-			Seasons = {"Spring"};
-			Weather = {"Clear"};
-			Quips = {"Ouu a Minnow!", "Woah, a Minnow!", "A Minnow!", "I caught a Minnow!", "Aw! I caught a Baitfish!"};
-			SparkleColor = Color3.fromRGB(161, 161, 161);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		Halibut = {
-			WeightPool = {1000, 2000};
-			Chance = 40;
-			Rarity = "Rare";
-			Resilience = 40;
-			Description = "The Halibut is a large flatfish known for their impressive size and strength. They commonly feed on Haddock and can be found hunting near 'Haddock Rock' and in deep waters. ";
-			Hint = "Found on the floor ocean. Best found near Haddock.";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 250;
-			XP = 100;
-			Seasons = {"Summer", "Spring"};
-			Weather = {"Rain"};
-			Quips = {"A Halibut!", "A Flatfish!", "I Caught a Halibut!", "Ou! A Halibut!"};
-			SparkleColor = Color3.fromRGB(207, 129, 93);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Clownfish = {
-			WeightPool = {1, 6};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 70;
-			Description = "The clownfish, known for its vibrant orange and white stripes, is a small, hardy reef dweller. Often found alongside coral and see anemones inside the reef of Roslit Bay.\t\t\tBest paired with the Blue Tang!";
-			Hint = "Found in Roslit Bays coral reef.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = nil;
-			Price = 90;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"Foggy"};
-			Quips = {"Ouu a Clownfish!", "Woah, a Clownfish!", "A Clownfish!", "I caught a Clownfish!", "I caught a Clownfish!", "What kind of circus is this?"};
-			SparkleColor = Color3.fromRGB(255, 167, 43);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["Blue Tang"] = {
-			WeightPool = {3, 15};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 65;
-			Description = "The Blue Tang is most renowned for its vivid blue coloration and yellow tail. Often found alongside coral and see anemones inside the reef of Roslit Bay.\t\t\tBest paired with the Clownfish!";
-			Hint = "Found in Roslit Bays coral reef.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 90;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"None"};
-			Quips = {"Ouu a Blue Tang!", "Woah, a Blue Tang!", "A Blue Tang!", "I caught a Blue Tang!", "I caught a Blue Tang!", "Found her!"};
-			SparkleColor = Color3.fromRGB(48, 69, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["Magma Tang"] = {
-			WeightPool = {6, 30};
-			Chance = 50;
-			Rarity = "Uncommon";
-			Resilience = 40;
-			Description = "The Magma Tang is a rare lava imbued Tang with a resting body temperature of 950C. They are extremely common in the lava, as they practically are part of the lava.";
-			Hint = "Found in Roslit Volcano during the day.";
-			FavouriteBait = "Coal";
-			FavouriteTime = "Day";
-			Price = 130;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"None"};
-			Quips = {"Ouu a Blue Tang!", "Woah, a Blue Tang!", "A Blue Tang!", "I caught a Blue Tang!", "I caught a Blue Tang!", "Found her!"};
-			SparkleColor = Color3.fromRGB(255, 158, 73);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit Volcano";
-		};
-		["Red Tang"] = {
-			WeightPool = {3, 15};
-			Chance = 55;
-			Rarity = "Uncommon";
-			Resilience = 65;
-			Description = "The Red Tang is a relatively common catch within Sunstone Island. Very similar to other Tangs such as the Blue Tang, just red!";
-			Hint = "Found in Sunstone Island.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = nil;
-			Price = 100;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"None"};
-			Quips = {"Ouu a Red Tang!", "Woah, a Red Tang!", "A Red Tang!", "I caught a Red Tang!", "I caught a Red Tang!", "Found her!.. But red!"};
-			SparkleColor = Color3.fromRGB(255, 82, 82);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Sunstone";
-		};
-		["Pale Tang"] = {
-			WeightPool = {3, 15};
-			Chance = 55;
-			Rarity = "Uncommon";
-			Resilience = 35;
-			Description = "The Pale Tang is a relatively common catch within Keepers Altar. Very similar to other Tangs such as the Red Tang, just pale!- No one is sure of the Pale Tangs origin, and how it got accustomed to the Keepers Altar.";
-			Hint = "Found in Keepers Altar.";
-			FavouriteBait = "Bagel";
-			FavouriteTime = nil;
-			Price = 100;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"None"};
-			Quips = {"Ouu a Pale Tang!", "Woah, a Pale Tang!", "A Pale Tang!", "I caught a Pale Tang!", "I caught a Pale Tang!", "Found her!.. But albino!"};
-			SparkleColor = Color3.fromRGB(255, 187, 187);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Keepers Altar";
-		};
-		Glassfish = {
-			WeightPool = {1, 4};
-			Chance = 90;
-			Rarity = "Common";
-			Resilience = 90;
-			Description = "The glassfish is a small, transparent fish with a delicate, almost invisible body that makes it well-suited for avoiding predators. It is a common find within the waters of Sunstone Island.";
-			Hint = "Found in Sunstone Island.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = nil;
-			Price = 45;
-			XP = 50;
-			Seasons = {"None"};
-			Weather = {"Clear"};
-			Quips = {"Ouu a Glassfish!", "Woah, a Glassfish!", "I can barely see it!"};
-			SparkleColor = Color3.fromRGB(126, 126, 126);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Sunstone";
-		};
-		Angelfish = {
-			WeightPool = {5, 20};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 60;
-			Description = "Angelfish are colorful and striking reef dwellers, known for their vibrant patterns and graceful swimming. Found in Roslit bays coral reef, they are a fun and elegant part of Roslits ecosystem.";
-			Hint = "Found in Roslit Bays coral reef.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 120;
-			XP = 60;
-			Seasons = {"None"};
-			Weather = {"Clear"};
-			Quips = {"Ouu an Angelfish!", "Woah, an Angelfish!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["Nurse Shark"] = {
-			WeightPool = {1000, 1500};
-			Chance = 35;
-			Rarity = "Unusual";
-			Resilience = 35;
-			Description = "Nurse Sharks are a nocturnal bottom feeder, spending most of their time on the ocean floor or in small crevices. Despite their appearance, they are gentle and slow-moving. Nurse Sharks can 'suction feed', using their powerful jaws to scrape algae off surfaces.";
-			Hint = "Caught at night in the ocean.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = "Night";
-			Price = 200;
-			XP = 100;
-			Seasons = {"Summer", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Nurse Shark!", "Woah! A Nurse Shark!", "I Caught a Nurse Shark!"};
-			SparkleColor = Color3.fromRGB(255, 152, 152);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Butterflyfish = {
-			WeightPool = {2, 15};
-			Chance = 40;
-			Rarity = "Uncommon";
-			Resilience = 60;
-			Description = "Butterflyfish are vibrant reef fish known for their striking colors and elaborate patterns. They feed and behave similar to other fish found in Roslit Bays coral reef.";
-			Hint = "Found in Roslit Bays coral reef.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 110;
-			XP = 60;
-			Seasons = {"None"};
-			Weather = {"Clear", "Foggy"};
-			Quips = {"Ouu a Glassfish!", "Woah, a Glassfish!", "I can barely see it!"};
-			SparkleColor = Color3.fromRGB(255, 249, 80);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		Flounder = {
-			WeightPool = {15, 55};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 80;
-			Description = "Flounders are a demersal flatfish- meanig they feed at the bottom of the ocean, and has a flat body to blend in with the seafloor. Both of a flounders eyes are on one side, pointing upwars to the sky. They are easy to find in dark areas with a lot of surface or at night near Moosewood Docks.";
-			Hint = "Lays flat at the bottom of the ocean. Prefers the night.";
-			FavouriteBait = "Squid";
-			FavouriteTime = "Night";
-			Price = 120;
-			XP = 80;
-			Seasons = {"None"};
-			Weather = {"Windy"};
-			Quips = {"A Flounder!", "A Flatfish!", "I caught a Flounder!"};
-			SparkleColor = Color3.fromRGB(86, 68, 57);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		Stingray = {
-			WeightPool = {150, 300};
-			Chance = 20;
-			Rarity = "Rare";
-			Resilience = 50;
-			Description = "Graceful and flat, stingrays glide effortlessly through the water, using their wide pectoral fins to move. Their long, whip-like tails end in a sharp stinger, which they can use for defense. Stingrays are bottom dwellers, often found in rocky and sandy seafloors and caves.";
-			Hint = "Found in sea caves during the day.";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 230;
-			XP = 100;
-			Seasons = {"Summer", "Spring"};
-			Weather = {"Clear"};
-			Quips = {"I caught a Stingray!", "Woah.. a Stingray!"};
-			SparkleColor = Color3.fromRGB(180, 87, 50);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Barracuda = {
-			WeightPool = {55, 110};
-			Chance = 60;
-			Rarity = "Uncommon";
-			Resilience = 55;
-			Description = "Barracudas are large predatory fish, known for their fearsome appearance and ferocious behaviour. The barracuda is an adept saltwater hunter and are commonly mistaken as a hazard towarads humans, when in reality they are reletively comfortable and friendly swimmers. They can be found in deep oceans, and near Moosewood.";
-			Hint = "Found in deeper saltwater and near Moosewood.";
-			FavouriteBait = "Worm";
-			FavouriteTime = "Day";
-			Price = 150;
-			XP = 90;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Woah, a Barracuda!", "I caught a Barracuda!", "A Barracuda!!", "!!!!"};
-			SparkleColor = Color3.fromRGB(117, 141, 121);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Abyssacuda = {
-			WeightPool = {55, 110};
-			Chance = 20;
-			Rarity = "Rare";
-			Resilience = 10;
-			Description = "Abyssacudas are large predatory fish, known for their fearsome appearance and ferocious behaviour. They are adept swimmers, and are a top predator for the Twilight Eel. Abyssacudas are related to the Barracuda, however their cause for being primarily innate to Vertigo is unknown.";
-			Hint = "Found in Vertigos calm waters.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 400;
-			XP = 90;
-			Seasons = {"Spring", "Summer"};
-			Weather = {"None"};
-			Quips = {"Woah, a n Abyssacuda!", "I caught an Abyssacuda!", "An Abyssacuda!!", "Abyssacudaaaaa!!"};
-			SparkleColor = Color3.fromRGB(87, 77, 116);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Vertigo";
-		};
-		["Alligator Gar"] = {
-			WeightPool = {200, 450};
-			Chance = 45;
-			Rarity = "Rare";
-			Resilience = 40;
-			Description = "The Alligator Gar is a large,vicious freshwater fish that can be found in Roslit Bays pond. Gars track back to 100 million years ago, giving them the nickname as a 'living fossil'.";
-			Hint = "Can be found in lakes during summer.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 220;
-			XP = 100;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"I caught a Gar!", "It's an Alligator Gar!", "A Gar!!", "Woah, an Alligator Gar!", "Aye!! A Gar!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Roslit";
-		};
-		["Marsh Gar"] = {
-			WeightPool = {170, 380};
-			Chance = 30;
-			Rarity = "Rare";
-			Resilience = 30;
-			Description = "The Marsh Gar is a large vicious marshwater fish that can be found in Mushgrove Swamp. March Gar are extremely strong hunters, using their whiskers to sense prey in foggy waters.";
-			Hint = "Found under the bridges of Mushgrove Swamp.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = nil;
-			Price = 280;
-			XP = 100;
-			Seasons = {"Winter"};
-			Weather = {"Foggy"};
-			Quips = {"A Gar!", "I caught a Marsh Gar!", "Woah! A Marsh Gar!"};
-			SparkleColor = Color3.fromRGB(180, 36, 36);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Mushgrove";
-		};
-		["Fangborn Gar"] = {
-			WeightPool = {170, 380};
-			Chance = 50;
-			Rarity = "Unusual";
-			Resilience = 30;
-			Description = "The Fangborn Gar is a vicious Voidwater fish that is completely blind. They roam the waters aimlessly and use a sense of smell to track food in Vertigo Dip.";
-			Hint = "Found in Vertigo's cave water.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = nil;
-			Price = 170;
-			XP = 100;
-			Seasons = {"None"};
-			Weather = {"Foggy"};
-			Quips = {"A Gar!", "I caught a Fangborn Gar!", "Woah! A Fangborn Gar!"};
-			SparkleColor = Color3.fromRGB(32, 26, 48);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Vertigo";
-		};
-		Trumpetfish = {
-			WeightPool = {9, 20};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 60;
-			Description = "The Trumpetfish is a long, slender fish known for its tubular body and pointed snout. Its unique shape makes it a fascinating sight for visitors of Sunstone.";
-			Hint = "Found in the waters near Sunstone Island during the day.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = "Day";
-			Price = 100;
-			XP = 80;
-			Seasons = {"Autumn", "Summer"};
-			Weather = {"None"};
-			Quips = {"Woah, a Trumpetfish!", "Baby Keem!", "What a catch!", "Holy.. This thing is weird.."};
-			SparkleColor = Color3.fromRGB(247, 255, 98);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Sunstone";
-		};
-		["Mahi Mahi"] = {
-			WeightPool = {70, 150};
-			Chance = 20;
-			Rarity = "Rare";
-			Resilience = 30;
-			Description = "The Mahi Mahi is a vibrant, fast-swimming fish known for its striking colors of blue, green, and yellow. They can be found all around Sunstone island, and is prized by many anglers.";
-			Hint = "Found near Sunstone Island.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 150;
-			XP = 90;
-			Seasons = {"Spring"};
-			Weather = {"Clear", "Windy"};
-			Quips = {"I caught a Mahi Mahi!", "Woah, a Mahi Mahi!!", "It's a Mahi Mahi!"};
-			SparkleColor = Color3.fromRGB(255, 249, 89);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Sunstone";
-		};
-		["Voidfin Mahi"] = {
-			WeightPool = {75, 155};
-			Chance = 10;
-			Rarity = "Rare";
-			Resilience = 10;
-			Description = "The Voidfin Mahi are extremely fast and sensitive fish. They can sense a heartbeat from hundreds of miles, and are capable of swimming through some solid bio-matters, such as wood.";
-			Hint = "Found in Vertigo.";
-			FavouriteBait = "Truffle Worm";
-			FavouriteTime = nil;
-			Price = 450;
-			XP = 400;
-			Seasons = {"Spring"};
-			Weather = {"Clear", "Windy"};
-			Quips = {"I caught a Voidfin Mahi!", "Woah, a Voidfin Mahi!!", "It's a Voidfin Mahi!"};
-			SparkleColor = Color3.fromRGB(83, 67, 106);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Vertigo";
-		};
-		Chinfish = {
-			WeightPool = {20, 40};
-			Chance = 70;
-			Rarity = "Uncommon";
-			Resilience = 80;
-			Description = "The Chinfish is a peculiar species with a distinct chin-like protrusion on its lower jaw. They are sluiggish swimmers and are an interesting catch to have on the otherside of your line.";
-			Hint = "Caught near Sunstone Island.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 85;
-			XP = 40;
-			Seasons = {"Autumn", "Winter"};
-			Weather = {"Rain"};
-			Quips = {"Woah, a Chinfish!", "The Megachin!", "I caught a Chinfish!", "It's a Chinfish!"};
-			SparkleColor = Color3.fromRGB(214, 214, 214);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Sunstone";
-		};
-		Napoleonfish = {
-			WeightPool = {250, 350};
-			Chance = 19;
-			Rarity = "Rare";
-			Resilience = 40;
-			Description = "The Napoleonfish, also known as the Humphead Wrasse, is a large and brightly colored fish with a distinctive bump on its forehead. Despite its size, it is surprisingly agile, making it a thrilling challenge for anglers.";
-			Hint = "Found easier in the outer waters of Sunstone Island during the day.";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 200;
-			XP = 100;
-			Seasons = {"Summer"};
-			Weather = {"Windy"};
-			Quips = {"A Napoleonfish!", "I caught a Napoleonfish!", "Woahh, a Napoleonfish!"};
-			SparkleColor = Color3.fromRGB(90, 255, 195);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Sunstone";
-		};
-		Crab = {
-			WeightPool = {6, 14};
-			Chance = 40;
-			Rarity = "Uncommon";
-			Resilience = 90;
-			Description = "Crabs are cute crustaceans that search the ocean floor for food. They can be found in plenty of ocean regions. Be careful, some can have harshly strong claws.";
-			Hint = "Can be caught while cage fishing in open oceans.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 100;
-			XP = 50;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Crusty Crab!", "Woah! A Crab", "Awesome!", "A Crab!", "Ou! A Crab!"};
-			SparkleColor = Color3.fromRGB(209, 90, 90);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Coelacanth = {
-			WeightPool = {70, 100};
-			Chance = 14;
-			Rarity = "Rare";
-			Resilience = 40;
-			Description = "The Coelacanth is an ancient fish with a distinctive shape and strong swimming behaviors. Known as a 'living fossil,' this fish was thought to be extinct until its rediscovery in 1938. Coelacanths are deep-sea dwellers, often found in underwater caves and steep slopes.";
-			Hint = "Found in the Deep Ocean.";
-			FavouriteBait = "None";
-			FavouriteTime = "Night";
-			Price = 370;
-			XP = 300;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"Clear"};
-			Quips = {"Woah, a Coelacanth!", "I caught a Coelacanth!", "It's a Coelacanth!", "Nice! It's a Coelacanth!"};
-			SparkleColor = Color3.fromRGB(76, 76, 76);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		["Mushgrove Crab"] = {
-			WeightPool = {6, 14};
-			Chance = 14;
-			Rarity = "Rare";
-			Resilience = 90;
-			Description = "The Mushgrove Crab is a rare species of crab. They have fully adapted to the Mushgrove Swamp and commonly eat off of the massive fungal life that has over taken the swamp.";
-			Hint = "Can be caught while cage fishing in mushgrove.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 330;
-			XP = 80;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"A Crusty Mushgrove Crab!", "Woah! A Mushgrove Crab", "Awesome!", "A Mushgrove Crab!", "Ou! A Mushgrove Crab!"};
-			SparkleColor = Color3.fromRGB(185, 56, 52);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Mushgrove";
-		};
-		["Swamp Scallop"] = {
-			WeightPool = {6, 14};
-			Chance = 40;
-			Rarity = "Unusual";
-			Resilience = 90;
-			Description = "Swamp Scallops are a special kind of Scallops with a rich umami taste. They formed from an invasive growth of the Scallop population in Mushgrove Swamp.";
-			Hint = "Can be caught while cage fishing in mushgrove.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 150;
-			XP = 40;
-			Seasons = {"Winter"};
-			Weather = {"None"};
-			Quips = {"A Swamp Scallop!", "Woah! A Swamp Scallop", "Awesome!", "A Swamp Scallop!", "Ou! A Swamp Scallop!"};
-			SparkleColor = Color3.fromRGB(142, 185, 78);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Mushgrove";
-		};
-		Scallop = {
-			WeightPool = {2, 5};
-			Chance = 40;
-			Rarity = "Uncommon";
-			Resilience = 60;
-			Description = "Scallops are known for their ability to 'swim' by rapidly opening and closing their shells, which propels them through the water. They can be found best in sandy or grass filled areas of the ocean.";
-			Hint = "Best caught in sandy or grass filled areas of the ocean.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 100;
-			XP = 40;
-			Seasons = {"Winter", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Scallop!", "Woah! A Scallop", "Awesome!", "A Scallop!", "Ou! A Scallop!"};
-			SparkleColor = Color3.fromRGB(255, 195, 135);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		["Sand Dollar"] = {
-			WeightPool = {1, 2};
-			Chance = 55;
-			Rarity = "Common";
-			Resilience = 200;
-			Description = "Sand dollars are species of flat, burrowing sea urchins.. Yeah, they are urchins! Fun fact; The rattling of a fossilized Sand Dollar is their teeth-like sections moving around inside of them.";
-			Hint = "Can be easily caught while cage fishing. Best caught near docks and beaches.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 20;
-			XP = 35;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"A Sand Dollar!", "Woah! A Sand Dollar", "Awesome!", "A Sand Dollar!", "Ou! A Sand Dollar!"};
-			SparkleColor = Color3.fromRGB(255, 227, 143);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Mussel = {
-			WeightPool = {1, 2};
-			Chance = 55;
-			Rarity = "Common";
-			Resilience = 200;
-			Description = "Mussels are small mollusc that can be easily found on rocks, near beaches, and near docks. They actually have one food and have very limited movement, so most mussels stay in one place their entire lives.. thats boring!";
-			Hint = "Can be easily caught while cage fishing. Best caught near docks and beaches.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 20;
-			XP = 35;
-			Seasons = {"Winter"};
-			Weather = {"None"};
-			Quips = {"A Mussel!", "Woah! A Mussel", "Awesome!", "A Mussel!", "Ou! A Mussel!"};
-			SparkleColor = Color3.fromRGB(53, 53, 89);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Oyster = {
-			WeightPool = {2, 5};
-			Chance = 50;
-			Rarity = "Uncommon";
-			Resilience = 95;
-			Description = "Oysters are bivalve mollusks with rough, irregularly shaped shells. They are typically found in clusters, attached to submerged rocks and roots. They can be found all over Terapin Islands; The Oysters help filter the water of Terrapin, leaving making it nearly a freshwater island.";
-			Hint = "Can be easily caught while cage fishing. Best caught near large rocks and all over Terrapin Island.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 30;
-			XP = 35;
-			Seasons = {"Summer", "autumn"};
-			Weather = {"None"};
-			Quips = {"An Oyster!", "Woah! An Oyster", "Awesome!", "An Oyster!", "Ou! An Oyster!"};
-			SparkleColor = Color3.fromRGB(217, 194, 168);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		["King Oyster"] = {
-			WeightPool = {4, 10};
-			Chance = 20;
-			Rarity = "Rare";
-			Resilience = 95;
-			Description = "King Oysters are a special breed of oysters that can only be found around Terrapin Island. They filter almost all salt out of the water, making Terrapins water freshwater.";
-			Hint = "Can be easily caught while cage fishing. Only found near Terrapin Island.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 200;
-			XP = 35;
-			Seasons = {"Summer", "autumn"};
-			Weather = {"None"};
-			Quips = {"An Oyster!", "Woah! A King Oyster", "Awesome!", "A King Oyster!", "Ou! A King Oyster!"};
-			SparkleColor = Color3.fromRGB(217, 215, 151);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		["Sea Urchin"] = {
-			WeightPool = {2, 9};
-			Chance = 15;
-			Rarity = "Rare";
-			Resilience = 200;
-			Description = "Sea Urchins are spiny, globular animals. Their hard shells are round and spiny. They use their spikes along with their tube feet to push themselves along the ocean terrain. Sea Urchins can be caught in any climate and traditionally only prefer sea water.";
-			Hint = "Can be rarely caught while cage fishing, especially in the ocean.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 320;
-			XP = 80;
-			Seasons = {"None"};
-			Weather = {"Foggy"};
-			Quips = {"A Sea Urchin!", "I caught a Sea Urchin!", "Woah, an Urchin!"};
-			SparkleColor = Color3.fromRGB(34, 32, 42);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Shrimp = {
-			WeightPool = {1, 2};
-			Chance = 45;
-			Rarity = "Common";
-			Resilience = 200;
-			Description = "Shrimp are small, versatile crustaceans that are most active from spring to autumn, and can be found in an abundance in deep oceans. Shrimp are predominantly nocturnal, making night fishing the most effective time.";
-			Hint = "Caught at night in deep oceans in crab cages.";
-			FavouriteBait = "None";
-			FavouriteTime = "Night";
-			Price = 45;
-			XP = 35;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"Rain"};
-			Quips = {"A Shrimp!", "Woah! A Shrimp", "Awesome!", "A Shrimp!", "Ou! A Shrimpy!"};
-			SparkleColor = Color3.fromRGB(255, 107, 96);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		["Night Shrimp"] = {
-			WeightPool = {1, 2};
-			Chance = 45;
-			Rarity = "Common";
-			Resilience = 200;
-			Description = "Night Shrimp are small, versatile crustaceans that can be found in an abundance in Vertigo's calm water. night Shrimp are predominantly diurnal, making day fishing the most effective time.";
-			Hint = "Caught with crab cages in Vertigo.";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 55;
-			XP = 35;
-			Seasons = {"Summer", "Winter"};
-			Weather = {"Clear"};
-			Quips = {"A Night Shrimp!", "Woah! A Night Shrimp", "Awesome!", "A Night Shrimp!", "Ou! A Night Shrimpy!"};
-			SparkleColor = Color3.fromRGB(49, 51, 74);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Vertigo";
-		};
-		Prawn = {
-			WeightPool = {1, 5};
-			Chance = 40;
-			Rarity = "Uncommon";
-			Resilience = 200;
-			Description = "Prawns are prized crustaceans known for their delicate flavor and versatility. they are most active in summer, and can be found in an abundance in deep oceans. Prawns; similar to shrimp-- are predominantly nocturnal, making night fishing the most effective time.";
-			Hint = "Caught at night in deep oceans in crab cages.";
-			FavouriteBait = "None";
-			FavouriteTime = "Night";
-			Price = 45;
-			XP = 35;
-			Seasons = {"Summer"};
-			Weather = {"Rain"};
-			Quips = {"A Prawn!", "Woah! A Prawn", "Awesome!", "A Prawn!", "Ou! A Prawn!"};
-			SparkleColor = Color3.fromRGB(165, 255, 248);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Lobster = {
-			WeightPool = {9, 28};
-			Chance = 30;
-			Rarity = "Unusual";
-			Resilience = 200;
-			Description = "Lobsters are valuable crustaceans known for their rich, succulent meat. Lobsters are most active in the summer to autumn, and are commonly caught in crab cages during calm clear days.";
-			Hint = "Caught in oceans using a crab cage.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 130;
-			XP = 60;
-			Seasons = {"Summer"};
-			Weather = {"Clear"};
-			Quips = {"A Larry Lobster!", "Woah! A Lobster", "Awesome!", "A Lobster!", "Ou! A Lobster!"};
-			SparkleColor = Color3.fromRGB(255, 57, 57);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Pike = {
-			WeightPool = {12, 35};
-			Chance = 45;
-			Rarity = "Unusual";
-			Resilience = 55;
-			Description = "Pikes are a freshwater predator known for its elongated body, sharp teeth, and aggressive hunting behavior. It's a voracious carnivore that preys on smaller fish, frogs, and even small mammals near the water's edge. Pikes have a unique ability to ambush their prey by remaining almost motionless in the water, then striking with incredible speed to catch their meal.";
-			Hint = "Found in Moosewoods freshwater. Seems to prefer insect baits. Very vicious.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 230;
-			XP = 90;
-			Seasons = {"Autumn", "Spring"};
-			Weather = {"Rain"};
-			Quips = {"A Pike!", "I caught a Pike!", "Woah! a Pike!", "PIKE!!!", "I'd prefer a lance.", "A Pike?!", "That's a big Pike!"};
-			SparkleColor = Color3.fromRGB(93, 140, 109);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Moosewood";
-		};
-		["Glacier Pike"] = {
-			WeightPool = {12, 35};
-			Chance = 45;
-			Rarity = "Unusual";
-			Resilience = 55;
-			Description = "Pikes are a long, predatory freshwater fish known for its aggressive nature and sharp teeth. Glacier Pikes are supremely found in cold freshwaters in Snowcap Island. They can be determained by their unique ice-coloured scales and longer fins.";
-			Hint = "Found in Snowcaps freshwater. Seems to prefer insect baits.";
-			FavouriteBait = "Insect";
-			FavouriteTime = nil;
-			Price = 230;
-			XP = 90;
-			Seasons = {"Autumn", "Spring"};
-			Weather = {"Rain"};
-			Quips = {"A Glacier Pike!", "I caught a Glacier Pike!", "Woah! a Glacier Pike!", "GLACIER PIKE!!!", "I'd prefer a lance.", "A Glacier Pike?!", "That's a big Glacier Pike!"};
-			SparkleColor = Color3.fromRGB(93, 140, 109);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		Eel = {
-			WeightPool = {8, 45};
-			Chance = 30;
-			Rarity = "Unusual";
-			Resilience = 65;
-			Description = "Eels are a long snake-like, ray-finned fish that is primarily nocturnal. They have a keen sense of smell and can be harmful to humans due to their strong jaws with sharp teeth. Some eels also contain toxins that will destroy red blood cells. Eels move in an interesting way due to them not having pelvic or pectoral fins. To swim, eels generate waves that travel the length of their body, animating them similar to snakes.";
-			Hint = "Only comes out at night. Can be found in all kinds of habitats near Moosewood.";
-			FavouriteBait = "None";
-			FavouriteTime = "Night";
-			Price = 130;
-			XP = 90;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Is it a snake?", "An Eel!", "I think some slime got on me.", "Woah! An Eel!", "H-eel-lo!", "An Eel! Things just got REAL!"};
-			SparkleColor = Color3.fromRGB(255, 233, 226);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Moosewood";
-		};
-		["Ember Snapper"] = {
-			WeightPool = {60, 120};
-			Chance = 50;
-			Rarity = "Unusual";
-			Resilience = 40;
-			Description = "The Ember Snapper is a lava swimming fish with a resemblance to the salt water 'Red Snapper'. The Ember Snapper is acute in volcanic habitats due to their thick skin and strong dorsal fins.";
-			Hint = "Found in volcanic regions.";
-			FavouriteBait = "Coal";
-			FavouriteTime = nil;
-			Price = 200;
-			XP = 120;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"An Ember Snapper!", "Woah! I caught an Ember Snapper!", "I caught an Ember Snapper!", "Ember Snapper!!!"};
-			SparkleColor = Color3.fromRGB(191, 39, 25);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Roslit Volcano";
-		};
-		["Ember Perch"] = {
-			WeightPool = {4, 15};
-			Chance = 80;
-			Rarity = "Unusual";
-			Resilience = 40;
-			Description = "The Ember Perch is a lava swimming fish with a resemblance to the fresh water 'Perch'. The Ember Perch is acute in volcanic habitats due to their thick skin and ability to turn coal and carbon into a food source.";
-			Hint = "Found in volcanic regions.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 160;
-			XP = 100;
-			Seasons = {"None"};
-			Weather = {"Clear"};
-			Quips = {"An Ember Perch!", "I caught a Perch!.. Why is it so hot?", "Woah, a Perch! Why is it on fire?", "Aww! An Ember Perch!", "Woah! An Ember Perch!"};
-			SparkleColor = Color3.fromRGB(255, 19, 19);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit Volcano";
-		};
-		Squid = {
-			WeightPool = {5, 25};
-			Chance = 25;
-			Rarity = "Unusual";
-			Resilience = 45;
-			Description = "Squids can be found best at night in the surrounding ocean of Roslit Bay. Squids are rapid swimmers and largelt locate their prey by sight. Squids are extremely intellegent and can even hunt in cooperative groups.";
-			Hint = "Best found at night in ocean near Roslit Bay.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = "Night";
-			Price = 140;
-			XP = 95;
-			Seasons = {"Winter"};
-			Weather = {"Foggy"};
-			Quips = {"A Squid!", "A cute Squid!", "I caught a Squid!"};
-			SparkleColor = Color3.fromRGB(255, 173, 102);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Roslit";
-		};
-		["Ribbon Eel"] = {
-			WeightPool = {5, 150};
-			Chance = 12;
-			Rarity = "Unusual";
-			Resilience = 30;
-			Description = "The ribbon eel is a striking and elusive reef fish known for its vibrant blue or green body and long, ribbon-like appearance. While they are rare, the Ribbon Eel can be best found in the coral reef of Roslit Bay";
-			Hint = "Only comes out at night. Can be found inside the coral reef of Roslit Bay.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 150;
-			XP = 150;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"Is it a snake?", "A Ribbon Eel!", "I think some slime got on me.", "Woah! A Ribbon Eel!", "H-eel-lo! Ribbon Eel!"};
-			SparkleColor = Color3.fromRGB(70, 141, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Roslit";
-		};
-		["Chinook Salmon"] = {
-			WeightPool = {100, 400};
-			Chance = 30;
-			Rarity = "Unusual";
-			Resilience = 50;
-			Description = "The Chinook Salmon, also known as King Salmon, are large silver fish with a slightly forked tail and a black mouth. They are highely prized; and are a common target for sport and commercial fishing. The King Salmon are commonly in ocean waters, but during the Autumn they migrate to Terrapin Island to lay eggs.";
-			Hint = "Found in the waters of Terrapin Island, and general ocean waters.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 230;
-			XP = 100;
-			Seasons = {"Autumn"};
-			Weather = {"None"};
-			Quips = {"Ou! A Chinook Salmon!", "A King Salmon!", "I Caught a King Salmon!", "Woah, a King Salmon!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Terrapin";
-		};
-		Sturgeon = {
-			WeightPool = {200, 800};
-			Chance = 20;
-			Rarity = "Rare";
-			Resilience = 35;
-			Description = "A massive, ancient fish with a long, armored body and distinctive bony plates. Sturgeons are known for their size and strength, making them challenging to catch.";
-			Hint = "found in Snowcap Pond.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = nil;
-			Price = 300;
-			XP = 100;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"A Sturgeon!", "I AMM.. I AMM A STURGEON!!", "I caught a Sturgeon Fish!", "A Sturgeon!!", "Woahh a Sturgeon!"};
-			SparkleColor = Color3.fromRGB(232, 232, 232);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		["Bull Shark"] = {
-			WeightPool = {900, 1300};
-			Chance = 0.3;
-			Rarity = "Legendary";
-			Resilience = 20;
-			Description = "Bull sharks have robust bodies, and an extremely powerful nature. They have a special ability to adapt to both saltwater and freshwater, which is quite rare for sharks. Bull Sharks can be found most commonly near coats, and in freshwaters.";
-			Hint = "Found roaming in all types of waters and on the coasts.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = nil;
-			Price = 400;
-			XP = 150;
-			Seasons = {"Spring"};
-			Weather = {"Rain", "Foggy"};
-			Quips = {"A Bull Shark!", "Thats some Bull Shark!", "I caught a Bull Shark!"};
-			SparkleColor = Color3.fromRGB(255, 245, 197);
-			HoldAnimation = fish:WaitForChild("heavybasic");
-			From = "Ocean";
-		};
-		["Suckermouth Catfish"] = {
-			WeightPool = {95, 170};
-			Chance = 35;
-			Rarity = "Rare";
-			Resilience = 60;
-			Description = "The Suckermouth Catfish is a tropical freshwater fish found on the ground and near the seaweed of Roslits Bays pond. They are easily notable for their large armour like scutes covering their upper parts of the head and body.";
-			Hint = "Found best near seaweed of Roslit Bays pond.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = "Day";
-			Price = 160;
-			XP = 80;
-			Seasons = {"Spring", "Autumn"};
-			Weather = {"None"};
-			Quips = {"A Suckermouth Catfish!", "I caught a Catfish!", "Woah, a Suckermouth!"};
-			SparkleColor = Color3.fromRGB(158, 128, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Roslit";
-		};
-		Pyrogrub = {
-			WeightPool = {300, 600};
-			Chance = 25;
-			Rarity = "Rare";
-			Resilience = 25;
-			ProgressEfficiency = 0.8;
-			Description = "The Pyrogrub is a fearsome, lava swimming eel that thrives in the most volcanic of environments. The Pyrogrub sports thick dragon-like scales which allow it's inner body to not react to any form of outside temperature.";
-			Hint = "Found in volcanic regions.";
-			FavouriteBait = "Coal";
-			FavouriteTime = nil;
-			Price = 340;
-			XP = 120;
-			Seasons = {"Winter"};
-			Weather = {"None"};
-			Quips = {"A Pyrogrub!", "I caught a Pyrogrub!", "Woah, a Pyrogrub!", "What the?!"};
-			SparkleColor = Color3.fromRGB(255, 151, 46);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Roslit Volcano";
-		};
-		Anglerfish = {
-			WeightPool = {5, 20};
-			Chance = 12;
-			Rarity = "Rare";
-			Resilience = 35;
-			Description = "The anglerfish is a deep-sea predator known for it's bioluminescent lure that dangles in front of its mouth to attract prey. With its menacing appearance, sharp teeth, and eerie glow, the Anglerfish thrives in dark, deep waters, making it a rare and exciting catch in the Deep Ocean.";
-			Hint = "Found in the far, deep ocean during the night.";
-			FavouriteBait = "Squid";
-			FavouriteTime = "Night";
-			Price = 230;
-			XP = 100;
-			Seasons = {"Winter", "Autumn"};
-			Weather = {"Foggy"};
-			Quips = {"Woah, an Anglerfish!", "No way! An anglerfish!", "I caught an Anglerfish!"};
-			SparkleColor = Color3.fromRGB(182, 25, 25);
-			HoldAnimation = fish:WaitForChild("small");
-			From = "Ocean";
-		};
-		["Keepers Guardian"] = {
-			WeightPool = {200, 400};
-			Chance = 15;
-			Rarity = "Rare";
-			Resilience = 25;
-			Description = "Whilst it is named the 'Keepers Guardian', they are actually friendly creatures! The Guardian can sense peoples intentions, and will only become violent when they notice someone with a harmful intention to it or the Keepers Altar.";
-			Hint = "Found in Keepers Altar.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 250;
-			XP = 120;
-			Seasons = {"Winter"};
-			Weather = {"Rain"};
-			Quips = {"A Keepers Guardian!", "I caught a Keepers Guardian!", "Woah, a Keepers Guardian!", "What the?! A Keepers Guardian?!"};
-			SparkleColor = Color3.fromRGB(56, 53, 134);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Keepers Altar";
-		};
-		Pufferfish = {
-			WeightPool = {5, 20};
-			Chance = 12;
-			Rarity = "Rare";
-			Resilience = 65;
-			Description = "Pufferfish are clumsy swimmers that can fill their elastic stomachs with huge amounts of water & air to blow themselves up to several times their normal size. They do this to evade and scare of predators. On top of their bloating abilities, they also are one of the most poisonous fish in the sea... Also they are the only bony fish which can close their eyes!";
-			Hint = "Found in reefs and deepwaters.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = nil;
-			Price = 230;
-			XP = 100;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"Woah! a Blowfish!", "A Pufferfish!", "A Water Balloon!", "Woah, A Pufferfish!"};
-			SparkleColor = Color3.fromRGB(255, 227, 15);
-			HoldAnimation = fish:WaitForChild("small");
-			From = "Ocean";
-		};
-		Swordfish = {
-			WeightPool = {1000, 2500};
-			Chance = 15;
-			Rarity = "Rare";
-			Resilience = 35;
-			Description = "Swordfish are extremely strong and notable due to their long flattened bill that resembles a sword, as their name implies. They are a great catch, and anglers around the globe are impressed by a Swordfish catch.";
-			Hint = "Found in deep ocean water. Extremely strong.";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 850;
-			XP = 300;
-			Seasons = {"Summer"};
-			Weather = {"Windy", "Clear"};
-			Quips = {"A Swordfish!", "WOAH! A Swordfish!!", "SWORDFISHHHH", "I caught a swordfish!!"};
-			SparkleColor = Color3.fromRGB(93, 128, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			ViewportSizeOffset = 0.9;
-			From = "Ocean";
-		};
-		Sailfish = {
-			WeightPool = {400, 600};
-			Chance = 16;
-			Rarity = "Rare";
-			Resilience = 40;
-			Description = "Sailfish are known for their incredible speed, long bill, and their striking sail-like dorsal fin. It's sleek body is built for fast swiming, allowing it to dart through water in bursts of speed. They are found in tropical and warmer ocean waters.";
-			Hint = "Found in ocean water. Extremely strong.";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 800;
-			XP = 300;
-			Seasons = {"Spring"};
-			Weather = {"Windy", "Clear"};
-			Quips = {"A Sailfish!", "WOAH! A Sailfish!!", "It's a Sailfish!", "I caught a Sailfish!!"};
-			SparkleColor = Color3.fromRGB(255, 242, 94);
-			HoldAnimation = fish:WaitForChild("heavybasic");
-			ViewportSizeOffset = 0.9;
-			From = "Ocean";
-		};
-		Alligator = {
-			WeightPool = {1500, 3000};
-			Chance = 0.9;
-			Rarity = "Legendary";
-			Resilience = 15;
-			ProgressEfficiency = 0.8;
-			Description = "The Alligator is a massive, fearsome reptile known for its powerful bite and armored body. Found in Mushgrove Swamp, Alligators are the apex predator with a stealthy and ambush-based hunting style.";
-			Hint = "Found in Mushgrove Swamp during the night.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = "Night";
-			Price = 700;
-			XP = 400;
-			Seasons = {"Spring"};
-			Weather = {"Foggy, Rain"};
-			Quips = {"WOAH!!", "OH MY GOD!!", "AN ALLIGATOR!", "WHAT????"};
-			SparkleColor = Color3.fromRGB(153, 255, 116);
-			HoldAnimation = fish:WaitForChild("heavybasic");
-			From = "Mushgrove";
-		};
-		["Obsidian Salmon"] = {
-			WeightPool = {40, 180};
-			Chance = 3;
-			Rarity = "Legendary";
-			Resilience = 15;
-			ProgressEfficiency = 0.9;
-			Description = "The Obsidian Salmon is an extremely rare breed of Sockeye Salmon. The Obsidian Salmon breeds extremely deep in the heart of Roslit Volcano. They are extremely strong and are double as dense as a common Sockeye Salmon.";
-			Hint = "???";
-			FavouriteBait = "Coal";
-			FavouriteTime = "Night";
-			Price = 600;
-			XP = 300;
-			Seasons = {"Winter"};
-			Weather = {"None"};
-			Quips = {"Obsidian Salmoff!", "Woah! An Obsidian Salmon!", "Awesome! An Obsidian Salmon", "An Obsidian Salmon!", "Woah, An Obsidian Salmon!", "A Salmon!..? Made of obsidian?"};
-			SparkleColor = Color3.fromRGB(102, 0, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Roslit Volcano";
-		};
-		["Manta Ray"] = {
-			WeightPool = {7750, 10000};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 10;
-			ProgressEfficiency = 0.9;
-			Description = "Manta Rays are very elegant and remarkably large creatures that coast alongside the coral reefs of Roslit Bay. They move their wing-like fins in a wavy motion to generate enough speed to guide through the ocean. Manta Rays typically feed on small fish during the night.";
-			Hint = "Found gliding through Roslit Bays coral reef during the night.";
-			FavouriteBait = "Shrimp";
-			FavouriteTime = "Night";
-			Price = 3000;
-			XP = 1000;
-			Seasons = {"Summer"};
-			Weather = {"None"};
-			Quips = {"WOAH.. A Manta Ray!", "I caught a Manta Ray!", "Woah.. A Manta Ray!!"};
-			SparkleColor = Color3.fromRGB(87, 118, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Roslit";
-		};
-		["Obsidian Swordfish"] = {
-			WeightPool = {1000, 2500};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 20;
-			ProgressEfficiency = 0.8;
-			Description = "Swordfish are extremely strong and notable due to their long flattened bill that resembles a sword, as their name implies. This swordfish has adapted to it's magma filled life, and is now imbued with Obsidian skin.";
-			Hint = "???";
-			FavouriteBait = "Minnow";
-			FavouriteTime = nil;
-			Price = 2500;
-			XP = 1000;
-			Seasons = {"Summer"};
-			Weather = {"Windy", "Clear"};
-			Quips = {"An Obsidian Swordfish!", "WOAH! An Obsidian Swordfish!!", "OBSIDIANNN SWORDFISHHHH", "I caught an Obsidian Swordfish!!"};
-			SparkleColor = Color3.fromRGB(176, 79, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			ViewportSizeOffset = 0.9;
-			From = "Roslit Volcano";
-		};
-		["Golden Smallmouth Bass"] = {
-			WeightPool = {15, 45};
-			Chance = 3;
-			Rarity = "Legendary";
-			Resilience = 55;
-			Description = "A special and extremely rare breed of the Smallmouth Bass. They are extremely scarce in quantity, but they have slightly more haste and resilience than their cousins. Can be found alongside the Common Smallmouth Bass.";
-			Hint = "Swims fiercely in freshwater alongside their cousin; the Smallmouth Bass.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 700;
-			XP = 250;
-			Seasons = {"Autumn"};
-			Weather = {"Foggy"};
-			Quips = {"Now, where's the cymbol?", "A Golden Bass??", "Golden Bass!", "A Golden Smallmouth Bass!", "A Gold Bass!", "I usually wear silver.", "So shiny! A Golden Bass!"};
-			SparkleColor = Color3.fromRGB(255, 205, 3);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Terrapin";
-		};
-		Oarfish = {
-			WeightPool = {1500, 2500};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 15;
-			ProgressEfficiency = 0.7;
-			Description = "The Oarfish is a massive, snake-like creatures that dwell in the deep ocean. they are often mistaken for sea serpents or mythical creatures. Their presence is considered an omen by many ancient cultures.";
-			Hint = "???";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 4000;
-			XP = 2000;
-			Seasons = {"Winter"};
-			Weather = {"Foggy"};
-			Quips = {"WOAH! An Oarfish!", "I Caught an Oarfish!", "It's an Oarfish!"};
-			SparkleColor = Color3.fromRGB(255, 51, 51);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		Glacierfish = {
-			WeightPool = {400, 600};
-			Chance = 0.02;
-			Rarity = "Mythical";
-			Resilience = 10;
-			ProgressEfficiency = 0.85;
-			Description = "Glacierfish are cold saltwater fish with large, broad bodies and a distinctive pink fin colouration. They are an extremely rare fish and can sometimes be a difficult catch for any angler. They can be found more commonly in Snowcap Caves during the night.";
-			Hint = "Found in Snowcap Caves during the night. Big fan of the Truffle Worm.";
-			FavouriteBait = "Truffle Worm";
-			FavouriteTime = "Night";
-			Price = 800;
-			XP = 400;
-			Seasons = {"None"};
-			Weather = {"Rain", "Foggy"};
-			Quips = {"A Glacierfish!", "I caught a Glacierfish!", "Woah, a Glacierfish!"};
-			SparkleColor = Color3.fromRGB(161, 233, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		Sunfish = {
-			WeightPool = {4000, 10000};
-			Chance = 1;
-			Rarity = "Legendary";
-			Resilience = 70;
-			ProgressEfficiency = 0.4;
-			Description = "Sunfish are the heaviest bony fish species alive today. Common sunfish can weigh up to one metric tonne but on rare instances they can way two metric tonnes! The largest appeal of the ocean Sunfish is the unsual shape of it's body and it's astonishing weight. Sunfish have the name for their love of basking in the sun by floating to the surface of the water.";
-			Hint = "Caught near Sunstone Island and can sometimes weigh over 1,000 kg.";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 1500;
-			XP = 550;
-			Seasons = {"Summer"};
-			Weather = {"Clear"};
-			Quips = {"I think my backbone snapped..", "Woah!!", "OH MY! A SUNFISH?", "A sunfish!", "Woah, a Sunfish!", "Nice tan..", "How did I pull this up?", "A SUNFISH!"};
-			SparkleColor = Color3.fromRGB(255, 232, 99);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Sunstone";
-		};
-		Moonfish = {
-			WeightPool = {2500, 5000};
-			Chance = 0.2;
-			Rarity = "Legendary";
-			Resilience = 20;
-			ProgressEfficiency = 0.6;
-			Description = "The Moonfish is a sizable, flat, bony fish that inhabits deep and occasionally warm waters. While their behavior resembles that of the Ocean Sunfish, Moonfish are far more aggressive, using their rock-hard skulls to charge at fish, boats, and swimmers.";
-			Hint = "???";
-			FavouriteBait = "Minnow";
-			FavouriteTime = "Night";
-			Price = 1800;
-			XP = 900;
-			Seasons = {"Winter"};
-			Weather = {"Clear"};
-			Quips = {"I think my backbone snapped..", "Woah!!", "OH MY! A MOONFISH?", "A Moonfish!!", "Woah, a Moonfish!!", "How did I pull this up?", "A Moonfish!!!"};
-			SparkleColor = Color3.fromRGB(255, 122, 70);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Ocean";
-		};
-		["Great White Shark"] = {
-			WeightPool = {7000, 12000};
-			Chance = 2;
-			Rarity = "Mythical";
-			Resilience = 8;
-			ProgressEfficiency = 0.7;
-			Description = "Great White Sharks are apex predators and will put up an intense fight when hooked. Their presence is often a sign of rich, diverse marine life in the area. Rare and challenging, they offer one of the biggest rewards for those skilled enough to catch them.";
-			Hint = "Only rarely spotted in the oceans during a Shark Hunt.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = nil;
-			Price = 6000;
-			XP = 900;
-			Seasons = {"Autumn"};
-			Weather = {"Clear"};
-			Quips = {"WOAH!! I CAUGHT A GREAT WHITE!", "A GREAT WHITE??", "HOLY.. A GREAT WHITE??", "I CAN'T FEEL MY SPINE!!"};
-			SparkleColor = Color3.fromRGB(93, 123, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Ocean";
-			Shark = true;
-		};
-		["Dumbo Octopus"] = {
-			WeightPool = {15, 40};
-			Chance = 0.1;
-			Rarity = "Legendary";
-			Resilience = 30;
-			ProgressEfficiency = 0.85;
-			Description = "The Dumbo Octopus is a deep-sea dweller, named for its ear like fins that resemble the ears of Disney's famous elephant character. With a soft, gelatinous body and gentle movements, it glides through the oceans and coral reefs of Roslit Bay.";
-			Hint = "Caught in Roslit Bays coral reef.";
-			FavouriteBait = "Worm";
-			FavouriteTime = nil;
-			Price = 900;
-			XP = 400;
-			Seasons = {"Winter"};
-			Weather = {"Rain"};
-			Quips = {"Woah, I caught a Dumbo!", "A Dumbo Octopus!", "No way! A Dumbo Octupus!"};
-			SparkleColor = Color3.fromRGB(255, 142, 90);
-			HoldAnimation = fish:WaitForChild("small");
-			From = "Roslit";
-		};
-		["Pond Emperor"] = {
-			WeightPool = {1000, 2500};
-			Chance = 0.05;
-			Rarity = "Legendary";
-			Resilience = 25;
-			ProgressEfficiency = 0.6;
-			Description = "Pond Emperors are highly territorial, powerful swimmers that will consume almost anything. Their striking coloration, aggressive nature, and rare appearances make them a prized and fortunate catch for anglers.";
-			Hint = "Found in Snowcap Pond.";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 900;
-			XP = 700;
-			Seasons = {"Winter"};
-			Weather = {"Clear"};
-			Quips = {"A Pond Emperor!", "WOAH! A Pond Emperor!!", "Pond Emperor!", "I caught a Pond Emperor!!"};
-			SparkleColor = Color3.fromRGB(136, 39, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Snowcap";
-		};
-		Isonade = {
-			WeightPool = {6000, 13000};
-			Chance = 0.1;
-			Rarity = "Mythical";
-			Resilience = 8;
-			ProgressEfficiency = 0.5;
-			Description = "The Isonade is a sinister creature that is assumed exctinct. They are seeming to be a dream that is possible to be caught and captured. They only circle near Strange Whirlpools, can they even sometimes can be the cause for one.";
-			Hint = "Can be found when fishing in a strange whirlpool.";
-			FavouriteBait = "Truffle Worm";
-			FavouriteTime = nil;
-			Price = 8000;
-			XP = 1200;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"WOAH!! I CAUGHT AN ISONADE!", "AN ISONADE??", "HOLY.. AN ISONADE??", "I CAN'T FEEL MY SPINE!!", "THESE EXIST?"};
-			SparkleColor = Color3.fromRGB(47, 29, 106);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Vertigo";
-		};
-		["Great Hammerhead Shark"] = {
-			WeightPool = {2300, 5000};
-			Chance = 2;
-			Rarity = "Mythical";
-			Resilience = 20;
-			ProgressEfficiency = 0.65;
-			Description = "The Great Hammerhead Shark is a large, powerful predator known for its distinct hammer-shaped head. Its unique head shape improves its ability to track prey, making it a formidable hunter in the ocean, and a prominent catch amung anglers.";
-			Hint = "Only rarely spotted in the oceans during a Shark Hunt. Only awake during the day.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = "Day";
-			Price = 5500;
-			XP = 860;
-			Seasons = {"Spring"};
-			Weather = {"Windy"};
-			Quips = {"WOAH!! I CAUGHT A GREAT HAMMERHEAD!", "A GREAT HAMMERHEAD??", "HOLY.. A GREAT HAMMERHEAD??", "I CAN'T FEEL MY SPINE!!", "HAMMERTIME!", "Comically large hammer head!!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Ocean";
-			Shark = true;
-		};
-		Wiifish = {
-			WeightPool = {200, 400};
-			Chance = 1;
-			Rarity = "Legendary";
-			Resilience = 40;
-			ProgressEfficiency = 0.8;
-			Description = "The Wiifish is a legendary tropic fish that can only be found in the saltwaters Sunstone Island during the day. They are an extremely old fish, dating back over 230,000,000 years ago. While the Wiifish is a slow swimmer, they can put up an immense fight for even advanced anglers.";
-			Hint = "Found rarely near Sunstone Island during the day.";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 1200;
-			XP = 500;
-			Seasons = {"Autumn"};
-			Weather = {"None"};
-			Quips = {"Woah, a Wiifish!", "This thing is super ancient!", "A Wiifish!!", "This brings me back!"};
-			SparkleColor = Color3.fromRGB(255, 136, 51);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Sunstone";
-		};
-		Dolphin = {
-			WeightPool = {1500, 2000};
-			Chance = 0.5;
-			Rarity = "Legendary";
-			Resilience = 5;
-			ProgressEfficiency = 0.95;
-			Description = "The Dolphin is a playful, intelligent marine mammal known for its sleek body, curved dorsal fin, and high intelligence. Dolphins are fast swimmers, known for jumping out of the water in graceful arcs and interacting with boats and swimmers. Found in the ocean.";
-			Hint = "Found in the ocean.";
-			FavouriteBait = "None";
-			FavouriteTime = "Day";
-			Price = 1200;
-			XP = 600;
-			Seasons = {"Summer", "Spring"};
-			Weather = {"Clear"};
-			Quips = {"I caught a Dolphin!", "It's a Dolphin!", "A DOLPHINN!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("heavybasic");
-			From = "Ocean";
-		};
-		Sawfish = {
-			WeightPool = {4000, 6000};
-			Chance = 0.7;
-			Rarity = "Legendary";
-			Resilience = 10;
-			Description = "The Sawfish is a large, unique fish with a long, flattened snout that is lined with sharp teeth, resembling a saw. They are found all across the ocean mostly during the night.";
-			Hint = "found all around the ocean during the night.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = "Night";
-			Price = 1500;
-			XP = 900;
-			Seasons = {"Autumn"};
-			Weather = {"Foggy"};
-			Quips = {"A Sawfish!", "Chainsawfish!", "I caught a Sawfish!", "Woah, a Sawfish!"};
-			SparkleColor = Color3.fromRGB(161, 199, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Ocean";
-		};
-		["Mythic Fish"] = {
-			WeightPool = {6, 14};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 40;
-			ProgressEfficiency = 0.4;
-			Description = "The Mythic Fish is an extremely rare and beautiful fish. They swim gracefully in couples of two near the surface of the ocean water. They seem weak, but they can oddly put up a strong fight when being caught. This is due to the other Mythic Fish attempting to aid it's partner by pulling it off the hook.";
-			Hint = "Found in the Ocean.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Day";
-			Price = 2000;
-			XP = 800;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Oh no.. Where is it's partner?", "A Mythic Fish!!", "I Caught a Mythic Fish!!!", "NO WAY! A Mythic Fish!"};
-			SparkleColor = Color3.fromRGB(255, 199, 32);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Ocean";
-		};
-		Rabbitfish = {
-			WeightPool = {25, 60};
-			Chance = 1;
-			Rarity = "Legendary";
-			Resilience = 35;
-			ProgressEfficiency = 0.8;
-			Description = "The Rabbitfish is an illusive saltwater fish that is only found under The Arch. They are odd creatures that both resemble a rabbit, and swim in a pattern similar to a bunny jumping.";
-			Hint = "Found under The Arch.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = nil;
-			Price = 1100;
-			XP = 800;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"Woah!! A Rabbitfish!", "A Rabbit!!", "I caught a Rabbitfish!"};
-			SparkleColor = Color3.fromRGB(204, 142, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		["Umbral Shark"] = {
-			WeightPool = {1050, 1550};
-			Chance = 0.01;
-			Rarity = "Legendary";
-			Resilience = 10;
-			ProgressEfficiency = 0.9;
-			Description = "Umbral Sharks are a nocturnal bottom feeder, spending most of their time on the floor or in small crevices. They are gentle and slow-moving until provoked. Once angered, they can be extremely strong swimmers and often will break fishing lines. They are extremely rare, as they don't often come high enough in the water for anyone to see.";
-			Hint = "Caught at night in Keepers Altar.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = "Night";
-			Price = 1000;
-			XP = 500;
-			Seasons = {"Winter"};
-			Weather = {"Clear"};
-			Quips = {"An Umbral Shark!", "Woah! An Umbral Shark!", "I Caught an Umbral Shark!"};
-			SparkleColor = Color3.fromRGB(151, 110, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Keepers Altar";
-		};
-		Ringle = {
-			WeightPool = {1, 4};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 80;
-			ProgressEfficiency = 0.5;
-			Description = "The Ringle is an interesting and illusive fish that swims at extremely low and cold depths. They have a Rhino-like horn that they use to attack their prey. Most commonly found in the open ocean of Snowcap Island.";
-			Hint = "Found in the open ocean of Snowcap Island during the night.";
-			FavouriteBait = "Bagel";
-			FavouriteTime = "Night";
-			Price = 900;
-			XP = 500;
-			Seasons = {"None"};
-			Weather = {"Clear", "Foggy"};
-			Quips = {"A Ringle!", "I caught a Ringle!", "A Ringle!!", "Woah, an Ringle!"};
-			SparkleColor = Color3.fromRGB(87, 224, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-			From = "Snowcap";
-		};
-		Olm = {
-			WeightPool = {1, 4};
-			Chance = 2;
-			Rarity = "Legendary";
-			Resilience = 80;
-			ProgressEfficiency = 0.95;
-			Description = "The Olm is an aquatic salamander which is an exclusively cave-dwelling species. The olm is mostly found in dark and moist areas of freshwater. They are most notable for their adaptations to a life of darkness with-in their caves. The Olm has severely under underdeveloped eyes, leaving it blind. This blindness gives them an acute sense of smell and hearing.";
-			Hint = "Reisdes on the floor of caves and dark rocky areas. Loves the night.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = "Night";
-			Price = 900;
-			XP = 500;
-			Seasons = {"None"};
-			Weather = {"Clear", "Foggy"};
-			Quips = {"An Olm!", "I caught an Olm!", "Olm.. my gosh!", "An Olm!!", "Woah, an Olm!", "This ain't no Axolotl..", "It looks like a recorder"};
-			SparkleColor = Color3.fromRGB(255, 178, 178);
-			HoldAnimation = fish:WaitForChild("tiny");
-			ViewportSizeOffset = 2;
-			From = "Terrapin";
-		};
-		["Sea Pickle"] = {
-			WeightPool = {4, 10};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 50;
-			Description = "The Sea Pickle is a quirky, small, tube-like sea creature found on ocean beds. Its glowing green body gives off a faint bioluminescent light, making it easy to spot at night. It's know to wriggle out of nets and rods, making it a tricky catch. Despite its unassuming appearance, it's highly valued for its oddity and unique glow.";
-			Hint = "Found in the ocean. Can be caught in rods and cages.";
-			FavouriteBait = "Seaweed";
-			FavouriteTime = "Night";
-			Price = 2000;
-			XP = 60;
-			Seasons = {"Autunn", "Summer"};
-			Weather = {"Clear", "Cloudy"};
-			Quips = {"A SEA PICKLE!!", "I CAUGHT A SEA PICKLE!", "A Sea pickle!"};
-			SparkleColor = Color3.fromRGB(121, 255, 80);
-			HoldAnimation = fish:WaitForChild("small");
-			From = "Ocean";
-		};
-		["Crown Bass"] = {
-			WeightPool = {20, 60};
-			Chance = 0.2;
-			Rarity = "Legendary";
-			Resilience = 20;
-			ProgressEfficiency = 0.8;
-			Description = "The Crown Bass is a special type of bass that is known for its vibrant colours, and its luminescent 'crown' on its head. They use this crown to attract prey, and see easily at night. They can be found all over the world in all sorts of salt waters, especially warmer waters during the night.";
-			Hint = "In salt waters during the night. ";
-			FavouriteBait = "Squid";
-			FavouriteTime = "Night";
-			Price = 1200;
-			XP = 700;
-			Seasons = {"Summer"};
-			Weather = {"Foggy"};
-			Quips = {"A Crown Bass!", "I caught a Crown Bass!", "Woah! A Crown Bass!", "Ouu! A Crown Bass!"};
-			SparkleColor = Color3.fromRGB(203, 163, 70);
-			HoldAnimation = fish:WaitForChild("basic");
-			From = "Ocean";
-		};
-		["Whisker Bill"] = {
-			WeightPool = {350, 1000};
-			Chance = 0.01;
-			Rarity = "Mythical";
-			Resilience = 25;
-			ProgressEfficiency = 0.8;
-			Description = "The Whisker Bill is a mythical creature that was a popular staple of Moosewood Island before they were thought to be excinct. Whisker Bills are extremely strong, however are awkward swimmers due to their peculiar archetype.";
-			Hint = "???";
-			FavouriteBait = "Truffle Worm";
-			FavouriteTime = nil;
-			Price = 3100;
-			XP = 150;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"The mythical Whisker Bill..", "Woah.. A Whisker Bill..", "I caught.. A Whisker Bill..", "Woah..."};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Moosewood";
-		};
-		["Colossal Squid"] = {
-			WeightPool = {7000, 12000};
-			Chance = 0.02;
-			Rarity = "Mythical";
-			Resilience = 5;
-			ProgressEfficiency = 0.3;
-			Description = "The Colossal Squid is a massive, deep-sea creature with enormous tentacles and large appetite for anglers. Known for its incredible size and strength, it lurks in the deepest parts of the ocean, only occasionally venturing near the surface during the nights.";
-			Hint = "???";
-			FavouriteBait = "None";
-			FavouriteTime = "Night";
-			Price = 6500;
-			XP = 3000;
-			Seasons = {"None"};
-			Weather = {"Foggy"};
-			Quips = {"WOAH. A COLOSSAL SQUID!!", "MY BACCKK", "I CAN'T BELIEVE IT! COLOSSAL SQUID!"};
-			SparkleColor = Color3.fromRGB(255, 82, 82);
-			HoldAnimation = fish:WaitForChild("heavy");
-			From = "Ocean";
-		};
-		["Rubber Ducky"] = {
-			WeightPool = {1, 7};
-			Chance = 0.01;
-			Rarity = "Legendary";
-			Resilience = 100;
-			ProgressEfficiency = 0.3;
-			Description = "A simple, squeezable, rubber duck! It may have been lost in one of the deepest parts of our discovered world... But, it's in great condition!";
-			Hint = "???";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 900;
-			XP = 800;
-			Seasons = {"None"};
-			Weather = {"Rain"};
-			Quips = {"A.. Rubber Duck..?", "Woah!.. A Ducky??", "Awesome!!!!!!!", "Did someone lose this?", "How did this get down here..?"};
-			SparkleColor = Color3.fromRGB(255, 234, 115);
-			HoldAnimation = fish:WaitForChild("small");
-			From = "Vertigo";
-		};
-		["Enchant Relic"] = {
-			WeightPool = {210, 210};
-			Chance = 0.2;
-			Rarity = "Relic";
-			Resilience = 35;
-			ProgressEfficiency = 0.8;
-			Description = "A stone filled with the blessing of a Divine Lantern Keeper.. Returning it to it's throne under the Statue of Sovereignty will result in your currently equipped rod being engulfed in its power.";
-			Hint = "???";
-			FavouriteBait = "None";
-			FavouriteTime = nil;
-			Price = 3500;
-			XP = 800;
-			Seasons = {"None"};
-			Weather = {"None"};
-			Quips = {"I feel it's power..", "Woah.. A Relic??", "A Relic!!", "I caught a Relic!"};
-			SparkleColor = Color3.fromRGB(126, 255, 216);
-			HoldAnimation = fish:WaitForChild("small");
-			From = "None";
-		};
-		Ghoulfish = {
-			WeightPool = {45, 120};
-			Chance = 0.1;
-			Rarity = "Event";
-			Resilience = 30;
-			ProgressEfficiency = 0.9;
-			Description = "The Ghoulfish is known for its eerie appearance. They only appear during FischFright season, and are a scary bie to have on the end of your rod.";
-			Hint = "Only can be caught during FischFright.";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 1000;
-			XP = 600;
-			Seasons = {"None"};
-			Weather = {"Clear"};
-			Quips = {"A Ghoulfish!", "I caught a Ghoulfish!", "Woah! A Ghoulfish!", "Ouu! A Ghoulfish!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("basic");
-		};
-		Lurkerfish = {
-			WeightPool = {5, 20};
-			Chance = 0.01;
-			Rarity = "Event";
-			Resilience = 20;
-			ProgressEfficiency = 0.9;
-			Description = "The Lurkerfish is an interesting breed of the Anglerfish that is only visible during FischFright. It is said this fish gains its visible body from the though of FischFight, and during the rest of the year, the Lurkerfish is completely invisible to the untrained eye.";
-			Hint = "Only can be caught during FischFright.";
-			FavouriteBait = "Squid";
-			FavouriteTime = nil;
-			Price = 1500;
-			XP = 800;
-			Seasons = {"Winter", "Autumn"};
-			Weather = {"Foggy"};
-			Quips = {"Woah, a Lurkerfish!", "No way! A Lurkerfish!", "I caught a Lurkerfish!"};
-			SparkleColor = Color3.fromRGB(140, 255, 176);
-			HoldAnimation = fish:WaitForChild("small");
-		};
-		["Candy Fish"] = {
-			WeightPool = {5, 10};
-			Chance = 10;
-			Rarity = "Event";
-			Resilience = 50;
-			Description = "The Candy Fisch is a vibrant, brighlt colored fish, formed from glucose and carbon. Known for their playful nature, and sweet gummy texture. Only can be caught during FischFright.";
-			Hint = "Only can be caught during FischFright.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = nil;
-			Price = 200;
-			XP = 400;
-			Seasons = {"Winter"};
-			Weather = {"Clear"};
-			Quips = {"Woah, a Candy Fisch!", "No way! A Candy Fisch!", "I caught a Candy Fisch!"};
-			SparkleColor = Color3.fromRGB(255, 51, 51);
-			HoldAnimation = fish:WaitForChild("small");
-		};
-		Zombiefish = {
-			WeightPool = {15, 30};
-			Chance = 10;
-			Rarity = "Event";
-			Resilience = 50;
-			Description = "Once a lifeless fish drifting to the surface, the Zombiefish was struck by lightning and brought back to life. Now reanimated, it prowls the waters during FischFright, haunting the tides with its undead presence.";
-			Hint = "Only can be caught during FischFright.";
-			FavouriteBait = "Flakes";
-			FavouriteTime = nil;
-			Price = 200;
-			XP = 400;
-			Seasons = {"Winter"};
-			Weather = {"Clear"};
-			Quips = {"Woah, a Candy Fisch!", "No way! A Candy Fisch!", "I caught a Candy Fisch!"};
-			SparkleColor = Color3.fromRGB(255, 51, 51);
-			HoldAnimation = fish:WaitForChild("small");
-		};
-		Skelefish = {
-			WeightPool = {5, 10};
-			Chance = 10;
-			Rarity = "Event";
-			Resilience = 50;
-			Description = "The Skelefish is a literal fish skeleton, eerily animated as if it still had flesh. Its bony structure drifts through the water, with jagged, rib-like bones and a hollow skull that stares blankly ahead. Only can be caught during FischFright.";
-			Hint = "Only can be caught during FischFright.";
-			FavouriteBait = "Fish Head";
-			FavouriteTime = nil;
-			Price = 200;
-			XP = 400;
-			Seasons = {"Winter"};
-			Weather = {"Clear"};
-			Quips = {"Woah, a Skelefish!", "No way! A Skelefish!", "I caught a Skelefish!"};
-			SparkleColor = Color3.fromRGB(255, 255, 255);
-			HoldAnimation = fish:WaitForChild("tiny");
-		};
-		Nessie = {
-			WeightPool = {20000, 40000};
-			Chance = 0.01;
-			Rarity = "Event";
-			Resilience = 5;
-			ProgressEfficiency = 0.2;
-			Description = "Nessie is thought to be a complete myth. Little did these anglers know, you found the impossible catch... Nessie... Only obtainable during FischFright ";
-			Hint = "Only obtainable during FischFright";
-			FavouriteBait = "Truffle Worm";
-			FavouriteTime = "Night";
-			Price = 6500;
-			XP = 3000;
-			Seasons = {"None"};
-			Weather = {"Foggy"};
-			Quips = {"WOAH, NESSIE!?!", "MY BACCKK", "I CAN'T BELIEVE IT! NESSIE!", "I DIDN'T THINK IT WAS REAL!!"};
-			SparkleColor = Color3.fromRGB(129, 255, 181);
-			HoldAnimation = fish:WaitForChild("heavy");
-		};
-		Rarities = {"Trash", "Common", "Uncommon", "Unusual", "Rare", "Legendary", "Mythical", "Event", "Relic", "Divine"};
-		RarityColours = {
-			Trash = Color3.fromRGB(145, 145, 145);
-			Common = Color3.fromRGB(142, 187, 191);
-			Uncommon = Color3.fromRGB(161, 255, 169);
-			Unusual = Color3.fromRGB(192, 135, 198);
-			Rare = Color3.fromRGB(119, 108, 181);
-			Legendary = Color3.fromRGB(240, 181, 109);
-			Mythical = Color3.fromRGB(255, 62, 120);
-			Event = Color3.fromRGB(54, 73, 159);
-			Divine = Color3.fromRGB(202, 198, 255);
-			Relic = Color3.fromRGB(120, 255, 183);
-		};
-	}
-end
-
-local Tap = {
-	General = Window:AddTab({Title = "Generals", Icon = "box"}),
-	Event = Window:AddTab({Title = "Event", Icon = "star"}),
-	Player = Window:AddTab({ Title = "Player", Icon = "user"}),
-	Shop = Window:AddTab({ Title = "Shopee", Icon = "shopping-bag"}),
-	Configs = Window:AddTab({Title = "Configs", Icon = "diamond"}),
-	Teleport = Window:AddTab({Title = "Teleport", Icon = "asterisk"}),
-	Settings = Window:AddTab({Title = "Settings", Icon = "settings"})
-}
-
-Toggle = function(Section, NameIndex, Description, ConfigName, Function, ...)
-	local Misc = {...}
-	ConfigName = ConfigName or NameIndex
-	local defaultState = Config[ConfigName] or false
-
-	local CreateToggle = Section:AddToggle((NameIndex or NameIndex.."-toggle"), {
-		Title = NameIndex or "null",
-		Default = defaultState,
-		Description = Description or "",
-	})
-
-	CreateToggle:OnChanged(function(v)
-		Config[ConfigName] = v
-		save()
-		if Function then
-			Function(v)
-		else
-			if AllFuncs[ConfigName] then
-				local threadRunning = task.spawn(AllFuncs[ConfigName])
-
-				if not v and threadRunning then
-					task.cancel(threadRunning)
-				end
-			end
-		end
-	end)
-
-	return CreateToggle
-end
-
-Slider = function(section,Name,min,max,Rounding,...)
-	local SettingName,func = ...
-	if not func and type(SettingName) == "function" then func = SettingName end
-	if not SettingName then SettingName = Name end
-	local default = Config[SettingName]
-	local CreateSlider = section:AddSlider((Name or Name.."-slider"), {
-		Title =Name or "null",
-		Min = min or 0,
-		Max = max or 1,
-		Default = (Config[SettingName] or default) or min,
-		Rounding = (Rounding == true and 1) or 0,
-	})
-
-	CreateSlider:OnChanged(function(v)
-		save()
-		Config[SettingName] = v
-	end)
-	task.wait()
-	return CreateSlider
-end
-
-TextBox = function(section,Name,tooltip,PlaceHolder,Numberic,...)
-	local SettingName,func = ...
-	if not func and type(SettingName) == "function" then func = SettingName end
-	if not SettingName then SettingName = Name end
-	local CreateInput =section:AddInput((Name or Name.."-input"), {
-		Title =Name or "Null",
-		Placeholder = PlaceHolder or "Put text here!",
-		Numeric = Numberic or false,
-		Finished = true,
-		Description = tooltip or "",
-		Default = Config[SettingName],
-	})
-
-	CreateInput:OnChanged(function(value)
-		Config[SettingName] = value
-		save()
-	end)
-	task.wait()
-	return CreateInput
-end
-
-Dropdown = function(section, Name, default, list, multi, ...)
-	local SettingName, func = ...
-	if not func and type(SettingName) == "function" then func = SettingName end
-	SettingName = SettingName or Name
-
-	if multi then
-		default = (default or Config[SettingName]) or {}
-		if type(Config[SettingName]) == "string" then
-			Config[SettingName] = {Config[SettingName]}
-		end
-	else
-		default = (default or Config[SettingName]) or ""
-	end
-
-	local CreateDropdown = section:AddDropdown((Name or Name.."-dropdown"), {
-		Title = Name or "Null",
-		Values = list or {"None"},
-		Multi = multi or false,
-		Default = default
-	})
-
-	CreateDropdown:OnChanged(function(v)
-		if multi and type(v) == 'table' then
-			Config[SettingName] = {}
-			for _, selectedValue in pairs(v) do
-				table.insert(Config[SettingName], selectedValue)
-			end
-		else
-			Config[SettingName] = v
-		end
-		save()
-		if func then
-			func(v)
-		end
-	end)
-
-	return CreateDropdown
-end
-
-
-AllFuncs['Farm Fish'] = function()
-	local RodName = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value
-	while Config['Farm Fish'] and task.wait() do
-		if Backpack:FindFirstChild(RodName) then
-			LocalPlayer.Character.Humanoid:EquipTool(Backpack:FindFirstChild(RodName))
-		end
-		if LocalPlayer.Character:FindFirstChild(RodName) and LocalPlayer.Character:FindFirstChild(RodName):FindFirstChild("bobber") then
-			local XyzClone = game:GetService("ReplicatedStorage").resources.items.items.GPS.GPS.gpsMain.xyz:Clone()
-			XyzClone.Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild("hud"):WaitForChild("safezone"):WaitForChild("backpack")
-			XyzClone.Name = "Lure"
-			XyzClone.Text = "<font color='#ff4949'>Lure </font>: 0%"
-			repeat
-				pcall(function()
-					PlayerGui:FindFirstChild("shakeui").safezone:FindFirstChild("button").Size = UDim2.new(1001, 0, 1001, 0)
-					game:GetService("VirtualUser"):Button1Down(Vector2.new(1, 1))
-					game:GetService("VirtualUser"):Button1Up(Vector2.new(1, 1))
-				end)
-				XyzClone.Text = "<font color='#ff4949'>Lure </font>: "..tostring(ExportValue(tostring(LocalPlayer.Character:FindFirstChild(RodName).values.lure.Value), 2)).."%"
-				RunService.Heartbeat:Wait()
-			until not LocalPlayer.Character:FindFirstChild(RodName) or LocalPlayer.Character:FindFirstChild(RodName).values.bite.Value or not Config['Farm Fish']
-			XyzClone.Text = "<font color='#ff4949'>FISHING!</font>"
-			delay(1.5, function()
-				XyzClone:Destroy()
-			end)
-			repeat
-				ReplicatedStorage.events.reelfinished:FireServer(1000000000000000000000000, true)
-				task.wait(.5)
-			until not LocalPlayer.Character:FindFirstChild(RodName) or not LocalPlayer.Character:FindFirstChild(RodName).values.bite.Value or not Config['Farm Fish']
-		else
-			LocalPlayer.Character:FindFirstChild(RodName).events.cast:FireServer(1000000000000000000000000)
-			task.wait(2)
-		end
-	end
-end
-
-
-AllFuncs['Sell Fish'] = function()
-	while Config['Sell Fish'] and task.wait(3) do
-		game:GetService("ReplicatedStorage"):WaitForChild("events"):WaitForChild("selleverything"):InvokeServer()
-	end
-end
-
-
-AllFuncs['To Pos Stand'] = function()
-	while Config['To Pos Stand'] and task.wait() do
-		if not Config['SelectPositionStand'] then
-			Notify("Pls Select Position")
-			Config['To Pos Stand'] = false
-			return
-		end
-		pcall(function()
-			LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = Config['SelectPositionStand']
-		end)
-	end
-end
-
-AllFuncs['Toggle Walk Speed'] = function()
-	while Config['Toggle Walk Speed'] and task.wait() do
-		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = Config['Set Walk Speed']
-		end)
-	end
-	if not Config['Toggle Walk Speed'] then
-		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = 16
-		end)
-	end
-end
-
-AllFuncs['Toggle Jump Power'] = function()
-	while Config['Toggle Jump Power'] and task.wait() do
-		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = Config['Set Jump Power']
-		end)
-	end
-	if not Config['Toggle Jump Power'] then
-		pcall(function()
-			LocalPlayer.Character:FindFirstChild("Humanoid").JumpPower = 50
-		end)
-	end
-end
-
-AllFuncs['Toggle Noclip'] = function()
-	while Config['Toggle Noclip'] and task.wait() do
-		local charParts = LocalPlayer.Character:GetDescendants()
-		for i,v in pairs(charParts) do
-			if v:IsA("BasePart") and LocalPlayer.Character then
-				if v.CanCollide then
-					v.CanCollide = false
-				end
-			end
-		end
-	end
-	if not Config['Toggle Noclip'] then
-		local charParts = LocalPlayer.Character:GetDescendants()
-		for i,v in pairs(charParts) do
-			if v:IsA("BasePart") and LocalPlayer.Character then
-				v.CanCollide = true
-			end
-		end
-	end
-end
-
-GetPlayerProfile = function()
-	local Respone = game:HttpGet("https://thumbnails.roblox.com/v1/users/avatar-bust?userIds="..LocalPlayer.UserId.."&size=420x420&format=Png&isCircular=false")
-	return HttpService:JSONDecode(Respone)['data'][1]['imageUrl']
-end
-
-comma_value = function(Value)
-	local Calculated = Value
-	while true do
-		local Text, Amount = string.gsub(Calculated, "^(-?%d+)(%d%d%d)", "%1,%2")
-		Calculated = Text
-		if Amount == 0 then break end
-	end
-	return Calculated
-end
-
-function GetPosition()
-	if not game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
-		return {
-			Vector3.new(0,0,0),
-			Vector3.new(0,0,0),
-			Vector3.new(0,0,0)
-		}
-	end
-	return {
-		game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.X,
-		game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Y,
-		game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Z
-	}
-end
-
-function ExportValue(arg1, arg2)
-	return tonumber(string.format("%."..(arg2 or 1)..'f', arg1))
-end
-
-AllFuncs.HopServer = function(FullServer) -- Hop Server (Low)
-	local FullServer = FullServer or false
-
-	local Http = game:GetService("HttpService")
-	local Api = "https://games.roblox.com/v1/games/"
-
-	local _place = game.PlaceId
-	local _servers = Api.._place.."/servers/Public?sortOrder=Asc&limit=100"
-	local ListServers = function (cursor)
-		local Raw = game:HttpGet(_servers .. ((cursor and "&cursor="..cursor) or ""))
-		return Http:JSONDecode(Raw)
-	end
-
-	local Server, Next; repeat
-		local Servers = ListServers(Next)
-		Server = Servers.data[1]
-		Next = Servers.nextPageCursor
-	until Server
-	repeat
-		if not FullServer then
-			game:GetService("TeleportService"):TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
-		else
-			if request then
-				local servers = {}
-				local req = request(
-					{
-						Url = string.format("https://games.roblox.com/v1/games/%d/servers/Public?sortOrder=Desc&limit=100&excludeFullGames=true", game.PlaceId)
-					}
-				).Body;
-				local body = game:GetService("HttpService"):JSONDecode(req)
-				if body and body.data then
-					for i, v in next, body.data do
-						if type(v) == "table" and tonumber(v.playing) and tonumber(v.maxPlayers) and v.playing < v.maxPlayers and v.id ~= game.JobId then
-							table.insert(servers, 1, v.id)
-						end
-					end
-				end
-				if #servers > 0 then
-					game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, servers[math.random(1, #servers)], game.Players.LocalPlayer)
-				else
-					return "Couldn't find a server."
-				end
-			end
-		end
-		wait()
-	until game.PlaceId ~= game.PlaceId
-end
-
-local LastDely = tick()
-AllFuncs['Sending Webhook'] = function()
-	while Config['Sending Webhook'] and task.wait() do
-		if tick() - LastDely >= tonumber(Config['Delay Sending']) and (Config['Current Level'] or Config['Current Money']) then
-			LastDely = tick()
-			local LevelDes = ""
-			local MoneyDes = ""
-			local AllFishInventory = ""
-			local BuySuccess = "**"
-			if Config['Current Level'] then
-				LevelDes = "\nNow Level : "..comma_value(LocalPlayer.leaderstats.Level.Value)
-			end
-			if Config['Current Money'] then
-				MoneyDes = "\nNow Money : "..tostring(LocalPlayer.PlayerGui.hud.safezone.coins.Text)
-			end
-			if Config['All Fish Inventory'] then
-				AllFishInventory = "```"
-				for i,v in pairs(GetFishInInventory()) do
-					AllFishInventory = AllFishInventory..i
-					if Config['Send Kilo Fish'] then
-						AllFishInventory = AllFishInventory.." : "..v[1]
-					end
-					if Config['Send Price Fish'] then
-						AllFishInventory = AllFishInventory.." : "..v[2]
-					end
-					AllFishInventory = AllFishInventory.."\n"
-				end
-				AllFishInventory = AllFishInventory.."```"
-			end
-			local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-				["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"..Config['"Discord Id']..">"),
-				["embeds"] = {
-					{
-						["id"]= 661605297,
-						["title"]= "Fisch Notify",
-						["description"] = "** Player : "..LocalPlayer.Name.."\n "..MoneyDes..""..LevelDes..""..AllFishInventory.."**",
-						["color"]= 8646911,
-						["fields"]= {},
-						["thumbnail"]= {
-							["url"]= GetPlayerProfile()
-						},
-						["footer"]= {
-							["text"]  = "Normal Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
-						}
-					}
-				}
-			})
-			if SendingSuccess then
-				Notify("Sending WebHook Success")
-			else
-				Notify("Failed Sending WebHook!")
-			end
-		end
-	end
-end
-
-workspace.active.ChildAdded:Connect(function(child)
-	if Config['Safe Whirlpool Spawn'] and Config['WebHook Configs'] ~= "" then
-		if child.Name == "Safe Whirlpool" then
-			local Pos = {
-				child.Position.X,
-				child.Position.Y,
-				child.Position.Z,
-			}
-			local StringInput = string.format("%s, %s, %s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
-			local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-				["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"..Config['"Discord Id']..">"),
-				["embeds"] = {
-					{
-						["id"]= 661605297,
-						["title"]= "Fisch Notify",
-						["description"] = "** Player : "..LocalPlayer.Name.."\n Found Safe Whirlpool\n Position : "..StringInput.."**",
-						["color"]= 8646911,
-						["fields"]= {},
-						["thumbnail"]= {
-							["url"]= GetPlayerProfile()
-						},
-						["footer"]= {
-							["text"]  = "Normal Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
-						}
-					}
-				}
-			})
-			if SendingSuccess then
-				Notify("Sending WebHook Success")
-			else
-				Notify("Failed Sending WebHook!")
-			end
-		end
-	end
-end)
-
-Main = Tap.General:AddSection('General') do
-    SelectPosition = Main:AddParagraph({        
-        Title = "Position : N/A"
-    })
-    Toggle(Main, "Auto Farm Fish", "", "Farm Fish")
-    Toggle(Main, "Teleport To Select Position", "", "To Pos Stand")
-    Main:AddButton({
-        Title = "Select Position",
-        Callback = function()
-            Config['SelectPositionStand'] = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
-            SelectPosition:SetTitle("Position : " .. tostring(math.floor(LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.X)) .. " X " .. tostring(math.floor(LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Y)) .. " Y " .. tostring(math.floor(LocalPlayer.Character:FindFirstChild("HumanoidRootPart").Position.Z)) .. " Z")
+    local Pb=Workspace[jn('\23\170%\239\179{\151\"\183\b\227\156~\129','Q\195K\139\245\18\229')](Workspace,jn('\166\224\163\227\181','\209\143'))[jn('\165{=\242N\230\128Y<\239d\237','\242\26T\134\b\137')](Workspace[jn('\23\170%\239\179{\151\"\183\b\227\156~\129','Q\195K\139\245\18\229')](Workspace,jn('\166\224\163\227\181','\209\143')),jn('\223\175\210\172','\177\223'))
+    function rememberPosition()
+        local yf,Gc,K,Ge
+        Gc,yf={[21533]=2670,[2191]=-12865},function(Sc)
+            return Gc[Sc-11778]
         end
-    })
-end
-
-IngredientList = {}
-for i,v in pairs(workspace.active:GetDescendants()) do
-	if v.ClassName == "TextLabel" and v.Text == "Ingredient" then
-		local Path = nil
-		GetRealPart = function(V)
-			if V.ClassName == "Model" then
-				Path = V
-			else
-				GetRealPart(V.Parent)
-			end
-		end
-		GetRealPart(v)
-		local OldName = Path.Name
-		if Path:FindFirstChildOfClass("MeshPart") then
-			if Path:FindFirstChildOfClass("MeshPart").Position.X > 500 then
-				continue
-			end
-		end
-		if Path:FindFirstChild("PickupPrompt") then
-			Path:FindFirstChild("PickupPrompt").HoldDuration = 0
-		end
-		table.insert(IngredientList, OldName)
-	end
-end
-
-_hasItem = function(name)
-	if Backpack:FindFirstChild(name) then return true end
-	if LocalPlayer.Character:FindFirstChild(name) then return true end
-end
-
-Threads[#Threads+1] = task.spawn(function()
-	while wait(.75) do
-		table.clear(IngredientList)
-		for i,v in pairs(workspace.active:GetDescendants()) do
-			if v.ClassName == "TextLabel" and v.Text == "Ingredient" then
-				local Path = nil
-				GetRealPart = function(V)
-					if V.ClassName == "Model" then
-						Path = V
-					else
-						GetRealPart(V.Parent)
-					end
-				end
-				GetRealPart(v)
-				local OldName = Path.Name
-				if Path:FindFirstChildOfClass("MeshPart") then
-					if Path:FindFirstChildOfClass("MeshPart").Position.X > 500 then
-						continue
-					end
-				end
-				if Path:FindFirstChild("PickupPrompt") then
-					Path:FindFirstChild("PickupPrompt").HoldDuration = 0
-				end
-				table.insert(IngredientList, OldName)
-			end
-		end
-	end
-end)
-
-AllFuncs['Auto Find Boat Event'] = function()
-	while Config['Auto Find Boat Event'] and task.wait(.75) do
-		if (#IngredientList <= 0 and not _hasItem("Witches Ingredient")) then
-			if Config['Hop Not Found Ingredient'] then
-				AllFuncs.HopServer(true)
-			end
-			continue
-		end
-		local RodName = ReplicatedStorage.playerstats[LocalPlayer.Name].Stats.rod.Value
-		if LocalPlayer.Character:FindFirstChild(RodName) and LocalPlayer.Character:FindFirstChild(RodName).values.bite.Value then
-			continue
-		end
-		if Config["Farm Fish"] then
-			Config["Farm Fish"] = false
-			continue
-		end
-		if Config['To Pos Stand'] then
-			Config['To Pos Stand'] = false
-			continue
-		end
-		for _, IngredientName in pairs(IngredientList) do
-			for i,v in pairs(workspace.active:GetChildren()) do
-				if v.Name == IngredientName then
-					if v:FindFirstChildOfClass("MeshPart") then
-						if v:FindFirstChildOfClass("MeshPart").Position.X > 200 then
-							continue
-						end
-					end
-					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v:GetPivot()
-					wait(1)
-					VirtualInputManager:SendKeyEvent(true, "E", false, game)
-					VirtualInputManager:SendKeyEvent(false, "E", false, game)
-					fireproximityprompt(v.PickupPrompt, 1)				
-				end
-			end
-		end
-		if _hasItem("Witches Ingredient") then
-			repeat
-				task.wait()
-				LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(404.7090148925781, 134.5, 317.6537780761719)
-				if Backpack:FindFirstChild("Witches Ingredient") then
-					LocalPlayer.Character.Humanoid:EquipTool(Backpack:FindFirstChild("Witches Ingredient"))
-				end
-				fireproximityprompt(workspace.world.map.halloween.witch.WitchesPot.AcidTop.Prompt, 1)				
-			until not _hasItem("Witches Ingredient") or not Config["Auto Find Boat Event"]
-			if Config['Halloween Success'] and Config['WebHook Configs'] ~= "" then
-				local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-					["content"] = ((Config['Ping Discord Id'] and Config['"Discord Id'] ~= "") and "<@"..Config['"Discord Id']..">"),
-					["embeds"] = {
-						{
-							["id"]= 661605297,
-							["title"]= "Fisch Notify",
-							["description"] = "** Player : "..LocalPlayer.Name.."\n Trade Witches Ingredient Success **",
-							["color"]= 8646911,
-							["fields"]= {},
-							["thumbnail"]= {
-								["url"]= GetPlayerProfile()
-							},
-							["footer"]= {
-								["text"]  = "Normal Hub Notify",
-								["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
-							}
-						}
-					}
-				})
-				if SendingSuccess then
-					Notify("Sending WebHook Success")
-				else
-					Notify("Failed Sending WebHook!")
-				end
-			end
-		end
-		if Config['Back To Fishing'] and not _hasItem("Witches Ingredient") and #IngredientList <= 0 then
-			Config["Farm Fish"] = true
-			Config['To Pos Stand'] = true
-			task.spawn(AllFuncs['Farm Fish'])
-			task.spawn(AllFuncs['To Pos Stand'])
-		end
-	end
-end
-Event = Tap.Event:AddSection('Event') do
-	IngredientDropdwon = Dropdown(Event, "Select Ingredient", "", IngredientList, false, "Ingredient Select")
-	Toggle(Event, "Auto Halloween Event ","", "Auto Find Boat Event")
-	Toggle(Event, "Back To Auto Fishing","", "Back To Fishing")
-	Toggle(Event, "Hop Server","Hop Server For Not Found Ingredient", "Hop Not Found Ingredient")
-	Event:AddButton({
-		Title = "Teleport To Ingredient",
-		Callback = function()
-			if Config['Ingredient Select'] == "" then
-				Notify("Pls Select Ingredient ")
-				return
-			end
-			for i,v in pairs(workspace.active:GetChildren()) do
-				if v.Name == Config['Ingredient Select'] then
-					if v:FindFirstChildOfClass("MeshPart") then
-						if v:FindFirstChildOfClass("MeshPart").Position.X > 200 then
-							continue
-						end
-					end
-					LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v:GetPivot()
-				end
-			end
-			Notify("Not Found `"..Config["Ingredient Select"].."` ")
-		end
-	})
-	
-	Event:AddButton({
-		Title = "Refresh Ingredient",
-		Callback = function()
-			IngredientDropdwon:SetValues(IngredientList)
-		end
-	})
-end
-
-Seller = Tap.General:AddSection('Seller') do
-	Toggle(Seller, "Auto Sell Fish","", "Sell Fish")
-
-	Seller:AddButton({
-		Title = "Sell All Fish",
-		Callback = function()
-			ReplicatedStorage:WaitForChild("events"):WaitForChild("selleverything"):InvokeServer()
-		end
-	})
-	Seller:AddButton({
-		Title = "Sell Fish ( In Hand )",
-		Callback = function()
-			workspace.world.npcs:FindFirstChild("Marc Merchant").merchant.sell:InvokeServer()
-		end
-	})
-	Seller:AddButton({
-		Title = "Show Ui Buy Boat",
-		Callback = function()
-			PlayerGui.hud.safezone.shipwright.Visible = not PlayerGui.hud.safezone.shipwright.Visible 
-		end
-	})
-end
-
-FishList = {}
-for i,v in pairs(FISHDATA) do
-	table.insert(FishList, i)
-end
-
-InfoFish = Tap.General:AddSection('Info Fish') do
-	InfoPrice = InfoFish:AddParagraph({        
-		Title = "Pice : N/A"
-	})
-	InfoRarity = InfoFish:AddParagraph({        
-		Title = "Rarity : N/A"
-	})
-	InfoChance = InfoFish:AddParagraph({        
-		Title = "Chance : N/A"
-	})
-	InfoFavouriteBait = InfoFish:AddParagraph({        
-		Title = "FavouriteBait : N/A"
-	})
-	
-	Dropdown(InfoFish, "Select Fish", "", FishList, false, "Select Fish Info")
-	InfoFish:AddButton({
-		Title = "Get Info Fish In Hand",
-		Callback = function()
-			for i,v in pairs(LocalPlayer.Character:GetChildren()) do
-				if table.find(FishList, v.Name) then
-					Config['Select Fish Info'] = v.Name
-					InfoPrice:SetTitle("Price : "..FISHDATA[Config['Select Fish Info']].Price)
-					InfoRarity:SetTitle("Rarity : "..FISHDATA[Config['Select Fish Info']].Rarity)
-					InfoChance:SetTitle("Chance : "..FISHDATA[Config['Select Fish Info']].Chance.." %")
-					InfoFavouriteBait:SetTitle("FavouriteBait : "..FISHDATA[Config['Select Fish Info']].FavouriteBait)
-					return
-				end
-			end
-			Notify("Pls Equip Fish")
-		end
-	})
-	InfoFish:AddButton({
-		Title = "Get Info Fish",
-		Callback = function()
-			if Config['Select Fish Info'] == "" then
-				Notify("Pls Select Fish")
-				return
-			end
-			InfoPrice:SetTitle("Price : "..FISHDATA[Config['Select Fish Info']].Price)
-			InfoRarity:SetTitle("Rarity : "..FISHDATA[Config['Select Fish Info']].Rarity)
-			InfoChance:SetTitle("Chance : "..FISHDATA[Config['Select Fish Info']].Chance.." %")
-			InfoFavouriteBait:SetTitle("FavouriteBait : "..FISHDATA[Config['Select Fish Info']].FavouriteBait)
-		end
-	})
-end
-
-
-Modify = Tap.Player:AddSection('Player Modify') do
-	Slider(Modify, "Walk Speed", 10, 300, false, "Set Walk Speed")
-	Slider(Modify, "Jump Power", 25, 300, false, "Set Jump Power")
-	Toggle(Modify, "Walk Speed", "", "Toggle Walk Speed")
-	Toggle(Modify, "Jump Power", "", "Toggle Jump Power")
-end
-
-MiscPlayer = Tap.Player:AddSection('Misc Player') do
-	DayOnlyLoop = nil
-	BypassGpsLoop = nil
-	Toggle(MiscPlayer, "Bypass Radar", "", "Bypass Radar", function(Value)
-		for _, v in pairs(game:GetService("CollectionService"):GetTagged("radarTag")) do
-			if v:IsA("BillboardGui") or v:IsA("SurfaceGui") then
-				v.Enabled = Value
-			end
-		end
-	end)
-	Toggle(MiscPlayer, "Bypass Gps", "", "Bypass Gps", function(Value)
-		if Value then
-			local XyzClone = game:GetService("ReplicatedStorage").resources.items.items.GPS.GPS.gpsMain.xyz:Clone()
-			XyzClone.Parent = game.Players.LocalPlayer.PlayerGui:WaitForChild("hud"):WaitForChild("safezone"):WaitForChild("backpack")
-			local Pos = GetPosition()
-			local StringInput = string.format("%s,%s,%s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
-			XyzClone.Text = "<font color='#ff4949'>X</font><font color = '#a3ff81'>Y</font><font color = '#626aff'>Z</font>: "..StringInput
-
-			BypassGpsLoop = game:GetService("RunService").Heartbeat:Connect(function() -- Line 26
-				local Pos = GetPosition()
-				StringInput = string.format("%s,%s,%s", ExportValue(Pos[1]), ExportValue(Pos[2]), ExportValue(Pos[3]))
-				XyzClone.Text = "<font color='#ff4949'>X</font><font color = '#a3ff81'>Y</font><font color = '#626aff'>Z</font>: "..StringInput
-			end)
-		else
-			if PlayerGui.hud.safezone.backpack:FindFirstChild("xyz") then
-				PlayerGui.hud.safezone.backpack:FindFirstChild("xyz"):Destroy()
-			end
-			if BypassGpsLoop then
-				BypassGpsLoop:Disconnect()
-				BypassGpsLoop = nil
-			end
-		end
-	end)
-	Toggle(MiscPlayer, "Bypass Sell All ( Gane Pass )", "", "Bypass Sell all", function(Value)
-		if Value then
-			PlayerGui.hud.safezone.backpack.inventory.Sell.sellall.Disabled = true
-			PlayerGui.hud.safezone.backpack.inventory.Sell.MouseButton1Click:Connect(function()
-				if PlayerGui.hud.safezone.backpack.inventory.Sell.sellall.Disabled then
-					ReplicatedStorage:WaitForChild("events"):WaitForChild("selleverything"):InvokeServer()
-				end
-			end)
-		else
-			PlayerGui.hud.safezone.backpack.inventory.Sell.sellall.Disabled = false
-		end
-	end)
-	Toggle(MiscPlayer, "Infinite Oxygen", "", "Infinite Oxygen", function(Value)
-		LocalPlayer.Character.client.oxygen.Disabled = Value
-	end)
-	Toggle(MiscPlayer, "Weather Clear", "", "Weather Clear", function(Value)
-		local OldWEA = ReplicatedStorage.world.weather.Value
-		if Value then
-			ReplicatedStorage.world.weather.Value = 'Clear' 
-		else
-			ReplicatedStorage.world.weather.Value = OldWEA
-		end
-	end)
-	Toggle(MiscPlayer, "Noclip", "", "Toggle Noclip")
-	Toggle(MiscPlayer, "Walk On Water", "", "Toggle Walk On Water", function(Value)
-		for i,v in pairs(workspace.zones.fishing:GetChildren()) do
-			if v.Name == "Ocean" then
-				v.CanCollide = Value
-			end
-		end
-	end)
-	Toggle(MiscPlayer, "Remove Fog", "", "Remove Fog", function(Value)
-		if Value then
-			if game:GetService("Lighting"):FindFirstChild("Sky") then
-				game:GetService("Lighting"):FindFirstChild("Sky").Parent = game:GetService("Lighting").bloom
-			end
-		else
-			if game:GetService("Lighting").bloom:FindFirstChild("Sky") then
-				game:GetService("Lighting").bloom:FindFirstChild("Sky").Parent = game:GetService("Lighting")
-			end
-		end
-	end)
-	Toggle(MiscPlayer, "Day Only", "", "Day Only", function(Value)
-		if Value then
-			DayOnlyLoop = RunService.Heartbeat:Connect(function()
-				game:GetService("Lighting").TimeOfDay = "12:00:00"
-			end)
-		else
-			if DayOnlyLoop then
-				DayOnlyLoop:Disconnect()
-				DayOnlyLoop = nil
-			end
-		end
-	end)
-	Toggle(MiscPlayer, "Night Only", "", "Night Only", function(Value)
-		if Value then
-			DayOnlyLoop = RunService.Heartbeat:Connect(function()
-				game:GetService("Lighting").TimeOfDay = "22:00:00"
-			end)
-		else
-			if DayOnlyLoop then
-				DayOnlyLoop:Disconnect()
-				DayOnlyLoop = nil
-			end
-		end
-	end)	
-	MiscPlayer:AddButton({
-		Title = "Rejoin Server",
-		Description = "",
-		Callback = function()
-			TeleportService:TeleportToPlaceInstance(game.placeId, game.jobId, game.Players.LocalPlayer);
-		end,
-	})
-	MiscPlayer:AddButton({
-		Title = "Hop Server",
-		Description = "",
-		Callback = function()
-			AllFuncs.HopServer(true)
-		end
-	})
-	MiscPlayer:AddButton({
-		Title = "Hop Server Low",
-		Description = "",
-		Callback = function()
-			AllFuncs.HopServer(false)
-		end
-	})
-	MiscPlayer:AddButton({
-        Title = "Anti Lag ( Once )",
-        Description = "",
-        Callback = function()
-            for _, v in pairs(game:GetDescendants()) do
-                if v:IsA("Part") or v:IsA("UnionOperation") or v:IsA("MeshPart") then
-                    if v.Transparency ~= 1 then
-                        v.Material = Enum.Material.SmoothPlastic
+        K={[-12865]=function()
+            spawn(function()
+                local gp,Gd,Uo,le,On,T,wf
+                On,Uo={[-19611]=-4542,[-20692]=-20053,[-9174]=13741,[-10602]=10370,[1692]=10370,[-6072]=29234,[-29080]=-12183,[-11133]=-12183,[-19966]=32565,[-14611]=20105},function(Jc)
+                    return On[Jc+2919]
+                end
+                Gd={[17296]=function()
+                    HumanoidRootPart[jn('\149ly\183Gn','\214*\v')]=T
+                    task[jn('\3v\29c','t\23')](5.415232325055342e-11*184664284)
+                    wf=Uo(461141222+-461155274)
+                end,[20105]=function()
+                    T=HumanoidRootPart[jn('j^\248Hu\239',')\24\138')]
+                    gp=Instance[jn('\210\217\203','\188')](jn('\164+\96\194\48\48\138+g\210\18,','\230D\4\187fU'))
+                    gp[jn('\186\23\52M\143\27,[','\236rX\"')]=Vector3[jn('\231\236\254','\137')](-867178209- -867178209,1978692002+-1978692002,-1482327357+1482327357)
+                    gp[jn('\6\0F\219$\19]\248','Ka>\157')]=Vector3[jn('\127tf','\17')](math[jn('\25\237\22\253','q\152')],math[jn('z\28u\f','\18i')],math[jn('\22\191\25\175','~\202')])
+                    gp[jn('.\226\"\27\237$','~\131P')]=HumanoidRootPart
+                    le=Instance[jn('\200\195\209','\166')](jn('c\229\188\22f\243\170\0','!\138\216o'))
+                    le[jn('(M\145\242\n^\152\211\0','e,\233\166')]=Vector3[jn('jas','\4')](math[jn('\21\233\26\249','}\156')],math[jn('\208\143\223\159','\184\250')],math[jn('<\145\51\129','T\228')])
+                    le[jn('\235','\175')]=-1305319925+1305320025
+                    le[jn('T','\4')]=3.0432296462083333e-05*328598271
+                    le[jn('\173k\215\143@\192','\238-\165')]=T
+                    le[jn('j\229\55_\234\49',':\132E')]=HumanoidRootPart
+                    wf=Uo(-31999)
+                end,[-12183]=function()
+                    if AutoFreeze then
+                        wf=152445889+-152428593
+                    else
+                        wf=Uo(-8991)
                     end
-                elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
-                    v:Destroy()
+                end,[-4542]=function()
+                    le[jn('\245HT\197_H\200',"\177-\'")](le)
+                    wf=Uo(1.238656242545065e-05*-1906178582)
+                end,[-20053]=function()
+                    wf=Uo(-12093);
+                    return true;
+                end,[32565]=function()
+                    gp[jn('\247/\161\199\56\189\202','\179J\210')](gp)
+                    wf=Uo(2.5230471255914196e-06*-486316719)
+                end,[29234]=function()
+                    if gp then
+                        wf=Uo(-22885)
+                        return true
+                    end
+                    wf=Uo(-13521)
+                end,[10370]=function()
+                    if le then
+                        wf=Uo(-22530)
+                        return true
+                    end
+                    wf=8914571978620/-444550540
+                end}
+                wf=Uo(-17530)
+                repeat
+                    while true do
+                        if Gd[wf]~=nil then
+                            if Gd[wf]()then
+                                break
+                            end
+                        end
+                    end
+                until wf==1.2608852727528376e-05*1089789872
+            end)
+            Ge=yf(33311)
+            return true
+        end}
+        Ge=yf(13969)
+        repeat
+            while true do
+                if K[Ge]~=nil then
+                    if K[Ge]()then
+                        break
+                    end
                 end
             end
-            Notify("Anti Lag Success")
+        until Ge==-3.4002072901353568e-06*-785246243
+    end
+    xj[jn('\4h\160D0x\176i+','E\f\196\6')](xj,jn('e\168\200_\227 \205\a\253\22\229\237]\227.\197\26\241\31','6\205\164\51\195f\164t\149'),false,function()
+        local Lg,Ko,xi,No,kp,Mc,kn
+        Ko,kn={[-31160]=-27300,[8545]=23234,[-1883]=870,[-15548]=23234,[-18498]=-306,[9075]=-25559,[3727]=-25177},function(Kj)
+            return Ko[Kj+-18791]
         end
-    })
-    MiscPlayer:AddButton({
-        Title = "Destroy All Particle",
-        Description = "",
-        Callback = function()
-            for _, v in pairs(game:GetDescendants()) do
-                if v:IsA("ParticleEmitter") or v:IsA("Trail") then
-                    v:Destroy()
+        Mc={[-25559]=function()
+            AutoFreeze=true
+            rememberPosition()
+            No=kn(-238306126- -238323034)
+        end,[870]=function()
+            No=kn(293);
+            return true;
+        end,[-27300]=function()
+            xi=true
+            AutoFreeze=false
+            No=kn(-1543435855752/-56461657)
+        end,[23234]=function()
+            HumanoidRootPart[jn('P\20\246r?\225','\19R\132')]=Lg
+            task[jn('\176!\174\52','\199@')](-2065746143.5- -2065746144)
+            workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;'))[jn('\247\201\25h\174\228\210\235\24u\132\239','\160\168p\28\232\139')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;')),jn('x3\132\172}7\152\187','\21V\246\207'))[jn('\214\213Z\184\170A\243\247[\165\128J','\129\180\51\204\236.')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;'))[jn('\247\201\25h\174\228\210\235\24u\132\239','\160\168p\28\232\139')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;')),jn('x3\132\172}7\152\187','\21V\246\207')),jn('\245]\234T','\134\56'))[jn('H\222E\249\222\187R\213A\224\208\172','\1\176\51\150\181\222')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;'))[jn('\247\201\25h\174\228\210\235\24u\132\239','\160\168p\28\232\139')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;')),jn('x3\132\172}7\152\187','\21V\246\207'))[jn('\214\213Z\184\170A\243\247[\165\128J','\129\180\51\204\236.')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;'))[jn('\247\201\25h\174\228\210\235\24u\132\239','\160\168p\28\232\139')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D'))[jn(' \218P\211\202S\5\248Q\206\224X','w\187\57\167\140<')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N'))[jn('>\28\23\139kj\27>\22\150Aa','i}~\255-\5')](workspace[jn('\164\142\134/%J\129\172\135\50\15A','\243\239\239[c%')](workspace,jn('\142!\139\"\157','\249N')),jn('3\52>7',']D')),jn('\243\253\179\236\4v\219\238\162\231EU\202','\190\156\193\143$;')),jn('x3\132\172}7\152\187','\21V\246\207')),jn('\245]\234T','\134\56')))
+            task[jn('X\\FI','/=')](-1265020752/-1265020752)
+            HumanoidRootPart[jn('\208\162\146\242\137\133','\147\228\224')]=kp
+            if xi then
+                No=kn(27866)
+                return true
+            end
+            No=1.2453804829765306e-06*698581688
+        end,[-25177]=function()
+            kp=HumanoidRootPart[jn('\235\176F\201\155Q','\168\246\52')]
+            Lg=CFrame[jn('u~l','\27')](-1635683797+1635684261,-1558698826+1558698977,869767751+-869767519)
+            xi=false
+            if AutoFreeze then
+                No=kn(-12369)
+                return true
+            end
+            No=kn(3243)
+        end}
+        No=kn(22518)
+        repeat
+            while true do
+                if Mc[No]~=nil then
+                    if Mc[No]()then
+                        break
+                    end
                 end
             end
-            Notify("Success Destroy Particle")
+        until No==-969052790+969052484
+    end)
+    local Fj=game[jn('\197\176.\236\185=\230','\149\220O')][jn('\223\v\29s\239\195\b\31k\230\225','\147d~\18\131')]
+    local Kn=Fj[jn('N\30\209\153{\0\247\149w','\30r\176\224')]
+    Jn[jn('\221\53\165\220\233%\181\241\242','\156Q\193\158')](Jn,jn('\31\235];?\241\166\195\14\246Kl]\203\174\151','L\131\50L\31\164\207\227'),function()
+        local qb,Kh,Ye,zb
+        Ye,qb={[-29896]=-4563,[31743]=-24822,[20315]=14957,[2144]=-4563,[12669]=-19182,[20164]=-4563,[16635]=-16291},function(cf)
+            return Ye[cf+-2344]
         end
-    })
+        zb={[-16291]=function()
+            if Kn and Kn[jn('\2\6\242\138 \137\208\55\27\223\134\15\140\198','Do\156\238f\224\162')](Kn,jn('6+:','^'))and Kn[jn('\197\216\201','\173')][jn('\221v\224\b\208\228\229\232k\205\4\255\225\243','\155\31\142l\150\141\151')](Kn[jn('\197\216\201','\173')],jn('\169\249\226=\160\247\234=','\218\152\132X'))and Kn[jn('!<-','I')][jn('-\234\226\255$\228\234\255','^\139\132\154')][jn('\29{\96B\165\255\165(fMN\138\250\179','[\18\14&\227\150\215')](Kn[jn('!<-','I')][jn('-\234\226\255$\228\234\255','^\139\132\154')],jn('\181\249\187\239-\180\248\181\247.','\198\145\210\159Z'))then
+                Kh=qb(15013)
+                return true
+            else
+                Kh=qb(22659)
+                return true
+            end
+            Kh=qb(-27552)
+        end,[14957]=function()
+            print(jn('\130\138q[J\191\r8<i\193ex5Vr\195]\201\48uO\133W\162\216mQ[\224^\b2n\212!\r\18\25c\143^\205;\127\27\130\17','\199\248\3\52\56\133-{S\28\173\1X[9\6\227;\160^\17o\241?'))
+            Kh=qb(-2.2056442197720376e-06*-2034779662)
+        end,[-4563]=function()
+            Kh=qb(34087);
+            return true;
+        end,[-19182]=function()
+            Kn[jn('dyh','\f')][jn('\130F\15\139\139H\a\139',"\241\'i\238")][jn('$\217$\145\221%\216*\137\222','W\177M\225\170')][jn('\132T\206\187_\209\183','\210=\189')]=not Kn[jn('\168\181\164','\192')][jn('\\\156\2?U\146\n?','/\253dZ')][jn('\148\48\139\176\191\149\49\133\168\188','\231X\226\192\200')][jn('\0\54\18?=\r3','V_a')]
+            Kh=qb(-1658301079+1658323587)
+        end}
+        Kh=qb(18979)
+        repeat
+            while true do
+                if zb[Kh]~=nil then
+                    if zb[Kh]()then
+                        break
+                    end
+                end
+            end
+        until Kh==-29019719634318/1169112869
+    end)
+    qk[jn('\201Ua\244\231Vb\204\237','\136\49\5\160')](qk,jn('aNK1\139\23\151B\6\0\19}2\202\49\147I\30\t'," ;?^\171E\242\'j"),false,Cf[jn('\fU7\1@\23\251\242\182,M&,a\31\225\250\191\57','M Cn\r~\149\155\209')])
+    ym[jn('*\"\142\20\4!\141,\14','kF\234@')](ym,jn('\18\135\244\239\225\50\194\201\239\248','@\226\132\142\136'),false,function()
+        local U,Kp,f,tf,tb,gn,kk,bp,Iq,Mh,ag
+        tb,tf={[20777]=-4348,[21317]=27752,[-27403]=28043,[-25677]=5678,[-2584]=-31531,[-23742]=21730,[19944]=-4348,[-28192]=-5507,[-9055]=17228,[23535]=-14014,[-4087]=-14014,[6739]=28043,[-1084]=-25449,[-28387]=-14014,[-6727]=27553},function(qi)
+            return tb[qi+-11536]
+        end
+        bp={[17228]=function()
+            Iq,Mh,U=f[jn('\250\242\243\209\200\232','\165\173\154')](Iq)
+            kk=tf(1660056102-1660072953)
+        end,[27553]=function()
+            ag=game[jn('\16w@9~S3','@\27!')][jn('\17mxxm\rnz\96d/',']\2\27\25\1')]
+            Iq,Mh,U=pairs(ag[jn('Q\27\\\226c\27\\\226','\19z?\137')][jn('\242I\16\17W\220@\0 Z\219','\181,dR?')](ag[jn('Q\27\\\226c\27\\\226','\19z?\137')]))
+            if Zi(Iq)~=jn('\16[\24\213\2G\25\216','v.v\182')then
+                kk=tf(32853)
+                return true
+            end
+            kk=tf(32313)
+        end,[27752]=function()
+            f=ij(Iq)
+            if f~=nil and f[jn('\202\25%\225#>','\149FL')]~=nil then
+                kk=tf(2481)
+                return true
+            elseif Zi(Iq)==jn('\31\226\t\239\14','k\131')then
+                kk=tf(-12206)
+                return true
+            end
+            kk=tf(35071)
+        end,[28043]=function()
+            kk=tf(-1724282497- -1724265841)
+        end,[-19492]=function()
+            if Kp[jn('\206\242\237\246','\128\147')]==jn('y\242]\139\207\138_\229\24\167\221\143','-\128\56\234\188\255')then
+                kk=tf(8952)
+                return true
+            end
+            kk=tf(-15867)
+        end,[-25449]=function()
+            kk=tf(-14141);
+            return true;
+        end,[-4348]=function()
+            kk=3.7557116910454637e-06*-1466299986;
+        end,[-14014]=function()
+            kk=tf(-1734784448- -1734815928)
+        end,[21730]=function()
+            Iq,Mh,U=Il(Iq)
+            kk=tf(1133339253-1133331804)
+        end,[-5507]=function()
+            gn,Kp=Iq(Mh,U);
+            U=gn;
+            if U==nil then
+                kk=tf(10452)
+            else
+                kk=1.9124569195212412e-05*-1019212501
+            end
+        end,[-31531]=function()
+            ag[jn('\163\140-\25\129\135\56\14\146','\224\228Lk')][jn(']q(\160{k,\165','\21\4E\193')][jn('\249rh\181\204Wr\179\208','\188\3\29\220')](ag[jn('\163\140-\25\129\135\56\14\146','\224\228Lk')][jn(']q(\160{k,\165','\21\4E\193')],Kp)
+            workspace[jn('\223\232\218\235\204','\168\135')][jn(' \142-\141','N\254')][jn('.\205\22d\165)\205\a}\234\19','d\172u\15\133')][jn('\225\175\149.\230\168\130*','\149\221\240O')][jn('\249\31-\210\226\b0\210\251','\139z]\179')][jn("\27@\133\198\215\48\1K\129\223\217\'",'R.\243\169\188U')](workspace[jn('\223\232\218\235\204','\168\135')][jn(' \142-\141','N\254')][jn('.\205\22d\165)\205\a}\234\19','d\172u\15\133')][jn('\225\175\149.\230\168\130*','\149\221\240O')][jn('\249\31-\210\226\b0\210\251','\139z]\179')])
+            kk=tf(291113642+-291095367)
+        end}
+        kk=tf(4809)
+        repeat
+            while true do
+                if bp[kk]~=nil then
+                    if bp[kk]()then
+                        break
+                    end
+                end
+            end
+        until kk==100879031+-100873353
+    end)
+    qk[jn('>\207\168\27\16\204\171#\26','\127\171\204O')](qk,jn('\221R\233\172\188d\252\176\232',"\156\'\157\195"),false,Cf[jn('\207\253z\134\205\233}\157','\142\136\14\233')])
+    ym[jn('c]\224\218M^\227\226G','\"9\132\142')](ym,jn('\96\179\50j\169\96\177\181w\174;g\191v\183\240','#\220^\6\204\3\197\149'),false,function()
+        local mc,Ao,u,Zn,Cl,Sl,Jo,Ui,ef,Ki,mf,to,Kd,Ee,lk,fa,Wf,zd,Ym,we,_d,sb
+        mf,u={[-17198]=24979,[12270]=-19933,[30208]=-17460,[22983]=-22194,[5674]=-6450,[-6706]=16763,[7153]=-12722,[-16329]=-21050,[1903]=-9112,[6860]=8107,[9413]=-10954,[-28754]=22168,[4698]=-31587,[10805]=3106,[7732]=8107,[-19161]=-27059,[9586]=791,[23202]=8887,[9862]=-22194,[22980]=3106,[26553]=-10954,[1713]=-22194,[-1178]=10278,[-28664]=-24531,[-30613]=8107,[-20752]=12064,[9428]=-20225,[-7986]=-16982,[-13264]=-27059,[-9277]=12064,[7379]=-28931,[-356]=22959,[-29380]=-27314,[4351]=791,[-32752]=-22056,[11310]=-2218,[-11303]=29534,[32651]=20151},function(C)
+            return mf[C- -1382]
+        end
+        Wf={[22168]=function()
+            Sl=u(-640880178- -640869519)
+        end,[-20225]=function()
+            ef=ij(Ym)
+            if ef~=nil and ef[jn('\192\221\193\235\231\218','\159\130\168')]~=nil then
+                Sl=u(-17711)
+                return true
+            elseif Zi(Ym)==jn('\18\t\4\4\3','fh')then
+                Sl=u(-1738)
+                return true
+            end
+            Sl=u(21601)
+        end,[791]=function()
+            Sl=u(1706029851+-1706020428)
+        end,[-16982]=function()
+            task[jn('\2\177\28\164','u\208')](-183559439+183559440)
+            Sl=u(30195360783120/1383838716)
+        end,[-27059]=function()
+            we,_d=Ym(Kd,Ee);
+            Ee=we;
+            if Ee==nil then
+                Sl=-613774734- -613775589
+            else
+                Sl=-9.1098703279571475e-06*-1129104985
+            end
+        end,[-2218]=function()
+            Ki=ij(Cl)
+            if Ki~=nil and Ki[jn('w7\21\\\r\14','(h|')]~=nil then
+                Sl=u(3316)
+                return true
+            elseif Zi(Cl)==jn('\225\253\247\240\240','\149\156')then
+                Sl=u(5771)
+                return true
+            end
+            Sl=u(5478)
+        end,[-6450]=function()
+            game[jn('\252\221 \213\212\51\223','\172\177A')][jn('\145\16Z\16e\141\19X\bl\175','\221\127\57q\t')][jn('\176\139e\221\146\128p\202\129','\243\227\4\175')][jn('Z\253\184\220\245G\159\t@\231\186\201\203I\132\25','\18\136\213\189\155(\246m')][jn('\a\nT%!C','DL&')]=_d[jn('\v=\17)\22\6','H{c')]
+            Jo,fa,Zn=pairs(workspace[jn('\166\232\163\235\181','\209\135')][jn('\252\166T\236\186B','\159\206\49')][jn("\163\55\2V\20i\'\129<\18s\31n7",'\228Rv\18q\26D')](workspace[jn('\166\232\163\235\181','\209\135')][jn('\252\166T\236\186B','\159\206\49')]))
+            if Zi(Jo)~=jn(')\29\160\239;\1\161\226','Oh\206\140')then
+                Sl=u(28826)
+                return true
+            end
+            Sl=1481198258-1481222789
+        end,[-28931]=function()
+            if Ui[jn('\17=2\57','_\\')]==jn('p\191\140\141\r\159\244T\180\179\135\v\159\237T',' \205\227\245d\242\157')then
+                Sl=u(-30762)
+                return true
+            end
+            Sl=-6649418844320/-299955740
+        end,[-19933]=function()
+            lk[jn('1\159\30\30\29\6\v\145\6\19\54\29','y\240rzYs')]=0*180695800
+            Sl=u(-1605216000+1605218969)
+        end,[10286]=function()
+            if _d[jn('XbP','\17')](_d,jn('\\\140~\153','\f\237'))and _d[jn('\241\231^\164g\a\153\196\250s\168H\2\143','\183\142\48\192!n\235')](_d,jn('\215\195R\2C\199\206C\4G','\148\171\55q7'))then
+                Sl=u(4292)
+                return true
+            end
+            Sl=-290169369- -290178256
+        end,[8107]=function()
+            Sl=u(-7476648+7477169)
+        end,[8887]=function()
+            Sl=u(-287038426- -287017883)
+        end,[22959]=function()
+            Ym,Kd,Ee=Il(Ym)
+            Sl=u(7.0243608553730875e-06*1207227273)
+        end,[855]=function()
+            Sl=u(-18580);
+            return true;
+        end,[10278]=function()
+            Sl=u(-14646);
+        end,[3106]=function()
+            sb,lk=Cl(zd,to);
+            to=sb;
+            if to==nil then
+                Sl=-1441193618+1441211880
+            else
+                Sl=u(-8088)
+            end
+        end,[-17460]=function()
+            Ao=ij(Jo)
+            if Ao~=nil and Ao[jn('yf#R\\8','&9J')]~=nil then
+                Sl=u(-12685)
+                return true
+            elseif Zi(Jo)==jn('\220\189\202\176\205','\168\220')then
+                Sl=u(-34134)
+                return true
+            end
+            Sl=-183745178+183734224
+        end,[18262]=function()
+            Ym,Kd,Ee=pairs(workspace[jn('\188\171\185\168\175','\203\196')][jn('\129]\156\145A\138','\226\53\249')][jn('\175\197\153\250\129\212\136\141\206\137\223\138\211\152','\232\160\237\190\228\167\235')](workspace[jn('\188\171\185\168\175','\203\196')][jn('\129]\156\145A\138','\226\53\249')]))
+            if Zi(Ym)~=jn('\158\54\3\24\140*\2\21','\248Cm{')then
+                Sl=u(8046)
+                return true
+            end
+            Sl=-1.1567975498906338e-05*-888487359
+        end,[-27314]=function()
+            fireproximityprompt(Ui)
+            Sl=u(-1994928736- -1994898600)
+        end,[-21050]=function()
+            Ym,Kd,Ee=ef[jn(',\179\49\a\137*','s\236X')](Ym)
+            Sl=u(2.3686531113357788e-07*1397418636)
+        end,[20151]=function()
+            Cl,zd,to=ipairs(game[jn('\131tD\246\236\182gY\198\236','\196\17\48\165\137')](game,jn('ej\205\206Au\222\198W','2\5\191\165'))[jn('*oI\167<\139!\bdY\130\55\140\49','m\n=\227Y\248B')](game[jn('\131tD\246\236\182gY\198\236','\196\17\48\165\137')](game,jn('ej\205\206Au\222\198W','2\5\191\165'))))
+            if Zi(Cl)~=jn('j\153\181Dx\133\180I',"\f\236\219\'")then
+                Sl=u(9928)
+                return true
+            end
+            Sl=-1679100673- -1679091561
+        end,[-22056]=function()
+            Jo,fa,Zn=Il(Jo)
+            Sl=u(1050613822+-1050588651)
+        end,[-31587]=function()
+            Cl,zd,to=Ki[jn('\215\245J\252\207Q','\136\170#')](Cl)
+            Sl=u(2127078188050/334972943)
+        end,[-12722]=function()
+            Cl,zd,to=Il(Cl)
+            Sl=u(-1394067454920/43571416)
+        end,[-10954]=function()
+            Sl=u(62457345+-62487391)
+        end,[-24531]=function()
+            Sl=u(-22134);
+        end,[16763]=function()
+            if lk[jn('{\139\134\166K\169\134\184]','8\231\231\213')]==jn('\17\139\229\2h\250_5\128\218\bn\250F5','A\249\138z\1\151\54')then
+                Sl=u(10888)
+                return true
+            end
+            Sl=u(8204)
+        end,[-22194]=function()
+            Sl=u(-1877056254+1877053694)
+        end,[-9112]=function()
+            Sl=u(21598);
+        end,[12064]=function()
+            mc,Ui=Jo(fa,Zn);
+            Zn=mc;
+            if Zn==nil then
+                Sl=u(-9368)
+            else
+                Sl=u(5997)
+            end
+        end,[29534]=function()
+            Jo,fa,Zn=Ao[jn('#\222d\b\228\127','|\129\r')](Jo)
+            Sl=u(-1019279767+1019287798)
+        end}
+        Sl=u(31269)
+        repeat
+            while true do
+                if Wf[Sl]~=nil then
+                    if Wf[Sl]()then
+                        break
+                    end
+                end
+            end
+        until Sl==-0.00024369013853060983*-102503122
+    end)
+    Gn[jn('\224\v\166V\206\b\165n\196','\161o\194\2')](Gn,jn('\177\185_\29\237A\136\248d\23\185k\148','\230\216\51v\205\14'),false,function(D)
+        local Mp,Sb,Zb,tm,nj,Ik,Oo,tn,og,A,un,bb,Pe,Fd,qj,ph,tl
+        og,nj={[-29934]=11768,[31176]=9072,[-19224]=-7086,[5871]=9072,[-31639]=7273,[-6942]=32664,[31107]=-30137,[8598]=7273,[19235]=-26121,[27221]=-32638,[18504]=12511,[21450]=5061,[9576]=25787,[-26170]=-7298,[-1429]=4967,[30041]=-26121,[-28073]=-21459,[5442]=-5596,[30676]=3386,[26618]=29268,[3448]=-291,[420]=-22132,[10851]=4967,[17305]=25172,[14254]=-12296,[29900]=-22132,[-9429]=10585,[19225]=-5596,[-16354]=-21459,[17881]=-30820,[-29710]=-25392,[-31264]=-21459,[-9324]=-18946,[-29114]=-10130,[10461]=-14952},function(Ng)
+            return og[Ng-4773]
+        end
+        Pe={[25172]=function()
+            Zb=nj(-1883462165+1883472380)
+        end,[-32638]=function()
+            tn,Oo,tm=Il(tn)
+            Zb=nj(1818731803+-1818743384)
+        end,[-27766]=function()
+            if Ik[jn('BWaS','\f6')]==Sb then
+                Zb=nj(31391)
+                return true
+            end
+            Zb=nj(5193)
+        end,[-18946]=function()
+            A,ph,un=Il(A)
+            Zb=nj(-2009413766- -2009417110)
+        end,[10585]=function()
+            A,ph,un=pairs(workspace[jn('\236w\248}\229','\150\24')][jn('\169J\f\167J\17\168','\207#\127')][jn("\t\219b}G\'\210rLJ ",'N\190\22>/')](workspace[jn('\236w\248}\229','\150\24')][jn('\169J\f\167J\17\168','\207#\127')]))
+            if Zi(A)~=jn('\141\136\206\186\159\148\207\183','\235\253\160\217')then
+                Zb=nj(-14451)
+                return true
+            end
+            Zb=-214211654775/736122525
+        end,[-26121]=function()
+            Zb=nj(2133393851+-2133419012)
+        end,[-10130]=function()
+            tn,Oo,tm=Mp[jn('x\179\187S\137\160',"\'\236\210")](tn)
+            Zb=nj(-293001734+292975243)
+        end,[3386]=function()
+            Ik[jn('m\226mSfB\239jtl','.\131\3\16\t')]=false
+            Zb=nj(-32125716739912/-1338125489)
+        end,[-5596]=function()
+            Zb=nj(19027);
+            return true;
+        end,[7273]=function()
+            Zb=421699006+-421724398;
+        end,[4967]=function()
+            Zb=nj(-8956765261228/-1089498268)
+        end,[-291]=function()
+            Zb=-993725306+993737074;
+        end,[-22132]=function()
+            if Ik[jn('\137;\170?','\199Z')]==jn('_\204\134vTT\202\134g\26','\27\169\227\6t')and Sb==jn('\141\55\167\53\172','\194T')then
+                Zb=nj(35449)
+                return true
+            end
+            Zb=nj(34814)
+        end,[25787]=function()
+            if Fd[jn('\183\173\148\169','\249\204')]==jn('Xo\239\239\212Si\239\254\154','\28\n\138\159\244')and Sb==jn('v\241\\\243W','9\146')then
+                Zb=nj(35880)
+                return true
+            end
+            Zb=nj(35949)
+        end,[-25392]=function()
+            bb,Fd=tn(Oo,tm);
+            tm=bb;
+            if tm==nil then
+                Zb=15475093218960/-663028844
+            else
+                Zb=nj(23277)
+            end
+        end,[-30820]=function()
+            tn,Oo,tm=pairs(workspace[jn('\174\53\186?\167','\212Z')][jn('X\154OV\154RY','>\243<')][jn('3[\225\244\149\29R\241\197\152\26','t>\149\183\253')](workspace[jn('\174\53\186?\167','\212Z')][jn('X\154OV\154RY','>\243<')]))
+            if Zi(tn)~=jn('[i\240\146Iu\241\159','=\28\158\241')then
+                Zb=nj(-2169)
+                return true
+            end
+            Zb=nj(13371)
+        end,[32664]=function()
+            Mp=ij(tn)
+            if Mp~=nil and Mp[jn('\174\189>\133\135%','\241\226W')]~=nil then
+                Zb=nj(-24341)
+                return true
+            elseif Zi(tn)==jn('\142C\152N\159','\250\"')then
+                Zb=nj(31994)
+                return true
+            end
+            Zb=nj(-23300)
+        end,[-21459]=function()
+            Zb=nj(-1483996741+1483969875)
+        end,[-14952]=function()
+            Sb=jn('\158\228\180\230\191','\209\135')
+            if D then
+                Zb=nj(22654)
+                return true
+            else
+                Zb=nj(-4656)
+                return true
+            end
+            Zb=-2747749251848/491020238
+        end,[-7086]=function()
+            tl=ij(A)
+            if tl~=nil and tl[jn('U\180\234~\142\241','\n\235\131')]~=nil then
+                Zb=nj(26223)
+                return true
+            elseif Zi(A)==jn('\14\161\24\172\31','z\192')then
+                Zb=nj(-4551)
+                return true
+            end
+            Zb=940328413+-940323446
+        end,[-30137]=function()
+            Fd[jn('\130\144\53\167\53\173\157\50\128?','\193\241[\228Z')]=true
+            Zb=nj(1703502099+-1703491455)
+        end,[5061]=function()
+            A,ph,un=tl[jn('a\223&J\229=','>\128O')](A)
+            Zb=nj(0.00010904181286620111*143284485)
+        end,[-7298]=function()
+            Fd[jn('Y\26R\128\246v\23U\167\252','\26{<\195\153')]=true
+            Zb=nj(556891839+-556877490)
+        end,[11768]=function()
+            qj,Ik=A(ph,un);
+            un=qj;
+            if un==nil then
+                Zb=nj(22078)
+            else
+                Zb=1201000815-1201028581
+            end
+        end,[-23340]=function()
+            Zb=nj(-777864345- -777888343)
+        end,[29268]=function()
+            Ik[jn('KT\a3\234dY\0\20\224','\b5ip\133')]=false
+            Zb=nj(-335072159+335106832)
+        end,[12511]=function()
+            if Fd[jn('U\0v\4','\27a')]==Sb then
+                Zb=nj(-21397)
+                return true
+            end
+            Zb=-30976992859762/-1201263926
+        end,[9072]=function()
+            Zb=nj(45922209520858/-1841529034)
+        end}
+        Zb=nj(15234)
+        repeat
+            while true do
+                if Pe[Zb]~=nil then
+                    if Pe[Zb]()then
+                        break
+                    end
+                end
+            end
+        until Zb==-115470341- -115458045
+    end)
+    local Xg=game[jn('BV\128\238HwE\157\222H','\5\51\244\189-')](game,jn('m3)D::N','=_H'))
+    local ad=game[jn('\229\28\234H\234\208\15\247x\234','\162y\158\27\143')](game,jn('\204+Q>Y\236(V\14Y','\158^?m<'))
+    local Yg=Xg[jn('\28\255Y \216\0\252[8\209\"','P\144:A\180')]
+    local Bg=Yg[jn('\233v!\239\203}4\248\216','\170\30@\157')]or Yg[jn('Pv{u\228B)vl[c\225D9','\19\30\26\a\133!]')][jn('\154\220\164\201','\205\189')](Yg[jn('Pv{u\228B)vl[c\225D9','\19\30\26\a\133!]')])
+    local bc=Bg[jn('\203\15A\189\252\48\238-@\160\214;','\156n(\201\186_')](Bg,jn('\29\15\f\205\166PG\170\a\21\14\216\152^\\\186','Uza\172\200?.\206'))
+    local _l=bc[jn('\96\217[B\242L','#\159)')]
+    local fd=false
+    local function Ff()
+        local Nd,Ag,Eb,Hb
+        Nd,Ag={[-13505]=30447,[25152]=-29238,[-6152]=6086,[-25628]=-28232,[-25169]=-3959,[-28801]=-29238,[15292]=8860},function(Xd)
+            return Nd[Xd-14517]
+        end
+        Eb={[30447]=function()
+            Hb=Ag(56059431-56019762)
+        end,[6492]=function()
+            task[jn('6\182(\163','A\215')]()
+            if bc then
+                Hb=Ag(-10652)
+                return true
+            end
+            Hb=42342906-42312459
+        end,[6086]=function()
+            Hb=Ag(-11111);
+            return true;
+        end,[-3959]=function()
+            bc[jn('f\216CD\243T','%\158\49')]=_l
+            Hb=Ag(-7.2470533765625414e-07*-1396429621)
+        end,[-29238]=function()
+            if fd then
+                Hb=53866091-53859599
+            else
+                Hb=Ag(8365)
+            end
+        end,[8860]=function()
+            Hb=Ag(-14284);
+        end}
+        Hb=Ag(29809)
+        repeat
+            while true do
+                if Eb[Hb]~=nil then
+                    if Eb[Hb]()then
+                        break
+                    end
+                end
+            end
+        until Hb==-49505183222568/1753513149
+    end
+    Gn[jn('\254\156|\r\208\159\127\53\218','\191\248\24Y')](Gn,jn('6\189\250A\142UP\159\243E\141U\2','p\207\159$\244\48'),false,function(Qi)
+        local Fq,Sd,ve,ko
+        ve,Sd={[2177]=848,[-28378]=-31877,[-1521]=25759,[-7052]=25759,[-19742]=-5708,[-4259]=25759,[21890]=-31430},function(zj)
+            return ve[zj- -9718]
+        end
+        Fq={[-31877]=function()
+            _l=bc[jn('\127>\219]\21\204','<x\169')]
+            task[jn('R\186@\189O','!\202')](Ff)
+            print(jn('\179\230\141U\181\159aU\192\243N\b\138\228\139\f\181\131 Q\222\243O\\','\227\138\236,\208\237A3\178\150+r'))
+            ko=Sd(9690614433780/-862231020)
+        end,[848]=function()
+            print(jn('X\188\173]}ng,\224\183\241\216a\190\171\4|u4+\240\190\241\198&','\b\208\204$\24\28GJ\146\210\148\162'))
+            ko=Sd(1363175352-1363189329)
+        end,[25759]=function()
+            ko=Sd(-29460);
+            return true;
+        end,[-31430]=function()
+            fd=Qi
+            if fd then
+                ko=Sd(-38096)
+                return true
+            else
+                ko=Sd(-7541)
+                return true
+            end
+            ko=Sd(-16770)
+        end}
+        ko=Sd(12172)
+        repeat
+            while true do
+                if Fq[ko]~=nil then
+                    if Fq[ko]()then
+                        break
+                    end
+                end
+            end
+        until ko==1202255963-1202261671
+    end)
+    local Dc=game[jn('\234A)\243\160\223R4\195\160','\173$]\160\197')](game,jn('\252\56\20_\186\247\197\241\180\218$\18f\174\248\200\223\191\216','\170Qf+\207\150\169\184\218'))
+    local Y=game[jn('\243\3;\180\187\198\16&\132\187','\180fO\231\222')](game,jn('z\226\196\202y\179,0M\227\231\210\127\162,#M','(\135\180\166\16\208MD'))
+    local Ml=game[jn('\209P\197(\1\228C\216\24\1','\150\53\177{d')](game,jn('\228N=r<\211K\26u,\192',"\178\'O\6I"))
+    local Ja=game[jn('7\139\255kA\2\152\226[A','p\238\139\56$')](game,jn('\24\161]D\237\53\167_]\221\53','P\213)4\190'))
+    local nf=game[jn('e\134\216ZbP\149\197jb','\"\227\172\t\a')](game,jn('u\149\194\164\180@\150\194\148\180','2\224\171\247\209'))
+    local rk=game[jn('V\130\203t6c\145\214D6',"\17\231\191\'S")](game,jn('\159\237\fo\144\191\238\v_\144','\205\152b<\245'))
+    local P=game[jn('\bz\240\172$=i\237\156$','O\31\132\255A')](game,jn('\19\131\179\15\55\156\160\a!','D\236\193d'))
+    local Vj=game[jn('\213\204\164D5\224\223\185t5','\146\169\208\23P')](game,jn('\5\16\154,\25\137&','U|\251'))
+    local pc=game[jn('\169s\253\17\216\156\96\224!\216','\238\22\137B\189')](game,jn("\17E\178>{\'C\148\57f",'B1\211L\15'))
+    local nh=game[jn('\179\23xX\146\134\4eh\146','\244r\f\v\247')](game,jn('WJ%\192\48\141\177C\227\20}J%\231\48\135\179k\227\5','\20%K\180U\245\197\2\128\96'))
+    local hn=game[jn('\209\253\148vZ\228\238\137FZ','\150\152\224%?')](game,jn('(\r\128\208\163\250\212\226\t-\128\208\156\253\199\242','}~\229\162\234\148\164\151'))
+    local Kf=Vj[jn('U\229\130\182\217I\230\128\174\208k','\25\138\225\215\181')]
+    local ra=Kf[jn('\165\173\175\188\135\166\186\171\148','\230\197\206\206')]or Kf[jn('j}T2\163g\143Lgt$\166a\159',')\21\53@\194\4\251')][jn('\23\169)\188','@\200')](Kf[jn('j}T2\163g\143Lgt$\166a\159',')\21\53@\194\4\251')])
+    local Ta=ra[jn('5b\163\241\200\207\130\0\127\142\253\231\202\148','s\v\205\149\142\166\240')](ra,jn('q\17#\233+\197*\179k\v!\252\21\203\49\163','9dN\136E\170C\215'))
+    local wo=Ta[jn('\182\241\224\49\55I\147\211\225,\29B','\225\144\137Eq&')](Ta,jn('E\fU\r','0\127'))
+    local Cg=P[jn('A}\175-3\16\239t\96\130!\28\21\249','\a\20\193Iuy\157')](P,jn('M\217\200E\204\217',',\186\188'))
+    local Rn=P[jn('Z\172\96\232W>\243o\177M\228x;\229','\28\197\14\140\17W\129')](P,jn('\159\6\139\f\150','\229i'))[jn('\"\243rA\166\154\a\209s\\\140\145','u\146\27\53\224\245')](P[jn('Z\172\96\232W>\243o\177M\228x;\229','\28\197\14\140\17W\129')](P,jn('\159\6\139\f\150','\229i')),jn('|Y\222rY\195}','\26\48\173'))
+    local N=P[jn('K\169\56\49\141\57\191~\180\21=\162<\169','\r\192VU\203P\205')](P,jn('\150\234\147\233\133','\225\133'))[jn('\183|\179\160\149R\146^\178\189\191Y','\224\29\218\212\211=')](P[jn('K\169\56\49\141\57\191~\180\21=\162<\169','\r\192VU\203P\205')](P,jn('\150\234\147\233\133','\225\133')),jn('\176\49\246\180/\228','\195A\151'))[jn('\209\137\6\31\209J\244\171\a\2\251A','\134\232ok\151%')](P[jn('K\169\56\49\141\57\191~\180\21=\162<\169','\r\192VU\203P\205')](P,jn('\150\234\147\233\133','\225\133'))[jn('\183|\179\160\149R\146^\178\189\191Y','\224\29\218\212\211=')](P[jn('K\169\56\49\141\57\191~\180\21=\162<\169','\r\192VU\203P\205')](P,jn('\150\234\147\233\133','\225\133')),jn('\176\49\246\180/\228','\195A\151')),jn('\247\b\243\211\23\212\208','\163x\160'))
+    local uq=P[jn('\t\b\224\227;\210(<\21\205\239\20\215>','Oa\142\135}\187Z')](P,jn('s\253v\254\96','\4\146'))[jn('#\135M\243x\"\6\165L\238R)','t\230$\135>M')](P[jn('\t\b\224\227;\210(<\21\205\239\20\215>','Oa\142\135}\187Z')](P,jn('s\253v\254\96','\4\146')),jn('\140\173\129\174','\226\221'))
+    local Tg=Kf[jn('\n/;\232\171p/\r:\245\129{',']NR\156\237\31')](Kf,jn('\197!\154\206\240?\188\194\252','\149M\251\183'))
+    local sh=Instance[jn('\132\143\157','\234')](jn('mL5\210[A\0\194W','>/G\183'),Tg)
+    local Xa=Instance[jn('w|n','\25')](jn('{x\200\180c|\210\165C','/\29\176\192'),sh)
+    local sa=rk[jn('B\31\199\192\24\223C\14\204\212\r\200t','\16z\169\164}\173')]
+    local bj=sa[jn(']\215c\194','\n\182')]
+    Jn[jn('g\202\21\164S\218\5\137H','&\174q\230')](Jn,jn('2\143\n\181\148\202\233\4+\153\0\175\133\192\233]','b\253e\193\241\169\157$'),function()
+        getgenv()[jn('2\213\49\209','\\\180')]=jn('D\5\221@\164;\142=\147I\250R\3\192J\179i\133}\212Z\186P',' l\174#\203I\234\19\244.\213')
+        local dn=game[jn('\229d\185\204m\170\198','\181\b\216')][jn('n\237\239\142\229r\238\237\150\236P','\"\130\140\239\137')]
+        for Pg,_f in next,game[jn('\31\195\251\20\185\133\203=\200\235\49\178\130\219','X\166\143P\220\246\168')](game)do
+            local Ll,ch,lj,Ea,_q,Ph
+            Ll,ch={[-7786]=12053,[19345]=-18630,[-4318]=18032,[-13964]=16896,[22605]=-26552,[-2722]=-26552,[-27530]=-18630,[-14418]=31402},function(Fg)
+                return Ll[Fg+-29309]
+            end
+            Ph={[18032]=function()
+                _q=_f[jn('\186\2\150\19','\238g')][jn('\183\247\165\230','\208\132')](_f[jn('\186\2\150\19','\238g')],dn[jn('#\217\0\221','m\184')],name)
+                _f[jn('\"\175\14\190','v\202')]=_q
+                Ea=ch(49929762767406/961778379)
+            end,[-26552]=function()
+                _f[jn('\0\159o\229\6\5J\27X\24\16e/\155u\210\17\14i\23M\2\bJ','G\250\27\181tj:~*li&')](_f,jn('\202B\230S',"\158\'"))[jn('\201\202]\228\192P\254','\138\165\51')](_f[jn('\0\159o\229\6\5J\27X\24\16e/\155u\210\17\14i\23M\2\bJ','G\250\27\181tj:~*li&')](_f,jn('\202B\230S',"\158\'")),function()
+                    local xh=_f[jn('\151\191\187\174','\195\218')][jn('\1\229\19\244','f\150')](_f[jn('\151\191\187\174','\195\218')],dn[jn('\244A\215E','\186 ')],name)
+                    _f[jn('\244\136\216\153','\160\237')]=xh
+                end)
+                Ea=ch(-3017822481321/-1696358899)
+            end,[12053]=function()
+                lj=string[jn('\205\r\197\0','\171d')](_f[jn('\216=\244,','\140X')],dn[jn('\155;\184?','\213Z')])
+                if lj then
+                    Ea=ch(24991)
+                    return true
+                end
+                Ea=ch(26587)
+            end,[-18630]=function()
+                Ea=ch(15345);
+                return true;
+            end,[31402]=function()
+                if _f[jn('\146N\208\142\162l\208\144\180','\209\"\177\253')]==jn('\215x\133\149\207|\159\132\239','\131\29\253\225')then
+                    Ea=ch(21523)
+                    return true
+                end
+                Ea=ch(48654)
+            end}
+            Ea=ch(14891)
+            repeat
+                while true do
+                    if Ph[Ea]~=nil then
+                        if Ph[Ea]()then
+                            break
+                        end
+                    end
+                end
+            until Ea==1065340166+-1065323270
+        end
+        game[jn('\174R\18}I\160\143\139Y\21_H\170\142\142','\234\55a\30,\206\235')][jn('\158\242\194\179\248\207\169','\221\157\172')](game[jn('\174R\18}I\160\143\139Y\21_H\170\142\142','\234\55a\30,\206\235')],function(nq)
+            local Po,gq,ul,zk,Sa,Wj
+            zk,ul={[-10744]=7941,[-32035]=7111,[15421]=-12660,[32137]=13479,[4840]=-27424,[-2214]=6880},function(be)
+                return zk[be+8121]
+            end
+            gq={[-27424]=function()
+                Po=string[jn('\171Z\163W','\205\51')](nq[jn('G\198k\215','\19\163')],dn[jn('\213F\246B',"\155\'")])
+                nq[jn('RP!\3@\1\132c\164\234Ny}T;4W\n\167o\177\240VV','\21\53US2n\244\6\214\158\55:')](nq,jn('\223\55\243&','\139R'))[jn('\171\r\254\134\a\243\156','\232b\144')](nq[jn('RP!\3@\1\132c\164\234Ny}T;4W\n\167o\177\240VV','\21\53US2n\244\6\214\158\55:')](nq,jn('\223\55\243&','\139R')),function()
+                    local pg=nq[jn('j4F%','>Q')][jn('cXqI','\4+')](nq[jn('j4F%','>Q')],dn[jn('\20\221\55\217','Z\188')],name)
+                    nq[jn('\202\213\230\196','\158\176')]=pg
+                end)
+                if Po then
+                    Sa=ul(24016)
+                    return true
+                end
+                Sa=-12196034423637/-1535831057
+            end,[7941]=function()
+                Sa=ul(-1328141059+1328100903)
+            end,[7111]=function()
+                Sa=ul(7300);
+                return true;
+            end,[6880]=function()
+                if nq[jn('\180\25J*\132;J4\146','\247u+Y')]==jn('<z\29D$~\aU\4','h\31e0')then
+                    Sa=ul(-3281)
+                    return true
+                end
+                Sa=-6613110328981/-929983171
+            end,[13479]=function()
+                Wj=nq[jn('\175\134\131\151','\251\227')][jn('\211\247\193\230','\180\132')](nq[jn('\175\134\131\151','\251\227')],dn[jn('[\245x\241','\21\148')],name)
+                nq[jn('\16j<{','D\15')]=Wj
+                Sa=ul(3275079982020/-173606148)
+            end}
+            Sa=ul(-10335)
+            repeat
+                while true do
+                    if gq[Sa]~=nil then
+                        if gq[Sa]()then
+                            break
+                        end
+                    end
+                end
+            until Sa==1102914638-1102927298
+        end)
+        if wo[jn('\192\188\27 \214,!\245\161\54,\249)7','\134\213uD\144ES')](wo,jn('\205\249\179\219\236\170','\190\141\193'))then
+            wo[jn('u\156\56c\137!','\6\232J')][jn('v\215Z\198','\"\178')]=jn('\168\238f\164\226l','\224\167\"')
+        end
+        if not(wo[jn(jn('\192v\185\170a\230\157\245k\148\166N\227\139','w\162\127s\140D\189'),jn('\234\168<\166\190_I','\27\21\148'))](wo,jn(jn('\164D\190D\164','\26N'),jn('\220a','\14'))))then
+        else
+            wo[jn('}6g6}','\17S')][jn('\169\20\133\5','\253q')]=jn('\197$\172\v\28\174\169\t\147*4\209\199','\137A\218np\148')
+        end
+        if wo[jn('}\254F\172\141>\155H\227k\160\162;\141',';\151(\200\203W\233')](wo,jn('\198w\220w\198','\170\18'))then
+            wo[jn('\165\144\181\145','\208\227')][jn('\16\161<\176','D\196')]=jn('\25\212.\21\216$','Q\157j')
+        end
+        local ed=Kf[jn('0\154\\\142\fA\21\184]\147&J','g\251\53\250J.')](Kf,jn('\204\149*\139\249\139\f\135\245','\156\249K\242'))[jn('\218[+\176\232\149\255y*\173\194\158','\141:B\196\174\250')](Kf[jn('0\154\\\142\fA\21\184]\147&J','g\251\53\250J.')](Kf,jn('\204\149*\139\249\139\f\135\245','\156\249K\242')),jn('\137\148\133','\225'))[jn('\132\"N@\96\28\161\0O]J\23',"\211C\'4&s")](Kf[jn('0\154\\\142\fA\21\184]\147&J','g\251\53\250J.')](Kf,jn('\204\149*\139\249\139\f\135\245','\156\249K\242'))[jn('\218[+\176\232\149\255y*\173\194\158','\141:B\196\174\250')](Kf[jn('0\154\\\142\fA\21\184]\147&J','g\251\53\250J.')](Kf,jn('\204\149*\139\249\139\f\135\245','\156\249K\242')),jn('\137\148\133','\225')),jn('\162I\185%\171G\177%','\209(\223@'))
+        if not(ed[jn(jn(';4\245b\180o_\14)\216n\155jI','Ldce\142\a\144'),jn('(\147\136z\214q\164','\25\170p'))](ed,jn(jn('\133\191\143\190\149','\139\181'),jn('CK','.'))))then
+        else
+            ed[jn('S\221Y\220C','0\178')][jn('p\253\\\236','$\152')]=jn('\238\238c\226\226i\130',"\166\167\'")
+        end
+        if ed[jn('\137\24\230g$\146\136\188\5\203k\v\151\158','\207q\136\3b\251\250')](ed,jn('\217\195\217','\181'))then
+            ed[jn('\18\b\18','~')][jn('\165g\137v','\241\2')]=jn('\141T\251g\215\139=\243u\222','\197\29\191#\146')
+        end
+        task[jn('<5\" ','KT')](5.1185388856397259e-11*195368253)
+    end)
+    Gn[jn('\205\48\152\181\158\227$\152\158\155\226','\140T\252\241\236')](Gn,jn('$\214\156\\\183Ly\135$\18\195\149E\183Yx\201\22','s\183\240\55\151\3\23\167s'),{jn('p\251Z\249Q','?\152'),jn('k(E\162U\31[(\22\137\\\27_','/M6\205\57~'),jn('\137\176\143\232^\184\168\158\160i','\221\216\234\200\26')},Ocean,function(io)
+        WalkZone=io
+    end)
+    AllFuncs[jn('\163\185\190Q\164)\215\133\234\96\165>','\247\214\158\1\203Z')]=function()
+        local gb,Hd,Fe,wb
+        gb,Fe={[-9838]=-18619,[31236]=-18411,[-19536]=12720,[-17552]=-19093,[28560]=-19093,[-9837]=21398,[-21823]=32088},function(_b)
+            return gb[_b-16396]
+        end
+        wb={[-19093]=function()
+            pcall(function()
+                Kf[jn('\197\1M\195\231\nX\212\244','\134i,\177')][jn('O\186C0\147\n\247z\167n<\188\15\225','\t\211-T\213c\133')](Kf[jn('\197\1M\195\231\nX\212\244','\134i,\177')],jn('\177\197e\148,\151\56\153\171\223g\129\18\153#\137','\249\176\b\245B\248Q\253'))[jn('s[5Qp\"','0\29G')]=Config[jn('e\213:<\0\174A\166\172_\196?6\r\137e\168\177R','6\176VYc\218\17\201\223')]
+            end)
+            Hd=Fe(12685490409872/1934058608)
+        end,[21398]=function()
+            if Config[jn('<\29O\152\22\217H!\27\169\23\206','hro\200y\170')]and task[jn('B\161\\\180','5\192')]()then
+                Hd=15672583987872/-602838064
+            else
+                Hd=Fe(6558)
+            end
+        end,[-18619]=function()
+            Hd=Fe(-3140);
+            return true;
+        end}
+        Hd=Fe(-5427)
+        repeat
+            while true do
+                if wb[Hd]~=nil then
+                    if wb[Hd]()then
+                        break
+                    end
+                elseif Hd==29739144307569/-1615292179 then
+                    Notify(jn('\206\166v\148\248P2\30@\234\234U\219\216\\*\18L\240','\158\202\5\180\171\53^{#'))
+                    Config[jn('\170\186\29\1\157\215\222\134I0\156\192','\254\213=Q\242\164')]=false
+                    return
+                elseif Hd==-39543249021612/1521011194 then
+                    if not Config[jn("\tE\'\25\200\14\225\246-3T\"\19\197)\197\248\48>",'Z K|\171z\177\153^')]then
+                        Hd=Fe(47632)
+                        break
+                    end
+                    Hd=Fe(44956)
+                elseif Hd==-1.5945491131666742e-05*-2012355702 then
+                    Hd=1.0095939693644773e-05*2119465909;
+                end
+            end
+        until Hd==1704790005+-1704777285
+    end
+    local up={[jn('\242\237.\223s\182\155\14\199\238\"\152L\163\222<\194','\166\130I\184\31\211\187Y')]=false,[jn('\228Q\164N\163(\183\220\20\131\30\145,\191','\183\52\208n\244I\219')]=770661550+-770661500,[jn("O%\133O\220\131\207/n\'\146\b\224\137\152\0i",'\27J\226(\176\230\239e')]=false,[jn('>|\235\238\1G\157\29\57\207\161<W\130','m\25\159\206K2\240')]=-2.3753333116991143e-08*-2104967743}
+    local se=game[jn('\248\141\251\209\132\232\219','\168\225\154')][jn('\149\139\208\b\26\137\136\210\16\19\171','\217\228\179iv')]
+    AllFuncs[jn('\140>>\151\143\aJ\5\185=2\208\176\18\15\55\188','\216QY\240\227bjR')]=function()
+        local Pn,za,oa,jg
+        jg,Pn={[-25546]=-7609,[-30423]=4062,[32098]=-9642,[5074]=26278,[13027]=19716,[-13561]=4062,[-19625]=2512,[17572]=800,[-8388]=19716,[22247]=-24814},function(Sp)
+            return jg[Sp-7174]
+        end
+        za={[-9642]=function()
+            pcall(function()
+                local Vc,Re,ne,Wn,ta
+                ta,Wn={[-25686]=29353,[-18255]=-14803,[-3447]=29353,[23595]=24177,[15216]=32684},function(Ih)
+                    return ta[Ih- -4563]
+                end
+                Vc={[29353]=function()
+                    ne=Wn(-22818);
+                    return true;
+                end,[32684]=function()
+                    Re=se[jn('<<=\151\30\55(\128\r','\127T\\\229')]and se[jn('\213\143\177\140\247\132\164\155\228','\150\231\208\254')][jn('\163{\135\184\17\53\210\150f\170\180>0\196','\229\18\233\220W\\\160')](se[jn('\213\143\177\140\247\132\164\155\228','\150\231\208\254')],jn('\206\a\240\19\232\29\244\22','\134r\157r'))
+                    if Re then
+                        ne=Wn(19032)
+                        return true
+                    end
+                    ne=Wn(-8010)
+                end,[24177]=function()
+                    Re[jn('T\17\220\0P\0\213\14g','\3p\176k')]=up[jn('s\243\227@)\206\214K\182\196\16\27\202\222',' \150\151\96~\175\186')]
+                    ne=Wn(-1867490730+1867460481)
+                end}
+                ne=Wn(10653)
+                repeat
+                    while true do
+                        if Vc[ne]~=nil then
+                            if Vc[ne]()then
+                                break
+                            end
+                        end
+                    end
+                until ne==-7.0849806334090901e-06*2089349395
+            end)
+            oa=Pn(-3.3242341509967395e-06*1921344800)
+        end,[-24814]=function()
+            oa=Pn(20201);
+        end,[19716]=function()
+            if true then
+                oa=Pn(-18372)
+            else
+                oa=Pn(24746)
+            end
+        end,[800]=function()
+            oa=Pn(12248);
+            return true;
+        end,[-7609]=function()
+            if up[jn('\244\57cf\157\186\170\154\193:o!\162\175\239\168\196','\160V\4\1\241\223\138\205')]then
+                oa=Pn(39272)
+                return true
+            else
+                oa=Pn(-12451)
+                return true
+            end
+            oa=7547028154098/1857958679
+        end,[2512]=function()
+            pcall(function()
+                local pf,dj,Kb,Ep,kf
+                pf,dj={[20085]=-21270,[26862]=-13250,[-13118]=-7358,[13903]=-13250,[-16542]=11932},function(Jk)
+                    return pf[Jk-6284]
+                end
+                Kb={[-13250]=function()
+                    kf=dj(-6834);
+                    return true;
+                end,[11932]=function()
+                    Ep=se[jn('u\198\16\148W\205\5\131D','6\174q\230')]and se[jn('\148\230[\b\182\237N\31\165','\215\142:z')][jn('P\244\174\28\203O\171e\233\131\16\228J\189','\22\157\192x\141&\217')](se[jn('\148\230[\b\182\237N\31\165','\215\142:z')],jn('*;M\202\f!I\207','bN \171'))
+                    if Ep then
+                        kf=dj(26369)
+                        return true
+                    end
+                    kf=dj(20187)
+                end,[-21270]=function()
+                    Ep[jn('\174\213\226\1\170\196\235\15\157','\249\180\142j')]=8273229744/517076859
+                    kf=dj(7457734751358/224996523)
+                end}
+                kf=dj(-10258)
+                repeat
+                    while true do
+                        if Kb[kf]~=nil then
+                            if Kb[kf]()then
+                                break
+                            end
+                        end
+                    end
+                until kf==-1316483081+1316475723
+            end)
+            oa=Pn(-33414426819785/1437241465)
+        end,[4062]=function()
+            task[jn('Q#O6','&B')](-81202498.5/-812024985)
+            oa=Pn(-9.1721406635533178e-07*1323573247)
+        end}
+        oa=Pn(29421)
+        repeat
+            while true do
+                if za[oa]~=nil then
+                    if za[oa]()then
+                        break
+                    end
+                end
+            end
+        until oa==-21997340524726/-837101017
+    end
+    AllFuncs[jn('I\205\146J\1\n\240\192h\207\133\r=\0\167\239o','\29\162\245-mo\208\138')]=function()
+        local mq,Nm,Hj,bk
+        bk,Hj={[-27146]=-31792,[7010]=-17616,[-18453]=7390,[-26811]=-17616,[-30224]=-16691,[6212]=-18022,[21058]=24691,[10088]=-30763},function(Eo)
+            return bk[Eo- -20471]
+        end
+        Nm={[-16691]=function()
+            if true then
+                mq=Hj(587)
+            else
+                mq=1.4511041952452569e-06*1791739014
+            end
+        end,[-17616]=function()
+            task[jn('\212#\202\54','\163B')](5.4599306635761135e-11*1831525090)
+            mq=Hj(2113532267-2113582962)
+        end,[-18022]=function()
+            pcall(function()
+                local Me,vp,da,ye,g
+                vp,da={[-10050]=-15464,[21268]=6568,[7881]=-32732,[-26456]=-32065},function(Di)
+                    return vp[Di- -24266]
+                end
+                Me={[-32732]=function()
+                    g[jn('[\244\230\17A\238\252\4c','\17\129\139a')]=2308979250/46179585
+                    ye=da(-1942862263+1942859265)
+                end,[-32065]=function()
+                    g=se[jn('\171I7\153\137B\"\142\154','\232!V\235')]and se[jn('\133\52\190\57\167?\171.\180','\198\\\223K')][jn('\167\96\214\202\131xQ\146}\251\198\172}G','\225\t\184\174\197\17#')](se[jn('\133\52\190\57\167?\171.\180','\198\\\223K')],jn("\178=V[\148\'R^",'\250H;:'))
+                    if g then
+                        ye=da(-16385)
+                        return true
+                    end
+                    ye=-6703437998952/-1020620889
+                end,[6568]=function()
+                    ye=da(-34316);
+                    return true;
+                end}
+                ye=da(-50722)
+                repeat
+                    while true do
+                        if Me[ye]~=nil then
+                            if Me[ye]()then
+                                break
+                            end
+                        end
+                    end
+                until ye==-20653979989024/1335616916
+            end)
+            mq=Hj(39817286400330/-842123565)
+        end,[24691]=function()
+            if up[jn('\152\145\192q\205\19*!\185\147\215\54\241\25}\14\190','\204\254\167\22\161v\nk')]then
+                mq=Hj(-38924)
+                return true
+            else
+                mq=Hj(-14259)
+                return true
+            end
+            mq=-2083644349680/118281355
+        end,[-30763]=function()
+            mq=2.3822574942547323e-05*-700637947;
+        end,[2600]=function()
+            mq=Hj(-47617);
+            return true;
+        end,[7390]=function()
+            pcall(function()
+                local dh,gh,Pf,Mn,ec
+                dh,Pf={[-21154]=-14065,[28188]=-25958,[9892]=-25958,[-379]=27024,[-19052]=-6643},function(H)
+                    return dh[H- -16302]
+                end
+                ec={[-14065]=function()
+                    Mn[jn('\202{\137\130\208a\147\151\242','\128\14\228\242')]=up[jn('!\a\179\218\208G\138\2B\151\149\237W\149','rb\199\250\154\50\231')]
+                    gh=Pf(-1042331775+1042343661)
+                end,[-6643]=function()
+                    Mn=se[jn('=\166\18\f\31\173\a\27\f','~\206s~')]and se[jn('\161!L\233\131*Y\254\144','\226I-\155')][jn('1q}\30G\137\218\4lP\18h\140\204','w\24\19z\1\224\168')](se[jn('\161!L\233\131*Y\254\144','\226I-\155')],jn('0J\175\163\22P\171\166','x?\194\194'))
+                    if Mn then
+                        gh=Pf(-37456)
+                        return true
+                    end
+                    gh=Pf(-6410)
+                end,[-25958]=function()
+                    gh=Pf(-16681);
+                    return true;
+                end}
+                gh=Pf(-35354)
+                repeat
+                    while true do
+                        if ec[gh]~=nil then
+                            if ec[gh]()then
+                                break
+                            end
+                        end
+                    end
+                until gh==1620040146+-1620013122
+            end)
+            mq=Hj(-704824636- -704811175)
+        end}
+        mq=Hj(-10383)
+        repeat
+            while true do
+                if Nm[mq]~=nil then
+                    if Nm[mq]()then
+                        break
+                    end
+                end
+            end
+        until mq==-1743711444+1743679652
+    end
+    vd[jn('I\2\245\203i\4\244\235','\bf\145\135')](vd,jn('\193\229\25\30KU\201\155\181\179l\169^\128^\221\25\158\224\255\\\19HM\154\218\162\162\96\232G\156Z\153\v\209','\148\150|r.&\186\187\215\214\15\200+\243;\253x\240'))
+    Ud[jn('\18Sn.2Uo\14','S7\nb')](Ud,jn('\0\210nj\174\146\184(-n\167A\28-\200i$\232\148\164{.&\168@U:','T\167\28\4\142\253\214\bZ\6\194/<'))
+    Gn[jn('#\232\135\201\r\235\132\241\a','b\140\227\157')](Gn,jn('\182\187\157\31\210)F\214\131\184\145X\237<\3\228\134','\226\212\250x\190Lf\129'),false,function(om)
+        up[jn('\211\243;K\163\17\15\210\230\240\55\f\156\4J\224\227','\135\156\\,\207t/\133')]=om
+        print(jn('\209\157\168K\214M\\\129W\226\220\144O\145y@\129\b','\134\252\196 \246\30,\228\50'),om)
+    end)
+    Gn[jn('n\182D\20@\181G,J','/\210 @')](Gn,jn('\139\246B\241\26\183\\\182\170\244U\182&\189\v\153\173','\223\153%\150v\210|\252'),false,function(zh)
+        up[jn('\225\222V\164E;\22\175\192\220A\227y1A\128\199','\181\177\49\195)^6\229')]=zh
+        print(jn('\133]\130\20\27#\31\51\55\189\b\187\v\\\20\28!h','\207(\239d;spDR'),zh)
+    end)
+    Gn[jn('\f\242\20\174!\255\20\152?','M\150p\253')](Gn,jn('\"\24\b\208D&\t\1\222\0','uyd\187d'),-1.1340102558073119e-08*-88182624,-3.3202580354469487e-07*-1505907055,71303266700/1426065334,function(zn)
+        up[jn('\30\25w\136!\167y&\\P\216\19\163q','M|\3\168v\198\21')]=zn
+        print(jn("\131O\250&P\30\224\'\14\176\14\197(\4m\228-Q",'\212.\150MpM\144Bk'),zn)
+    end)
+    Gn[jn('3\23W\181\30\26W\131\0','rs3\230')](Gn,jn('e\192\160\186\235\127\218\186\175\185','/\181\205\202\203'),-692733921- -692733922,4130569500/8261139,3.5614151794919843e-08*1403936286,function(Ie)
+        up[jn('i\177Y\21\23K[J\244}Z*[D',':\212-5]>6')]=Ie
+        print(jn('\208\55#\227?\20\f\29\229\232b\29\246kd\23\5\186','\154BN\147\31Dcj\128'),Ie)
+    end)
+    task[jn('\183\243\165\244\170','\196\131')](AllFuncs[jn('\162\158\r\226\182?p\19\151\157\1\165\137*5!\146','\246\241j\133\218ZPD')])
+    task[jn('E2W5X','6B')](AllFuncs[jn('\170\127\54{\198\220\171C\139}!<\250\214\252l\140','\254\16Q\28\170\185\139\t')])
+    Jn[jn('\4\174\164\141*\173\167\181 ','E\202\192\217')](Jn,jn('\187\a\230\222\133\140B\205\222\148','\233b\139\177\243'),false,function(yd)
+        local fe,b,Hf,ib
+        b,ib={[-12116]=-11162,[16464]=3740,[-8450]=26231,[27174]=-2175,[6833]=23174,[14518]=23174,[32434]=-4372,[14351]=-24768,[-14663]=-11162,[13272]=3691,[27548]=-30007},function(Uf)
+            return b[Uf+-29167]
+        end
+        fe={[-11162]=function()
+            Hf=ib(42439);
+            return true;
+        end,[-24768]=function()
+            if game[jn('\156}\150\136\176\169n\139\184\176','\219\24\226\219\213')](game,jn('B8\171\204z8\162\195','\14Q\204\164'))[jn('5\247Z-&\ay\0\234w!\t\2o','s\158\52I\96n\v')](game[jn('\156}\150\136\176\169n\139\184\176','\219\24\226\219\213')](game,jn('B8\171\204z8\162\195','\14Q\204\164')),jn('D|n','\23'))then
+                Hf=ib(61601)
+                return true
+            end
+            Hf=1787734310-1787730570
+        end,[26231]=function()
+            if game[jn('\168a\221\146\190\157r\192\162\190','\239\4\169\193\219')](game,jn('\147[v\18\171[\127\29','\223\50\17z'))[jn('A\31L\28N','#s')][jn('\248\250&r\31n\220\205\231\v~0k\202','\190\147H\22Y\a\174')](game[jn('\168a\221\146\190\157r\192\162\190','\239\4\169\193\219')](game,jn('\147[v\18\171[\127\29','\223\50\17z'))[jn('A\31L\28N','#s')],jn('f^L','5'))then
+                Hf=ib(56341)
+                return true
+            end
+            Hf=ib(36000)
+        end,[3740]=function()
+            Hf=ib(337278521-337261470)
+        end,[-30007]=function()
+            if yd then
+                Hf=ib(43518)
+                return true
+            else
+                Hf=ib(20717)
+                return true
+            end
+            Hf=-9892013513516/886222318
+        end,[23174]=function()
+            Hf=ib(-1265128700+1265143204)
+        end,[-4372]=function()
+            game[jn('C\250]\219\163v\233@\235\163','\4\159)\136\198')](game,jn('\214\182\22\54\238\182\31\57','\154\223q^'))[jn("\227\131\191\136\bT\163\214\158\146\132\'Q\181",'\165\234\209\236N=\209')](game[jn('C\250]\219\163v\233@\235\163','\4\159)\136\198')](game,jn('\214\182\22\54\238\182\31\57','\154\223q^')),jn('\23/=','D'))[jn('\244\254x\193\241~','\164\159\n')]=game[jn('\5\182}\212\19\48\165\96\228\19','B\211\t\135v')](game,jn('C\250\2\165{\250\v\170','\15\147e\205'))[jn('\208H\221K\223','\178$')]
+            Hf=ib(-66922742556808/-1466606968)
+        end,[-2175]=function()
+            game[jn(')./\165\175\28=2\149\175','nK[\246\202')](game,jn('\188\248\152k\132\248\145d','\240\145\255\3'))[jn('\141\136\128\139\130','\239\228')][jn('<\230H\25%\2\166\t\251e\21\n\a\176','z\143&}ck\212')](game[jn(')./\165\175\28=2\149\175','nK[\246\202')](game,jn('\188\248\152k\132\248\145d','\240\145\255\3'))[jn('\141\136\128\139\130','\239\228')],jn('\162\154\136','\241'))[jn('v\5qC\nw','&d\3')]=game[jn('2\16?\6\26\a\3\"6\26','uuKU\127')](game,jn('\154=\245\248\162=\252\247','\214T\146\144'))
+            Hf=ib(-1238414531- -1238458216)
+        end}
+        Hf=ib(56715)
+        repeat
+            while true do
+                if fe[Hf]~=nil then
+                    if fe[Hf]()then
+                        break
+                    end
+                end
+            end
+        until Hf==-5038544480806/-1365089266
+    end)
+    local Em=game[jn('\199\219\54\20\145\242\200+$\145','\128\190BG\244')](game,jn('\175[3}X\143X4MX','\253.].='))
+    local lc
+    Jn[jn('.\157JR\0\158Ij\n','o\249.\6')](Jn,jn('Jow','\14'),false,function(rp)
+        local gk,Ld,pn,wl
+        pn,wl={[-30930]=-3084,[-3889]=31274,[-14077]=3310,[-3962]=30868,[10989]=6334,[-18577]=29902,[-29797]=31274,[8866]=31074,[11921]=409,[9878]=27680},function(Wp)
+            return pn[Wp- -23077]
+        end
+        gk={[409]=function()
+            if lc then
+                Ld=wl(-54007)
+                return true
+            end
+            Ld=-1399248464+1399279538
+        end,[-3084]=function()
+            lc[jn('s\191#\25SY\184\53\25H','7\214Pz<')](lc)
+            lc=nil
+            Ld=wl(-2.1017416530108919e-05*676153512)
+        end,[31274]=function()
+            Ld=wl(-41654);
+            return true;
+        end,[3310]=function()
+            lc=Em[jn('D\233\5\242x\238\1\225x','\f\140d\128')][jn('w\133\152Z\143\149@','4\234\246')](Em[jn('D\233\5\242x\238\1\225x','\f\140d\128')],function()
+                game[jn('\244\204\22\228\239\193\223\v\212\239','\179\169b\183\138')](game,jn('\6\210\t\\>\210\0S','J\187n4'))[jn('O>T\175T1}\171b','\27W9\202')]=jn('\229\173O\253\228\165E\253','\212\159u\205')
+            end)
+            Ld=wl(8.468239385514453e-05*-318436912)
+        end,[31074]=function()
+            Ld=wl(4.394762306092282e-05*-1203113987)
+        end}
+        Ld=wl(-13199)
+        repeat
+            while true do
+                if gk[Ld]~=nil then
+                    if gk[Ld]()then
+                        break
+                    end
+                elseif Ld==788250718+-788244384 then
+                    if lc then
+                        Ld=wl(-27039)
+                        break
+                    end
+                    Ld=-3033398946370/-916434727
+                elseif Ld==1.3184678289417534e-05*2099406553 then
+                    if rp then
+                        Ld=wl(-12088)
+                        break
+                    else
+                        Ld=wl(-11156)
+                        break
+                    end
+                    Ld=-849200359- -849231633
+                elseif Ld==-1534868297+1534899165 then
+                    return
+                end
+            end
+        until Ld==-33046734612472/-1105168036
+    end)
+    local Rf
+    Jn[jn('[:\28\tu9\31\49\127','\26^x]')](Jn,jn('\174K\135J\148','\224\"'),false,function(Ei)
+        local qf,rf,xq,jd
+        xq,qf={[12169]=-9371,[7132]=-9371,[-14473]=5279,[-24043]=10739,[-15434]=28472,[24835]=-9136,[19469]=945,[-18950]=-9371,[10427]=-27730,[-28110]=-22236,[-12988]=22092},function(xl)
+            return xq[xl-30972]
+        end
+        rf={[-22236]=function()
+            jd=qf(2097749431-2097706290)
+        end,[945]=function()
+            if Rf then
+                jd=qf(6929)
+                return true
+            end
+            jd=-19047380369664/856601024
+        end,[-9371]=function()
+            jd=qf(15538);
+            return true;
+        end,[5279]=function()
+            Rf=Em[jn('\169\156\14J\149\155\nY\149','\225\249o8')][jn('\3\48\55.::4','@_Y')](Em[jn('\169\156\14J\149\155\nY\149','\225\249o8')],function()
+                game[jn('\173\146\200\136~\152\129\213\184~','\234\247\188\219\27')](game,jn('P\240\243\30h\240\250\17','\28\153\148v'))[jn('\200\167\217\151\211\168\240\147\229','\156\206\180\242')]=jn('-\201\23^/\193\29^','\31\251-n')
+            end)
+            jd=qf(-2189346340454/-182111657)
+        end,[10739]=function()
+            Rf[jn('XP<\24\235rW*\24\240','\28\57O{\132')](Rf)
+            Rf=nil
+            jd=qf(5192229836358/1814196309)
+        end}
+        jd=qf(17984)
+        repeat
+            while true do
+                if rf[jd]~=nil then
+                    if rf[jd]()then
+                        break
+                    end
+                elseif jd==4026488431648/-440727718 then
+                    if Rf then
+                        jd=qf(41399)
+                        break
+                    end
+                    jd=1707287749+-1707282470
+                elseif jd==-2.5451167302546661e-05*-868015197 then
+                    if Ei then
+                        jd=qf(55807)
+                        break
+                    else
+                        jd=qf(50441)
+                        break
+                    end
+                    jd=qf(38104)
+                elseif jd==43487554364580/-1568249346 then
+                    return
+                end
+            end
+        until jd==29440263960120/1034007585
+    end)
+    local wj=game[jn('\213\248\231\26\56\224\235\250*8','\146\157\147I]')](game,jn('\153q:@\252\25\r\185G3W\250\31\28\168','\205\20V%\140v\127'))
+    local Mq=game[jn('\223\51\255\187\252\234 \226\139\252','\152V\139\232\153')](game,jn("h\'dA.wK",'8K\5'))
+    Cj[jn('\148\f\193\140\160\28\209\161\187','\213h\165\206')](Cj,jn('\168\142&\16\r}\218\184)\r\18v\136','\250\235L\127d\19'),function()
+        wj[jn('*~\238L\201\4\185\1/\249\196\18z\225L\240\5\184\1\26\248\247\27','~\27\130)\185k\203u{\150\148')](wj,game[jn('\138?\225\153\54\201\158','\250S\128')],game[jn('\200\186\224\156\230','\130\213')],Mq[jn('@\15\149\197B\\\f\151\221K~','\f\96\246\164.')])
+    end)
+    Rl[jn('\238[\198U\192X\197m\202','\175?\162\1')](Rl,jn('\179\31\b\185\138\167\23\31\176\216','\245v{\209\170'),false,function(Vh)
+        local ip,gj,xk,ji,oe,Oh,Hh,oi,w,oh
+        oh,gj={[3405]=-23840,[-20132]=-27139,[-5680]=22838,[5942]=-21379,[-29953]=22998,[-10092]=25277,[-14117]=27543,[11455]=-15371,[17762]=27197,[18322]=22838,[-19343]=-20489,[-1469]=14418,[8522]=27543,[9747]=-730},function(km)
+            return oh[km+-9002]
+        end
+        ji={[27543]=function()
+            Hh=gj(4.429423201775163e-05*461843429)
+        end,[-27139]=function()
+            oe[jn("k\192#L\194\'J",'.\174B')]=Vh
+            Hh=gj(-1533069037+1533063922)
+        end,[22998]=function()
+            xk,Oh,oi=w[jn('?/\237\20\21\246','\96p\132')](xk)
+            Hh=gj(-360882531+360909855)
+        end,[27197]=function()
+            Hh=gj(14944);
+            return true;
+        end,[-20489]=function()
+            Hh=26094624678017/-1697653027;
+        end,[-730]=function()
+            xk,Oh,oi=pairs(game[jn('2CQ\15B\aPL?B',"u&%\\\'")](game,jn('\0-\248\3\228\194\127,,,\199\n\243\215b&&','CB\148o\129\161\vE'))[jn('\144&\167H\182$\180y\179','\215C\211\28')](game[jn('2CQ\15B\aPL?B',"u&%\\\'")](game,jn('\0-\248\3\228\194\127,,,\199\n\243\215b&&','CB\148o\129\161\vE')),jn('\19\191xk\19\138}m','a\222\28\n')))
+            if Zi(xk)~=jn('.\25^\238<\5_\227','Hl0\141')then
+                Hh=gj(12407)
+                return true
+            end
+            Hh=-20890746263100/1019607900
+        end,[22838]=function()
+            Hh=gj(-1214607080+1214596739)
+        end,[14418]=function()
+            xk,Oh,oi=Il(xk)
+            Hh=gj(5.4306460287688161e-06*611713594)
+        end,[-23840]=function()
+            w=ij(xk)
+            if w~=nil and w[jn('\213f6\254\\-','\138\57_')]~=nil then
+                Hh=gj(-20951)
+                return true
+            elseif Zi(xk)==jn('\"J4G3','V+')then
+                Hh=gj(7533)
+                return true
+            end
+            Hh=39746249574346/1740355967
+        end,[25277]=function()
+            if oe[jn('\142\180\134','\199')](oe,jn('G.\160\187\245\185d5\168\144\226\191','\5G\204\215\151\214'))or oe[jn('\192\250\200','\137')](oe,jn('\204\156V]y\252\140cNq','\159\233$;\24'))then
+                Hh=gj(-11130)
+                return true
+            end
+            Hh=gj(17524)
+        end,[-15371]=function()
+            ip,oe=xk(Oh,oi);
+            oi=ip;
+            if oi==nil then
+                Hh=gj(26764)
+            else
+                Hh=gj(-1090)
+            end
+        end}
+        Hh=gj(18749)
+        repeat
+            while true do
+                if ji[Hh]~=nil then
+                    if ji[Hh]()then
+                        break
+                    end
+                end
+            end
+        until Hh==-286111329+286089950
+    end)
+    local function Rg()
+        local G,bq,ao,Ai
+        G,ao={[-25885]=28997,[-20496]=-20306,[31029]=28997,[-30361]=29255},function(yq)
+            return G[yq+6552]
+        end
+        Ai=ao(-36913)
+        repeat
+            while true do
+                if Ai==801350101-801321104 then
+                    return Vector3[jn('\240\251\233','\158')](0/1851836032,0/2066463405,0*13207273)
+                elseif Ai==-578171692- -578200947 then
+                    bq=game[jn('\169\251\238\128\242\253\138','\249\151\143')][jn("D\211%\232\169X\208\'\240\160z",'\b\188F\137\197')][jn('6\228h\3\20\239}\20\a','u\140\tq')]
+                    if bq and bq[jn('\204;\191\247\255E\175\249&\146\251\208@\185','\138R\209\147\185,\221')](bq,jn('\30\21\130\227\224f\160\246\4\15\128\246\222h\187\230','V\96\239\130\142\t\201\146'))then
+                        Ai=ao(-27048)
+                        break
+                    end
+                    Ai=ao(24477)
+                elseif Ai==-1.0922670204907518e-05*1859069222 then
+                    return bq[jn('\216\174\219\176\230\215\27\149\194\180\217\165\216\217\0\133','\144\219\182\209\136\184r\241')][jn('y\180<R]\178 U',')\219O;')]
+                end
+            end
+        until Ai==0*509558743
+    end
+    local function Wg(Vi)
+        return string[jn('Pw$[y\"','6\24V')](jn('\25\201\14\129','<\231'),Vi)
+    end
+    Rl[jn('}\184\157\146S\187\158\170Y','<\220\249\198')](Rl,jn('Dsp','\3'),false,function(__)
+        local Yn=game[jn('\137\149A\160\156R\170','\217\249 ')][jn('\205\54\133\206\169\209\53\135\214\160\243','\129Y\230\175\197')][jn('A\215%\207t\201\3\195x','\17\187D\182')]
+        local jh=Yn[jn('G\2S\246\132\183b R\235\174\188','\16c:\130\194\216')](Yn,jn('XET','0'))
+        local dc=jh[jn('8\26\1.\174n\29\56\0\51\132e','o{hZ\232\1')](jh,jn('?{y\231\54uq\231','L\26\31\130'))
+        local uo=dc[jn('\128|~\177)\139\165^\127\172\3\128','\215\29\23\197o\228')](dc,jn('\145\209J\222\131\209J\222','\243\176)\181'))
+        if not(__)then
+            local De,_m,Rm,Gb
+            Gb,Rm={[-31331]=-27665,[26004]=-30752,[-23447]=-949,[-32072]=-30752,[19555]=-10446,[-20528]=28188,[2753]=-10446,[-6755]=-32569},function(hl)
+                return Gb[hl- -24497]
+            end
+            De={[-10446]=function()
+                _m=Rm(-47944);
+                return true;
+            end,[-32569]=function()
+                if uo[jn('\234\194o\140\14\218\237\223\223B\128!\223\251','\172\171\1\232H\179\159')](uo,jn('JKH','2'))then
+                    _m=Rm(-45025)
+                    return true
+                end
+                _m=Rm(1507)
+            end,[28188]=function()
+                uo[jn('\26\135\174\247\"6\177/\154\131\251\r3\167','\\\238\192\147d_\195')](uo,jn('\143\142\141','\247'))[jn('\246H\180\198_\168\203','\178-\199')](uo[jn('\26\135\174\247\"6\177/\154\131\251\r3\167','\\\238\192\147d_\195')](uo,jn('\143\142\141','\247')))
+                _m=Rm(80694698498644/-1426482676)
+            end,[-30752]=function()
+                if BypassGpsLoop then
+                    _m=Rm(-55828)
+                    return true
+                end
+                _m=Rm(-21744)
+            end,[-27665]=function()
+                BypassGpsLoop[jn('y\a\15|\"S\0\25|9','=n|\31M')](BypassGpsLoop)
+                BypassGpsLoop=nil
+                _m=Rm(2.7773735200031518e-06*-1779378958)
+            end}
+            _m=Rm(-31252)
+            repeat
+                while true do
+                    if De[_m]~=nil then
+                        if De[_m]()then
+                            break
+                        end
+                    end
+                end
+            until _m==7.1189828360716193e-07*-1333055609
+        else
+            local hc=game[jn('\202_\251=\14\255L\230\r\14','\141:\143nk')](game,jn(',A@\194\179O\202\131\27@c\218\181^\202\144\27','~$0\174\218,\171\247'))[jn('\179P\4\171\180G\20\161\178','\193\53w\196')][jn('\161\156\173\133\187','\200\232')][jn('q\163}\186k','\24\215')][jn('^IJ','\25')][jn('\198\209\210','\129')][jn('\25\20\17\51\5\v\16','~db')][jn('\5\4\a','}')][jn("\'\30\v\28\1",'dr')](game[jn('\202_\251=\14\255L\230\r\14','\141:\143nk')](game,jn(',A@\194\179O\202\131\27@c\218\181^\202\144\27','~$0\174\218,\171\247'))[jn('\179P\4\171\180G\20\161\178','\193\53w\196')][jn('\161\156\173\133\187','\200\232')][jn('q\163}\186k','\24\215')][jn('^IJ','\25')][jn('\198\209\210','\129')][jn('\25\20\17\51\5\v\16','~db')][jn('\5\4\a','}')])
+            hc[jn('\184\b\233\141\a\239','\232i\155')]=uo
+            local jf=Rg()
+            local L=string[jn('\144\142\246\155\128\240','\246\225\132')](jn('\b\232\56\234^\183\49\188','-\155\20\207'),Wg(jf[jn('s','+')]),Wg(jf[jn('\131','\218')]),Wg(jf[jn('6','l')]))
+            hc[jn('\149\134\185\151','\193\227')]=jn('\190\186\220\197\28\193\227\167Gh\167\150\134\249\175\153$o\151\140Ed\20,\241]\19\f;\3\28\139QUj^a\230\160\164u\28R\168\222a\228\186\139\154O\223\217\244\4a\186\197\213\228\245\153\127\56\215\149\1\53 \127\172\6[Ay\15\22\140X]9@X\181\227\173hO\1\181\133r','\130\220\179\171h\225\128\200+\a\213\171\161\218\201\255\16V\163\181bZL\16\222;|bO= \237>;\30~\2\137\204\203\a!u\139\191R')..L
+            BypassGpsLoop=game[jn('\246\51\31\204d\195 \2\252d','\177Vk\159\1')](game,jn('z6\133jgZ5\130Zg','(C\235\57\2'))[jn("! \215\244\29\'\211\231\29",'iE\182\134')][jn('&\193g\v\203j\17','e\174\t')](game[jn('\246\51\31\204d\195 \2\252d','\177Vk\159\1')](game,jn('z6\133jgZ5\130Zg','(C\235\57\2'))[jn("! \215\244\29\'\211\231\29",'iE\182\134')],function()
+                local Ni=Rg()
+                local Wo=string[jn('J\3\228A\r\226',',l\150')](jn('\18#\166\145D|\175\199','7P\138\180'),Wg(Ni[jn(']','\5')]),Wg(Ni[jn('\182','\239')]),Wg(Ni[jn('h','2')]))
+                hc[jn('\205\232\225\249','\153\141')]=jn('=\246\23\215_\157t\212\154\220\3\213\161\230)\184\134\195*\t\143\130\188*\18\207\180\241\6\159\220C\139W\196h\145\188\165n\164\14\252\179s\232g\246@\136\f\131N\135\217\213\30\134\242\251s\184\221\148j\16\203\211\136yO\148\252\188D\147\214D\130_\151v\168\239\230g\185]\175\174(\251','\1\144x\185+\189\23\187\246\179q\232\134\197O\222\178\250\30\48\168\188\228\22=\169\219\159r\161\224%\228\57\176H\242\211\201\1\214\51\219\144\18\219')..Wo
+            end)
+        end
+    end)
+    local ae=game[jn('\237\162\169a|\216\177\180Q|','\170\199\221\50\25')](game,jn('\173Yi\132Pz\142','\253\53\b'))
+    local Dm=ae[jn('\174\128pB>\178\131rZ7\144','\226\239\19#R')]
+    local Bp=Dm[jn('\138\237\50M\213\147\175\207\51P\255\152','\221\140[9\147\252')](Dm,jn('\220\147\5q\233\141#}\229','\140\255d\b'))
+    local Qo=Bp[jn('\242z8)\145\245\215X9\52\187\254','\165\27Q]\215\154')](Bp,jn('\24\5\20','p'))
+    local Nk=Qo[jn('\232\218s\255E\1\205\248r\226o\n','\191\187\26\139\3n')](Qo,jn('\248h\139\b\241f\131\b','\139\t\237m'))
+    Nk[jn('Qd\178no\173b','\a\r\193')]=true
+    Rl[jn('\176\195\222\207\158\192\221\247\148','\241\167\186\155')](Rl,jn('A\135U\228i\191{\139_\179\19\190a','\18\239:\147F\247'),false,function(Uq)
+        local We,aa,Fn,uk
+        We,aa={[-6972]=-18445,[-23637]=-23266,[15392]=-18445,[31521]=-28918,[-16668]=27447,[-19911]=-25757},function(ce)
+            return We[ce+28233]
+        end
+        Fn={[-28918]=function()
+            Nk[jn("C,\177|\'\174p",'\21E\194')]=false
+            print(jn('\163\180\193\53\b3_\148&\214\139\136/\18q]\158\127','\246\253\225\\{\19\49\251Q'))
+            uk=aa(-4.4174292210203802e-05*796956742)
+        end,[-25757]=function()
+            if Uq then
+                uk=aa(3288)
+                return true
+            else
+                uk=aa(-51870)
+                return true
+            end
+            uk=-1.4547082356047603e-05*1267951851
+        end,[-23266]=function()
+            Nk[jn('Dk\208{\96\207w','\18\2\163')]=true
+            print(jn('\239\131=\178\156[\242\205\205\234u\178\139\31\249\204\148','\186\202\29\219\239{\156\162'))
+            uk=aa(1775116717-1775129558)
+        end,[-18445]=function()
+            uk=aa(-44901);
+            return true;
+        end}
+        uk=aa(-48144)
+        repeat
+            while true do
+                if Fn[uk]~=nil then
+                    if Fn[uk]()then
+                        break
+                    end
+                end
+            end
+        until uk==-1656883568+1656911015
+    end)
+    Rl[jn('\181\192\169\142\155\195\170\182\145','\244\164\205\218')](Rl,jn('\196\207\18\164!\226\233\232\129;\181\54\236\248\227','\141\161t\205O\139\157'),false,function(Ce)
+        Dm[jn('R\4\17\53p\15\4\"c','\17lpG')][jn('\171\184\29\173\186\0','\200\212t')][jn('\145A\5\153\\\18','\254\57|')][jn('\238\254\213\23\200\251\195\18','\170\151\166v')]=Ce
+    end)
+    Rl[jn('\238|v\2\192\127u:\202','\175\24\18V')](Rl,jn('G\v>*\240\52S\2:?\234qv','\4g[K\130\20'),false,function(uh)
+        local Ga,_o,Mo,Jj,Sk,t,Zk
+        Jj,Mo={[32511]=-20687,[-14272]=9433,[2591]=-7340,[16263]=-7340,[-3250]=-17494,[-7475]=14268},function(ui)
+            return Jj[ui- -19263]
+        end
+        Sk={[-7340]=function()
+            t=Mo(13248);
+            return true;
+        end,[14268]=function()
+            Zk=game[jn('\149\244\207\159\53\160\231\210\175\53','\210\145\187\204P')](game,jn('\1j\187\158\4\154\14\55\54k\152\134\2\139\14$6','S\15\203\242m\249oC'))
+            Ga=Zk[jn('\139\f\227\140\159f\174.\226\145\181m','\220m\138\248\217\t')](Zk,jn('\19\55\22\52\0','dX'))[jn('\22\127\215k\141\179\51]\214v\167\184','A\30\190\31\203\220')](Zk[jn('\139\f\227\140\159f\174.\226\145\181m','\220m\138\248\217\t')](Zk,jn('\19\55\22\52\0','dX')),jn('\129\16w\130\29s\132','\246u\22'))
+            _o=OldWEA or Ga[jn('\237n\215z\222','\187\15')]
+            if uh then
+                t=Mo(-22513)
+                return true
+            else
+                t=Mo(-33535)
+                return true
+            end
+            t=1058334181+-1058341521
+        end,[-17494]=function()
+            Ga[jn('}.G:N','+O')]=jn('\149\197\179\200\164','\214\169')
+            t=Mo(11809813064576/-708362108)
+        end,[9433]=function()
+            Ga[jn('B\ax\19q','\20f')]=_o
+            t=Mo(5921294901000/-1973764967)
+        end}
+        t=Mo(-26738)
+        repeat
+            while true do
+                if Sk[t]~=nil then
+                    if Sk[t]()then
+                        break
+                    end
+                end
+            end
+        until t==-36609982805505/1769709615
+    end)
+    Gn[jn('\179\137\29\223\157\138\30\231\151','\242\237y\139')](Gn,jn(':^\176\24X\163','t1\211'),false,function(Rq)
+        local gd,ya,Oa,fk,dp,ic,Jf,Vo,mi,Bm,Le,Fl,Sg,jb,zc,Xm,Ci,o
+        Le,Vo={[-4885]=15507,[18280]=29533,[21025]=-4596,[5800]=25397,[27351]=-23021,[-13656]=-10325,[10181]=-16726,[-14299]=-8823,[-4947]=22948,[16751]=-4596,[-15715]=-22209,[2398]=-22979,[-14731]=22948,[3842]=-22979,[-26188]=16605,[-29048]=-21335,[-8888]=23955,[28542]=27948,[2528]=-787,[15435]=-19678,[-19018]=22948,[-27460]=11662,[26210]=11743,[9582]=-15995,[16190]=-787,[17994]=5711,[-10340]=-5548,[15593]=-787,[23512]=29728},function(zl)
+            return Le[zl-8504]
+        end
+        dp={[-15995]=function()
+            Bm,mi=Oa(ya,zc);
+            zc=Bm;
+            if zc==nil then
+                jb=913214834-913195246
+            else
+                jb=Vo(26784)
+            end
+        end,[-787]=function()
+            jb=Vo(-7211);
+            return true;
+        end,[-16726]=function()
+            jb=Vo(743739304+-743721218)
+        end,[23955]=function()
+            jb=Vo(127113074-127083545)
+        end,[-22979]=function()
+            jb=Vo(-7272064903140/1254886092)
+        end,[19588]=function()
+            jb=Vo(-463530194+463554888)
+        end,[15507]=function()
+            Oa,ya,zc=Il(Oa)
+            jb=Vo(1206866742+-1206877256)
+        end,[29533]=function()
+            if mi[jn('Wm_','\30')](mi,jn('\192\17\26c\210\17\27r','\130pi\6'))then
+                jb=Vo(23939)
+                return true
+            end
+            jb=921393857-921410583
+        end,[27948]=function()
+            Fl=Dm[jn('\244<\1i\214\55\20~\197','\183T\96\27')][jn('\226t\192\145\161\237\52\192\127\208\180\170\234$','\165\17\180\213\196\158W')](Dm[jn('\244<\1i\214\55\20~\197','\183T\96\27')])
+            Oa,ya,zc=pairs(Fl)
+            if Zi(Oa)~=jn('*!\129\234\56=\128\231','LT\239\137')then
+                jb=Vo(-1836)
+                return true
+            end
+            jb=-151993391+151983066
+        end,[-5548]=function()
+            Xm=ij(Oa)
+            if Xm~=nil and Xm[jn('\224\241\203\203\203\208','\191\174\162')]~=nil then
+                jb=Vo(34714)
+                return true
+            elseif Zi(Oa)==jn('P\138F\135A','$\235')then
+                jb=Vo(3619)
+                return true
+            end
+            jb=Vo(3557)
+        end,[-8823]=function()
+            jb=Vo(25255);
+        end,[-4596]=function()
+            gd,fk=o(Jf,Ci);
+            Ci=gd;
+            if Ci==nil then
+                jb=Vo(14304)
+            else
+                jb=-1411523857+1411516516
+            end
+        end,[22948]=function()
+            jb=Vo(756593982144/-146854422)
+        end,[11743]=function()
+            Oa,ya,zc=Xm[jn('\200\201t\227\243o','\151\150\29')](Oa)
+            jb=Vo(805848866-805855093)
+        end,[16605]=function()
+            o,Jf,Ci=ic[jn('m\226\227F\216\248','2\189\138')](o)
+            jb=Vo(1538204389-1538193487)
+        end,[29728]=function()
+            up[jn('\187p!\1)\b\207Q)\5)\4\159','\239\31FfEm')]=Rq
+            if Rq then
+                jb=Vo(26498)
+                return true
+            else
+                jb=Vo(37046)
+                return true
+            end
+            jb=Vo(11032)
+        end,[-21335]=function()
+            o,Jf,Ci=Il(o)
+            jb=Vo(1094071940-1094059594)
+        end,[-23021]=function()
+            fk[jn('7\16v_\136\24\29qx\130','tq\24\28\231')]=false
+            jb=Vo(563609688576/-1467733564)
+        end,[-10325]=function()
+            jb=-1722177588+1722161593;
+        end,[-19678]=function()
+            mi[jn("\21*\139Y\129:\'\140~\139",'VK\229\26\238')]=true
+            jb=Vo(2.8866410468377726e-05*647292119)
+        end,[5711]=function()
+            Sg=Dm[jn('\23Q\137o5Z\156x&','T9\232\29')][jn('\254\18\217\239\229\255\53\220\25\201\202\238\248%','\185w\173\171\128\140V')](Dm[jn('\23Q\137o5Z\156x&','T9\232\29')])
+            o,Jf,Ci=pairs(Sg)
+            if Zi(o)~=jn('SJ\29\52AV\28\57','5?sW')then
+                jb=Vo(-18956)
+                return true
+            end
+            jb=-1019575087+1019566264
+        end,[11662]=function()
+            ic=ij(o)
+            if ic~=nil and ic[jn('\134\223s\173\229h','\217\128\26')]~=nil then
+                jb=Vo(-17684)
+                return true
+            elseif Zi(o)==jn('o(y%~','\27I')then
+                jb=Vo(-20544)
+                return true
+            end
+            jb=-21323803534451/927969169
+        end,[25397]=function()
+            jb=Vo(33371363695063/1384876279)
+        end,[-7341]=function()
+            if fk[jn('\225\219\233','\168')](fk,jn('\244\52\151\156\230\52\150\141','\182U\228\249'))then
+                jb=Vo(35855)
+                return true
+            end
+            jb=-1563590078+1563614033
+        end}
+        jb=Vo(32016)
+        repeat
+            while true do
+                if dp[jb]~=nil then
+                    if dp[jb]()then
+                        break
+                    end
+                end
+            end
+        until jb==-637075019- -637052810
+    end)
+    Rl[jn('\224\169:\253\206\170\57\197\196','\161\205^\169')](Rl,jn('\206\172\151\\\175\142\130R','\143\194\227\53'),false,function(ho)
+        local la,tg,Im,si,ah,Pk,Ca,wq,An,Bq
+        ah,tg={[26916]=-4422,[-174]=23052,[7515]=23052,[15807]=29336,[-15894]=23827,[24261]=-22686,[-3839]=20576,[24445]=58,[-15751]=29336,[-21537]=-27303,[5336]=278,[8654]=23052,[20046]=-26623,[28724]=16463,[32670]=-31406,[10276]=12697,[-28092]=30073,[14096]=30073,[-8913]=9904,[6268]=16463,[30227]=-9746},function(Be)
+            return ah[Be+27442]
+        end
+        Ca={[12361]=function()
+            if Im[jn('\151\173\159','\222')](Im,jn('\243\246\209\227','\163\151'))or Im[jn('KqC','\2')](Im,jn('\247\166\tM\144\205Z\199\186\1V\151\237D','\162\200\96\"\254\130*'))or Im[jn("\29\'\21",'T')](Im,jn('\140R\a\233\145V\6\245','\193\55t\129'))then
+                Pk=tg(-22106)
+                return true
+            elseif Im[jn('\135\189\143','\206')](Im,jn('\220\220\21\128\192\198f\233\248\n\157\221\209o\254','\140\189g\244\169\165\n'))or Im[jn('\17+\25','X')](Im,jn("\188\'\137<\132",'\232U'))then
+                Pk=tg(-36355)
+                return true
+            end
+            Pk=tg(-27616)
+        end,[16463]=function()
+            Pk=tg(2.4786646583388373e-06*-212211038)
+        end,[-31406]=function()
+            Bq=ij(la)
+            if Bq~=nil and Bq[jn('y\151\149R\173\142','&\200\252')]~=nil then
+                Pk=tg(-2997)
+                return true
+            elseif Zi(la)==jn('_\2I\15N','+c')then
+                Pk=tg(-31281)
+                return true
+            end
+            Pk=-1129448560+1129465023
+        end,[-26623]=function()
+            An,Im=la(wq,si);
+            si=An;
+            if si==nil then
+                Pk=1268485672+-1268478160
+            else
+                Pk=4.4549207342163475e-05*277468461
+            end
+        end,[12697]=function()
+            la,wq,si=pairs(game[jn('\29\220\176/\185\243*?\215\160\n\178\244:','Z\185\196k\220\128I')](game))
+            if Zi(la)~=jn('\205\246\234p\223\234\235}','\171\131\132\19')then
+                Pk=tg(5228)
+                return true
+            end
+            Pk=707760991+-707765413
+        end,[58]=function()
+            la,wq,si=Bq[jn('\242\239\56\217\213#','\173\176Q')](la)
+            Pk=tg(-3.6666265907531926e-05*577479039)
+        end,[278]=function()
+            if Im[jn(')\5\48\166\127N\28\5\52\166oG','}wQ\200\f>')]~=-2063478233+2063478234 then
+                Pk=tg(-43336)
+                return true
+            end
+            Pk=tg(-11635)
+        end,[30073]=function()
+            Pk=tg(-48979);
+            return true;
+        end,[-22686]=function()
+            Pk=tg(1969012689-1969068223);
+        end,[9904]=function()
+            Im[jn('\166g\214\150p\202\155','\226\2\165')](Im)
+            Pk=tg(-9.3926486608518665e-06*2000287744)
+        end,[-9746]=function()
+            if ho then
+                Pk=tg(-17166)
+                return true
+            else
+                Pk=tg(-3181)
+                return true
+            end
+            Pk=2.4498312433426246e-05*1227553942
+        end,[23052]=function()
+            Pk=tg(14796183488232/-2000565642)
+        end,[7512]=function()
+            Pk=tg(1851064411+-1851077757)
+        end,[-4422]=function()
+            Pk=48952043579698/-1838712526;
+        end,[29336]=function()
+            Pk=tg(-214077502- -214057575)
+        end,[23827]=function()
+            Im[jn('}N.\2BF;\v','0/Zg')]=Enum[jn('~J*\139AB?\130','3+^\238')][jn('\175Z\135\172\24\177\172[\137\176\24\176\159','\252\55\232\195l\217')]
+            Pk=tg(-76508892383828/1771326196)
+        end,[20576]=function()
+            la,wq,si=Il(la)
+            Pk=tg(-6.5305268251330316e-07*-1963088177)
+        end}
+        Pk=tg(2785)
+        repeat
+            while true do
+                if Ca[Pk]~=nil then
+                    if Ca[Pk]()then
+                        break
+                    end
+                end
+            end
+        until Pk==-2.4779709557353731e-05*1101828895
+    end)
+    up=_G[jn('\238N\250\203H\243','\173!\148')]or{}
+    up[jn('\157\161\2\206\251\134\25\208\179','\219\192p\163')]=false
+    local Qp=game[jn('\146O\156\187F\143\177','\194#\253')]
+    local Do=Qp[jn('\30h\216\51\200\2k\218+\193 ','R\a\187R\164')]
+    local Ke=game[jn('\255\213\"\241\202\202\198?\193\202','\184\176V\162\175')](game,jn('e\186\57\19\3D\169>R\187\26\v\5U\169-R',"7\223I\127j\'\200J"))
+    local dl=game[jn('\30\153N\22@+\138S&@','Y\252:E%')](game,jn('KF\6\20\vkE\1$\v','\25\51hGn'))
+    local mo=Do[jn('\182\193\211\151\132\193\211\151','\244\160\176\252')]
+    local bd=Do[jn('\158\154_p\171\132y|\167','\206\246>\t')]
+    local va=game[jn('nK\155\184{[X\134\136{',').\239\235\30')](game,jn('3D\129\223\26\4A\166\216\n\23','e-\243\171o'))
+    local Qn=game[jn('i\144\204\207\30\\\131\209\255\30','.\245\184\156{')](game,jn('\136\173\223\3C\185P\147N\174\177\217:W\182]\189E\172','\222\196\173w6\216<\218 '))
+    local Xh=Ke[jn('o\18U\187\163m\r@\163\178l','\31~4\194\198')][Do[jn('\"\236\1\232','l\141')]][jn('\165\17\151\17\133','\246e')][jn('\172\177\186','\222')][jn('\198K\252_\245','\144*')]
+    AllFuncs={}
+    AllFuncs[jn('\14\150\210~h\177\201\96 ','H\247\160\19')]=function()
+        local Db,al,ab,lf
+        lf,al={[-32637]=-2270,[-8677]=18486,[-24388]=7880,[-21209]=19296,[14846]=-26686,[26755]=-32414,[-26372]=-14978,[12906]=-24300,[-23904]=-13156,[11640]=9572,[-29770]=-26292,[-19246]=31524,[9606]=-32414,[-8701]=24960,[-207]=30254,[20728]=-32414,[-5085]=-26292,[32603]=17294,[1909]=5664,[-13296]=-6422,[-16603]=1252},function(Oj)
+            return lf[Oj-28752]
+        end
+        ab={[1252]=function()
+            Db=al(23667);
+        end,[5664]=function()
+            Do[jn('\238BOo\204IZx\223','\173*.\29')][jn('\239~Z\138\201d^\143','\167\v7\235')][jn('\138\204\21\253\191\233\15\251\163','\207\189\96\148')](Do[jn('\238BOo\204IZx\223','\173*.\29')][jn('\239~Z\138\201d^\143','\167\v7\235')],mo[jn('\227\240\179\193|P\217\214\237\158\205SU\207','\165\153\221\165:9\171')](mo,Xh))
+            Db=al(-1.0686248070372867e-05*-705860462)
+        end,[17294]=function()
+            Db=al(-3.1575222236471205e-05*-1567051520)
+        end,[-14978]=function()
+            if not Do[jn(':\175_\190\24\164J\169\v','y\199>\204')][jn('\147\1\180\240\221\50\204\166\28\153\252\242\55\218','\213h\218\148\155[\190')](Do[jn(':\175_\190\24\164J\169\v','y\199>\204')],Xh)or Do[jn('\129\5f\160\163\14s\183\176','\194m\a\210')][Xh][jn('}\23\251~\19\228','\vv\151')][jn('\0\14\22\2','bg')][jn('\218;\224/\233','\140Z')]or not up[jn('\224k\18\169\134L\t\183\206','\166\n\96\196')]then
+                Db=al(28545)
+            else
+                Db=al(15456)
+            end
+        end,[31524]=function()
+            if not Do[jn('J\245M4h\254X#{','\t\157,F')][jn(' \149\224\160\165\245\23\21\136\205\172\138\240\1','f\252\142\196\227\156e')](Do[jn('J\245M4h\254X#{','\t\157,F')],Xh)or not Do[jn('\195B&\176\225I3\167\242','\128*G\194')][Xh][jn('L\204RO\200M',':\173>')][jn('\214\185\192\181','\180\208')][jn('\28 &4/','JA')]or not up[jn('\159\251\170\251\249\220\177\229\177','\217\154\216\150')]then
+                Db=al(4364)
+            else
+                Db=al(20051)
+            end
+        end,[19296]=function()
+            if Do[jn('\132\189\131:\166\182\150-\181','\199\213\226H')][jn('\214\184\19\56Am\157\227\165>4nh\139','\144\209}\\\a\4\239')](Do[jn('\132\189\131:\166\182\150-\181','\199\213\226H')],Xh)and Do[jn('U\\W\"wWB5d','\22\52\54P')][Xh][jn('f\207\182|U\15\223S\210\155pz\n\201',' \166\216\24\19f\173')](Do[jn('U\\W\"wWB5d','\22\52\54P')][Xh],jn('\131\237\158\131\231\142','\225\130\252'))then
+                Db=al(-3885)
+                return true
+            else
+                Db=al(4848)
+                return true
+            end
+            Db=al(55507)
+        end,[-26292]=function()
+            if up[jn('\214\216\170~\176\255\177\96\248','\144\185\216\19')]and task[jn('4\174*\187','C\207')]()then
+                Db=al(40392)
+            else
+                Db=al(43598)
+            end
+        end,[30254]=function()
+            Db=-1.2629019730206212e-05*-1976400428;
+        end,[-13156]=function()
+            if Do[jn('\135\189\212\54\165\182\193!\182','\196\213\181D')][jn('\31\5\55\245\\\198\186*\24\26\249s\195\172','YlY\145\26\175\200')](Do[jn('\135\189\212\54\165\182\193!\182','\196\213\181D')],Xh)then
+                Db=al(20075)
+                return true
+            end
+            Db=20409620873156/1180156174
+        end,[18486]=function()
+            Do[jn('\222mWv\252fBa\239','\157\5\54\4')][Xh][jn('bQ\biS\30',"\a\'m")][jn('\n\26\26\15','i{')][jn('n\133\216\213\48M\158\220\213\17','(\236\170\176c')](Do[jn('\222mWv\252fBa\239','\157\5\54\4')][Xh][jn('bQ\biS\30',"\a\'m")][jn('\n\26\26\15','i{')],9.9999999999999837e+23- -1568509879)
+            task[jn('Q\18O\a','&s')](-975720698/-487860349)
+            Db=al(31493555061185/513300547)
+        end,[-2270]=function()
+            Db=-1.3032514831806518e-05*492767519;
+        end,[24960]=function()
+            Ke[jn('\230\216\184\237\218\174','\131\174\221')][jn('XKJ\238\168?DG\\\234\171\50','*./\130\206V')][jn('\185\193P\233\190\154\218T\233\159','\255\168\"\140\237')](Ke[jn('\230\216\184\237\218\174','\131\174\221')][jn('XKJ\238\168?DG\\\234\171\50','*./\130\206V')],1.0000000000000003e+24-299151039,true)
+            task[jn('\237)\243<','\154H')](213988114.5/427976229)
+            Db=al(-7.6055958799752641e-06*-1249869195)
+        end,[-26686]=function()
+            Db=al(41658);
+            return true;
+        end,[-6422]=function()
+            pcall(function()
+                bd[jn('%\194c\245\\W\236\16\223N\249sR\250','c\171\r\145\26>\158')](bd,jn('\246\139\145\238\134\133\236','\133\227\240'))[jn('\141e\152\239\132k\144\239','\254\4\254\138')][jn('\199\127\144\147\52\243\192\242b\189\159\27\246\214','\129\22\254\247r\154\178')](bd[jn('%\194c\245\\W\236\16\223N\249sR\250','c\171\r\145\26>\158')](bd,jn('\246\139\145\238\134\133\236','\133\227\240'))[jn('\141e\152\239\132k\144\239','\254\4\254\138')],jn('\225\225\207\247\251\213','\131\148\187'))[jn('\19z:v','@\19')]=UDim2[jn('gl~','\t')](-1882529513- -1882530514,-1764557098+1764557098,-390381579- -390382580,109496008-109496008)
+                va[jn("\128\'\163\241\129\172c\147\234\153\172",'\194R\215\133\238')](va,Vector2[jn('%.<','K')](280578838/280578838,-1865194756+1865194757))
+                va[jn('\26\167n\198\55\188+\231(','X\210\26\178')](va,Vector2[jn('\173\166\180','\195')](-493384415/-493384415,1213710554/1213710554))
+            end)
+            dl[jn('^\245~1b\242z\"b','\22\144\31C')][jn('\128\224\190\245','\215\129')](dl[jn('^\245~1b\242z\"b','\22\144\31C')])
+            Db=al(923796643000/388149850)
+        end,[7880]=function()
+            Db=al(-3.7821983521202959e-05*-1014172088)
+        end,[9572]=function()
+            if mo[jn('\233\57\51^.\174\218\220$\30R\1\171\204','\175P]:h\199\168')](mo,Xh)then
+                Db=al(30661)
+                return true
+            end
+            Db=-8.5405143526539313e-05*-225934870
+        end,[-32414]=function()
+            Db=al(-7.3733082629553417e-07*1380655689)
+        end}
+        Db=al(12149)
+        repeat
+            while true do
+                if ab[Db]~=nil then
+                    if ab[Db]()then
+                        break
+                    end
+                end
+            end
+        until Db==-286645785- -286621485
+    end
+    function Wg(La,_p)
+        return tonumber(string[jn('6!l=/j','PN\30')](jn('yr','\\')..(_p or-5.2141347018088477e-10*-1917863763)..jn('\16','v'),La))
+    end
+    gi[jn('<\164&\142\18\167%\182\24','}\192B\218')](gi,jn('\144\199Z\20\132\49\170\167\3\1\249\254O\28\195\14\235\163_\b','\209\178.{\164w\203\213n!'),false,function(uf)
+        local Yl,Fp,kg,Uk
+        kg,Uk={[25463]=1467,[17574]=17008,[-23570]=25919,[21391]=1467,[32636]=13660},function(Of)
+            return kg[Of+-14451]
+        end
+        Yl={[1467]=function()
+            Fp=Uk(-9119);
+            return true;
+        end,[13660]=function()
+            up[jn('I\29#\229/:8\251g','\15|Q\136')]=uf
+            if uf then
+                Fp=Uk(32025)
+                return true
+            end
+            Fp=Uk(39914)
+        end,[17008]=function()
+            AllFuncs[jn('V\a\231\146\48 \252\140x','\16f\149\255')]()
+            Fp=Uk(66435118668420/1853555010)
+        end}
+        Fp=Uk(47087)
+        repeat
+            while true do
+                if Yl[Fp]~=nil then
+                    if Yl[Fp]()then
+                        break
+                    end
+                end
+            end
+        until Fp==-2036051064- -2036076983
+    end)
+    Pd[jn('\26Y&R.I6\127\53','[=B\16')](Pd,jn('\142O\165m5\55\14\174L\180l5-\4\171','\207:\209\2\21\127k'),function()
+        local tc,Ue,Z,Bn
+        Z,tc={[29182]=5302,[3728]=-22335},function(Qg)
+            return Z[Qg+23611]
+        end
+        Bn={[-22335]=function()
+            spawn(function()
+                local hh,id,Yk,ug=false,false,false,false
+                local Td,Sn,Ul=false,false,false
+                Module[jn('?\243\191\204!\233\190\227','m\134\209\147')](Module,jn('\230\186+\221zR@\140\27\2\194\174)\215\52\50V\216i%\195','\167\207_\178Z\21%\248;J'),function()
+                    local Nq,fp,tp,sl
+                    fp,Nq={[27311]=20160,[-17656]=5950,[30924]=-29531,[7471]=-27909,[-15657]=7892,[-869]=-16795,[19012]=24879,[29960]=-8071,[-13004]=6930,[-15124]=-21954,[11513]=-8071,[4101]=30892,[25549]=-21954,[-23053]=22515,[11954]=-30338,[13072]=6930,[24994]=-10343,[28440]=-26358,[-4134]=10912,[28087]=-13165,[6798]=-89,[-3750]=-10343,[26701]=3529,[-6236]=2190,[-19925]=-7327,[19877]=-7327,[-30048]=19432,[31806]=634,[-17781]=-254,[22693]=8520,[-10590]=7261,[-24988]=-22978,[27351]=-20504,[-13413]=-15057,[665]=28217,[-11701]=30892,[-8694]=-15114,[-5527]=6930,[15403]=23641,[5417]=9958,[-6129]=-29531,[5458]=-11482,[-10713]=7261,[-12078]=2190,[86]=14587,[-12328]=-32110,[18630]=5950,[-254]=7669,[-9053]=-8071,[-13386]=20160,[32557]=-21904,[-27544]=347,[4459]=2636,[11899]=-26358,[27122]=30408,[-18347]=-7212,[27433]=9933,[-27760]=-22475,[-13502]=-31302,[-7334]=2400,[15914]=-7052,[27278]=-15057,[-24906]=-10343,[-11508]=-5424,[11917]=10488,[10297]=-22605,[29560]=-13631,[-30746]=-7327,[-24141]=-32582,[23177]=-3211,[-2992]=2190,[-1392]=-24189,[-24991]=-22978,[-22305]=-20505,[-2643]=-29531,[10013]=30408,[-32008]=19432,[23008]=15404,[-3622]=5316,[-8695]=-30338,[-3188]=-9021,[19843]=9933,[28475]=6375,[-23412]=10480,[-5050]=32147,[-9199]=7261,[51]=-26358,[13462]=-20504,[-416]=-24801,[21682]=17114,[-160]=18337,[16961]=-12672,[27447]=-19547,[-1718]=-22978,[14214]=-22605,[10609]=-11595,[25401]=437,[-27257]=-25638,[9473]=-10343,[22175]=5950,[-2166]=-11482,[8686]=1915,[8592]=-1919,[9586]=-89,[7029]=12720,[29763]=-22686,[-22378]=10618},function(Bf)
+                        return fp[Bf+-23475]
+                    end
+                    tp={[7261]=function()
+                        sl=Nq(-283458696- -283511731)
+                    end,[-22686]=function()
+                        hh=true
+                        sl=Nq(-1214159414+1214169885)
+                    end,[-9021]=function()
+                        Module[jn('o \226~=\244]','-U\155')](Module,jn("\159\186O\131\247\'\4\182\169\14\187\249=\2\179",'\222\204.\239\150Ig'),jn('k8G!','\"L'),-206915876+206915877)
+                        Td=true
+                        wait(-9457862410/-945786241)
+                        sl=Nq(-57017174604672/-1163046153)
+                    end,[22515]=function()
+                        if World[jn(' ,=','M')][jn('\200\231\25\236\237D\240\232\168\56\237\232L\235\242','\134\136k\152\133!\130')][jn('x\22\231\177^\a\238-W\21\197\176L;\235&','6y\149\197\54A\135C')][jn('\171R\15\138^\29','\248:n')][jn('\201\201\22\252\195\r','\144\172z')][jn('\231Vb\235[i','\143\55\f')][jn('\245\198\172\200\196\183','\165\180\195')][jn('\164\b\199\131\n\195\133','\225f\166')]then
+                            sl=Nq(14781)
+                            return true
+                        elseif not World[jn('\136\132\149','\229')][jn('\229\18\255\168\144\53\212\197]\222\169\149=\207\223','\171}\141\220\248P\166')][jn('g\159\246\190\225\143\188\231H\156\212\191\243\179\185\236',')\240\132\202\137\201\213\137')][jn('\17\239&0\227\52','B\135G')][jn('.\255Y\27\245B','w\154\53')][jn('B@@NMK','*!.')][jn('\132\23_\185\21D','\212e0')][jn('\206\20c\233\22g\239','\139z\2')]then
+                            sl=Nq(23059)
+                            return true
+                        end
+                        sl=Nq(12762)
+                    end,[-254]=function()
+                        if World[jn('\4\b\25','i')][jn('O\246\136;\236\30wo\185\169:\233\22lu','\1\153\250O\132{\5')][jn('Z\24\48\186\179y\185\252u\27\18\187\161E\188\247','\20wB\206\219?\208\146')][jn('(9\134\t5\148','{Q\231')][jn('\253V\202_','\191:')][jn('\217+/\213&$','\177JA')][jn('\251\216\16\198\218\v','\171\170\127')][jn('\r\187g*\185c,','H\213\6')]then
+                            sl=Nq(39389)
+                            return true
+                        elseif not World[jn('\185\181\164','\212')][jn('\18>\206\164\128N\180\50q\239\165\133F\175(','\\Q\188\208\232+\198')][jn('\r\247d\219P\224\156\131\"\244F\218B\220\153\136','C\152\22\175\56\166\245\237')][jn('kK\4JG\22','8#e')][jn('\215v\224\127','\149\26')][jn('\1T}\rYv','i5\19')][jn('/\213\145\18\215\138','\127\167\254')][jn('\26Z\218=X\222;','_4\187')]then
+                            sl=Nq(5128)
+                            return true
+                        end
+                        sl=Nq(54399)
+                    end,[5316]=function()
+                        Module[jn('\236\177\149\242\217\148\143\244\197','\169\192\224\155')](Module,jn('q\211\235R\170Z\6X\192\170j\164@\0]','0\165\138>\203\52e'))
+                        sl=Nq(-5511899484100/-1552647742)
+                    end,[2636]=function()
+                        Module[jn('D]@U@Vv','\6(9')](Module,jn('%V\171\30^\176\16','u?\200'),jn('\21\233\57\240','\\\157'),415367478+-415367477)
+                        Sn=true
+                        wait(1851586491+-1851586481)
+                        sl=Nq(599599425-599570492)
+                    end,[-24801]=function()
+                        ug=true
+                        sl=Nq(296917776+-296904891)
+                    end,[-29531]=function()
+                        sl=Nq(2064849207+-2064798285)
+                    end,[-16795]=function()
+                        Module[jn('\176\142\131\191\152','\247\235')](Module,CFrame[jn('\241\250\232','\159')](9.9654613745269032e-06*2003636300,2040408413.2425537-2040407276,-5.7686383424025563e-06*-929555421))
+                        sl=Nq(-962524971+962576886)
+                    end,[23641]=function()
+                        if not Ul then
+                            sl=Nq(-666)
+                            return true
+                        end
+                        sl=Nq(-6573)
+                    end,[10912]=function()
+                        if Player[jn('\161\185\24\31\147\185\24\31','\227\216{t')][jn('VL\190?\181\3\143cQ\147\51\154\6\153','\16%\208[\243j\253')](Player[jn('\161\185\24\31\147\185\24\31','\227\216{t')],jn('g\175z\29\153\190=\176I\203L\173oQ\181\187d\134S\207R',">\202\22q\246\201\29\245\'\174"))and not ug then
+                            sl=Nq(422)
+                            return true
+                        end
+                        sl=1670140580+-1670154211
+                    end,[-22475]=function()
+                        pcall(function()
+                            Ke[jn('HD\5\195YB\3\219','8%f\168')][jn('dO^','*')][jn(')5\149X\205*P\27V~\239d\176\182\183T\1\28\223E\199*R\26sr\174U\176\135\161K','{p\186\22\162X$s\16\23\129\5\220\230\194.')][jn('\227\54t\240\133\192-p\240\164','\165_\6\149\214')](Ke[jn('HD\5\195YB\3\219','8%f\168')][jn('dO^','*')][jn(')5\149X\205*P\27V~\239d\176\182\183T\1\28\223E\199*R\26sr\174U\176\135\161K','{p\186\22\162X$s\16\23\129\5\220\230\194.')],jn('\233\201\169\220\195\178','\176\172\197'))
+                        end)
+                        Module[jn('=\127\197\17\14\ty\218\4*','{\22\183t^')](Module,World[jn('\t\5\20','d')][jn('7\153=\172\19\244\230\23\214\28\173\22\252\253\r','y\246O\216{\145\148')][jn('O\160\235s,m\a\145\96\163\201r>Q\2\154','\1\207\153\aD+n\255')][jn('\193!\157\224-\143','\146I\252')][jn('k\180\30^\190\5','2\209r')][jn('\176W|\188Zw','\216\54\18')][jn('\\\252va\254m','\f\142\25')])
+                        wait(-3117654350/-1558827175)
+                        ug=true
+                        sl=Nq(-3.6721778990051632e-05*-592482189)
+                    end,[19432]=function()
+                        sl=Nq(-1439341136+1439360861)
+                    end,[32147]=function()
+                        if Player[jn('\4\221\135\153\54\221\135\153','F\188\228\242')][jn('\214\135\200[TK\3\227\154\229W{N\21','\144\238\166?\18\"q')](Player[jn('\4\221\135\153\54\221\135\153','F\188\228\242')],jn('\vmW\233\156\213\255\192\147.x\2\207\206\233\226\209\128%','I\1\"\140\188\144\145\165\225'))and not id then
+                            sl=Nq(5694)
+                            return true
+                        end
+                        sl=-1954667256+1954647709
+                    end,[-32582]=function()
+                        Ke[jn('esj\230tul\254','\21\18\t\141')][jn('3\24\t','}')][jn('\254\49\234i\201\198\192\155</\156\242\252\2\183D\206\213\199\150*?\141\175\200',"\172w\197\'\166\180\180\243yW\236\221")][jn('\192\"\247\201\161\233\218)\243\208\175\254','\137L\129\166\202\140')](Ke[jn('esj\230tul\254','\21\18\t\141')][jn('3\24\t','}')][jn('\254\49\234i\201\198\192\155</\156\242\252\2\183D\206\213\199\150*?\141\175\200',"\172w\197\'\166\180\180\243yW\236\221")])
+                        Ul=true
+                        wait(602211429+-602211419)
+                        sl=Nq(1.7702044587602044e-05*-482034714)
+                    end,[6375]=function()
+                        if Module[jn('P\244\28\27y\239\15\5\17q\252\r\29_\244\30\54\b','\30\145}i\28\156{Uc')](Module,2089475944-2089475934,jn('q\2\150_\151\251aZ!\233Z\0\131\19\187\254\56l;\237D','(g\250\51\248\140A\31O\140'))then
+                            sl=Nq(32067)
+                            return true
+                        else
+                            sl=Nq(-3782)
+                            return true
+                        end
+                        sl=-625548955- -625528451
+                    end,[-7052]=function()
+                        if Module[jn('i\19\t0\133\157@\31\t\b\128\159','.v}}\228\250')](Module,CFrame[jn('\28\23\5','r')](-1869512180.8398438+1869532148,1585061105.2425537+-1585059968,495829387.26904297-495824025))>-5314295130/-1062859026 then
+                            sl=Nq(56032)
+                            return true
+                        else
+                            sl=Nq(46483)
+                            return true
+                        end
+                        sl=-857160118+857170051
+                    end,[10480]=function()
+                        Module[jn('J\221y\236b','\r\184')](Module,CFrame[jn('\245\254\236','\155')](1042121485.1601562+-1042101518,-1084341371.7574463+1084342509,-2904720876561.4585/-541696221))
+                        sl=Nq(-2057307814+2057306298)
+                    end,[24879]=function()
+                        if Player[jn('e\26\14\156G\17\27\139T','&ro\238')][jn('\140\154-6J\213\a\185\135\0:e\208\17','\202\243CR\f\188u')](Player[jn('e\26\14\156G\17\27\139T','&ro\238')],jn('\253\bR\198\0I\200','\173a1'))then
+                            sl=Nq(40436)
+                            return true
+                        else
+                            sl=Nq(11147)
+                            return true
+                        end
+                        sl=Nq(53435)
+                    end,[-22978]=function()
+                        sl=Nq(-2060545783- -2060560059)
+                    end,[-22605]=function()
+                        if Player[jn('\213\160\170\202\231\160\170\202','\151\193\201\161')][jn('\255\232\215i\5\192 \202\245\250e*\197\54','\185\129\185\rC\169R')](Player[jn('\213\160\170\202\231\160\170\202','\151\193\201\161')],jn('h\234\205\255\202\187c\227\152C\175\234\173\246\166r\240\147',':\143\169\223\143\213\6\145\255'))and not hh then
+                            sl=Nq(46652)
+                            return true
+                        end
+                        sl=-8307949538944/-761359012
+                    end,[8520]=function()
+                        if Module[jn('\238A\235[J\254\199M\235cO\252','\169$\159\22+\153')](Module,CFrame[jn('\243\248\234','\157')](-985684592.83984375+985704560,-1179247467.7574463- -1179248605,355124671.26904297-355119309))>-2.4252818853598113e-09*-2061616025 then
+                            sl=Nq(22606)
+                            return true
+                        else
+                            sl=Nq(55281)
+                            return true
+                        end
+                        sl=Nq(35374)
+                    end,[-24189]=function()
+                        if not World[jn('\16\28\r','}')][jn('\241 \"W\204\140\247\209o\3V\201\132\236\203','\191OP#\164\233\133')][jn('\206\214\182H\136,\195\251\203\155D\167)\213','\136\191\216,\206E\177')](World[jn('\16\28\r','}')][jn('\241 \"W\204\140\247\209o\3V\201\132\236\203','\191OP#\164\233\133')],jn('\174\192j\144\158\184\136\231\129\195H\145\140\132\141\236','\224\175\24\228\246\254\225\137'))then
+                            sl=Nq(7818)
+                            return true
+                        else
+                            sl=Nq(18425)
+                            return true
+                        end
+                        sl=-1995737959- -1995722902
+                    end,[-8071]=function()
+                        sl=Nq(-1106175663+1106187437)
+                    end,[18337]=function()
+                        if Module[jn('\96\18\152@\200jI\30\152x\205h',"\'w\236\r\169\r")](Module,CFrame[jn('\181\190\172','\219')](1.2140608524014148e-05*1657649290,-2.1572143525554679e-07*-986113618,-1550196577113.0168/-284473407,-1072425723.7095817/-1351720424,665327910-665327910,-862344350.73487163/-1416631370,469071906+-469071906,-9.4649316813375353e-10*-1056531662,-1833379989+1833379989,-(1192038073.668632/1958241540),0/645339466,-4.1993298344106618e-10*-1889297541))>-5.7871664780002169e-09*-1036776810 then
+                            sl=Nq(45157)
+                            return true
+                        else
+                            sl=Nq(35392)
+                            return true
+                        end
+                        sl=Nq(11397)
+                    end,[-1919]=function()
+                        pcall(function()
+                            Ke[jn('L\15\54\191]\t0\167','<nU\212')][jn('\159\180\165','\209')][jn('\129\137\222\248\230\20\a\213\54\178\184\159\242\253\29\6\227%\167','\211\207\241\177\146qj\134F')][jn('B9\17\188\151\160X2\21\165\153\183','\vWg\211\252\197')](Ke[jn('L\15\54\191]\t0\167','<nU\212')][jn('\159\180\165','\209')][jn('\129\137\222\248\230\20\a\213\54\178\184\159\242\253\29\6\227%\167','\211\207\241\177\146qj\134F')],jn('\228\164\194p\177J\14tQ\211\207\166\215<\157OWBK\215\209','\189\193\174\28\222=.1?\182'))
+                        end)
+                        Module[jn('\161\162\255x\18\198\155\151\236e\26\197\155','\239\199\158\nw\181')](Module,-6.3261680798218021e-09*-1580735743)
+                        sl=Nq(-7.759997473741299e-05*-475992423)
+                    end,[-26358]=function()
+                        sl=Nq(-1188271131+1188307678)
+                    end,[17114]=function()
+                        Module[jn('\128j\179[\168','\199\15')](Module,CFrame[jn('\186\177\163','\212')](-2.6151475963801633e-05*-769550106,-2.3536128831034104e-07*-903826821,-3.405543681845259e-06*-1600142441,365815388.66312319/461085669,0*1179354383,-798412649.00396824/-1311606441,-0*-104102388,1170896952-1170896951,-83136748- -83136748,-(-667398647.14870453/-1096380882),-0*-1015781080,629727906.57669938/793729630))
+                        sl=Nq(1850768845+-1850751606)
+                    end,[-15114]=function()
+                        if Module[jn('\191\253Z?\242a\150\241Z\a\247c','\248\152.r\147\6')](Module,CFrame[jn('\137\130\144','\231')](31903236537840.445/1597785378,-235674418.75744629+235675556,945040233.26904297-945034871))>-25067466+25067471 then
+                            sl=Nq(63)
+                            return true
+                        else
+                            sl=Nq(-4285)
+                            return true
+                        end
+                        sl=Nq(-1513)
+                    end,[-89]=function()
+                        sl=Nq(-1127602216- -1127653002)
+                    end,[30892]=function()
+                        sl=Nq(-1881603156- -1881623639)
+                    end,[9933]=function()
+                        sl=Nq(-1.5517229140653193e-05*-1117854215)
+                    end,[5950]=function()
+                        sl=Nq(555926154-555877685)
+                    end,[-31302]=function()
+                        pcall(function()
+                            Ke[jn('\214@9\239\199F?\247','\166!Z\132')][jn('rYH','<')][jn('r\240\0\206\193^B\180\fA\193A\196\218WC\130\31T',' \182/\135\181;/\231|')][jn('\232\235x\t\247\204\242\224|\16\249\219','\161\133\14f\156\169')](Ke[jn('\214@9\239\199F?\247','\166!Z\132')][jn('rYH','<')][jn('r\240\0\206\193^B\180\fA\193A\196\218WC\130\31T',' \182/\135\181;/\231|')],jn('\181(b\215\223\153\143\29\18\144=7\241\141\165\146\f\1\155','\247D\23\178\255\220\225x\96'))
+                        end)
+                        Module[jn('\149\51\135Rq\216\175\6\148Oy\219\175','\219V\230 \20\171')](Module,504086585-504086575)
+                        sl=Nq(55791708241032/2023198007)
+                    end,[-12672]=function()
+                        Player[jn('\144\232\176\217\178\227\165\206\161','\211\128\209\171')][jn('\30{R~\20Y\180+f\127r;\\\162','X\18<\26R0\198')](Player[jn('\144\232\176\217\178\227\165\206\161','\211\128\209\171')],jn('\185\143\231\130\135\252\140','\233\230\132'))[jn('\155&j\178\172$j\190','\218E\30\219')](Player[jn('\144\232\176\217\178\227\165\206\161','\211\128\209\171')][jn('\30{R~\20Y\180+f\127r;\\\162','X\18<\26R0\198')](Player[jn('\144\232\176\217\178\227\165\206\161','\211\128\209\171')],jn('\185\143\231\130\135\252\140','\233\230\132')))
+                        sl=Nq(52403900+-52368912)
+                    end,[-7327]=function()
+                        sl=Nq(47795864+-47745038)
+                    end,[-27909]=function()
+                        Player[jn('G\n\216\14e\1\205\25v','\4b\185|')][jn("\236A\162\206\148?1\217\\\143\194\187:\'",'\170(\204\170\210VC')](Player[jn('G\n\216\14e\1\205\25v','\4b\185|')],jn('\219\222!/\17\53\153\242\205\96\23\31/\159\247','\154\168@Cp[\250'))[jn('\166\237\249\252\145\239\249\240','\231\142\141\149')](Player[jn('G\n\216\14e\1\205\25v','\4b\185|')][jn("\236A\162\206\148?1\217\\\143\194\187:\'",'\170(\204\170\210VC')](Player[jn('G\n\216\14e\1\205\25v','\4b\185|')],jn('\219\222!/\17\53\153\242\205\96\23\31/\159\247','\154\168@Cp[\250')))
+                        wait(28489741820/1424487091)
+                        sl=Nq(3.9565144852004569e-05*1095711899)
+                    end,[-15057]=function()
+                        sl=Nq(32161);
+                        return true;
+                    end,[-11595]=function()
+                        if Module[jn('6\v9\232sC\31\a9\208vA','qnM\165\18$')](Module,CFrame[jn('qzh','\31')](-2136498781.3046875- -2136518281,597688565440.46631/1782988503,1658874445.265625-1658868896))>-1128135886+1128135892 then
+                            sl=Nq(11967)
+                            return true
+                        else
+                            sl=Nq(51950)
+                            return true
+                        end
+                        sl=-585467419+585437081
+                    end,[2190]=function()
+                        sl=Nq(-8152562130351/-382587739)
+                    end,[-19547]=function()
+                        if Player[jn(',\28\136\48\30\28\136\48','n}\235[')][jn('\6\53\214\148\182\f-3(\251\152\153\t;','@\\\184\240\240e_')](Player[jn(',\28\136\48\30\28\136\48','n}\235[')],jn('w\17;\30\20\247;\155\"pW\26~8\b\174\r\129&n','0c^{z\215~\245G\2'))and not Yk then
+                            sl=Nq(51562)
+                            return true
+                        end
+                        sl=Nq(33772)
+                    end,[15404]=function()
+                        pcall(function()
+                            Ke[jn('\150Y\183\14\135_\177\22','\230\56\212e')][jn('\205\230\247','\131')][jn('\254\28F\f\184\198\206\171\145D\233\253Y\244\179\136\214\53\f\17\178\198\204\170\180H\168\204Y\197\165\151','\172YiB\215\180\186\195\215-\135\156\53\164\198\242')][jn('x6\"\163\155[-&\163\186','>_P\198\200')](Ke[jn('\150Y\183\14\135_\177\22','\230\56\212e')][jn('\205\230\247','\131')][jn('\254\28F\f\184\198\206\171\145D\233\253Y\244\179\136\214\53\f\17\178\198\204\170\180H\168\204Y\197\165\151','\172YiB\215\180\186\195\215-\135\156\53\164\198\242')],jn('\227\134\212\143','\161\234'))
+                        end)
+                        Module[jn('sW]\236FGQB\249b','5>/\137\22')](Module,World[jn('\170\166\183','\199')][jn('i\194j\194Y\208\50I\141K\195\\\216)S',"\'\173\24\182\49\181@")][jn('Z\165\154-\148\217\145\237u\166\184,\134\229\148\230','\20\202\232Y\252\159\248\131')][jn('\159\174H\190\162Z','\204\198)')][jn('\17\48&9','S\\')][jn('|\229Kp\232@','\20\132%')][jn('\141f\96\176d{','\221\20\15')])
+                        wait(522282766-522282764)
+                        id=true
+                        sl=Nq(-54865318072928/-1266570896)
+                    end,[30408]=function()
+                        if not Player[jn('e\227/0W\227/0',"\'\130L[")][jn('nn\220\27\161FL[s\241\23\142CZ','(\a\178\127\231/>')](Player[jn('e\227/0W\227/0',"\'\130L[")],jn(':\233%\22_\228\255\233\214\31\252p0\r\216\226\248\197\20','x\133Ps\127\161\145\140\164'))and not id then
+                            sl=Nq(23561)
+                            return true
+                        elseif not Player[jn('\173\v\145[\159\v\145[','\239j\242\48')][jn('\140\127\131\142g\239\200\185b\174\130H\234\222','\202\22\237\234!\134\186')](Player[jn('\173\v\145[\159\v\145[','\239j\242\48')],jn('\211\208\177\193?\252#\5_\171\248\210\164\141\19\249z3E\175\230','\138\181\221\173P\139\3@1\206'))and not ug then
+                            sl=Nq(34084)
+                            return true
+                        elseif not Player[jn('8\207\52\202\n\207\52\202','z\174W\161')][jn('\170\199\199!\vc\199\159\218\234-$f\209','\236\174\169EM\n\181')](Player[jn('8\207\52\202\n\207\52\202','z\174W\161')],jn('\1\151\129o\213\28k\180\165*\210\166=\233\1z\167\174','S\242\229O\144r\14\198\194'))and not hh then
+                            sl=Nq(38878)
+                            return true
+                        elseif not Player[jn('\168\177\132\214\154\177\132\214','\234\208\231\189')][jn('\v \205M\174Lm>=\224A\129I{','MI\163)\232%\31')](Player[jn('\168\177\132\214\154\177\132\214','\234\208\231\189')],jn('/:>m6\154\172\136\151\250\15\49{K*\195\154\146\147\228','hH[\bX\186\233\230\242\136'))and not Yk then
+                            sl=Nq(24140)
+                            return true
+                        end
+                        sl=22016808366220/-2128667540
+                    end,[634]=function()
+                        pcall(function()
+                            Ke[jn('\16\239k\v\1\233m\19','\96\142\b\96')][jn('\150\189\172','\216')][jn("D\151\2\"m\210@\134\2\\~7\135\130\137\165l\190H?g\210B\135\'P?\6\135\179\159\186",'\22\210-l\2\160\52\238D5\16V\235\210\252\223')][jn("z\191\142\221\6Y\164\138\221\'",'<\214\252\184U')](Ke[jn('\16\239k\v\1\233m\19','\96\142\b\96')][jn('\150\189\172','\216')][jn("D\151\2\"m\210@\134\2\\~7\135\130\137\165l\190H?g\210B\135\'P?\6\135\179\159\186",'\22\210-l\2\160\52\238D5\16V\235\210\252\223')],jn('\251\204\205','\169'))
+                        end)
+                        Module[jn('\190\24\f>\188\138\30\19+\152','\248q~[\236')](Module,World[jn('\189\177\160','\208')][jn('^\239\215\134\4\238\224~\160\246\135\1\230\251d','\16\128\165\242l\139\146')][jn('W\218\199\51t$2lx\217\229\50f\24\55g','\25\181\181G\28b[\2')][jn('tZqUVc',"\'2\16")][jn('_hi','\r')][jn('j\234\204f\231\199','\2\139\162')][jn("\26j\160\'h\187",'J\24\207')])
+                        wait(8.1869592014554617e-09*244290945)
+                        hh=true
+                        sl=Nq(4.7769511049266994e-05*492489864)
+                    end,[-25638]=function()
+                        if not Player[jn('\t\20\21B;\20\21B','Kuv)')][jn(')\190*G\244\22\185\28\163\aK\219\19\175','o\215D#\178\127\203')](Player[jn('\t\20\21B;\20\21B','Kuv)')],jn(';\30\191\192}\165\r\18\r\254\248s\191\v\23','zh\222\172\28\203n'))and not Td then
+                            sl=Nq(20287)
+                            return true
+                        end
+                        sl=Nq(8351)
+                    end,[10488]=function()
+                        if Module[jn('\219\194\245\204Hj\196t\147\250\202\228\202nq\213G\138','\149\167\148\190-\25\176$\225')](Module,8.0534970291434679e-09*1241696615,jn('\b\222F\18\217fB\173\205-\203\19\52\139Z_\188\222&','J\178\51w\249#,\200\191'))then
+                            sl=Nq(9973)
+                            return true
+                        else
+                            sl=Nq(42487)
+                            return true
+                        end
+                        sl=-1359384528+1359415420
+                    end,[-21954]=function()
+                        if Player[jn('\229\161\182\209\199\170\163\198\212','\166\201\215\163')][jn('\b\194\217\207J\222\179=\223\244\195e\219\165','N\171\183\171\f\183\193')](Player[jn('\229\161\182\209\199\170\163\198\212','\166\201\215\163')],jn('\247>\159\n\179\133\252\222-\222\50\189\159\250\219','\182H\254f\210\235\159'))then
+                            sl=Nq(30946)
+                            return true
+                        else
+                            sl=Nq(19853)
+                            return true
+                        end
+                        sl=Nq(-7271)
+                    end,[437]=function()
+                        Module[jn('\147\155\160\170\187','\212\254')](Module,CFrame[jn('\20\31\r','z')](-569270897.83984375- -569290865,2437231455174.7305/2143106101,-729057900.73095703- -729063263))
+                        sl=Nq(2.4468658489936054e-05*1237215355)
+                    end,[14587]=function()
+                        if not Player[jn('\159w\\Q\173w\\Q','\221\22?:')][jn("\18\215\194\24\150@\24\'\202\239\20\185E\14",'T\190\172|\208)j')](Player[jn('\159w\\Q\173w\\Q','\221\22?:')],jn('H\28\231s\20\252}','\24u\132'))and not Sn then
+                            sl=Nq(27934)
+                            return true
+                        else
+                            sl=Nq(23315)
+                            return true
+                        end
+                        sl=-2011913670+2011902188
+                    end,[-10343]=function()
+                        sl=Nq(-90510960623352/-1783361784)
+                    end,[-5424]=function()
+                        Module[jn('v\224E\209^','1\133')](Module,CFrame[jn('BI[',',')](-4.4635077662723585e-05*-436869304,-2020219979.7827148+2020220315,-983051822795.85938/-177149895))
+                        sl=Nq(184797101-184761672)
+                    end,[-11482]=function()
+                        sl=Nq(-332250501+332249070)
+                    end,[-13631]=function()
+                        if hh and id and Yk and ug then
+                            sl=Nq(30504)
+                            return true
+                        end
+                        sl=Nq(50597)
+                    end,[-32110]=function()
+                        Module[jn('\166H\183$\147m\173\"\143','\227\57\194M')](Module,jn('y\251dB\243\127L',')\146\a'))
+                        sl=Nq(-1021927376+1021941798)
+                    end,[7669]=function()
+                        if Module[jn('Cz\232\18upjv\232*pr','\4\31\156_\20\23')](Module,CFrame[jn('\a\f\30','i')](-0.00017788613399398313*-112246861,-7.97267604599429e-07*-1426425139,66683211.269042969-66677849))>-4.1039959332880493e-09*-1218324794 then
+                            sl=Nq(48876)
+                            return true
+                        else
+                            sl=Nq(-4069)
+                            return true
+                        end
+                        sl=639577236-639577325
+                    end,[-13165]=function()
+                        if World[jn('co~','\14')][jn('\22\211\154;1\150\178\54\156\187:4\158\169,','X\188\232OY\243\192')][jn('w\192\229?\30\223JuX\195\199>\f\227O~','9\175\151Kv\153#\27')][jn('\198\184\244\231\180\230','\149\208\149')][jn('?\215\29\192\22','x\165')][jn('\2\146\2\14\159\t','j\243l')][jn('\20S!)Q:','D!N')][jn('\167\229\156\128\231\152\134','\226\139\253')]then
+                            sl=Nq(23221)
+                            return true
+                        elseif not World[jn(', 1','A')][jn('O5v\4\235b\21ozW\5\238j\14u','\1Z\4p\131\ag')][jn(':\96\141\27\140fd\172\21c\175\26\158Za\167','t\15\255o\228 \r\194')][jn('\197os\228ca','\150\a\18')][jn('\209\1\243\22\248','\150s')][jn('\180\229l\184\232g','\220\132\2')][jn('\223\137@\226\139[','\143\251/')][jn('\177\128\150\150\130\146\144','\244\238\247')]then
+                            sl=Nq(28892)
+                            return true
+                        end
+                        sl=141546496-141526336
+                    end,[20160]=function()
+                        sl=Nq(1898395479-1898357790)
+                    end,[-20504]=function()
+                        sl=Nq(-1.3128891315556491e-05*-1125761471)
+                    end,[-21904]=function()
+                        Module[jn('\206\244\253\197\230','\137\145')](Module,CFrame[jn('\146\153\139','\252')](1.4915118296847436e-05*1338719530,-7.6472047856319667e-07*-1487134954,834025668738.69482/155535961))
+                        sl=Nq(-1885068326- -1885119234)
+                    end,[-7212]=function()
+                        id=true
+                        sl=Nq(23933346751104/1148874172)
+                    end,[7892]=function()
+                        Module[jn('\147x\160I\187','\212\29')](Module,CFrame[jn('BI[',',')](638622399644.30322/31946488,-1.1099399003990309e-06*-1023864535,-9755177025325.1484/-1761967516,-5.844766972707698e-10*-1685236013,-(5.0970946671103493e-17*1654535154),-(-2.8990058060707866e-10*-595589535),-161.36509071227286/-2091815351,334208947+-334208946,-(-2.3597215568282497e-17*-2049564787),109612231.30179438/634837942,2.0029910650625317e-17*1713353569,1166911800.6534436/1184704668))
+                        sl=Nq(-7588657073322/-754189731)
+                    end,[12720]=function()
+                        Ke[jn('\178\202\168\185\200\190','\215\188\205')][jn('\137\251\139\160\145\239\138\166','\249\142\249\195')][jn('\218\186\222HJ\249\161\218Hk','\156\211\172-\25')](Ke[jn('\178\202\168\185\200\190','\215\188\205')][jn('\137\251\139\160\145\239\138\166','\249\142\249\195')],jn('\1\169\17f9\an\191PB3\r','I\204p\16\\i'),jn('\156\161\170','\206'),nil,3.4421359698369204e-09*290517286)
+                        wait(93000155+-93000154)
+                        sl=Nq(29496772202352/880816179)
+                    end,[9958]=function()
+                        Yk=true
+                        sl=Nq(-16026916876929/-1588553561)
+                    end,[6930]=function()
+                        sl=Nq(-1783238270- -1783257611)
+                    end,[2400]=function()
+                        Module[jn('S\22\202qS\24\232JD','\aw\166\26')](Module,jn('\178\178\178','\141'),function()
+                            local Fo,Zd,im,ci
+                            ci,Zd={[-1775]=28642,[-24960]=9620,[25366]=5441,[21745]=-6105,[12610]=5441,[3390]=493,[-5594]=5441,[19809]=5441,[-28563]=-15008},function(Yj)
+                                return ci[Yj-12059]
+                            end
+                            im={[493]=function()
+                                bd[jn('A\174KG\177Q]','.\222?')][jn('ik\234\204\96e\226\204','\26\n\140\169')][jn('\220\239\5\153\233\26\131','\237\128u')][jn('\19\218\29\131\193\52\222\19\138\199','@\191q\230\162')]=true
+                                Module[jn('\175\215,\143\208\16\133','\236\187E')](Module,bd[jn('he\206nz\212t','\a\21\186')][jn('W\128]\18^\142U\18','$\225;w')][jn('~\b\181;\14\170!','Og\197')][jn('.\249*8\227\48','L\140^')])
+                                Fo=Zd(-50312969715232/-1578792824)
+                            end,[-6105]=function()
+                                bd[jn('\168\228\29\174\251\a\180','\199\148i')][jn('\229\219\189\222\236\213\181\222','\150\186\219\187')][jn('TK\206\17M\209\v','e$\190')][jn(']\155\167G\23z\159\169N\17','\14\254\203\"t')]=true
+                                Module[jn('\153\27\0\185\28<\179','\218wi')](Module,bd[jn('.\tg(\22}2','Ay\19')][jn('E$r\160L*z\160','6E\20\197')][jn('\247\199)\178\193\54\168','\198\168Y')][jn('&\252\207\48\230\213','D\137\187')])
+                                Fo=Zd(3034964386071/123027459)
+                            end,[9620]=function()
+                                bd[jn('\3\155\207\5\132\213\31','l\235\187')][jn('\4\50\49M\r<9M','wSW(')][jn('\25\186\254\\\188\225F','(\213\142')][jn('zs5HM]w;AK',')\22Y-.')]=true
+                                Module[jn('\136dR\168cn\162','\203\b;')](Module,bd[jn('v\23\245p\b\239j','\25g\129')][jn('\150v\145f\159x\153f','\229\23\247\3')][jn('\96\128\198%\134\217?','Q\239\182')][jn('z\184\215l\162\205','\24\205\163')])
+                                Fo=Zd(4.2196376193748862e-06*1532122088)
+                            end,[-15008]=function()
+                                if string[jn('\143,\135!','\233E')](bd[jn('\195\55@\197(Z\223','\172G4')][jn('\251\222m\161\242\208e\161','\136\191\v\196')][jn('\f\253vI\251iS','=\146\6')][jn('\162H\174Y','\214-')],jn('\193W1<\23y\f\231\255\138\23q_4\213p\199\164\254J!~\31uB\242\182\130\nqS|\249%\207\165','\152\56D\27e\28,\149\150\237\127\5s\20\156W\170\132'))then
+                                    Fo=Zd(33804)
+                                    return true
+                                elseif string[jn('1\167\57\170','W\206')](bd[jn('\227\f\178\229\19\168\255','\140|\198')][jn('\194\187\212\179\203\181\220\179','\177\218\178\214')][jn('\241\56\176\180>\175\174','\192W\192')][jn(';\6\55\23','Oc')],jn('\18Z\228\217\150S\23;L\1_\va\219\189K\182\198\143\243?\176\156\194\230\188>\15\224\156\131\18\16\48L\28\30\18k\202\243]\174\143\149\187\50\255\157\223\230\230','[}\137\249\240\50dX%o>\127\4\191\157)\207\230\251\155Z\144\241\187\149\200'))then
+                                    Fo=Zd(-12901)
+                                    return true
+                                elseif string[jn('\209\t\217\4','\183\96')](bd[jn('\249\23$\255\b>\229','\150gP')][jn('\164\226.b\173\236&b','\215\131H\a')][jn('\247I\157\178O\130\168','\198&\237')][jn('_zSk','+\31')],jn("s\167\204R\189S@\'\230\143\20)\248z\235\28\182\131D\190B\18\54\230\131S/\245z\235",'<\193\236\49\210&2T\131\163\52]\144\27\159'))then
+                                    Fo=Zd(15449)
+                                    return true
+                                end
+                                Fo=Zd(37425)
+                            end,[5441]=function()
+                                Fo=Zd(10284);
+                                return true;
+                            end}
+                            Fo=Zd(-16504)
+                            repeat
+                                while true do
+                                    if im[Fo]~=nil then
+                                        if im[Fo]()then
+                                            break
+                                        end
+                                    end
+                                end
+                            until Fo==1855487451-1855458809
+                        end)
+                        sl=Nq(3573228140350/78274439)
+                    end,[347]=function()
+                        pcall(function()
+                            Ke[jn('9\164\r}(\162\ve','I\197n\22')][jn('\144\187\170','\222')][jn('\2\28\198yO^F\234\f\215N\21<\6\b\226*5\140dE^D\235)\219\15$<7\30\253','PY\233\55 ,2\130J\190 tPV}\152')][jn('\175\220/qe\140\199+qD','\233\181]\20\54')](Ke[jn('9\164\r}(\162\ve','I\197n\22')][jn('\144\187\170','\222')][jn('\2\28\198yO^F\234\f\215N\21<\6\b\226*5\140dE^D\235)\219\15$<7\30\253','PY\233\55 ,2\130J\190 tPV}\152')],jn('upWg\\','2\2'))
+                        end)
+                        Module[jn('\179#\155\165}\135%\132\176Y','\245J\233\192-')](Module,World[jn('\16\28\r','}')][jn('\132\f\221\182\212\147t\164C\252\183\209\155o\190','\202c\175\194\188\246\6')][jn('\158\202\200\161\184-.\171\177\201\234\160\170\17+\160','\208\165\186\213\208kG\197')][jn('\201B\28\232N\14','\154*}')][jn('S\174q\185z','\20\220')][jn('[\186\144W\183\155','3\219\254')][jn('=\196\53\0\198.','m\182Z')])
+                        wait(-742161247- -742161249)
+                        Yk=true
+                        sl=Nq(-2.4592566370351694e-05*-1344349325)
+                    end,[3529]=function()
+                        Module[jn('\209=\226\f\249','\150X')](Module,CFrame[jn('\218\209\195','\180')](3.4785629267037403e-05*571291278,-736936804353.97449/-1644602784,-7646138159764.7051/-1376050382))
+                        sl=Nq(-13731300+13737119)
+                    end,[28217]=function()
+                        if World[jn('\168\248\165\251','\198\136')][jn('\175\27\t\192(\204s\154\6$\204\a\201e','\233rg\164n\165\1')](World[jn('\168\248\165\251','\198\136')],jn('eee','Z'))then
+                            sl=Nq(16141)
+                            return true
+                        else
+                            sl=Nq(50176)
+                            return true
+                        end
+                        sl=Nq(42105)
+                    end,[-3211]=function()
+                        if World[jn('($5','E')][jn('\138\165\218\215\50\204\240\170\234\251\214\55\196\235\176','\196\202\168\163Z\169\130')][jn('u\253\183\239\24\215\202\153Z\254\149\238\n\235\207\146',';\146\197\155p\145\163\247')][jn('\132$=\165(/','\215L\\')][jn('\154\173\172','\200')][jn('\249\130\155\245\143\144','\145\227\245')][jn('\t\14\239\52\f\244','Y|\128')][jn('Q\\*v^.p','\20\50K')]then
+                            sl=Nq(46168)
+                            return true
+                        elseif not World[jn('\170\166\183','\199')][jn('\250\215\149/\250Q\175\218\152\180.\255Y\180\192','\180\184\231[\146\52\221')][jn('RL5n\238\30\239\253}O\23o\252\"\234\246','\28#G\26\134X\134\147')][jn('\195]Q\226QC','\144\53\48')][jn('\216\239\238','\138')][jn('L\226-@\239&','$\131C')][jn('\188e\205\129g\214','\236\23\162')][jn('Q\240\57v\242=p','\20\158X')]then
+                            sl=Nq(53238)
+                            return true
+                        end
+                        sl=Nq(17948)
+                    end,[-30338]=function()
+                        sl=Nq(1226838778-1226805830)
+                    end}
+                    sl=Nq(1097)
+                    repeat
+                        while true do
+                            if tp[sl]~=nil then
+                                if tp[sl]()then
+                                    break
+                                end
+                            elseif sl==808532249-808552754 then
+                                xp(jn('\202B\a\30\240\193\249\213\22WdZyZd\246\r:[\208\219\238\222P@=(^_3','\147-r>\177\173\139\176w3\29z1;\18'))
+                                wait(1220547330+-1220547325)
+                                return
+                            elseif sl==-1896664515+1896675133 then
+                                if Module[jn('Q3\160\145n%\186\159|','\24@\232\240')](Module,jn('\240\225\216\135\2\183\159\247\153\163\b\189','\184\132\185\241g\217'))then
+                                    sl=Nq(1170)
+                                    break
+                                end
+                                sl=1479756966-1479781155
+                            end
+                        end
+                    until sl==-1700489586- -1700491501
+                end)
+            end)
+            Ue=tc(5571)
+            return true
+        end}
+        Ue=tc(-19883)
+        repeat
+            while true do
+                if Bn[Ue]~=nil then
+                    if Bn[Ue]()then
+                        break
+                    end
+                end
+            end
+        until Ue==2137969374+-2137964072
+    end)
+    local function Lq(qq)
+        local jm,l,Gi,go,Hn,Lc,Qm,Hq,vq,Ub,mm,sp,Xi,lh
+        mm,jm={[32119]=881,[25172]=-1822,[16238]=8749,[13494]=-27379,[4736]=4104,[-17596]=4104,[-11906]=4104,[14898]=24606,[-14287]=770},function(Mf)
+            return mm[Mf-19466]
+        end
+        Hq={[13579]=function()
+            if(l>=(0*910100447)/(845281337-552893908)and Xi>Ub)or((l<(1307038300+-1307038300)*(27.700453569659373*75141049)or l~=l)and Xi<Ub)then
+                Qm=2.436102835303561e-06*1839823810
+            else
+                Qm=jm(35704)
+            end
+        end,[24606]=function()
+            Xi=Xi+l;
+            Hn=Xi;
+            if Xi~=Xi then
+                Qm=1313144943+-1313140461
+            else
+                Qm=1453073913-1453060334
+            end
+        end,[29237]=function()
+            Hn=Xi;
+            if Ub~=Ub then
+                Qm=1823923115568/406944024
+            else
+                Qm=-15643362615585/-1152026115
+            end
+        end,[4482]=function()
+            Qm=jm(-2094253824- -2094255694)
+        end,[-27379]=function()
+            xp[jn('\198JC\225CN','\136%7')](xp,jn('i\192v\227\14\175\v[\206?\203\30\187N','/\161\31\143k\203+'),jn('#\rSj\216\251\20\30\\\166$\152?S\a_x\195\190@9\19\142\53\200;S','sa6\v\171\158\52V3\202@\184^'),7153970360/1430794072)
+            Qm=jm(-552911701- -552935903)
+        end,[4104]=function()
+            Qm=jm(51585);
+            return true;
+        end,[-1822]=function()
+            l,Ub,Xi=1749257163+-1749257162,qq,-775983355/-775983355
+            Qm=304667475-304638238
+        end,[8749]=function()
+            Gi=go[jn('\23\1;\3\49','Tm')](go)
+            Gi[jn('W\216\130b\215\132','\a\185\240')]=lh
+            Qm=jm(46770315642556/1361026529)
+        end,[770]=function()
+            Lc=game[jn(',\239\238\221\185\25\252\243\237\185','k\138\154\142\220')](game,jn('\18%Q;,B1','BI0'))
+            vq=Lc[jn('Y\18\174s\217E\17\172k\208g','\21}\205\18\181')]
+            sp=vq[jn(')\239\181\245\v\228\160\226\24','j\135\212\135')]or vq[jn('1\238\233\188Y\228\231\23\244\201\170\\\226\247','r\134\136\206\56\135\147')][jn('\248\199\198\210','\175\166')](vq[jn('1\238\233\188Y\228\231\23\244\201\170\\\226\247','r\134\136\206\56\135\147')])
+            lh=vq[jn('!\220\172\30%\198\4\254\173\3\15\205','v\189\197jc\169')](vq,jn('\197\146\22\181\247\146\22\181','\135\243u\222'))
+            go=sp[jn('k\199\173]\140\57yc\133eE\199\175]\133\54H|\144U^','-\174\195\57\202P\v\16\241&')](sp,jn('^Xe[','\n7'))
+            if go then
+                Qm=jm(44638)
+                return true
+            else
+                Qm=jm(32960)
+                return true
+            end
+            Qm=jm(7560)
+        end}
+        Qm=jm(5179)
+        repeat
+            while true do
+                if Hq[Qm]~=nil then
+                    if Hq[Qm]()then
+                        break
+                    end
+                end
+            end
+        until Qm==-1041912311+1041913192
+    end
+    Pd[jn('\220x\143\162\232h\159\143\243','\157\28\235\224')](Pd,jn('\162\a\137\210\200\187\54\213=\198)\175\222\155\136>\202\b','\230r\249\183\232\253_\166U'),function()
+        Lq(math[jn('q\t\204g\a\207','\3h\162')](-1620870350- -1620870355,4.9131803205863916e-09*2035341540))
+    end)
+    local bf=game[jn('I@<.\185|S!\30\185','\14%H}\220')](game,jn('\159\157\55\48aX\f&\168\156\20(gI\f5\168','\205\248G\\\b;mR'))
+    local hp=game[jn('\241\204TV2\196\223If2','\182\169 \5W')](game,jn('\148K\156\189B\143\183',"\196\'\253"))
+    local Bj=hp[jn("\233;\247\214\'\245\56\245\206.\215",'\165T\148\183K')]
+    local Wb=bf[jn('\228\179 \14s\163\193\145!\19Y\168','\179\210Iz5\204')](bf,jn('s^\141\24\132qA\152\0\149p','\3\50\236a\225'))[jn('i\169\n\245\209\186L\139\v\232\251\177','>\200c\129\151\213')](bf[jn('\228\179 \14s\163\193\145!\19Y\168','\179\210Iz5\204')](bf,jn('s^\141\24\132qA\152\0\149p','\3\50\236a\225')),Bj[jn('\24Z;^','V;')])[jn('\185\138a.\229\129\156\168\96\51\207\138','\238\235\bZ\163\238')](bf[jn('\228\179 \14s\163\193\145!\19Y\168','\179\210Iz5\204')](bf,jn('s^\141\24\132qA\152\0\149p','\3\50\236a\225'))[jn('i\169\n\245\209\186L\139\v\232\251\177','>\200c\129\151\213')](bf[jn('\228\179 \14s\163\193\145!\19Y\168','\179\210Iz5\204')](bf,jn('s^\141\24\132qA\152\0\149p','\3\50\236a\225')),Bj[jn('\24Z;^','V;')]),jn('\139\57\185\57\171','\216M'))
+    local _e=require(bf[jn('2{?\155v\208\23Y>\134\\\219','e\26V\239\48\191')](bf,jn('\4q\148\28r\149\26','i\30\240'))[jn('\156K5i\164\"\185i4t\142)','\203*\\\29\226M')](bf[jn('2{?\155v\208\23Y>\134\\\219','e\26V\239\48\191')](bf,jn('\4q\148\28r\149\26','i\30\240')),jn('\169\183','\207'))[jn('\194]6\194]\190\231\127\55\223w\181','\149<_\182\27\209')](bf[jn('2{?\155v\208\23Y>\134\\\219','e\26V\239\48\191')](bf,jn('\4q\148\28r\149\26','i\30\240'))[jn('\156K5i\164\"\185i4t\142)','\203*\\\29\226M')](bf[jn('2{?\155v\208\23Y>\134\\\219','e\26V\239\48\191')](bf,jn('\4q\148\28r\149\26','i\30\240')),jn('\169\183','\207')),jn('\31\1\156\t\r\141','{d\254')))
+    local kl=require(bf[jn('\n\183\188\197b}/\149\189\216Hv',']\214\213\177$\18')](bf,jn('\245\179\168\237\176\169\235','\152\220\204'))[jn('8\27\246\146\177\239\29\57\247\143\155\228','oz\159\230\247\128')](bf[jn('\n\183\188\197b}/\149\189\216Hv',']\214\213\177$\18')](bf,jn('\245\179\168\237\176\169\235','\152\220\204')),jn("9\'",'_')))
+    local function sf(Ma)
+        local em,Bo,cn,vc,ud
+        vc,ud={[-1436]=29677,[-26865]=-2701},function(I)
+            return vc[I-18980]
+        end
+        em={[5635]=function()
+            cn,_=string[jn('\254m\236|','\153\30')](cn,jn('\233\134\183h@\6\0\v\159\139\254r\1GO\v','\183\174\154Web+\"'),jn('\1\18\b\6\22','$#'))
+            Bo=ud(-14498579040336/-826412394)
+        end,[29677]=function()
+            if _==-0*-132657713 then
+                Bo=1954803532-1954822074
+            else
+                Bo=1506586367-1506580732
+            end
+        end}
+        Bo=ud(-7885)
+        repeat
+            while true do
+                if em[Bo]~=nil then
+                    if em[Bo]()then
+                        break
+                    end
+                elseif Bo==-29584712223142/1595551301 then
+                    return cn
+                elseif Bo==-1.4488332632896743e-06*1864258689 then
+                    cn=tostring(math[jn('7/=&','TJ')](Ma))
+                    Bo=1.1588728508564163e-05*486248340
+                end
+            end
+        until Bo==1888398910-1888386771
+    end
+    local function vb(ni)
+        local R=Wb[jn('S\160\18\52\157\188v\130\19)\183\183','\4\193{@\219\211')](Wb,jn('\vj\1k\27','h\5'))[jn('Rphda','\4\17')]
+        local nl=R+ni
+        local Ka=Instance[jn('\197\206\220','\171')](jn('\166\217R\29\29\154\250^\19\r\141','\232\172?\127x'))
+        Ka[jn('\174\156\148\136\157','\248\253')]=R
+        game[jn('\188\179\224\172\30\137\160\253\156\30','\251\214\148\255{')](game,jn('~\6l\162P\140O\3\127\174]\186','*q\t\199>\223'))[jn('\250\31J\216\25J','\185m/')](game[jn('\188\179\224\172\30\137\160\253\156\30','\251\214\148\255{')](game,jn('~\6l\162P\140O\3\127\174]\186','*q\t\199>\223')),Ka,TweenInfo[jn(':1#','T')](764815036.79999995/1274691728,Enum[jn('bT\18S\224@f\21C\226B',"\'5a:\142")][jn('$\129\20\144','u\244')],Enum[jn('\168\247Q$\15\181\129\132\228G.\21\187\170\131','\237\150\"Ma\210\197')][jn('\152\162\163','\215')]),{[jn('\147\161\169\181\160','\197\192')]=nl})[jn('\137O\184Z','\217#')](game[jn('\188\179\224\172\30\137\160\253\156\30','\251\214\148\255{')](game,jn('~\6l\162P\140O\3\127\174]\186','*q\t\199>\223'))[jn('\250\31J\216\25J','\185m/')](game[jn('\188\179\224\172\30\137\160\253\156\30','\251\214\148\255{')](game,jn('~\6l\162P\140O\3\127\174]\186','*q\t\199>\223')),Ka,TweenInfo[jn(':1#','T')](764815036.79999995/1274691728,Enum[jn('bT\18S\224@f\21C\226B',"\'5a:\142")][jn('$\129\20\144','u\244')],Enum[jn('\168\247Q$\15\181\129\132\228G.\21\187\170\131','\237\150\"Ma\210\197')][jn('\152\162\163','\215')]),{[jn('\147\161\169\181\160','\197\192')]=nl}))
+        kl[jn('\132\t\202\57\135\n\222.\176','\212e\171@')](kl,bf[jn('\tMf\171\14Zv\161\b','{(\21\196')][jn('\248\165\158\229\174\152','\139\202\235')][jn('&3-','U')][jn('\151\139','\226')][jn('\130_-\214a@\130S8\197m@','\225*_\164\4.')],game[jn('\135\182\149\172f\178\165\136\156f','\192\211\225\255\3')](game,jn('\243\216\166\218\209\181\208','\163\180\199'))[jn('c{\15U\186\127x\rM\179]','/\20l4\214')][jn('\169U\146\154\156K\180\150\144','\249\57\243\227')][jn('\236\241\224','\132')][jn('\188\25\53\211\181\23=\211','\207xS\182')][jn('J\251@\250Z',')\148')],true)
+        Ka[jn('\172c\3\128P\182e\154\173\197\199\21\131g\25\183G\189F\150\184\223\223:','\235\6w\208\"\217\21\255\223\177\190V')](Ka,jn('j\16P\4Y','<q'))[jn('g\182\156J\188\145P','$\217\242')](Ka[jn('\172c\3\128P\182e\154\173\197\199\21\131g\25\183G\189F\150\184\223\223:','\235\6w\208\"\217\21\255\223\177\190V')](Ka,jn('j\16P\4Y','<q')),function()
+            game[jn('\234\\\177&|\223O\172\22|','\173\57\197u\25')](game,jn("\4s\173-z\190\'",'T\31\204'))[jn('\148\177~\193\254\136\178|\217\247\170','\216\222\29\160\146')][jn('dn\225\205Qp\199\193]','4\2\128\180')][jn('\129\156\141','\233')][jn('>\17u\136\55\31}\136','Mp\19\237')][jn('\159c\149b\143','\252\f')][jn('q_]N','%:')]=tostring(sf(Ka[jn('2\48\b$\1','dQ')])..jn('!B%','\1'))
+        end)
+        _e[jn('\170u\156\162e\157\134','\235\17\248')](_e,Ka,-4.4641316875073814e-10*-1568054101)
+        if R>nl then
+            require(game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')][jn('f\244\55c,:B\239T\220\55d\15 D\243R',' \157Y\ajS0\156')](game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')],jn('TIX','<'))[jn('\3\180\237\54\187\235','S\213\159')][jn('\204\132\254\215\207\195\233\166\255\202\229\200','\155\229\151\163\137\172')](game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')][jn('f\244\55c,:B\239T\220\55d\15 D\243R',' \157Y\ajS0\156')](game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')],jn('TIX','<'))[jn('\3\180\237\54\187\235','S\213\159')],jn('\179\128j\21\226\229n\161\172I\31\244\241n\145','\244\229\4p\144\132\2')))[jn('s#<K\175\221m\192K> R\178\218H\199K','?JO?\224\179/\175')](require(game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')][jn('f\244\55c,:B\239T\220\55d\15 D\243R',' \157Y\ajS0\156')](game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')],jn('TIX','<'))[jn('\3\180\237\54\187\235','S\213\159')][jn('\204\132\254\215\207\195\233\166\255\202\229\200','\155\229\151\163\137\172')](game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')][jn('f\244\55c,:B\239T\220\55d\15 D\243R',' \157Y\ajS0\156')](game[jn('\136*\251\194\155\189\57\230\242\155','\207O\143\145\254')](game,jn('\23\179\220>\186\207\52','G\223\189'))[jn('~U+>WbV)&^@','2:H_;')][jn('\153\186\132\191\172\164\162\179\160','\201\214\229\198')][jn('\250\231\246','\146')][jn('\162\148\56\56\171\154\48\56','\209\245^]')][jn('\226r\232s\242','\129\29')],jn('TIX','<'))[jn('\3\180\237\54\187\235','S\213\159')],jn('\179\128j\21\226\229n\161\172I\31\244\241n\145','\244\229\4p\144\132\2'))),jn('}','P')..sf(R-nl)..jn('\247\148\243','\215'),Color3[jn('B\145\48I\177\24f','$\227_')](-2.5960825393682262e-07*-816615022,101256034+-101255972,810563397+-810563335),0/1205525345)
+            game[jn('\138hwB\148\191{jr\148','\205\r\3\17\241')](game,jn('\143\150\50\166\159!\172','\223\250S'))[jn('m\207\137\145\27q\204\139\137\18S','!\160\234\240w')][jn('\17\53\219\53$+\253\57(','AY\186L')][jn('\4\25\b','l')][jn('\172U\145\2\165[\153\2','\223\52\247g')][jn('\234\178\224\179\250','\137\221')][jn('&\\\185\a\26\29U\174\1j','r9\193sY')]=Color3[jn('_^\206T~\230{','9,\161')](-152732626+152732838,1329201541-1329201479,-821430578- -821430640)
+        else
+            require(game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')][jn("\19\171\251\50\153)\200\197!\131\251\53\186\51\206\217\'",'U\194\149V\223@\186\182')](game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')],jn('\203\214\199','\163'))[jn('\229,j\208#l','\181M\24')][jn('Uv8\181\231\173pT9\168\205\166','\2\23Q\193\161\194')](game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')][jn("\19\171\251\50\153)\200\197!\131\251\53\186\51\206\217\'",'U\194\149V\223@\186\182')](game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')],jn('\203\214\199','\163'))[jn('\229,j\208#l','\181M\24')],jn('6\5\210\219\252:\185$)\241\209\234.\185\20','q\96\188\190\142[\213')))[jn('fS\b\226\233\188\51\195^N\20\251\244\187\22\196^','*:{\150\166\210q\172')](require(game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')][jn("\19\171\251\50\153)\200\197!\131\251\53\186\51\206\217\'",'U\194\149V\223@\186\182')](game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')],jn('\203\214\199','\163'))[jn('\229,j\208#l','\181M\24')][jn('Uv8\181\231\173pT9\168\205\166','\2\23Q\193\161\194')](game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')][jn("\19\171\251\50\153)\200\197!\131\251\53\186\51\206\217\'",'U\194\149V\223@\186\182')](game[jn('\208\163\149\219z\229\176\136\235z','\151\198\225\136\31')](game,jn('Z+\ts\"\26y','\nGh'))[jn('I\248\243\16]U\251\241\bTw','\5\151\144q1')][jn('\150tG\244\163ja\248\175','\198\24&\141')][jn('\165\184\169','\205')][jn('\132^\4\186\141P\f\186','\247?b\223')][jn('\220\230\214\231\204','\191\137')],jn('\203\214\199','\163'))[jn('\229,j\208#l','\181M\24')],jn('6\5\210\219\252:\185$)\241\209\234.\185\20','q\96\188\190\142[\213'))),jn('\127','T')..sf(nl-R)..jn('/L+','\15'),Color3[jn('\134\244\230\141\212\206\162','\224\134\137')](-890457774+890457873,265962197018/1310158606,-6.4381004504939419e-07*-94748444),-1875439117- -1875439117)
+            game[jn('\146b\151e \167q\138U ','\213\a\227\54E')](game,jn('\179\244\202\154\253\217\144','\227\152\171'))[jn('\196\254\177)F\216\253\179\49O\250','\136\145\210H*')][jn('\205mRf\248stj\244','\157\1\51\31')][jn('nsb','\6')][jn('\183q\141\223\190\127\133\223','\196\16\235\186')][jn('\30D\20E\14','}+')][jn('8%\132}\145\3,\147{\225','l@\252\t\210')]=Color3[jn('\147\133\246\152\165\222\183','\245\247\153')](-6.7051566317274452e-08*-1476475576,-854191556- -854191759,81383649163/1334158183)
+        end
+        for Jb=239245525-239245524,1424031958-1424031956 do
+            task[jn('\180\24\170\r','\195y')](-2.441019715481577e-10*-409664860)
+            game[jn(' \233\166r\4\21\250\187B\4','g\140\210!a')](game,jn('\136\\/\161U<\171','\216\48N'))[jn('\215\18\178N\141\203\17\176V\132\233','\155}\209/\225')][jn('6\14hR\3\16N^\15','fb\t+')][jn('\224\253\236','\136')][jn('\205#\25\240\196-\17\240','\190B\127\149')][jn('\180G\190F\164','\215(')][jn('\176\b\248\219\134\139\1\239\221\246','\228m\128\175\197')]=Color3[jn('\158\21\194\149\53\234\186','\248g\173')](-1927361315- -1927361570,-938267113- -938267366,-486730083276/-2134781067)
+            task[jn('iPwE','\30\49')](138863575.5/1388635755)
+            game[jn("\6(\168\23\145\51;\181\'\145",'AM\220D\244')](game,jn('\226\221k\203\212x\193','\178\177\n'))[jn('Iz.t\235Uy,l\226w','\5\21M\21\135')][jn('\188S\164\137\137M\130\133\133','\236?\197\240')][jn('\234\247\230','\130')][jn(')\170\223\230 \164\215\230','Z\203\185\131')][jn('\24\241\18\240\b','{\158')][jn('\30\220\167\51\202%\213\176\53\186','J\185\223G\137')]=(R>nl)and Color3[jn('\251>\198\240\30\238\223','\157L\169')](-1132766228+1132766440,-127399141568/-2054824864,-3.2889181714830168e-08*-1885118351)or Color3[jn('Zp\168QP\128~','<\2\199')](-462743989- -462744088,50383640419/248195273,-4.2587826518335082e-07*-143233419)
+        end
+        R=nl
+        Wb[jn("J^&\169\54\147o|\'\180\28\152",'\29?O\221p\252')](Wb,jn('j\160\96\161z','\t\207'))[jn('C\255y\235p','\21\158')]=nl
+        game[jn('M\189D\193\bx\174Y\241\b','\n\216\48\146m')](game,jn('{\191\212R\182\199X','+\211\181'))[jn('\240[\210\187\195\236X\208\163\202\206','\188\52\177\218\175')][jn('\221\a\220\52\232\25\250\56\228','\141k\189M')][jn('\181\168\185','\221')][jn('\3\v\96\180\n\5h\180','pj\6\209')][jn('\30\206\20\207\14','}\161')][jn('\246\249\218\232','\162\156')]=tostring(sf(nl)..jn('\186\217\190','\154'))
+        game[jn('\223\96\152hd\234s\133Xd','\152\5\236;\1')](game,jn('v\205\231_\196\244U','&\161\134'))[jn('H\182\181\5\52T\181\183\29=v','\4\217\214dX')][jn('\218\196\150\ni\196\210\131\15x\197','\182\161\247n\f')][jn('\157\250','\222')][jn('D\173~\185w','\18\204')]=game[jn('\128V?\196\187\181E\"\244\187','\199\51K\151\222')](game,jn("\194.\241\235\'\226\225",'\146B\144'))[jn('\155H\152\153\49\135K\154\129\56\165',"\215\'\251\248]")][jn('=G\213\3\bY\243\15\4','m+\180z')][jn('\254\227\242','\150')][jn('\134I\158\29\143G\150\29','\245(\248x')][jn('n{dz~','\r\20')][jn('O\243c\226','\27\150')]
+    end
+    getgenv()[jn('zA\199F\172\221OYX\247\\\164\223x',',(\180\51\205\177\v')]=false
+    Pd[jn('\207\167\249\211\225\164\250\235\235','\142\195\157\135')](Pd,jn('H_\230\243\134pz\\\211\48\229fC\252\188\253bf_\195q\202T','\t*\146\156\166\52\15,\182\16\166'),false,function(Aa)
+        local qg,Jm,gf,Jl,Dp
+        qg,Jm={[30200]=32035,[30079]=25439,[-31583]=-6492,[-22424]=-5307,[-731]=32035,[1261]=7360,[28426]=7409},function(jp)
+            return qg[jp- -22592]
+        end
+        Dp={[32035]=function()
+            gf=Jm(7487);
+            return true;
+        end,[7360]=function()
+            if getgenv()[jn('\155C\206;T6~\184Z\254!\\4I','\205*\189N5Z:')]then
+                gf=-22380866899936/-2120806112
+            else
+                gf=Jm(-45016)
+            end
+        end,[10553]=function()
+            Jl=math[jn('|\134\237j\136\238','\14\231\131')](5750100180000/95835003,0.0025585020375057392*41039639)
+            vb(Jl)
+            task[jn('7n){','@\15')]()
+            gf=Jm(-1.7158405774689095e-05*1243180764)
+        end,[-5307]=function()
+            gf=Jm(-5506524+5483201)
+        end,[7409]=function()
+            getgenv()[jn('\241\233\137!bu.\210\240\185;jw\25','\167\128\250T\3\25j')]=Aa
+            if getgenv()[jn('\151prbG\240\252\180iBxO\242\203','\193\25\1\23&\156\184')]then
+                gf=Jm(-54175)
+                return true
+            end
+            gf=Jm(7608)
+        end,[-6492]=function()
+            gf=-636817047- -636824407;
+        end}
+        gf=Jm(5834)
+        repeat
+            while true do
+                if Dp[gf]~=nil then
+                    if Dp[gf]()then
+                        break
+                    end
+                end
+            end
+        until gf==71199782-71174343
+    end)
+    local Lp=jn('\223[\244W\231','\147>')
+    local di=jn('\154\14\253\57%\181\27\226?,','\212o\139PB')
+    local Uh=jn('\189\27\130\139\22\141\139','\255w\227')
+    local Vp=false
+    local Nf=false
+    local Qb=false
+    local Ec=false
+    local q=jn('\226\139C\22t\205\158\\\16}','\172\234\53\127\19')
+    local vg=nil
+    local dd=-0*-230383454
+    local po=game[jn('/ \209{q\26\51\204Kq','hE\165(\20')](game,jn('\130\143\b\171\134\27\161','\210\227i'))
+    local Xk=game[jn('\254\173rcl\203\190oSl','\185\200\6\48\t')](game,jn('0?\b\171B\16<\15\155B',"bJf\248\'"))
+    local Yp=game[jn('lP@\251dYC]\203d','+5\52\168\1')](game,jn('\23m\253\148\239\"n\253\164\239','P\24\148\199\138'))
+    local Pm=game[jn('\n7\132\tu?$\153\57u','MR\240Z\16')](game,jn('(\193\161 k*MZt\14\221\167\25\127%@t\127\f','~\168\211T\30K!\19\26'))
+    local Nj=po[jn('Xn\16\197\171Dm\18\221\162f','\20\1s\164\199')]
+    local nd=Nj[jn('=\29^C\164\227\24?_^\142\232','j|7\55\226\140')](Nj,jn('\194\242\196\183\247\236\226\187\251','\146\158\165\206'))
+    local function bi()
+        local Vn,ob,y,To,Tk
+        y,Tk={[883]=1768,[7785]=18359,[-28871]=-32002,[29063]=12177,[15872]=12177,[-27777]=5684,[-26751]=-29299,[-19599]=-29299,[-11398]=-28987,[-17831]=-32234,[17997]=32696},function(S)
+            return y[S+-7829]
+        end
+        To={[-32002]=function()
+            dd=Vn
+            xpcall(function()
+                local Zg,Nc,cm,ka,kj,Ro,Om,fm,Ef,np,ap
+                Nc,Om={[10446]=-8380,[-26910]=17845,[23590]=17845,[-18145]=-5970,[-2154]=5522,[-9129]=18805,[-21747]=17285},function(Xj)
+                    return Nc[Xj-2761]
+                end
+                kj={[17845]=function()
+                    Zg=cm[jn(' \216}\171\127l\241\135\49\213}\173gp\234\140','a\186\14\196\19\25\133\226')]
+                    Ro=cm[jn('P\146\137\141\216\131e\149\169\139\206\147','\17\240\250\226\180\246')]
+                    np,ap=Zg[jn('\187','\227')]+Ro[jn('\248','\160')]/(-1578265614- -1578265616),Zg[jn('\217','\128')]+Ro[jn('\255','\166')]/(-1089169492+1089169494)
+                    Pm[jn('\190H\31\16Y\182\212Q\25\255\152Y\5\27z\156\215G\18\201','\237-qt\20\217\161\"|\189')](Pm,np,ap,-350257938- -350257938,true,Nj,-0/-85662486)
+                    task[jn('\245\2\235\23','\130c')](7.1271016084139502e-11*982166438)
+                    Pm[jn('fU\2\235?\157\185[\16\20@D\24\224\28\183\186M\27\"','5\48l\143r\242\204(uV')](Pm,np,ap,1839666906+-1839666906,false,Nj,1759213531+-1759213531)
+                    Ef=Om(13207)
+                    return true
+                end}
+                Ef=Om(-18986)
+                repeat
+                    while true do
+                        if kj[Ef]~=nil then
+                            if kj[Ef]()then
+                                break
+                            end
+                        elseif Ef==-24854755854215/-1321709963 then
+                            return
+                        elseif Ef==-1874337015030/313959299 then
+                            return
+                        elseif Ef==-404055123- -404060645 then
+                            fm=ka[jn('\140\213\231\217\253\143\213\185\200\202\213\210\138\195','\202\188\137\189\187\230\167')](ka,jn(':L\164\214\51B\172\214','I-\194\179'))
+                            cm=fm and fm[jn('\24\f6\26\181\144\209-\17\27\22\154\149\199','^eX~\243\249\163')](fm,jn('\2\55\176\20-\170','\96B\196'))
+                            if not cm then
+                                Ef=Om(-6368)
+                                break
+                            end
+                            Ef=Om(-24149)
+                        elseif Ef==1391946620+-1391929335 then
+                            ka=nd[jn('v\223O\152\208\247PC\194b\148\255\242F','0\182!\252\150\158\"')](nd,jn('\242\187\158\234\182\138\232','\129\211\255'))
+                            if not ka then
+                                Ef=Om(-15384)
+                                break
+                            end
+                            Ef=3.4116042059568901e-06*1618593385
+                        end
+                    end
+                until Ef==1510842930+-1510851310
+            end,function(Vl)
+            end)
+            ob=Tk(-1.6848377255379681e-05*-1406723012)
+        end,[12177]=function()
+            ob=Tk(-19948);
+            return true;
+        end,[-32234]=function()
+            xpcall(function()
+                local xc,Dg,Ri,Ho,ro,Ra,ql
+                ro,Ra={[30258]=6977,[-15436]=30195,[16223]=6977,[-7266]=692,[27164]=-27875,[8140]=19074,[-9463]=-24482,[-14346]=-20426,[30261]=-20426,[25259]=19074,[8854]=-27249},function(Df)
+                    return ro[Df- -11747]
+                end
+                Ri={[6977]=function()
+                    task[jn('W\25I\f',' x')](-92820715/-464103575)
+                    Yp[jn('\165\163Y\134|\127\226\146\137W\137zh\243','\246\198\53\227\31\v\135')]=ql
+                    if Yp[jn('\29\v\177G\145\25\162*!\191H\151\14\179','Nn\221\"\242m\199')]==ql then
+                        Dg=Ra(-27183)
+                        return true
+                    end
+                    Dg=Ra(18514)
+                end,[-20426]=function()
+                    task[jn('\175\128\177\149','\216\225')](93996077.600000009/939960776)
+                    Yp[jn('N\226\251\20\4\223\"y\200\245\27\2\200\51','\29\135\151qg\171G')]=nil
+                    Dg=Ra(-19013)
+                    return true
+                end,[30195]=function()
+                    Pm[jn('\244\139\152\52+\4\222\171\128\53\14\21','\167\238\246P\96a')](Pm,true,Enum[jn('\251\186(\243\176\53\213','\176\223Q')][jn('cf\244Dq\238','1\3\128')],false,game)
+                    Pm[jn('\28\173\237\49\137\198\54\141\245\48\172\215','O\200\131U\194\163')](Pm,false,Enum[jn('\176)\14\184#\19\158','\251Lw')][jn('\22\219\145\49\204\139','D\190\229')],false,game)
+                    Dg=Ra(521274136+-521300229)
+                end}
+                Dg=Ra(-2893)
+                repeat
+                    while true do
+                        if Ri[Dg]~=nil then
+                            if Ri[Dg]()then
+                                break
+                            end
+                        elseif Dg==2123340535+-2123321461 then
+                            xc=Ho[jn(':\201\255\246\183\253.\15\212\210\250\152\248\56','|\160\145\146\241\148\\')](Ho,jn(':}-7\51s%7','I\28KR'))
+                            ql=xc and xc[jn('\31\162\187\b\96x\251*\191\150\4O}\237','Y\203\213l&\17\137')](xc,jn('\190\254\148\168\228\142','\220\139\224'))
+                            if not ql then
+                                Dg=Ra(15417)
+                                break
+                            end
+                            Dg=Ra(18511)
+                        elseif Dg==-144825328- -144798079 then
+                            Ho=nd[jn('\205)\a\249S\199&\248\52*\245|\194\48','\139@i\157\21\174T')](nd,jn('!\192\234\57\205\254;','R\168\139'))
+                            if not Ho then
+                                Dg=Ra(-21210)
+                                break
+                            end
+                            Dg=Ra(-3607)
+                        elseif Dg==-735872784- -735848302 then
+                            return
+                        elseif Dg==-1906513736+1906485861 then
+                            return
+                        end
+                    end
+                until Dg==-1110716497648/-1605081644
+            end,function(je)
+            end)
+            ob=Tk(-64481544408380/-1747846265)
+        end}
+        ob=Tk(25826)
+        repeat
+            while true do
+                if To[ob]~=nil then
+                    if To[ob]()then
+                        break
+                    end
+                elseif ob==1387463107+-1387444748 then
+                    return
+                elseif ob==-10832919656/-6127217 then
+                    Vn=tick()
+                    if Vn-dd<2.064494677467434e-10*484380033 then
+                        ob=Tk(15614)
+                        break
+                    end
+                    ob=-1223551079+1223519077
+                elseif ob==-1535497792- -1535530488 then
+                    if not Ec then
+                        ob=Tk(-3569)
+                        break
+                    end
+                    ob=Tk(-11770)
+                elseif ob==-1329458432+1329429445 then
+                    return
+                elseif ob==-39215970821280/1338474720 then
+                    if q==jn('[hu\5\240t}j\3\249','\21\t\3l\151')then
+                        ob=Tk(-10002)
+                        break
+                    elseif q==jn('\176\254\136\226\152','\253\145')then
+                        ob=Tk(8712)
+                        break
+                    end
+                    ob=925150994-925138817
+                end
+            end
+        until ob==453127700-453122016
+    end
+    local function Al()
+        local od,Xb,Nb,ek
+        Xb,ek={[-1540]=8890,[12617]=-17277,[-27837]=-5795,[25056]=8890,[-10285]=29494},function(Jg)
+            return Xb[Jg+-6012]
+        end
+        od={[8890]=function()
+            Nb=ek(-21825);
+            return true;
+        end,[-17277]=function()
+            vg=Xk[jn('c \156\221\145\175b1\151\201\132\184U','1E\242\185\244\221')][jn('t\187\144Y\177\157C','7\212\254')](Xk[jn('c \156\221\145\175b1\151\201\132\184U','1E\242\185\244\221')],bi)
+            Nb=ek(1007965030-1007933962)
+        end,[29494]=function()
+            if not vg and Ec then
+                Nb=ek(18629)
+                return true
+            end
+            Nb=ek(4472)
+        end}
+        Nb=ek(-4273)
+        repeat
+            while true do
+                if od[Nb]~=nil then
+                    if od[Nb]()then
+                        break
+                    end
+                end
+            end
+        until Nb==5.4543730759916635e-06*-1062450243
+    end
+    local function qh()
+        local Rp,Pq,Si,rl
+        Pq,Si={[26642]=-32598,[25662]=6045,[27239]=8378,[23311]=12269},function(jc)
+            return Pq[jc+-21310]
+        end
+        rl={[6045]=function()
+            Rp=Si(47952);
+            return true;
+        end,[8378]=function()
+            vg[jn('C\172\180\231\fi\171\162\231\23','\a\197\199\132c')](vg)
+            vg=nil
+            Rp=Si(-891654561- -891701533)
+        end,[12269]=function()
+            if vg then
+                Rp=Si(48549)
+                return true
+            end
+            Rp=-1573514681+1573520726
+        end}
+        Rp=Si(44621)
+        repeat
+            while true do
+                if rl[Rp]~=nil then
+                    if rl[Rp]()then
+                        break
+                    end
+                end
+            end
+        until Rp==-14042921953788/430790906
+    end
+    if not(qk and qk[jn(jn("\253\'r\25\211$q!\217",'*j\26O'),jn('\216\142B\165','N\167'))])then
+    else
+        local ba,Tp,Yb,rd
+        Tp,ba={[5022]=2745,[7811]=-811},function(Oi)
+            return Tp[Oi+-28938]
+        end
+        Yb={[-811]=function()
+            qk[jn('\234\b\188h\196\v\191P\206','\171l\216<')](qk,jn('\209\251 \224\159\195\230\53\228\218','\144\142T\143\191'),false,function(dq)
+                local hi,x,Kl,Ln
+                Kl,Ln={[-24989]=-8345,[-17233]=26164,[3249]=-6910,[27798]=-19492,[-29674]=26164,[-25091]=16645},function(ml)
+                    return Kl[ml+-19526]
+                end
+                x={[16645]=function()
+                    Ec=dq
+                    if dq then
+                        hi=Ln(47324)
+                        return true
+                    else
+                        hi=Ln(-5463)
+                        return true
+                    end
+                    hi=-1269801021+1269827185
+                end,[-8345]=function()
+                    qh()
+                    hi=Ln(15368500597348/-1514436401)
+                end,[26164]=function()
+                    hi=Ln(22775);
+                    return true;
+                end,[-19492]=function()
+                    Al()
+                    hi=Ln(2.1620520160334536e-06*1060566528)
+                end}
+                hi=Ln(-5565)
+                repeat
+                    while true do
+                        if x[hi]~=nil then
+                            if x[hi]()then
+                                break
+                            end
+                        end
+                    end
+                until hi==1084345270+-1084352180
+            end)
+            rd=ba(33960)
+            return true
+        end}
+        rd=ba(36749)
+        repeat
+            while true do
+                if Yb[rd]~=nil then
+                    if Yb[rd]()then
+                        break
+                    end
+                end
+            end
+        until rd==2235479537025/814382345
+    end
+    local Wh=Jn[jn("\t\96?\21\'c<--",'H\4[A')](Jn,jn('\130&\171z\132~\174\173\50\169o\192\\\165','\202S\197\14\164\51\203'),false,Cf[jn('\214\177\162\153\150\196\174\154\245\156\176\150\142\204\164\146','\155\212\197\248\250\165\202\245')])
+    Yd[jn('\188\255\198)\0\146\235\198\2\5\147','\253\155\162mr')](Yd,jn("B\131s\195\172*+p\130\'\225\227\r/",'\3\246\a\172\140iJ'),{jn('O\191d\179w','\3\218'),jn('\30\171\233(\166\230(','\\\199\136')},jn('\143\158\239\185\147\224\185','\205\242\142'),function(Ck)
+        Lp=Ck
+    end)
+    Yd[jn('\210\161\vh\141\252\181\vC\136\253','\147\197o,\255')](Yd,jn('\182W\143z\196y\174\150I\158\53\169E\162\146','\247\"\251\21\228*\198'),{jn('\250\v\234\204\175\213\30\245\202\166','\180j\156\165\200'),jn('C\202{\214k','\14\165')},jn('n\30\215\133$A\v\200\131-',' \127\161\236C'),function(bm)
+        q=bm
+    end)
+    Yd[jn('4\250r\208Q\26\238r\251T\27','u\158\22\148#')](Yd,jn('H\161-H\198\195@l\184yj\137\245@',"\t\212Y\'\230\145%"),{jn('c$H([','/A'),jn('\207\219\14\249\214\1\249','\141\183o')},jn('T8\227b5\236b','\22T\130'),function(Qq)
+        Uh=Qq
+    end)
+    Cj[jn('J,/\30~<?3e','\vHK\\')](Cj,jn('\203\144\131}8\230\141\133\56\25','\131\255\243]k'),function()
+        AllFuncs[jn('\a\169\215n*\180\209X=','O\198\167=')](true)
+    end)
+    sg[jn('\190b.\172\138r>\129\145','\255\6J\238')](sg,jn('b \6\147\248\144\138Y*\29\216\143\160\186}','1Er\179\175\245\232'),function()
+        Aq[jn('\181\55\158a\135!\147W\147','\254R\231\50')](Aq,jn('V\18c$\182\212\163f% \4\154\207$C\250\51\190\136\3\152=\206k\169<\210\203!\22o(\249\216\164/\19\25h\233\151f~\230\51\190\169>\244n\202l\169>\195\156','\1w\1L\217\187\200FprH\186\226\4\19\143G\158\221Q\212\29\175\24\137W\183\178'),'',function(Mg)
+            _k[jn('\233\234\129\14O\209\228\182\52l','\190\143\227f ')]=Mg
+            xp[jn('\169\226w\142\235z','\231\141\3')](xp,jn('\207%\192$','\166K'),jn('\249bV\31[\178\ts\199F\178y\249rA\\i\164\24}\221E\181 ','\170\a\"?\f\215k\27\168)\217Y'),jn('\151v\181L1\156\209\172|\174\af\141\220\228','\196\19\193lF\249\179')..Mg,6.2923430325069337e-09*794616564)
+            return true
+        end)[jn('\158L\253\186\191L\242\189','\221-\145\214')](Aq[jn('\181\55\158a\135!\147W\147','\254R\231\50')](Aq,jn('V\18c$\182\212\163f% \4\154\207$C\250\51\190\136\3\152=\206k\169<\210\203!\22o(\249\216\164/\19\25h\233\151f~\230\51\190\169>\244n\202l\169>\195\156','\1w\1L\217\187\200FprH\186\226\4\19\143G\158\221Q\212\29\175\24\137W\183\178'),'',function(Mg)
+            _k[jn('\233\234\129\14O\209\228\182\52l','\190\143\227f ')]=Mg
+            xp[jn('\169\226w\142\235z','\231\141\3')](xp,jn('\207%\192$','\166K'),jn('\249bV\31[\178\ts\199F\178y\249rA\\i\164\24}\221E\181 ','\170\a\"?\f\215k\27\168)\217Y'),jn('\151v\181L1\156\209\172|\174\af\141\220\228','\196\19\193lF\249\179')..Mg,6.2923430325069337e-09*794616564)
+            return true
+        end),function()
+        end)
+    end)
+    sg[jn('\245\172/-\219\175,\21\209','\180\200Ky')](sg,jn('B\128k\189\249\195\163PRTC:\138_\138q\176\191\253\165SNRC?\217','\17\229\5\217\217\148\198\50:;,Q\170'),false,Cf[jn('+O\159Y_\14(Z\189@\21L\148RQ\21*{\188G','|*\253\49\48aC\20\210\52')])
+    sg[jn('\219o\185\205\245l\186\245\255','\154\v\221\153')](sg,jn('\174<\215\127\48\145\56\48\160\15\21U.j\18\185\157\213\172\182\138y\211x-\222\3b\135\15\19U<zQ\157\159\217\173\172\138','\249Y\181\23_\254S\16\238\96a<H\3q\216\233\188\195\216'),false,Cf[jn("j[\157|\140\19<C~\145q\150\21\'Q",':)\244\19\254zH')])
+    local vi=P[jn("\18_\223\221\218;(\'B\242\209\245>>",'T6\177\185\156RZ')](P,jn('\157\146\152\145\142','\234\253'))[jn("\239\200\204\130\'\206\202\234\205\159\r\197",'\184\169\165\246a\161')](P[jn("\18_\223\221\218;(\'B\242\209\245>>",'T6\177\185\156RZ')](P,jn('\157\146\152\145\142','\234\253')),jn('uI\255qW\237','\6\57\158'))[jn(')\4\252o\154z\f&\253r\176q','~e\149\27\220\21')](P[jn("\18_\223\221\218;(\'B\242\209\245>>",'T6\177\185\156RZ')](P,jn('\157\146\152\145\142','\234\253'))[jn("\239\200\204\130\'\206\202\234\205\159\r\197",'\184\169\165\246a\161')](P[jn("\18_\223\221\218;(\'B\242\209\245>>",'T6\177\185\156RZ')](P,jn('\157\146\152\145\142','\234\253')),jn('uI\255qW\237','\6\57\158')),jn('wR\242SM\213P','#\"\161'))
+    local jo={}
+    for ai,um in pairs(vi[jn('\138X\158X\a\164Q\142i\n\163','\205=\234\27o')](vi))do
+        local qm,cb,en,xf
+        qm,en={[-27647]=-6918,[-11082]=-6918,[-29603]=-28930,[10184]=-28385,[-2927]=8912},function(_g)
+            return qm[_g-23978]
+        end
+        xf={[-6918]=function()
+            cb=en(34162);
+            return true;
+        end,[8912]=function()
+            if table[jn('\130F\138K','\228/')](jo,um[jn('O\26l\30','\1{')])==nil then
+                cb=en(-5625)
+                return true
+            end
+            cb=en(-3669)
+        end,[-28930]=function()
+            table[jn('y\154\142u\134\137','\16\244\253')](jo,um[jn('j\254I\250','$\159')])
+            cb=en(-690804937+690817833)
+        end}
+        cb=en(21051)
+        repeat
+            while true do
+                if xf[cb]~=nil then
+                    if xf[cb]()then
+                        break
+                    end
+                end
+            end
+        until cb==-58832232753770/2072652202
+    end
+    for Bc,Tb in pairs(jo)do
+        local Dk=vi[jn("\231\178t\139Z\'a\210\175Y\135u\"w",'\161\219\26\239\28N\19')](vi,Tb)and vi[Tb][jn('\213\r\168\242\241\v\180\245','\133b\219\155')]
+        if Dk then
+            X[jn('\191G\252/\139W\236\2\144','\254#\152m')](X,jn('\147\57/\243\174}\181(c\226\177\50','\199\\C\150\222\18')..Tb,function()
+                game[jn('\156H\173\181A\190\191','\204$\204')][jn("\237y%\27\51\241z\'\3:\211",'\161\22Fz_')][jn('\20\235\5\181\54\224\16\162%','W\131d\199')][jn('\238@\146\246\54\160C\230\244Z\144\227\b\174X\246','\166\53\255\151X\207*\130')][jn('\236n\136\234\200h\148\237','\188\1\251\131')]=Dk
+            end)
+        end
+    end
+    Wk[jn('\96\53\249pT%\233]O','!Q\157\50')](Wk,jn('NL\15\150\55\195\b\142DnFC\178\50\222\21\136\5','\26)c\243G\172z\250d'),function()
+        game[jn('\187\96r\146ia\152','\235\f\19')][jn("p$\147\196\215l\'\145\220\222N",'<K\240\165\187')][jn('D\137\235\21f\130\254\2u','\a\225\138g')][jn('\154i?\24\238@\248@\128s=\r\208N\227P','\210\28Ry\128/\145$')][jn('\214R\229\244y\242','\149\20\151')]=CFrame[jn('\147\152\138','\253')](-(1095148968+-1095147157),-(132754556594/969011362),-(-950387516- -950390798))
+    end)
+    Wk[jn('>OFs\n_V^\17','\127+\"1')](Wk,jn('A\208;j\138t\139Z\148a\218w\\\143u\157G\213y','\21\181W\15\250\27\249.\180'),function()
+        game[jn('sefZluP','#\t\a')][jn('#3\tK\206?0\vS\199\29','o\\j*\162')][jn('\190\144\224\14\156\155\245\25\143','\253\248\129|')][jn('\192\134\215>C\246\217\f\218\156\213+}\248\194\28','\136\243\186_-\153\176h')][jn('\185\211g\155\248p','\250\149\21')]=CFrame[jn('MFT','#')](-(1344980972+-1344979824),1044789043+-1044788908,-(-927383066- -927384141))
+    end)
+    Wk[jn('\16\53\253n$%\237C?','QQ\153,')](Wk,jn('\bNY\161f;\185!d(D\21\147\127:\175&!(','\\+5\196\22T\203UD'),function()
+        game[jn('>\21\27\23\28\b\29','nyz')][jn('\6n\24!\183\26m\26\57\190\56','J\1{@\219')][jn('F\138\141\148d\129\152\131w','\5\226\236\230')][jn('m{Y\216\155\132\130\170wa[\205\165\138\153\186','%\14\52\185\245\235\235\206')][jn('li;NB,','//I')]=CFrame[jn('\229\238\252','\139')](2087696583+-2087693734,-2088042566- -2088042744,506321879-506319177)
+    end)
+    Wk[jn('\145a\253j\165q\237G\190','\208\5\153(')](Wk,jn('\229#\5\247\217\157\142\138\160\233\254\145\21\4\253\194\151\143\157\242\248\244\223','\177Fi\146\169\242\252\254\128\157\145'),function()
+        game[jn('.\17\233\a\24\250\r','~}\136')][jn('={\146p\129!x\144h\136\3','q\20\241\17\237')][jn('\162\152t\231\128\147a\240\147','\225\240\21\149')][jn('\96\224\211\128\174\252\229\1z\250\209\149\144\242\254\17','(\149\190\225\192\147\140e')][jn('sr\139QY\156','0\52\249')]=CFrame[jn('\133\142\156','\235')](3678135754724/1318800916,1896235116+-1896234976,-(-1020431070- -1020431695))
+    end)
+    Wk[jn('\t\27?\141=\v/\160&','H\127[\207')](Wk,jn('\210\142\52\166u]\221Z\151\242\132x\151\96_\223K\196\242','\134\235X\195\5\50\175.\183'),function()
+        game[jn('_\137\51v\128 |','\15\229R')][jn('\4w\223\204!\24t\221\212(:','H\24\188\173M')][jn('\234p\219\1\200{\206\22\219','\169\24\186s')][jn('\14j\139\217\200=\n]\20p\137\204\246\51\17M','F\31\230\184\166Rc9')][jn('\129?\223\163\20\200','\194y\173')]=CFrame[jn('\129\138\152','\239')](802336886-802336851,243385637733/1829967201,2201410685903/1132995721)
+    end)
+    yh[jn('\228A\fj\208Q\28G\203','\165%h(')](yh,jn('Yu\96\149\a\191\176\24\129\197F\225=\252\127qb\151\18\240\149\4\200\195E\177\1\231a','\r\16\f\240w\208\194l\161\177)\193n\136'),function()
+        local Io,ze,Na,wa,yj,pb
+        pb,yj={[12613]=25289,[-11502]=25289,[-17184]=-16162,[-15185]=29113,[15665]=-13340},function(Bl)
+            return pb[Bl+6815]
+        end
+        Na={[25289]=function()
+            Ta[jn('tz\14VQ\25','7<|')]=CFrame[jn('\148\159\141','\250')](wa[jn('\140\233\182|\168\239\170{','\220\134\197\21')]+ze)
+            Io=yj(-22000)
+            return true
+        end}
+        Io=yj(8850)
+        repeat
+            while true do
+                if Na[Io]~=nil then
+                    if Na[Io]()then
+                        break
+                    end
+                elseif Io==-10957025362566/677949843 then
+                    return ShowNotification(jn('\246\251\179\128\203\214\150\6\178\180\17\137_\217\250\160\197\141\238\139\1\164\248\50\146B\212','\184\148\199\160\173\185\227h\214\148B\253-'))
+                elseif Io==-26104535865060/1956861759 then
+                    ze=Vector3[jn('%.<','K')](-2.0284127481603259e-08*-1232490775,-88484192100/-655438460,2.340288626822786e-08*1068244306)
+                    wa=game[jn('[Y\147E\127F\128Mi','\f6\225.')][jn('\208\222\196\212\217','\170\177')][jn('\148M\203\154M\214\149','\242$\184')][jn('\162\186\179N\221\250|\151\167\158B\242\255j','\228\211\221*\155\147\14')](game[jn('[Y\147E\127F\128Mi','\f6\225.')][jn('\208\222\196\212\217','\170\177')][jn('\148M\203\154M\214\149','\242$\184')],jn('4G\176\19U\187\24','}4\223'))
+                    if not wa then
+                        Io=yj(-23999)
+                        break
+                    end
+                    Io=yj(5798)
+                end
+            end
+        until Io==1256423762-1256394649
+    end)
+    yh[jn('8\225/\96\f\241?M\23','y\133K\"')](yh,jn('\237#\\\225\254\145i\227\188\241\200\204?Zk\172\234\153\14Q\233\227\155i\255\249\228\195\204+@o\191\245','\185F0\132\142\254\27\151\156\133\167\236x(\14\205\158'),function()
+        local fh,eq,J,xg,tk,ti
+        eq,tk={[-25791]=-32197,[-27396]=-32197,[23018]=-4885,[-32594]=3195,[-24120]=7659},function(xb)
+            return eq[xb+-19720]
+        end
+        xg={[-32197]=function()
+            Ta[jn('q\164\17S\143\6','2\226c')]=CFrame[jn('JAS','$')](J[jn('K\233w\250o\239k\253','\27\134\4\147')]+fh)
+            ti=tk(-12874)
+            return true
+        end}
+        ti=tk(-4400)
+        repeat
+            while true do
+                if xg[ti]~=nil then
+                    if xg[ti]()then
+                        break
+                    end
+                elseif ti==1725297461-1725289802 then
+                    fh=Vector3[jn('odv','\1')](-0*-604937586,-1.8005131150288893e-07*-749786263,319368793+-319368793)
+                    J=game[jn('..)\176\n1:\184\28','yA[\219')][jn(',\145\56\155%','V\254')][jn('~Y\167pY\186\127','\24\48\212')][jn('\200\6\255\4\211\216e\253\27\210\b\252\221s','\142o\145\96\149\177\23')](game[jn('..)\176\n1:\184\28','yA[\219')][jn(',\145\56\155%','V\254')][jn('~Y\167pY\186\127','\24\48\212')],jn('\240\56l\146z\r\242\155h\201\169\197\"l\146j\r\233\146d\214\167','\183J\t\243\14-\186\250\5\164\204'))
+                    if not J then
+                        ti=tk(42738)
+                        break
+                    end
+                    ti=tk(-6071)
+                elseif ti==-1042206579- -1042201694 then
+                    return ShowNotification(jn('j\228d\192\213F\143\157\213A\3\134\203\152\227\249l\234}\141\214[\146\150\208\5d\167\198\152\229\178','$\139\16\224\179)\250\243\177aD\244\174\249\151\217'))
+                end
+            end
+        until ti==265423465-265420270
+    end)
+    yh[jn('\138\22D\224\190\6T\205\165','\203r \162')](yh,jn('R\218\244\29[\2\137\237\n{\196\155\229\188c\222\236X|\5\146\237O/\248\211\195\188m','\6\191\152x+m\251\153*\15\171\187\162\206'),function()
+        local i,Mb,ie,Dj,Ae,Ip
+        Ip,Mb={[4579]=7615,[16638]=21918,[29150]=-5327,[-18811]=6662},function(Jh)
+            return Ip[Jh- -270]
+        end
+        i={[21918]=function()
+            Ta[jn(')-\190\v\6\169','jk\204')]=CFrame[jn('\210\217\203','\188')](ie[jn('\163d\229v\135b\249q','\243\v\150\31')]+Dj)
+            Ae=Mb(28880)
+            return true
+        end}
+        Ae=Mb(-19081)
+        repeat
+            while true do
+                if i[Ae]~=nil then
+                    if i[Ae]()then
+                        break
+                    end
+                elseif Ae==-10808993977432/-1622484836 then
+                    Dj=Vector3[jn('\250\241\227','\148')](1935412843+-1935412843,4.1153589120956655e-07*328039432,0*549833737)
+                    ie=game[jn('\253\184\53(\217\167& \207','\170\215GC')][jn('Oi[cF','5\6')][jn('zK!tK<{','\28\"R')][jn("\179\158\15\206Q\2\49\134\131\"\194~\a\'",'\245\247a\170\23kC')](game[jn('\253\184\53(\217\167& \207','\170\215GC')][jn('Oi[cF','5\6')][jn('zK!tK<{','\28\"R')],jn('R>P\128\249\190\203*|8P\193\222\246\253\48~','\21L5\225\141\158\156B'))
+                    if not ie then
+                        Ae=Mb(4309)
+                        break
+                    end
+                    Ae=1023800534+-1023778616
+                elseif Ae==5.8968897823203053e-06*1291358713 then
+                    return ShowNotification(jn('\191\243BS\195\209\191>7\0\251\226\176\144\232\22$\205\215\190\53ss\212\241\167\154','\241\156\54s\165\190\202PS \188\144\213'))
+                end
+            end
+        until Ae==-1493141676+1493136349
+    end)
+    yh[jn('(\178\180\246\28\162\164\219\a','i\214\208\180')](yh,jn("F\158\26\160{\231\'\182\t6\255\50\172\30\164g\237u\145A#\226y",'\18\251v\197\v\136U\194)B\144'),function()
+        local Ap,fb,Ua,pi,Ed,Xf
+        Ap,Xf={[-4393]=9259,[-11544]=5781,[-15714]=16773,[-7113]=-25572},function(rb)
+            return Ap[rb+-21943]
+        end
+        Ua={[9259]=function()
+            Ta[jn('\231\221\216\197\246\207','\164\155\170')]=CFrame[jn('\165\174\188','\203')](Ed[jn('\227:\210\208\199<\206\215','\179U\161\185')]+pi)
+            fb=Xf(10399)
+            return true
+        end}
+        fb=Xf(14830)
+        repeat
+            while true do
+                if Ua[fb]~=nil then
+                    if Ua[fb]()then
+                        break
+                    end
+                elseif fb==-4.6996701603758173e-05*-356897387 then
+                    return ShowNotification(jn('\232\221\226\217W\245\144\200\144N\241\218\247\149T\186\182\206\149\28\205','\166\178\150\249\49\154\229\166\244n'))
+                elseif fb==1205514990-1205540562 then
+                    pi=Vector3[jn('\238\229\247','\128')](1179000714+-1179000714,-432272989- -432273124,-1543806230+1543806230)
+                    Ed=game[jn('\218l,\196\254s?\204\232','\141\3^\175')][jn('\164L\176F\173','\222#')][jn('\194\193\15\204\193\18\195','\164\168|')][jn("\n\"A\204\213\191\'??l\192\250\186\49",'LK/\168\147\214U')](game[jn('\218l,\196\254s?\204\232','\141\3^\175')][jn('\164L\176F\173','\222#')][jn('\194\193\15\204\193\18\195','\164\168|')],jn("\174\222\'S\184\217\229.^\175\146",'\249\182F?\221'))
+                    if not Ed then
+                        fb=Xf(6229)
+                        break
+                    end
+                    fb=490391719-490382460
+                end
+            end
+        until fb==-1427146105- -1427151886
+    end)
+    yh[jn('=\172\18\236\t\188\2\193\18','|\200v\174')](yh,jn("\'\a\3l\146Ds,\175\252\27n&\162\231\182\55\a\31}\138X!u\175\219\17<\2\175\236\226",'sbo\t\226+\1X\143\136tNr\202\130\150'),function()
+        local rg,vm,_a,yp,So,ac
+        So,ac={[3553]=-26818,[-31042]=-27567,[-9125]=-21453,[9133]=-2687},function(Cd)
+            return So[Cd- -30210]
+        end
+        vm={[-27567]=function()
+            Ta[jn('|\175%^\132\50','?\233W')]=CFrame[jn('\150\157\143','\248')](_a[jn('\196\54\132\6\224\48\152\1','\148Y\247o')]+yp)
+            rg=ac(-39335)
+            return true
+        end}
+        rg=ac(-21077)
+        repeat
+            while true do
+                if vm[rg]~=nil then
+                    if vm[rg]()then
+                        break
+                    end
+                elseif rg==-1553851097- -1553824279 then
+                    return ShowNotification(jn('\19\ao\178u\4\24\166\0lK\196\192\174O8\24o\250\96K@\232\55)m\220\192\224\127',']h\27\146\19km\200dL\31\172\165\142\v'))
+                elseif rg==-1063742153969/395884687 then
+                    yp=Vector3[jn('-&4','C')](0*1765104133,-485973301+485973351,446937416+-446937416)
+                    _a=game[jn('\164\204\31V\128\211\f^\150','\243\163m=')][jn('\138\170\158\160\131','\240\197')][jn('A\129]O\129@@',"\'\232.")][jn('\181M\215u\26\196\190\128P\250y5\193\168','\243$\185\17\\\173\204')](game[jn('\164\204\31V\128\211\f^\150','\243\163m=')][jn('\138\170\158\160\131','\240\197')][jn('A\129]O\129@@',"\'\232.")],jn('\245\242\143\31E\193\226\203f\v\129\183\202ld\214\226\218\96\f','\161\154\234?\1\164\146\191\14x'))
+                    if not _a then
+                        rg=ac(-26657)
+                        break
+                    end
+                    rg=-1.7311084595985542e-05*1592447882
+                end
+            end
+        until rg==-7.0823856588732192e-05*302906408
+    end)
+    X[jn('9M\199\r\r]\215 \22','x)\163O')](X,jn('Jq\216b(G\219y|','\b\20\171\22'),function()
+        local Vq=Instance[jn('\157\150\132','\243')](jn('\213\211\247\198','\133\178'))
+        Vq[jn('\n\223#\211','Y\182')]=Vector3[jn('\205\198\212','\163')](1445360002-1445359992,-40348808+40348809,-1883754963+1883754973)
+        Vq[jn('U\156\190\245q\154\162\242','\5\243\205\156')]=Vector3[jn('QZH','?')](821547530640.44507/567425582,1.1119920058844064e-07*1182562321,-(-10367257580235.186/-1355259957))
+        Vq[jn('\141\141\143\227\163\145\137\239','\204\227\236\139')]=true
+        Vq[jn('Zp\139\144\\[m\142\156E','\24\2\226\243\55')]=BrickColor[jn('\216\211\193','\182')](jn('#\4\29\24\17','tl'))
+        Vq[jn('p\131}\177O\139h\184','=\226\t\212')]=Enum[jn("\'\166Bl\24\174We",'j\199\54\t')][jn('\201\252\fB3\223\202\253\2^3\222\249','\154\145c-G\183')]
+        Vq[jn('\199\224d\242\239b','\151\129\22')]=game[jn('Y\241\138\r}\238\153\5k','\14\158\248f')]
+        local li=Instance[jn('\172\167\181','\194')](jn('\186\208\139y\236\178\153\203\131R\251\180','\248\185\231\21\142\221'))
+        li[jn('\242\184\228\193\178\238\214','\179\220\139')]=Vq
+        li[jn('\206H\231D','\157!')]=UDim2[jn('\30\21\a','p')](-375076471+375076471,-1980175362+1980175562,0/1424632689,-38953150100/-779063002)
+        li[jn('\199\172\154\250\249\219\190\137\237\239\224','\148\216\239\158\138')]=Vector3[jn('\225\234\248','\143')](0*1330189684,1554888279-1554888274,92073987-92073987)
+        li[jn('\243F3\198I5',"\163\'A")]=game[jn('\223H7 \251W$(\237',"\136\'EK")]
+        local Zc=Instance[jn('\154\145\131','\244')](jn('\229\176;\201\253\180!\216\221','\177\213C\189'))
+        Zc[jn('\5A)P','Q$')]=jn("\210\186\192}\96\b\196v\244\'\168\161\220-\164\195\16\188\50\225\231\189c\244\242\203j/\n\220.\190h\190\187\215(\233\198\18\191/\225\166\162\127",'\134\210\169\14@a\183V\146H\218\194\185I\132\175q\222]\147\199\219\f')
+        Zc[jn('5(\182\30X\14!\161\24(','aM\206j\27')]=Color3[jn('\152\202\236\147\234\196\188','\254\184\131')](1024804166+-1024803911,1544308556+-1544308556,-0*-1035645561)
+        Zc[jn('\241\178\0\227\246\190\2\242','\165\215x\151')]=-2119319320/-105965966
+        Zc[jn('\27\223\28\1\30\166\235\186Oe\164+\223\17\25\t\181\246\170Ob\137','Y\190\127jy\212\132\207!\1\240')]=-6.5752211213987024e-10*-1520861400
+        Zc[jn('s\162Z\174',' \203')]=UDim2[jn('\193\202\216','\175')](285053673-285053672,0/1222674116,252517254/252517254,1562974360+-1562974360)
+        Zc[jn('\14A\251\231\194\57E\239\246\245','Z$\131\147\145')]=true
+        Zc[jn('\180\214\195\129\217\197','\228\183\177')]=li
+        game[jn('u{I\\rZV','%\23(')][jn('\143\145C\18\154\147\146A\n\147\177','\195\254 s\246')][jn('\170O&\206\136D3\217\155',"\233\'G\188")][jn('\248\232\"\29\142\225\200\\\226\242 \b\176\239\211L','\176\157O|\224\142\161\56')][jn('\190\130B\156\169U','\253\196\48')]=CFrame[jn('2\57+','\\')](-3.0632252276494268e-06*-472655649,-1598068646.5000153+1598068780,-(-5.9875255110508963e-06*-1277597065))
+    end)
+    X[jn('\136\184C9\188\168S\20\167',"\201\220\'{")](X,jn('A\254\153\251\241B\243\158\253\180','\18\159\255\158\209'),function()
+        local yn,Qh,Wc,Gl,Xo,Kc
+        Gl,Kc={[-13518]=-612,[-562]=20296,[-2763]=23192,[27761]=17390},function(zo)
+            return Gl[zo+27144]
+        end
+        yn={[17390]=function()
+            Qh=Instance[jn('\251\240\226','\149')](jn('v\233T\252','&\136'))
+            Qh[jn('[qr}','\b\24')]=Vector3[jn('ibp','\a')](368639123+-368639093,548344073+-548344072,1671940534+-1671940504)
+            Qh[jn('5\48\141\158\17\54\145\153','e_\254\247')]=Vector3[jn('3\56*',']')](math[jn('\158B\145\136L\146','\236#\255')](-(37632350000/18816175),2557846706000/1278923353),math[jn('B\243\172T\253\175','0\146\194')](892666766-892616766,-31668337890000/-351870421),math[jn('\234\229\177\252\235\178','\152\132\223')](-(-1093110333+1093112333),1408511092000/704255546))
+            Qh[jn(')\230\52\23\a\250\50\27','h\136W\127')]=true
+            Qh[jn('\251\\Dp\22\250AA|\15','\185.-\19}')]=BrickColor[jn('~ug','\16')](jn('M\215J\248\138\50/\213V\237\146*j','\15\165#\159\226F'))
+            Qh[jn('%-\148 \26%\129)','hL\224E')]=Enum[jn('\228\48\230\190\219\56\243\183','\169Q\146\219')][jn('V\198M1\199V\192Z>\198','\16\169?R\162')]
+            Qh[jn('~\17~K\30x','.p\f')]=workspace
+            Xo=game[jn('B\237\\k\228Oa','\18\129=')][jn('\136y\207\251\161\148z\205\227\168\182','\196\22\172\154\205')][jn('\3\150\207A!\157\218V2','@\254\174\51')]
+            if Xo and Xo[jn('\170\179\170\248\188\235\141\159\174\135\244\147\238\155','\236\218\196\156\250\130\255')](Xo,jn('9\\\187\154\161C\127\23#F\185\143\159Md\a','q)\214\251\207,\22s'))then
+                Wc=Kc(-29907)
+                return true
+            end
+            Wc=1871682497+-1871662201
+        end,[23192]=function()
+            Xo[jn('N9k\217\210R9\tT#i\204\236\\\"\25','\6L\6\184\188=Pm')][jn('\248\128\199\218\171\208','\187\198\181')]=CFrame[jn('\154\145\131','\244')](Qh[jn('\236%S\223\200#O\216','\188J \182')]+Vector3[jn('hcq','\6')](-317039792- -317039792,1643095615-1643095610,0*1047118599))
+            Wc=Kc(21786442153980/-786343830)
+        end,[20296]=function()
+            Wc=Kc(-40662);
+            return true;
+        end}
+        Wc=Kc(617)
+        repeat
+            while true do
+                if yn[Wc]~=nil then
+                    if yn[Wc]()then
+                        break
+                    end
+                end
+            end
+        until Wc==-2111629686- -2111629074
+    end)
+    local Ii={}
+    Ud[jn('\191S\27\194\145P\24\250\155','\254\55\127\150')](Ud,jn('Vk\210!\185\149mv.\234+\233\184j{','\2\14\190D\201\250\31'),false,function(re)
+        local ld,Zh,nc,db
+        nc,Zh={[-20749]=19566,[27258]=32560,[-12295]=-3436,[7083]=-26569},function(Pc)
+            return nc[Pc+5276]
+        end
+        ld={[-26569]=function()
+            if not Ii[jn('e\253\203\164\223HC\236\243\174\237RH',"1\152\167\193\175\'")]then
+                db=Zh(21982)
+                return true
+            end
+            db=-2113766567- -2113763131
+        end,[32560]=function()
+            for ll,ri in pairs(workspace[jn('\159\127\154|\140','\232\16')][jn('\19\151\134\143\246&\25\141\147\136\232\"\t','z\249\242\234\132G')][jn('7\28\50<\23b\181\21\23\"\25\28e\165','pyFxr\17\214')](workspace[jn('\159\127\154|\140','\232\16')][jn('\19\151\134\143\246&\25\141\147\136\232\"\t','z\249\242\234\132G')]))do
+                local Cm,ub,rq,Kg
+                rq,ub={[24617]=-3097,[-1379]=-13073,[13772]=-16840,[-28636]=-3097,[26439]=16654},function(Km)
+                    return rq[Km- -5389]
+                end
+                Kg={[-3097]=function()
+                    Cm=ub(8383);
+                    return true;
+                end,[-13073]=function()
+                    ri[jn('\172\220Ap\174\177\150\210Y}\133\170','\228\179-\20\234\196')]=-0*-1215132898
+                    Ud[jn('o\176\241-[\160\225\0@','.\212\149o')](Ud,jn('3>\bk','qK')..ri[jn('\192]\225\245R\231','\144<\147')][jn('\245\186\214\190','\187\219')],function()
+                        local Dn=Nj[jn('\189\214T\249\159\221A\238\140','\254\190\53\139')][jn('$(\22\211\55\154\142\17\53;\223\24\159\152','bAx\183q\243\252')](Nj[jn('\189\214T\249\159\221A\238\140','\254\190\53\139')],jn('\130\217\194\165\48\232\29\30\152\195\192\176\14\230\6\14','\202\172\175\196^\135tz'))
+                        if Dn then
+                            if not(fireproximityprompt and not re)then
+                                local He,xe,qe,p
+                                He,xe={[-14129]=3411,[584]=3411,[-6710]=29574,[-31215]=-1663,[6707]=-19248,[20322]=-21551},function(Gq)
+                                    return He[Gq+10652]
+                                end
+                                qe={[-19248]=function()
+                                    Notify(jn('\253L\175\r\230\5\56\0\230\193&\26\0\155\191\96\127b\139vs\216\29F\202@\234I\245\24#\n\248\147-\r\f\133\246zif\217jk\216\25\14\150','\184\52\202n\147qQo\136\225Bue\232\159\14\16\22\171\5\6\168m)'))
+                                    p=xe(-974919396+974894615)
+                                end,[3411]=function()
+                                    p=xe(-17362);
+                                    return true;
+                                end,[-1663]=function()
+                                    Dn[jn('\146\167\190\176\140\169','\209\225\204')]=ri[jn('\247\129D\194\142B','\167\224\54')][jn('\19h\15 ={\20\4','T\r{p')](ri[jn('\247\129D\194\142B','\167\224\54')])
+                                    p=xe(-1368022687+1368012619)
+                                end,[-21551]=function()
+                                    if not fireproximityprompt then
+                                        p=xe(-3945)
+                                        return true
+                                    else
+                                        p=xe(-41867)
+                                        return true
+                                    end
+                                    p=5647488831639/1655669549
+                                end}
+                                p=xe(9670)
+                                repeat
+                                    while true do
+                                        if qe[p]~=nil then
+                                            if qe[p]()then
+                                                break
+                                            end
+                                        end
+                                    end
+                                until p==3.1888010119301065e-05*927433223
+                            else
+                                local nn=Dn[jn('$\190E\6\149R','g\248\55')]
+                                Dn[jn('\224\183\244\194\156\227','\163\241\134')]=ri[jn('\201\147\181\252\156\179','\153\242\199')][jn('\4\164\183\130*\183\172\166','C\193\195\210')](ri[jn('\201\147\181\252\156\179','\153\242\199')])
+                                delay(217282786.79999998/724275956,function()
+                                    fireproximityprompt(ri,-5.8726966457173441e-10*-1702795258)
+                                    Dn[jn('\151v\246\181]\225','\212\48\132')]=nn
+                                end)
+                            end
+                        else
+                            Notify(jn('\135\138\15\197cK\167\130\188t}\168R\174\141\22\132cK\186\198\136tg\178f\225','\207\255b\164\r$\206\230\238\27\18\220\2'))
+                        end
+                    end)
+                    Cm=ub(2090827537-2090861562)
+                end,[16654]=function()
+                    if ri[jn('\213\239\221','\156')](ri,jn('\157\235\242\253P(\222\185\224\205\247V(\199\185','\205\153\157\133\57E\183'))then
+                        Cm=ub(-6768)
+                        return true
+                    end
+                    Cm=ub(19228)
+                end}
+                Cm=ub(21050)
+                repeat
+                    while true do
+                        if Kg[Cm]~=nil then
+                            if Kg[Cm]()then
+                                break
+                            end
+                        end
+                    end
+                until Cm==-35729760556320/2121719748
+            end
+            Ii[jn('L\30\237\185\4\52j\15\213\179\54.a','\24{\129\220t[')]=true
+            db=Zh(1085009754-1085027325)
+        end,[-3436]=function()
+            db=Zh(-26025);
+            return true;
+        end}
+        db=Zh(1807)
+        repeat
+            while true do
+                if ld[db]~=nil then
+                    if ld[db]()then
+                        break
+                    end
+                end
+            end
+        until db==-962586000- -962605566
+    end)
+    Ud[jn('Q\146\181le\130\165A~','\16\246\209.')](Ud,jn('\127\148a\221n\248\147H\\\143l\221y\243\156I^','=\225\24\253+\150\240 '),function()
+        local Vg,Dl,Sh,Ob,na,Hk,Dh,Zp,Oq,hq,Un
+        Dl,Vg={[5860]=-5235,[9803]=-25037,[-14891]=1645,[16903]=-14895,[19993]=-25037,[31148]=29433,[-27146]=-23963,[-5402]=25832,[4172]=-29225},function(Hi)
+            return Dl[Hi+22418]
+        end
+        Oq={[1645]=function()
+            Hk=na[jn('\149\52HI\177\50TN','\197[; ')]
+            Dh=Vector3[jn('\238\229\247','\128')](-(-1351339880331/-1450674840),1.7581916884405888e-07*1272807746,-(1.3970310684961976e-05*70639016))
+            na[jn('{\244\23Y\223\0','8\178e')]=CFrame[jn('K@R','%')](Dh)
+            Un,hq=pcall(function()
+                local jj,lb,m,Zj,wn
+                wn,jj={[-16205]=24341,[14423]=-25573,[-21551]=-12269,[22876]=-25573,[25935]=-25573,[31454]=-1843,[-6652]=1986},function(Je)
+                    return wn[Je- -20105]
+                end
+                lb={[-1843]=function()
+                    warn(jn('\a\254\166\17\225\20\239\249O\180\160<7\26\128\222)\239\189\18\230Z\161\230T\227\163!b\18\145\145','J\155\212}\136z\207\137 \195\197N\23|\245\176'))
+                    Zj=jj(-4.1293156728446711e-06*1376014926)
+                end,[-25573]=function()
+                    Zj=jj(-41656);
+                    return true;
+                end,[1986]=function()
+                    m=workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219'))[jn('\190\152\218\193\240\1\155\186\219\220\218\n','\233\249\179\181\182n')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219')),jn('\18S\175\51_\179','_6\221'))[jn('(\142fH-\210\r\172gU\a\217','\127\239\15<k\189')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219'))[jn('\190\152\218\193\240\1\155\186\219\220\218\n','\233\249\179\181\182n')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219')),jn('\18S\175\51_\179','_6\221')),jn('b\247\228C\251\248','/\146\150'))[jn('k\198\2\169\140\232N\228\3\180\166\227','<\167k\221\202\135')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219'))[jn('\190\152\218\193\240\1\155\186\219\220\218\n','\233\249\179\181\182n')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219')),jn('\18S\175\51_\179','_6\221'))[jn('(\142fH-\210\r\172gU\a\217','\127\239\15<k\189')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219'))[jn('\190\152\218\193\240\1\155\186\219\220\218\n','\233\249\179\181\182n')](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m'))[jn('2F\240B\230\180\23d\241_\204\191',"e\'\153\54\160\219")](workspace[jn('&\198\127Do0\3\228~YE;','q\167\22\48)_')](workspace,jn('\133\2\128\1\150','\242m')),jn('M\171@\168','#\219')),jn('\18S\175\51_\179','_6\221')),jn('b\247\228C\251\248','/\146\150')),jn('\247t\240~\245','\135\27'))
+                    if m then
+                        Zj=jj(-36310)
+                        return true
+                    else
+                        Zj=jj(11349)
+                        return true
+                    end
+                    Zj=jj(2771)
+                end,[24341]=function()
+                    m[jn('\181NV\142}\181\175ER\151s\162','\252  \225\22\208')](m)
+                    Zj=jj(916778621-916772791)
+                end}
+                Zj=jj(-26757)
+                repeat
+                    while true do
+                        if lb[Zj]~=nil then
+                            if lb[Zj]()then
+                                break
+                            end
+                        end
+                    end
+                until Zj==0.0002466142847661116*-49749754
+            end)
+            if not Un then
+                Sh=Vg(-49564)
+                return true
+            end
+            Sh=Vg(-12615)
+        end,[-25037]=function()
+            task[jn('\246\252\232\233','\129\157')](-2.0932619757909189e-10*-477723291)
+            na[jn('\131\131\251\161\168\236','\192\197\137')]=CFrame[jn('\130\137\155','\236')](Hk)
+            Sh=Vg(8730)
+            return true
+        end,[-23963]=function()
+            warn(jn('HM\152\243\231\173k\143|)\v}\2S-r\143\238\249\228l\193z)\23q\30\14','\r?\234\156\149\141\2\225\nF\96\20l4'),hq)
+            Sh=Vg(-3.1540377788746227e-06*768855724)
+        end}
+        Sh=Vg(-18246)
+        repeat
+            while true do
+                if Oq[Sh]~=nil then
+                    if Oq[Sh]()then
+                        break
+                    end
+                elseif Sh==-7500537244770/1432767382 then
+                    warn(jn('El\195.\218\171\151I\254\246#n\148\bbw\195\54\204\229\211I\254\183\"w\131\30&','\a\25\183Z\181\197\183 \141\214@\27\230z'))
+                    return
+                elseif Sh==-2.3735709032125603e-05*1231267200 then
+                    if not buttonEnabled then
+                        Sh=Vg(-16558)
+                        break
+                    end
+                    Sh=794347887+-794362782
+                elseif Sh==-989813643- -989798748 then
+                    Ob=game[jn('\f\247\191%\254\172/','\\\155\222')][jn('\172\a\216\16\162\176\4\218\b\171\146','\224h\187q\206')]
+                    Zp=Ob[jn('c\224\211\159A\235\198\136R',' \136\178\237')]or Ob[jn('\172\19h\201.\212\167\138\tH\223+\210\183','\239{\t\187O\183\211')][jn('\185!\135\52','\238@')](Ob[jn('\172\19h\201.\212\167\138\tH\223+\210\183','\239{\t\187O\183\211')])
+                    na=Zp[jn('/\202\25O\163lN\26\215\52C\140iX','i\163w+\229\5<')](Zp,jn('\218\165\216\209\228d\17\135\192\191\218\196\218j\n\151','\146\208\181\176\138\vx\227'))
+                    if not na then
+                        Sh=Vg(-27820)
+                        break
+                    end
+                    Sh=439068856-439067211
+                elseif Sh==2091735006+-2091709174 then
+                    warn(jn('\19\175=\222u\18\248\218X\209\143\147\136:\168$\159u\18\229\158l\209\149\137\188z','[\218P\191\27}\145\190\n\190\224\231\216'))
+                    return
+                end
+            end
+        until Sh==2.2311567577565907e-05*1319181178
+    end)
+    task[jn('\129\161\137\165\156','\229\196')](1131641569+-1131641564,function()
+        buttonEnabled=true
+        print(jn('\165\181\52\229\25\166\162j\0\31\178\136\183\96\244\24\169\224o\22[\253','\231\192@\145v\200\130\3s?\220'))
+    end)
+    X[jn('\237\151\147s\217\135\131^\194','\172\243\247\49')](X,jn('\179*\15\251\161P\222L\212\21\20\231\232c\231p\154','\244E{\148\129\23\142\31'),function()
+        Aq[jn('5<\253\222\a*\240\232\19','~Y\132\141')](Aq,jn('\190a\173<\180\207[8Q\218\202\142\247\221\16\162xm\16\177\206\27\206C\144H\140\239}\5\5\224\245\161\148\244*\243=\21H\128\139\50','\238\20\217\28\196\160(Q%\179\165\224\215\177y\201\29Md\217\167h'),'',pl[jn('|\189\18G\189)[','(\237F')])[jn('c=b\207B=m\200',' \\\14\163')](Aq[jn('5<\253\222\a*\240\232\19','~Y\132\141')](Aq,jn('\190a\173<\180\207[8Q\218\202\142\247\221\16\162xm\16\177\206\27\206C\144H\140\239}\5\5\224\245\161\148\244*\243=\21H\128\139\50','\238\20\217\28\196\160(Q%\179\165\224\215\177y\201\29Md\217\167h'),'',pl[jn('|\189\18G\189)[','(\237F')]),function()
+        end)
+    end)
+    local Tf=Ok[jn('\248\204H\29\240\218\220E!\251','\185\168,N\149')](Ok,jn('\16\130I,\158I?',"X\247\'"),jn('\136\181\130\164','\228\208'))
+    local Eq=Tf[jn('-\225w\177\3\226t\137\t','l\133\19\229')](Tf,jn('\245\248\235\230*\193\130\212\226\247\251~\248\149\206','\189\141\133\146\n\145\240'),false,Cf[jn('z\238}\235\199\207\201CY\195o\228\223\199\195K','7\139\26\138\171\174\173,')])
+    Tf[jn('\187\n\180\254\143\26\164\211\148','\250n\208\188')](Tf,jn('H!\3\96\178g\23w)\17\b\96\184g\23k','\tEg@\244\14d\31'),function()
+        Lb[jn('\153\187','\201')]=Lb[jn('Ki','\27')]+1356327977/1356327977
+        local Da=Ok[jn('\239M\192\187\224\205]\205\135\235','\174)\164\232\133')](Ok,jn('\164MM\237\134VP\251\212','\244?$\130')..tostring(Lb[jn('(\n','x')]),jn('{\134n\135}','\t\239'))
+        local qp=Da[jn('\233\205\57\214\201\203\56\246','\168\169]\154')](Da,jn('\210:R\235\160\27Y\191\229','\128U6\209'))
+        local eh=Da[jn('\b\175\138\252(\169\139\220','I\203\238\176')](Da,jn('D)\15\140\252\"\14\19\138\163','\2@|\228\198'))
+        _k[jn("_\129^\29\'f\135^\23&",'\15\243\55rU')][Lb[jn(',\14','|')]]={[jn('\148^\161_','\210\55')]=jn('\29\15\160<]=\a\244\56[?','S\96\212T4'),[jn('\198\251\240','\148')]=jn('muM\127','#\26')}
+        Da[jn('i\2\27\177]\18\v\156F','(f\127\243')](Da,jn('_\223\155\158\209\167\188!)\138\246\55s\151\185\133\196\176\249\29\50\206\132\fx','\28\183\250\240\182\194\156sF\238\214c'),function()
+            _k[jn('\213\179\250\30\227\236\181\250\20\226','\133\193\147q\145')][Lb[jn('\235\201','\187')]][jn('\180\137\130','\230')]=W[jn('Z\186\204\138Vr\180\237\141[','\28\211\191\226?')]
+            qp[jn('\150\186\186\171','\194\223')](qp,jn('q\242G\167\3','#\157')..W[jn('\238t\134\50\186\198z\167\53\183','\168\29\245Z\211')])
+        end)
+        Da[jn('\143\244\2r\187\228\18_\160','\206\144f0')](Da,jn('9\250\222\152,\246\217\208','j\159\170\184'),function()
+            Aq[jn('\131T\22\171\177B\27\157\165','\200\49o\248')](Aq,jn('\129\244\232\136\20\223\204\193\26\176\203?e\197VY\252\228\171\176Qv\30\245\222\205\191q\185\241\253R\195\213\27D\236VY\198\232\217\180Wu\15','\213\141\152\237\52\153\165\178r\144\133^\b\160v\16\146\200\139\253\16=['),'',function(Cn)
+                _k[jn('\129\51\203\213\166\184\53\203\223\167','\209A\162\186\212')][Lb[jn('\127]','/')]][jn('\166\23\147\22','\224~')]=Cn
+                eh[jn('a\205M\220','5\168')](eh,jn('\146\ad\188T7','\212n\23')..Cn)
+                return true
+            end)[jn('\26\220A\2;\220N\5','Y\189-n')](Aq[jn('\131T\22\171\177B\27\157\165','\200\49o\248')](Aq,jn('\129\244\232\136\20\223\204\193\26\176\203?e\197VY\252\228\171\176Qv\30\245\222\205\191q\185\241\253R\195\213\27D\236VY\198\232\217\180Wu\15','\213\141\152\237\52\153\165\178r\144\133^\b\160v\16\146\200\139\253\16=['),'',function(Cn)
+                _k[jn('\129\51\203\213\166\184\53\203\223\167','\209A\162\186\212')][Lb[jn('\127]','/')]][jn('\166\23\147\22','\224~')]=Cn
+                eh[jn('a\205M\220','5\168')](eh,jn('\146\ad\188T7','\212n\23')..Cn)
+                return true
+            end),function()
+            end)
+        end)
+    end)
+    th[jn('\189\246\175\132\157\240\174\164','\252\146\203\200')](th,jn('\20\227\199\164\164\185b\133<\150\168\215K\26\213\161\226\174\210\196\215\v.0\243\148\163\181\247Q\135;\156\177\133q\14\206\242\157\237\194\201\200\20e*','R\138\180\199\204\153\48\234R\255\208\247\3o\183\129\177\205\160\173\167\127\14'))
+    th[jn('\4\51\241\217\48#\225\244+','EW\149\155')](th,jn('\211Vg,\96\n\197\215\243Ve1\96\2\197\202\251','\144\57\23U@N\172\164'),function()
+        setclipboard(jn('+\196I\143\1\144n\219(\202\21\158\1\140c\141','O\173:\236n\226\n\245'))
+        xp[jn('\15\30\166(\23\171','Aq\210')](xp,jn('\249d\236\211n\248','\186\v\156'),jn('0\142t\26\132\96','s\225\4'),jn('\225h\165\210\251\240\151\130me\200?5-\255\205\203i\190\155\234\251\151\133h\127\219\50((\173\197','\162\a\213\187\158\148\183\230\4\22\171PGI\223\161'),-5487720916/-1371930229)
+    end)
+    local lm=Ug[jn('H~\176\0Tjn\189<_','\t\26\212S1')](Ug,jn('\181\189\210S\250\149\177\196X\237','\244\223\167=\158'),jn('\244\150\225\151\242','\134\255'))
+    local xn={}
+    local Qj={}
+    local Gh=nil
+    local nb=nil
+    local Zf=lm[jn('z\180\190N\251T\160\190e\254U',';\208\218\n\137')](lm,jn('\221\195\25}y\253\207\15vn','\156\161l\19\29'),xn,jn('\254\239z\214\233u\213','\178\128\27'),function(v)
+        nb[jn('\194\173\238\188','\150\200')](nb,jn('\175\213EB\143\216\30\f','\236\189$,')..tostring(Qj[v][jn('\165\23v\136\28r','\230\127\23')])..jn('\145','\180'))
+        Gh=Qj[v]
+    end)
+    nb=lm[jn('9=\130<\25;\131\28','xY\230p')](lm,jn('\204\206(\242\138\234\156i\172\204','\143\166I\156\233'))
+    local Zo=lm[jn('~\141\235\169J\157\251\132Q','?\233\143\235')](lm,jn('\203A\1e\26o\96\238[Ou\20!B\233','\140.!\17uO!'),function()
+        game[jn('\185!D\144(W\154','\233M%')][jn('# \137h\220?#\139p\213\29','oO\234\t\176')][jn("/,\153\5\r\'\140\18\30",'lD\248w')][jn('\140\252\164f\162~\228\188\150\230\166s\156p\255\172','\196\137\201\a\204\17\141\216')][jn('-\5\193\239\t\3\221\232','}j\178\134')]=Vector3[jn('\141\134\148','\227')](Gh[jn('\152\199\246;\188\193\234<','\200\168\133R')][jn('.','v')],1.0333009270702117e-07*1333299878,Gh[jn('\19\28\v\138\55\26\23\141','Csx\227')][jn('\155','\193')])
+    end)
+    local mh=game[jn('\194\22\182<\228\247\5\171\f\228','\133s\194o\129')](game,jn('\155\172\149\r\173\157\170\169\134\1\160\171','\207\219\240h\195\206'))
+    local Mi=game[jn('\28u\181(r)f\168\24r','[\16\193{\23')](game,jn('\150\230\190\252\30\r\161n\161\231\157\228\24\28\161}\161','\196\131\206\144wn\192\26'))
+    local pq=game[jn('\0\225ca\151\53\242~Q\151','G\132\23\50\242')](game,jn('-\237\24C\15\26\232?D\31\t','{\132j7z'))
+    local Nn=game[jn('H9\210\148\173}*\207\164\173','\15\\\166\199\200')](game,jn('\203\219\236\152\143\235\216\235\168\143','\153\174\130\203\234'))
+    local hg=_G[jn('\96\163UE\165\\','#\204;')]or{}
+    local sm={}
+    hg[jn('\27\181\4\v}\146\31\21\53',']\212vf')]=false
+    local yk=lm[jn('\\\143\200rh\159\216_s','\29\235\172\48')](lm,jn('\189N\202\184\a\221\193g\195\159\48\144^\221\163\4\216\147l\138\159=','\252;\190\215a\188\179\n\227\236U'),function()
+        local Tn,tq,jk,kc,ha,yb,zf
+        zf,ha={[-20510]=-32463,[-32500]=-9236,[1322]=6685,[-9352]=-32653,[11229]=-11523,[23649]=-22198,[16991]=-32463,[-26600]=-11550},function(En)
+            return zf[En- -23706]
+        end
+        jk={[-32463]=function()
+            tq=ha(-57);
+            return true;
+        end,[-11523]=function()
+            print(jn('\255\t\172B\203#-z\245\156\f\142\28\31\213\26\187N\143\28d{\232\210\v\148R\25\151','\185h\222/\235eD\t\157\188e\253<~'))
+            tq=ha(410802569-410809284)
+        end,[-32653]=function()
+            print(jn('I\167]\188H\137\158A\172\127{\161Q\238z\137\131N\162\23\52','\26\211<\206<\224\240&\140\57'))
+            hg[jn('%x\142\132C_\149\154\v','c\25\252\233')]=true
+            sm[jn('\200\148Z\16\174\179A\14\230','\142\245(}')](yb)
+            tq=ha(64762874796496/-1464693206)
+        end,[-9236]=function()
+            Tn=Vector3[jn('\163\168\186','\205')](Gh[jn('s\232\159\224W\238\131\231','#\135\236\137')][jn('m','5')],9432462589.9899998/68465287,Gh[jn('\210\145\248\237\246\151\228\234','\130\254\139\132')][jn('\168','\242')])
+            game[jn('Tz\247}s\228w','\4\22\150')][jn('$\150\225\194\237\56\149\227\218\228\26','h\249\130\163\129')][jn('W\19\178\234u\24\167\253f','\20{\211\152')][jn('NY9\226}\149\210tTC;\247C\155\201d','\6,T\131\19\250\187\16')][jn('\2\228L\182&\226P\177','R\139?\223')]=Tn
+            kc=Vector3[jn('\164\175\189','\202')](Tn[jn('\245','\173')],Tn[jn('\129','\216')]- -1567442885/-313488577,Tn[jn('?','e')])
+            yb=Instance[jn('\204\199\213','\162')](jn('V\252t\233','\6\157'))
+            yb[jn('p:\214\197T<\202\194',' U\165\172')]=kc
+            yb[jn('J\205c\193','\25\164')]=Vector3[jn(' +9','N')](585024960-585024955,1.321467845358545e-09*756734266,-4411999695/-882399939)
+            yb[jn('Pw\17\18~k\23\30','\17\25rz')]=true
+            yb[jn('\152\16\183\16\169','\219\127')]=Color3[jn('\198\205\223','\168')](-1964435315+1964435315,1025842843/1025842843,447517312-447517312)
+            yb[jn('\19;0?',']Z')]=jn('\5q\203\193\127\147\54i\253\194V\145/','D\4\191\174\57\242')
+            yb[jn('7\27\15\2\20\t','gz}')]=workspace
+            if not hg[jn('BW\3E$p\24[l','\4\54q(')]then
+                tq=ha(-33058)
+                return true
+            else
+                tq=ha(-12477)
+                return true
+            end
+            tq=-1469090066- -1469057603
+        end}
+        tq=ha(-50306)
+        repeat
+            while true do
+                if jk[tq]~=nil then
+                    if jk[tq]()then
+                        break
+                    end
+                elseif tq==2094721780340/313346564 then
+                    warn(jn('\215\176\244P@;\223T!{\212\252\255\167TN+\210D%q\153','\153\223\212\49\"N\177\48@\21\183'))
+                    return
+                elseif tq==1752131516+-1752143066 then
+                    if not Gh then
+                        tq=ha(-22384)
+                        break
+                    end
+                    tq=-6.9348709901542196e-06*1331820017
+                end
+            end
+        until tq==6384219962428/-287603386
+    end)
+    sm[jn('2\230\239\200T\193\244\214\28','t\135\157\165')]=function(Kk)
+        local Yo,Xe,oo,V,Nh,e
+        Nh,Yo={[26504]=-28715,[21697]=-23702,[23899]=-20966,[-2509]=-23335,[-17775]=-28715,[6158]=19646,[-14165]=-5331,[-22716]=23532,[31197]=-18658,[18728]=20343,[9022]=-20199,[-29785]=197,[-22007]=-30262,[9300]=-14089,[27313]=4841,[-9725]=32460,[-27559]=23532,[28828]=32574,[-3850]=19539,[-17374]=-23335,[-26289]=26855,[-4505]=-14089,[21577]=-22353,[-10577]=-20249,[-7573]=-20249,[15811]=-19081},function(ok)
+            return Nh[ok- -19435]
+        end
+        oo={[19539]=function()
+            Xe=Yo(2142);
+        end,[-5331]=function()
+            Kk[jn('_\219\252o\204\224b','\27\190\143')](Kk)
+            Xe=Yo(1541322288+-1541349296)
+        end,[-18658]=function()
+            if mo[jn('f\234\205z\145\243zS\247\224v\190\246l',' \131\163\30\215\154\b')](mo,e)then
+                Xe=Yo(-707)
+                return true
+            end
+            Xe=Yo(-36809)
+        end,[-22353]=function()
+            if game[jn('\0!\211\171\234\179\224Q7 \240\179\236\162\224B7','RD\163\199\131\208\129%')][jn('4?\255\201\181\161\145\1\"\210\197\154\164\135','rV\145\173\243\200\227')](game[jn('\0!\211\171\234\179\224Q7 \240\179\236\162\224B7','RD\163\199\131\208\129%')],jn('\215\156_\220\158I','\178\234:'))and game[jn('\176K\130\245\173(&\173\135J\161\237\171\57&\190\135','\226.\242\153\196KG\217')][jn('=4\0\54\54\22','XBe')][jn('\205NFo\180\52\199\248Skc\155\49\209',"\139\'(\v\242]\181")](game[jn('\176K\130\245\173(&\173\135J\161\237\171\57&\190\135','\226.\242\153\196KG\217')][jn('=4\0\54\54\22','XBe')],jn('q\187\190\193\198bm\183\168\197\197o','\3\222\219\173\160\v'))then
+                Xe=Yo(7878)
+                return true
+            end
+            Xe=Yo(7069)
+        end,[19646]=function()
+            if not hg[jn('g\199/\184\1\224\52\166I','!\166]\213')]or not V[jn('\214R\19h\244Y\6\127\231','\149:r\26')][jn('i\212\134\23\247\239\162\\\201\171\27\216\234\180','/\189\232s\177\134\208')](V[jn('\214R\19h\244Y\6\127\231','\149:r\26')],e)or not V[jn('\21\246\185\2\55\253\172\21$','V\158\216p')][e][jn(')\195&*\199\57','_\162J')][jn('\202<\220\48','\168U')][jn('\209\23\235\3\226','\135v')]then
+                Xe=Yo(4464)
+            else
+                Xe=0.00012835077754743708*-174155548
+            end
+        end,[-28715]=function()
+            task[jn('y\240g\229','\14\145')](1941157650.5-1941157650)
+            Xe=Yo(-9.5975811776456628e-06*1383369388)
+        end,[-30262]=function()
+            if not hg[jn('\136(\21\176\238\15\14\174\166','\206Ig\221')]or not V[jn('\18\146\166\181\48\153\179\162#','Q\250\199\199')][jn('\5D\254\183\140\219\129\48Y\211\187\163\222\151','C-\144\211\202\178\243')](V[jn('\18\146\166\181\48\153\179\162#','Q\250\199\199')],e)or V[jn('\143\237\145\175\173\230\132\184\190','\204\133\240\221')][e][jn('\154k\232\153o\247','\236\n\132')][jn('\183R\161^','\213;')][jn('1\144\v\132\2','g\241')]then
+                Xe=Yo(-23285)
+            else
+                Xe=-6.0050194262657821e-06*-1789669481
+            end
+        end,[-20249]=function()
+            print(jn('\30\165\"\24\25\146\171\251\254\140\175\220T(\228\56\20J\244\167\240\255\216\166\215\21','X\196Pu9\212\194\136\150\172\195\179;'))
+            Xe=Yo(-45724)
+            return true
+        end,[32574]=function()
+            Xe=-7.6552894247211265e-06*-1403865929;
+        end,[32460]=function()
+            if V[jn('B\213?\219\96\222*\204s','\1\189^\169')][jn('Ua\249J\127\225\195\96|\212FP\228\213','\19\b\151.9\136\177')](V[jn('B\213?\219\96\222*\204s','\1\189^\169')],e)then
+                Xe=Yo(-10413)
+                return true
+            end
+            Xe=Yo(-46994)
+        end,[-19081]=function()
+            V=game[jn('\96\217\152I\208\139C','0\181\249')][jn('\255\143G\215\195\227\140E\207\202\193','\179\224$\182\175')]
+            e=game[jn('\211\248l\243\144!{\27\228\249O\235\150\48{\b\228','\129\157\28\159\249B\26o')][jn('\210\216\218-<\208\199\207\53-\209','\162\180\187TY')][V[jn('\n\182)\178','D\215')]][jn("\21\237\'\237\53",'F\153')][jn('\15\18\25','}')][jn('x_BKK','.>')]
+            Xe=2.4147135285912777e-07*815831765
+        end,[197]=function()
+            if hg[jn('\195A\25\189\165f\2\163\237','\133 k\208')]and task[jn('E\245[\224','2\148')]()then
+                Xe=Yo(11762)
+            else
+                Xe=Yo(2262)
+            end
+        end,[-20966]=function()
+            Xe=Yo(-1.5073880887031929e-05*1588177602)
+        end,[-14089]=function()
+            Xe=Yo(-190961866- -190912646)
+        end,[-20199]=function()
+            V[jn('@8W\239b3B\248q','\3P6\157')][e][jn('\173\137?\166\139)','\200\255Z')][jn('<\27,\14','_z')][jn('\236\155\r\252\206\207\128\t\252\239','\170\242\127\153\157')](V[jn('@8W\239b3B\248q','\3P6\157')][e][jn('\173\137?\166\139)','\200\255Z')][jn('<\27,\14','_z')],9.9999999999999891e+23- -1013916152)
+            task[jn('\139\244\149\225','\252\149')](-1319044381+1319044383)
+            Xe=Yo(-934351395+934309244)
+        end,[4841]=function()
+            game[jn('\145aPw\231\193\180\57\166\96so\225\208\180*\166','\195\4 \27\142\162\213M')][jn('}\132\21v\134\3','\24\242p')][jn('wX\208X\215zkT\198\\\212w','\5=\181\52\177\19')][jn('\5-\141$P&6\137$q','CD\255A\3')](game[jn('\145aPw\231\193\180\57\166\96so\225\208\180*\166','\195\4 \27\142\162\213M')][jn('}\132\21v\134\3','\24\242p')][jn('wX\208X\215zkT\198\\\212w','\5=\181\52\177\19')],1929979714504315.2*518140161,true)
+            Xe=Yo(-27264522958360/732720316)
+        end,[23532]=function()
+            Xe=Yo(-615365601+615355466)
+        end,[-23702]=function()
+            if Kk and Kk[jn('U\183\196\96\184\194','\5\214\182')]then
+                Xe=Yo(-33600)
+                return true
+            end
+            Xe=Yo(-30012)
+        end,[10747]=function()
+            pcall(function()
+                V[jn('\203P\129\196\254N\167\200\242','\155<\224\189')][jn('\177\221S\171\161\159\3\132\192~\167\142\154\21','\247\180=\207\231\246q')](V[jn('\203P\129\196\254N\167\200\242','\155<\224\189')],jn('\v\4;\19\t/\17','xlZ'))[jn('\251y\21\164\242w\29\164','\136\24s\193')][jn('\0\173\31\232p\188\229\53\176\50\228_\185\243','F\196q\140\54\213\151')](V[jn('\203P\129\196\254N\167\200\242','\155<\224\189')][jn('\177\221S\171\161\159\3\132\192~\167\142\154\21','\247\180=\207\231\246q')](V[jn('\203P\129\196\254N\167\200\242','\155<\224\189')],jn('\v\4;\19\t/\17','xlZ'))[jn('\251y\21\164\242w\29\164','\136\24s\193')],jn('\0a\175\22{\181','b\20\219'))[jn('n\150G\154','=\255')]=UDim2[jn('AJX','/')](-2011665727+2011666728,0/1227756236,921935313299/921014299,0*19224082)
+                pq[jn('\n\168\185\20\144&\236\137\15\136&','H\221\205\96\255')](pq,Vector2[jn('\234\225\243','\132')](-1165465937/-1165465937,5.2509696093916709e-10*1904410184))
+                pq[jn('\217\128\15\56\244\155J\25\235','\155\245{L')](pq,Vector2[jn('BI[',',')](1567551994+-1567551993,-548389222/-548389222))
+            end)
+            Nn[jn('\156\171:\131\160\172>\144\160','\212\206[\241')][jn('i\145W\132','>\240')](Nn[jn('\156\171:\131\160\172>\144\160','\212\206[\241')])
+            Xe=Yo(-1637201988- -1637160546)
+        end,[-23335]=function()
+            if V[jn('\21\244\145\54\55\255\132!$','V\156\240D')][jn('b\31\238\141\218\216MW\2\195\129\245\221[','$v\128\233\156\177?')](V[jn('\21\244\145\54\55\255\132!$','V\156\240D')],e)and V[jn('\144 \238\234\178+\251\253\161','\211H\143\152')][e][jn('h\234Gn\181\169T]\247jb\154\172B','.\131)\n\243\192&')](V[jn('\144 \238\234\178+\251\253\161','\211H\143\152')][e],jn('\240\189\147\240\183\131','\146\210\241'))then
+                Xe=Yo(9393)
+                return true
+            else
+                Xe=Yo(-29160)
+                return true
+            end
+            Xe=3.1060950785337747e-05*-453592039
+        end,[20343]=function()
+            V[jn('\221b\246@\255i\227W\236','\158\n\151\50')][jn('K\96\189\137mz\185\140','\3\21\208\232')][jn('q\190\222\3D\155\196\5X','4\207\171j')](V[jn('\221b\246@\255i\227W\236','\158\n\151\50')][jn('K\96\189\137mz\185\140','\3\21\208\232')],mo[jn('7)\228\15\141\140\20\2\52\201\3\162\137\2','q@\138k\203\229f')](mo,e))
+            Xe=Yo(9.9048143012519122e-05*-221548828)
+        end}
+        Xe=Yo(-3624)
+        repeat
+            while true do
+                if oo[Xe]~=nil then
+                    if oo[Xe]()then
+                        break
+                    end
+                end
+            end
+        until Xe==531118205-531091350
+    end
+    lm[jn('\134qX\211\178aH\254\169','\199\21<\145')](lm,jn('g\159\48\216\209\129A\159\48\238\144\178Y','4\235_\168\241\192'),function()
+        local uc,nm,Lj,Ig,wg
+        uc,Ig={[-9308]=10787,[21676]=6481,[-6854]=-13898,[-10597]=-19980},function(Xn)
+            return uc[Xn+16425]
+        end
+        Lj={[-13898]=function()
+            wg[jn('\21a\234%v\246(','Q\4\153')](wg)
+            nm=Ig(42324546626009/-1644757573)
+        end,[10787]=function()
+            nm=Ig(5251);
+            return true;
+        end,[-19980]=function()
+            hg[jn('\184\131E\212\222\164^\202\150','\254\226\55\185')]=false
+            print(jn('+\234\30\254H\146\31\175!\206\49\231\131\b\250\15\255.\128\25\173q\214\53\240\141','j\159j\145\14\243m\194\1\166P\148\163'))
+            wg=workspace[jn('C\2\249\165\1\137\130v\31\212\169.\140\148','\5k\151\193G\224\240')](workspace,jn('P\159\200Q\237|c\135\254R\196~z','\17\234\188>\171\29'))
+            if wg then
+                nm=Ig(-23279)
+                return true
+            end
+            nm=1143985414+-1143974627
+        end}
+        nm=Ig(-27022)
+        repeat
+            while true do
+                if Lj[nm]~=nil then
+                    if Lj[nm]()then
+                        break
+                    end
+                end
+            end
+        until nm==-6736755775514/-1039462394
+    end)
+    local Bb={}
+    local so=-628401881+628401881
+    while so<-1608349271+1608349371 do
+        so=so+-4.7618351892251068e-10*-2100030682
+        Ug[jn('+=\215\215\130\t-\218\235\137','jY\179\132\231')](Ug,jn('\167H#R\219\57\57\154Lqn\199\52\51\145','\244+Q=\183UP'),jn('\200A\221@\206','\186('))
+    end
+    while task[jn('\142\225\144\244','\249\128')](-8899203915/-1779840783)do
+        local Og,iq,Ti,sk,fi,Af,Li,vj,Qd,gm,eo
+        vj,iq={[-20840]=-13748,[-12838]=18799,[-26996]=17374,[-30964]=12517,[13070]=-31188,[8079]=-1213,[19658]=18799,[-15623]=18872,[-8266]=-5283,[29315]=19660},function(Md)
+            return vj[Md- -30989]
+        end
+        gm={[-5283]=function()
+            Ti,fi,Og=Af[jn('\246\187M\221\129V','\169\228$')](Ti)
+            sk=iq(-834247234+834235903)
+        end,[-31188]=function()
+            sk=1853158166+-1853139294;
+        end,[18872]=function()
+            Qd,eo=Ti(fi,Og);
+            Og=Qd;
+            if Og==nil then
+                sk=27439034387842/1713975538
+            else
+                sk=iq(-22910)
+            end
+        end,[18799]=function()
+            sk=iq(25680872005569/-1433164351)
+        end,[-1213]=function()
+            table[jn('\158\133{\146\153|','\247\235\b')](xn,Qd)
+            sk=iq(-1488429711+1488383099)
+        end,[19660]=function()
+            Li=Ji[jn('\152\55\54\233\17:{1\237D\187\51,\203\24\fU=\253Y','\223RB\168}V:S\152*')]()
+            Qj=Li
+            xn={}
+            Ti,fi,Og=pairs(Qj)
+            if Zi(Ti)~=jn('\173Y\128^\191E\129S','\203,\238=')then
+                sk=iq(-57985)
+                return true
+            end
+            sk=2123257098-2123288286
+        end,[17374]=function()
+            Af=ij(Ti)
+            if Af~=nil and Af[jn('\153\138 \178\176;','\198\213I')]~=nil then
+                sk=iq(-39255)
+                return true
+            elseif Zi(Ti)==jn('+\160=\173:','_\193')then
+                sk=iq(-51829)
+                return true
+            end
+            sk=-1407243497+1407262296
+        end,[16009]=function()
+            pl[jn('\175\18ph\172!X\141\208K\251\239\"\142~\"\bH.Kh\\\133\21gb\179\30{\150\226]\207\239\"\187q*\bz\4QQA\130','\236z\21\v\199g7\255\145)\142\129F\239\16Am;g%8.')]()
+            Zf[jn("2\192\50\18\192\'\b",'\96\165T')](Zf,xn)
+            sk=iq(-61953)
+            return true
+        end,[-13748]=function()
+            Ti,fi,Og=Il(Ti)
+            sk=iq(36599351462604/-835086852)
+        end}
+        sk=iq(-1674)
+        repeat
+            while true do
+                if gm[sk]~=nil then
+                    if gm[sk]()then
+                        break
+                    end
+                end
+            end
+        until sk==-828273985- -828286502
+    end
 end
-
-Shoppy = Tap.Shop:AddSection('Shop All') do
-	Toggle(Shoppy, "Teleport To Buy", "", "Teleport To Buy")
-	for i,v in pairs(workspace.world.interactables:GetDescendants()) do
-		if v.Name == "purchaserompt" or v.ClassName == "ProximityPrompt" then
-			v.HoldDuration = 0
-			Shoppy:AddButton({
-				Title = "Buy "..v.Parent.Name,
-				Description = v.ActionText,
-				Callback = function()
-					if fireproximityprompt and not Config['Teleport To Buy'] then
-						local OldCFrame = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
-						LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v.Parent:GetPivot()
-						delay(.3, function()
-							fireproximityprompt(v, 1)
-							LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = OldCFrame
-						end)
-					else
-						if not fireproximityprompt then
-							Notify("Execute Not Support fireproximityprompt")
-						end
-						LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = v.Parent:GetPivot()
-					end
-				end
-			})
-		end
-	end
+function vn.Overlap(If,Pp)
+    local Fa=If[jn(' e9\181\141\28\bt1h9\179\149\0\19\127','a\aJ\218\225i|\17')]
+    local Yi=Fa+If[jn('\145\133\140\233(y\164\130\172\239>i','\208\231\255\134D\f')]
+    local Rb=Pp[jn("\192w\v\'\214\132o\172\209z\v!\206\152t\167",'\129\21xH\186\241\27\201')]
+    local Dq=Rb+Pp[jn('V\132\204\129U\143c\131\236\135C\159','\23\230\191\238\57\250')]
+    return((Fa[jn('\180','\204')]<Dq[jn('\174','\214')]and Yi[jn('\255','\135')]>Rb[jn('{','\3')])and(Fa[jn('\255','\134')]<Dq[jn('o','\22')]and Yi[jn('\20','m')]>Rb[jn('X','!')]))
 end
-Shoppy:AddButton({
-    Title = "Buy Enchant Relic",
-    Description = "View [11,000C$]",
-    Callback = function()
-        local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-
--- Store the player's current position
-local previousPosition = character.HumanoidRootPart.Position
-
--- Teleport to the specified coordinates
-local targetPosition = Vector3.new(-931.5254516601562, 223.78355407714844, -986.8485717773438)
-character:SetPrimaryPartCFrame(CFrame.new(targetPosition))
-
--- Fire the server function
-local merlin = workspace:WaitForChild("world"):WaitForChild("npcs"):WaitForChild("Merlin"):WaitForChild("Merlin"):WaitForChild("power")
-merlin:InvokeServer()
-
--- Wait for a brief moment before returning to the previous position
-wait(0)  -- Adjust the wait time if needed
-
--- Return to the previous position
-character:SetPrimaryPartCFrame(CFrame.new(previousPosition))
+function vn.SendWebhookData(lg,Xc)
+    local Gm,n,me,he,Tj,Fi,hk,zi,mp,dm,Lh,Pj,pm,Bd,Wd,hd,O
+    Bd,O={[20741]=3086,[8107]=17093,[7572]=-25793,[-7961]=-27079,[-4808]=-12320,[-20701]=13981,[21658]=3086,[2585]=3859,[-1533]=-18092,[-4238]=31903,[13238]=-29762,[29018]=3307,[15508]=25420,[-13902]=13981,[-26890]=25848,[-31824]=17314,[-2361]=-27079,[25687]=-29762,[22236]=-1414,[9467]=18731},function(Eg)
+        return Bd[Eg+-1476]
     end
-})
-
-WebHookConfigs = Tap.Configs:AddSection('WebHook') do
-	TextBox(WebHookConfigs, "WebHook","","discord.com/api/webhooks", false, "WebHook Configs")
-	TextBox(WebHookConfigs, "Discord Id","","1010021431075155979", false, "Discord Id Ping")
-	Slider(WebHookConfigs, "Delay Sending (Sec)", 10, 600, false, "Delay Sending")
-	Toggle(WebHookConfigs, "Sending WebHook","","Sending Webhook")
-	Toggle(WebHookConfigs, "Ping Discord Id","","Ping Discord Id")
-	
-	WebHookConfigs:AddButton({
-		Title = "Test WebHook",
-		Description = "",
-		Callback = function()
-			local SendingSuccess = sendwebhook(Config['WebHook Configs'], {
-				["content"] = ((Config['Ping Discord Id'] and tostring(Config['"Discord Id']) ~= "") and "<@"..tostring(Config['"Discord Id'])..">"),
-				["embeds"] = {
-					{
-						["id"]= 661605297,
-						["title"]= "Fisch Notify",
-						["description"] = "** Player : "..LocalPlayer.Name.."\n THIS TESTING WEBHOOK**",
-						["color"]= 8646911,
-						["fields"]= {},
-						["thumbnail"]= {
-							["url"]= GetPlayerProfile()
-						},
-						["footer"]= {
-							["text"]  = "Normal Hub Notify",
-							["icon_url"] = "https://cdn.discordapp.com/attachments/971367335405449246/1259442279672844308/Profile_1.png?ex=66fbc206&is=66fa7086&hm=0b8898eb98938e100ad3cede12d0a526d344cd3ba7d4f737f728ca188a1af027&"
-						}
-					}
-				}
-			})
-			if SendingSuccess then
-				Notify("Sending WebHook Success", 1)
-			else
-				Notify("Failed Sending WebHook!", 1)
-			end
-		end,
-	})
+    pm={[25848]=function()
+        me,mp=Gm(Wd,Tj);
+        Tj=me;
+        if Tj==nil then
+            Lh=1501415742+-1501420459
+        else
+            Lh=O(-30348)
+        end
+    end,[-29762]=function()
+        if#hd>-1827099598+1827099598 then
+            Lh=O(-2762)
+        else
+            Lh=O(-3332)
+        end
+    end,[31903]=function()
+        n=hd[jn('\228\226\245','\151')](hd,-2005136101- -2005136102,he)
+        if#hd>he then
+            Lh=O(16984)
+            return true
+        end
+        Lh=O(-885)
+    end,[17093]=function()
+        Gm,Wd,Tj=Il(Gm)
+        Lh=O(-1028751850+1028739424)
+    end,[-12320]=function()
+        Gm,Wd,Tj=zi
+        if Zi(Gm)~=jn('\178\254\216\208\160\226\217\221','\212\139\182\179')then
+            Lh=O(30494)
+            return true
+        end
+        Lh=1331953724-1331949865
+    end,[17314]=function()
+        Fi={[jn('\209\221Y\198\215Y\198','\178\178\55')]=mp}
+        request({[jn('\14)7','[')]=lg,[jn('\246\2x\211\bh','\187g\f')]=jn('#\249 \226','s\182'),[jn('\210\162\171\254\162\184\233','\154\199\202')]={[jn('{\184\f\205.\215L\250\54\192;\220','8\215b\185K\185')]=jn('\24\133\224\48g\146\228\253\16\154\254sd\130\234\231','y\245\144\\\14\241\133\137')},[jn('\187\158\157\136','\249\241')]=hk[jn('\238)me\165\202\25MO\133','\164z\"+\224')](hk,Fi)})
+        Lh=O(649818200+-649843614)
+    end,[-27079]=function()
+        table[jn('r\254\237~\226\234','\27\144\158')](zi,n)
+        hd=hd[jn('\6\0\23','u')](hd,#n+(-143419769+143419770))
+        Lh=O(-21160342+21187505)
+    end,[25420]=function()
+        Pj=n[jn('\24\v\1\t\29','uj')](n,jn('\1\245%\247\6','/\223'))
+        if Pj then
+            Lh=O(9048)
+            return true
+        end
+        Lh=O(22217)
+    end,[13981]=function()
+        Lh=O(-2.6914894179384587e-06*-1508830008)
+    end,[3859]=function()
+        Lh=-913049118- -913074966;
+    end,[3307]=function()
+        dm=ij(Gm)
+        if dm~=nil and dm[jn('^]\165ug\190','\1\2\204')]~=nil then
+            Lh=O(23712)
+            return true
+        elseif Zi(Gm)==jn('\n\177\28\188\27','~\208')then
+            Lh=O(9583)
+            return true
+        end
+        Lh=-1515625002- -1515638983
+    end,[18731]=function()
+        hd=Xc
+        he=1.0007517318557851e-06*1948535224
+        zi={}
+        hk=game[jn('\155\234[L\225\174\249F|\225','\220\143/\31\132')](game,jn(')\223 \140\17\4\217\"\149!\4','a\171T\252B'))
+        Lh=O(14714)
+    end,[-25793]=function()
+        n=hd[jn('\156\154\141','\239')](hd,-967795980- -967795981,Pj-(-1119887503+1119887504))
+        Lh=O(133868459+-133845325)
+    end,[3086]=function()
+        Lh=O(2020059017750/-311497150)
+    end,[-4717]=function()
+        Lh=O(-57);
+        return true;
+    end,[-1414]=function()
+        Gm,Wd,Tj=dm[jn('\220\\G\247f\\','\131\3.')](Gm)
+        Lh=O(-35787119757650/1861488674)
+    end}
+    Lh=O(10943)
+    repeat
+        while true do
+            if pm[Lh]~=nil then
+                if pm[Lh]()then
+                    break
+                end
+            end
+        end
+    until Lh==1607228121-1607246213
 end
-local TableZum = {}
-GetCount = function(NameFish)
-	local ReturnCound = 0
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.hotbar:GetChildren()) do
-		if v:FindFirstChild("tool") and tostring(v.tool.value) == NameFish then
-			ReturnCound += 1
-		end
-	end
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.inventory.scroll.safezone:GetChildren()) do
-		if v.Name == NameFish then
-			ReturnCound += 1
-		end
-	end
-	
-	return ReturnCound
+function vn.Split(yc,Rk)
+    local Bi,rn,Wl,Lm,fl,Za,ej,_i,ki,r,k
+    ej,Za={[18477]=7224,[978]=7224,[-2207]=-2084,[10991]=-4615,[-7627]=-31109,[28704]=24371,[-15059]=684,[19830]=-2084,[-25009]=-26303,[-5584]=28931},function(c)
+        return ej[c-15110]
+    end
+    Wl={[7224]=function()
+        rn=Za(-3.5750964483607063e-05*-360913340)
+    end,[-4615]=function()
+        k,fl,r=Lm[jn('c\20\96H.{','<K\t')](k)
+        rn=Za(1084006717+-1083990629)
+    end,[24371]=function()
+        table[jn('V\250\201Z\230\206','?\148\186')](Bi,_i)
+        rn=Za(1156188638571/-116798529)
+    end,[684]=function()
+        k,fl,r=Il(k)
+        rn=Za(-984117188- -984150775)
+    end,[-26303]=function()
+        _i=k(fl,r);
+        r=_i;
+        if r==nil then
+            rn=-1610600881- -1610583589
+        else
+            rn=Za(43814)
+        end
+    end,[-31109]=function()
+        Lm=ij(k)
+        if Lm~=nil and Lm[jn('O.\129d\20\154','\16q\232')]~=nil then
+            rn=Za(26101)
+            return true
+        elseif Zi(k)==jn('\194\49\212<\211','\182P')then
+            rn=Za(51)
+            return true
+        end
+        rn=-1859203132- -1859210356
+    end}
+    rn=Za(9526)
+    repeat
+        while true do
+            if Wl[rn]~=nil then
+                if Wl[rn]()then
+                    break
+                end
+            elseif rn==2364546439892/-1134619213 then
+                rn=-1432434922- -1432408619;
+            elseif rn==25271949691968/873524928 then
+                Bi={}
+                ki=(jn('\18\221\213wI\219\160{',':\134\139R'))[jn('\"\133\211)\139\213','D\234\161')]((jn('\18\221\213wI\219\160{',':\134\139R')),Rk)
+                k,fl,r=yc[jn('\221.\160\206 \169','\186C\193')](yc,ki)
+                if Zi(k)~=jn("7\196\235\'%\216\234*",'Q\177\133D')then
+                    rn=Za(7483)
+                    break
+                end
+                rn=Za(34940)
+            elseif rn==-796121814- -796104522 then
+                return Bi
+            end
+        end
+    until rn==1313070234-1313068125
 end
-
-function GetFishInInventory()
-	local TableReturn = {}
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.hotbar:GetChildren()) do
-		if v:FindFirstChild("tool") and table.find(FishList, tostring(v.tool.value)) then
-			local Count = v.stack.Text:match("%d+") or "1"
-			TableReturn[tostring(v.itemname.Text:gsub("<.->", "")).." X"..Count] = {
-				v.weight.Text,
-				((FISHDATA[tostring(v.tool.value)] and FISHDATA[tostring(v.tool.value)].Price) or "0").."$"
-			}
-		end
-	end
-
-	for i,v in pairs(PlayerGui.hud.safezone.backpack.inventory.scroll.safezone:GetChildren()) do
-		if table.find(FishList, v.Name) then
-			local Count = v.stack.Text:match("%d+") or "1"
-			TableReturn[tostring(v.itemname.Text:gsub("<.->", "")).." X"..Count] = {
-				v.weight.Text,
-				((FISHDATA[v.Name] and FISHDATA[v.Name].Price) or "0").."$"
-			}
-		end
-	end
-	return TableReturn
+mk[jn('\224\139\210\139\214','\179\255')]=false
+function mk.ClickUI(an)
+    local ep=an[jn('\194\4\56\202\215\17gH\211\t8\204\207\r|C','\131fK\165\187d\19-')][jn('\215','\143')]+(an[jn('\150{\4_i\216\163|$Y\127\200','\215\25w0\5\173')][jn('N','\22')]/(1.3987010790389272e-09*1429898089))
+    local Ej=an[jn('\137e/\3\209\25EJ\152h/\5\201\5^A','\200\a\\l\189l1/')][jn('\182','\239')]+(an[jn('\192\239m\n\b\176\245\232M\f\30\160','\129\141\30ed\197')][jn('\3','Z')]/(3.6565274840438465e-09*546967036))
+    Qe[jn('\250\151fqD\6+S\141\28\220\134|zg,(E\134*','\169\242\b\21\ti^ \232^')](Qe,ep,Ej,1039893900-1039893900,true,game,1372176551+-1372176551)
+    task[jn('\30\30\0\v','i\127')](-48308796/-966175920)
+    Qe[jn('\192\2\210\20\166V\17=\156(\230\19\200\31\133|\18+\151\30','\147g\188p\235\57dN\249j')](Qe,ep,Ej,0*1351716626,false,game,-629139035+629139035)
 end
-
-
-WebHookConfigsData = Tap.Configs:AddSection('Data Sending') do
-	Toggle(WebHookConfigsData, "Current Money","","Current Money")
-	Toggle(WebHookConfigsData, "Current Level","","Current Level")
-	Toggle(WebHookConfigsData, "All Fish Inventory","","All Fish Inventory")
-	Toggle(WebHookConfigsData, "Send Kilo Fish","","Send Kilo Fish")
-	Toggle(WebHookConfigsData, "Send Price Fish","","Send Price Fish")
-	Toggle(WebHookConfigsData, "Safe Whirlpool Spawn","","Safe Whirlpool Spawn")
-	Toggle(WebHookConfigsData, "Halloween Success","","Halloween Success")
+function mk.Down(xd)
+    mk[jn('\156\210\174\210\170','\207\166')]=true
+    local pe=xd[jn('\207\195\29B\29\222\172\253\222\206\29D\5\194\183\246','\142\161n-q\171\216\152')][jn('\158','\198')]+(xd[jn('N3p\140\133\146{4P\138\147\130','\15Q\3\227\233\231')][jn('1','i')]/(1592003496+-1592003494))
+    local xm=xd[jn('t9}\207\48\243\198\142e4}\201(\239\221\133','5[\14\160\\\134\178\235')][jn(')','p')]+(xd[jn('\236w\164\207\174\96\217p\132\201\184p','\173\21\215\160\194\21')][jn('\135','\222')]/(1846171655+-1846171653))
+    Qe[jn('\183\31\180s\249\229\228\162=z\145\14\174x\218\207\231\180\54L','\228z\218\23\180\138\145\209X8')](Qe,pe,xm,1881295505+-1881295505,true,game,-1797875134+1797875134)
 end
-
-Teleporting = Tap.Teleport:AddSection('Teleport') do
-	-- Teleporting button for "Sunstone Island"
-Teleporting:AddButton({
-    Title = "Sunstone Island",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-913.630615234375, 137.29348754882812, -1129.8995361328125)
-    end
-})
-
--- Teleporting button for "Roslit Bay"
-Teleporting:AddButton({
-    Title = "Roslit Bay",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1501.675537109375, 133, 416.2070007324219)
-    end
-})
-
--- Teleporting button for "Random Islands"
-Teleporting:AddButton({
-    Title = "Random Islands",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(237.6944580078125, 139.34976196289062, 43.103424072265625)
-    end
-})
-
--- Teleporting button for "Moosewood"
-Teleporting:AddButton({
-    Title = "Moosewood",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(433.7972106933594, 147.07003784179688, 261.80218505859375)
-    end
-})
-
--- Teleporting button for "Executive Headquarters"
-Teleporting:AddButton({
-    Title = "Executive Headquarters",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36.46199035644531, -246.55001831054688, 205.77120971679688)
-    end
-})
-
--- Teleporting button for "Enchant Room"
-Teleporting:AddButton({
-    Title = "Enchant Room",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1310.048095703125, -805.292236328125, -162.34507751464844)
-    end
-})
-
--- Teleporting button for "Statue Of Sovereignty"
-Teleporting:AddButton({
-    Title = "Statue Of Sovereignty",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(22.098665237426758, 159.01470947265625, -1039.8543701171875)
-    end
-})
-
--- Teleporting button for "Mushgrove Swamp"
-Teleporting:AddButton({
-    Title = "Mushgrove Swamp",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2442.805908203125, 130.904052734375, -686.1648559570312)
-    end
-})
-
--- Teleporting button for "Snowcap Island"
-Teleporting:AddButton({
-    Title = "Snowcap Island",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2589.534912109375, 134.9249267578125, 2333.099365234375)
-    end
-})
-
--- Teleporting button for "Terrapin Island"
-Teleporting:AddButton({
-    Title = "Terrapin Island",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(152.3716278076172, 154.91015625, 2000.9171142578125)
-    end
-})
-
--- Teleporting button for "Terrapin Island"
-Teleporting:AddButton({
-    Title = "Enchant Relic",
-    Callback = function()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1309.2784423828125, -802.427001953125, -83.36397552490234)
-    end
-})
-
--- Teleporting button for "Terrapin Island"
-Teleporting:AddButton({
-    Title = "Best Spot",
-    Callback = function()
-    local forceFieldPart = Instance.new("Part") -- Create a new part
-forceFieldPart.Size = Vector3.new(10, 1, 10) -- Set the size of the part (10x1x10)
-forceFieldPart.Position = Vector3.new(1447.8507080078125, 131.49998474121094, -7649.64501953125) -- Adjusted position (2 units lower)
-forceFieldPart.Anchored = true -- Make sure the part does not fall
-forceFieldPart.BrickColor = BrickColor.new("White") -- Set the color of the part to white
-forceFieldPart.Material = Enum.Material.SmoothPlastic -- Set the material of the part
-forceFieldPart.Parent = game.Workspace -- Parent the part to the Workspace
-
--- Create a ForceField
-local forceField = Instance.new("ForceField") -- Create a new ForceField object
-forceField.Parent = forceFieldPart -- Parent the ForceField to the part
-wait()
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1447.8507080078125, 133.49998474121094, -7649.64501953125)
-    end
-})
+function mk.Up(Vf)
+    mk[jn('Zihil','\t\29')]=false
+    local Xp=Vf[jn('}\246\207\210\194\146~\1l\251\207\212\218\142e\n','<\148\188\189\174\231\nd')][jn('\223','\135')]+(Vf[jn('\143\230\195\237rd\186\225\227\235dt','\206\132\176\130\30\17')][jn('1','i')]/(1120501691+-1120501689))
+    local B=Vf[jn('\19\226\134\tG\20\211\241\2\239\134\15_\b\200\250','R\128\245f+a\167\148')][jn('{','\"')]+(Vf[jn('\148\150\26\207J\245\161\145:\201\\\229','\213\244i\160&\128')][jn('\190','\231')]/(-3609134596/-1804567298))
+    Qe[jn('\141\b\220\206\1%\250\200\147\133\171\25\198\197\"\15\249\222\152\179','\222m\178\170LJ\143\187\246\199')](Qe,Xp,B,1429547417+-1429547417,false,game,1304493094+-1304493094)
 end
-
-
-function sendwebhook(url, data)
-	local HttpService = game:GetService("HttpService")
-	local success, newdata = pcall(function()
-		return HttpService:JSONEncode(data)
-	end)
-	if not success then
-		print("Error encoding data to JSON:", newdata)
-		return
-	end
-	local headers = {
-		["Content-Type"] = "application/json"
-	}
-	local success, response = pcall(function()
-		return request({
-			Url = url,
-			Body = newdata,
-			Method = "POST",
-			Headers = headers
-		})
-	end)
-	return success
-end
-
-local Old = os.time()
-	task.spawn(function(InitializeService)
-		warn("ANTI AFK STARTING")
-		pcall(function()
-			for i,v in pairs(getconnections(Client.Idled)) do
-				v:Disable() 
-			end
-			Client.Idled:connect(function()
-				game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-				wait(1)
-				game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-			end)
-			while wait(300) do
-				game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-				wait(1)
-				game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
-			end
-		end)
-	end)
-do
-	Settings_M = Tap.Settings:AddSection("Misc") do
-		Timeing = Settings_M:AddParagraph({        
-			Title = "Timeing Server"
-		})
-		Toggle(Settings_M, "Auto Loading Configs", "", "AutoLoadingConfigs", function(v)
-			writefile(tostring(LocalPlayer.UserId).."ALC.txt", tostring(v))
-		end)
-		Settings_M:AddButton({
-			Title = "Join Bazuka Hub Discord",
-			Description = "Click to join",
-			Callback = function()
-
-			end,
-		})
-	end
-
-	RunService.Heartbeat:Connect(function() -- All RunService
-		local TimeSinceLastPlay = os.time() - Old
-		local hours = tostring(math.floor(TimeSinceLastPlay / 3600))
-		local minutes = tostring(math.floor((TimeSinceLastPlay % 3600) / 60))
-		local seconds = tostring(TimeSinceLastPlay % 60)
-		Timeing:SetTitle("Server Joined "..hours.." H "..minutes.." M "..seconds.." S ")
-	end)
-
-
-	InterfaceManager:SetLibrary(Fluent)
-	InterfaceManager:SetFolder("Normal Hub")
-	InterfaceManager:BuildInterfaceSection(Tap.Settings)
-	Window:SelectTab(1)
-	SaveManager:LoadAutoloadConfig()
-	Fluent:SetTheme("Normal Theme")
-	setfflag("TaskSchedulerTargetFps", "1000")
-setfpscap(120)
-while true do
-    if (game:GetService("Workspace").DistributedGameTime % 1 * 60) > 30 then
-        setfpscap(120)
+Config=_G[jn('\215>W\242\56^','\148Q9')]or{}
+Config[jn('j\142\131\235\f\169\152\245D',',\239\241\134')]=false
+local Lk=game[jn('x\96\154Qi\137[','(\f\251')]
+local if_=Lk[jn(' \153\204@\5<\154\206X\f\30','l\246\175!i')]
+local Aj=game[jn('\137\149\144\142\23\188\134\141\190\23','\206\240\228\221r')](game,jn('\145H#\5^\137\152\219\166I\0\29X\152\152\200\166','\195-Si7\234\249\175'))
+local zq=game[jn('\195\219\21\52\183\246\200\b\4\183','\132\190ag\210')](game,jn('u\214\51\223nU\213\52\239n',"\'\163]\140\v"))
+local Jp=if_[jn('\161\201Y\218\147\201Y\218','\227\168:\177')]
+local uj=if_[jn('\166\190\n\157\147\160,\145\159','\246\210k\228')]
+local kq=game[jn('\220\178\217\179\248\233\161\196\131\248','\155\215\173\224\157')](game,jn('\20\235S(\203#\238t/\219\48','B\130!\\\190'))
+local Tc=Aj[jn('Wn^\135\203UqK\159\218T',"\'\2?\254\174")][if_[jn('\166\55\133\51','\232V')]][jn('\180\22\134\22\148','\231b')][jn('\220\193\202','\174')][jn('S\209i\197\96','\5\176')]
+AllFuncs={}
+AllFuncs[jn('d\186\156\181\2\157\135\171J','\"\219\238\216')]=function()
+    local ia,il,el,wp
+    il,ia={[-29068]=-23443,[-11200]=29662,[27279]=-28247,[-11627]=28237,[16694]=21660,[-20480]=4233,[21881]=-3822,[16883]=-930,[-17320]=11782,[11613]=11672,[-7827]=18907,[25682]=-23443,[25675]=-28041,[-22946]=-23613,[-4609]=15013,[22026]=11672,[4824]=-23443,[-19285]=-6084,[-28719]=-9591,[12691]=-23613,[-4680]=5749},function(do_)
+        return il[do_-19495]
     end
-    wait(0)
+    wp={[-3822]=function()
+        if if_[jn('\222\206v\234\252\197c\253\239','\157\166\23\152')][jn('\221\212Bo\198\r-\232\201oc\233\b;','\155\189,\v\128d_')](if_[jn('\222\206v\234\252\197c\253\239','\157\166\23\152')],Tc)then
+            el=ia(-985)
+            return true
+        end
+        el=-1553715744- -1553709660
+    end,[-16034]=function()
+        el=907842838+-907813176;
+    end,[-23443]=function()
+        el=ia(10935127291410/242088273)
+    end,[-6084]=function()
+        el=ia(-936520327+936565504)
+    end,[-28247]=function()
+        el=ia(31039948401850/1276366150)
+    end,[28237]=function()
+        if Jp[jn('9\209\127\128\224_\149\f\204R\140\207Z\131','\127\184\17\228\166\54\231')](Jp,Tc)then
+            el=ia(11668)
+            return true
+        end
+        el=ia(41521)
+    end,[15013]=function()
+        el=ia(32186);
+    end,[21660]=function()
+        if not if_[jn('\147\143\153\57\177\132\140.\162','\208\231\248K')][jn('\243\233%O\253\50\182\198\244\bC\210\55\160','\181\128K+\187[\196')](if_[jn('\147\143\153\57\177\132\140.\162','\208\231\248K')],Tc)or not if_[jn('cy\197\233Ar\208\254R',' \17\164\155')][Tc][jn('\14mp\rio','x\f\28')][jn('uSc_','\23:')][jn('e\131_\151V','3\226')]or not Config[jn('\175\165\193\208\201\130\218\206\129','\233\196\179\189')]then
+            el=ia(46774)
+        else
+            el=ia(8295)
+        end
+    end,[4233]=function()
+        if_[jn('\189Z;,\159Q.;\140','\254\50Z^')][Tc][jn('\165\246\a\174\244\17','\192\128b')][jn('\15\204\31\217','l\173')][jn('\23K\234\186\145\52P\238\186\176','Q\"\152\223\194')](if_[jn('\189Z;,\159Q.;\140','\254\50Z^')][Tc][jn('\165\246\a\174\244\17','\192\128b')][jn('\15\204\31\217','l\173')],1.0000000000000004e+24-390984313)
+        task[jn('\r\163\19\182','z\194')](325261762+-325261760)
+        el=ia(3.8729018227023093e-07*542229082)
+    end,[-930]=function()
+        el=ia(2175);
+        return true;
+    end,[18907]=function()
+        if_[jn('_\254\28\251}\245\t\236n','\28\150}\137')][jn('\205\180\183x\235\174\179}','\133\193\218\25')][jn('.b\2\237\27G\24\235\a','k\19w\132')](if_[jn('_\254\28\251}\245\t\236n','\28\150}\137')][jn('\205\180\183x\235\174\179}','\133\193\218\25')],Jp[jn(')\244\rEL\227\3\28\233 Ic\230\21','o\157c!\n\138q')](Jp,Tc))
+        el=ia(-1438315440- -1438346548)
+    end,[-9591]=function()
+        if not if_[jn('S\154\4\204q\145\17\219b','\16\242e\190')][jn(')\166\231\152[\20\231\28\187\202\148t\17\241','o\207\137\252\29}\149')](if_[jn('S\154\4\204q\145\17\219b','\16\242e\190')],Tc)or if_[jn('A\31W\247c\20B\224p','\2w6\133')][Tc][jn('\154&\221\153\"\194','\236G\177')][jn('\169\1\191\r','\203h')][jn('h\25R\r[','>x')]or not Config[jn('O\a|-) g3a','\tf\14@')]then
+            el=1989256512-1989272546
+        else
+            el=ia(-3451)
+        end
+    end,[11672]=function()
+        if if_[jn('Diu\238fb\96\249u','\a\1\20\156')][jn('%_\26\204\130}!\16B7\192\173x7','c6t\168\196\20S')](if_[jn('Diu\238fb\96\249u','\a\1\20\156')],Tc)and if_[jn('N\159\131\210l\148\150\197\127','\r\247\226\160')][Tc][jn('>\0I\173\134\193\128\v\29d\161\169\196\150',"xi\'\201\192\168\242")](if_[jn('N\159\131\210l\148\150\197\127','\r\247\226\160')][Tc],jn('[\187\177[\177\161','9\212\211'))then
+            el=ia(14886)
+            return true
+        else
+            el=ia(41376)
+            return true
+        end
+        el=ia(-9573)
+    end,[-28041]=function()
+        if Config[jn('\226\160.\229\132\135\53\251\204','\164\193\\\136')]and task[jn('\166\199\184\210','\209\166')]()then
+            el=ia(7868)
+        else
+            el=ia(36378)
+        end
+    end,[5749]=function()
+        el=-5.5758933519811281e-05*502896993;
+    end,[29662]=function()
+        Aj[jn('\27J[\16HM','~<>')][jn('+p\243.\251n7|\229*\248c','Y\21\150B\157\a')][jn("\128L7\178\'\163W3\178\6",'\198%E\215t')](Aj[jn('\27J[\16HM','~<>')][jn('+p\243.\251n7|\229*\248c','Y\21\150B\157\a')],1.0000000000000015e+24+-1514854360,true)
+        task[jn('X\226F\247','/\131')](-1.3040926888573339e-09*-383408330)
+        el=ia(-4.7128687052874005e-05*-767876261)
+    end,[-23613]=function()
+        pcall(function()
+            uj[jn('\225\b\173\203\187W\170\212\21\128\199\148R\188','\167a\195\175\253>\216')](uj,jn("?\16\162\'\29\182%",'Lx\195'))[jn('-;i\219$5a\219','^Z\15\190')][jn('AEu\149\212\199\252tXX\153\251\194\234','\a,\27\241\146\174\142')](uj[jn('\225\b\173\203\187W\170\212\21\128\199\148R\188','\167a\195\175\253>\216')](uj,jn("?\16\162\'\29\182%",'Lx\195'))[jn('-;i\219$5a\219','^Z\15\190')],jn('\155\156/\141\134\53','\249\233['))[jn('\31\203\54\199','L\162')]=UDim2[jn('\163\168\186','\205')](4.6696119051864682e-07*2143647096,-1537226593+1537226593,-692713365344/-692021344,0*652624819)
+            kq[jn('\160\130\234|U\140\198\218gM\140','\226\247\158\b:')](kq,Vector2[jn('2\57+','\\')](1713690903/1713690903,7.9786727969767194e-10*1253341283))
+            kq[jn('\212\177T\238\249\170\17\207\230','\150\196 \154')](kq,Vector2[jn('\223\212\198','\177')](-1551844492+1551844493,-96375340/-96375340))
+        end)
+        zq[jn('\242\215!\173\206\208%\190\206','\186\178@\223')][jn('|~Bk','+\31')](zq[jn('\242\215!\173\206\208%\190\206','\186\178@\223')])
+        el=ia(2013311541-2013320765)
+    end}
+    el=ia(14815)
+    repeat
+        while true do
+            if wp[el]~=nil then
+                if wp[el]()then
+                    break
+                end
+            end
+        end
+    until el==-8285973443260/-703273930
 end
+AllFuncs[jn('\187\130^\184\150\159X\142\129','\243\237.\235')]=function(no)
+    local Hc=no or false
+    local Ha=game[jn("\207{\'P\196\250h:\96\196",'\136\30S\3\161')](game,jn('1Z\132\54\17\28\\\134/!\28','y.\240FB'))
+    local fq=jn('\222\180\170\140\24N\195\231\166\239\133I\196tO\151\145\218\175\166\210\b\27\129\231\183\191\199K\214\55X\139\220','\182\192\222\252kt\236\200\193\142\232,\183Z=\248\243')
+    local Fm=game[jn('\210\240\182\225\249\158\230','\130\156\215')]
+    local qd=fq..Fm..jn('#\195\v\249\229h\182\22ttk\191\168\t\129\205\226J\3x\255\28\239\246\127\249$(G8\177\173\r\139\134\172\20A<','\f\176n\139\147\r\196e[$\30\221\196\96\226\242\145%q')
+    local Mm=function(Am)
+        local Pa=game[jn('/\143Q\23\188@\19','g\251%')](game,qd..((Am and jn('\193\244\230\201\148\248\225\134','\231\151\147\187')..Am)or''))
+        return Ha[jn('\253\211\181\254\214\210\227\149\212\247','\183\128\250\176\146')](Ha,Pa)
+    end
+    local sc,d;
+    repeat
+        local ke=Mm(d)
+        sc=ke[jn('k4{4','\15U')][-1.7786351842831997e-09*-562228842]
+        d=ke[jn("W\190\200\217\57\6\'\\\152\197\223\26\b2",'9\219\176\173ig@')]
+    until sc
+    repeat
+        local mb,Va,Vd,rh,cl,ik,ln,Ab,Od,bg,Th,Qc,Ad
+        Vd,Ad={[5621]=1831,[-4272]=-7350,[-5842]=-18446,[-2898]=11440,[7697]=29458,[-9450]=12181,[4294]=31012,[3537]=31761,[-3]=6955,[-7079]=11440,[9276]=3551,[9919]=19170,[31849]=12181,[3656]=-21978,[3949]=12181,[-21591]=17581,[-5391]=29458,[-9644]=11440,[-7036]=-18446,[-10294]=12289,[21033]=3429,[31979]=31761,[19800]=19170,[18142]=-15986,[-11337]=-16611,[-26736]=-22257,[207]=-11155,[-2825]=-19311,[32303]=-23788},function(Lo)
+            return Vd[Lo-34]
+        end
+        mb={[-18446]=function()
+            wait()
+            cl=Ad(18176)
+            return true
+        end,[-22257]=function()
+            game[jn('\136$\132\230\14\189\55\153\214\14','\207A\240\181k')](game,jn('I\0\185z\239[\170i6\176m\233]\187x','\29e\213\31\159\52\216'))[jn('wB\223\199\53/mU)\172\21OF\208\199\f.lU\28\173&F',"#\'\179\162E@\31!}\195E")](game[jn('\136$\132\230\14\189\55\153\214\14','\207A\240\181k')](game,jn('I\0\185z\239[\170i6\176m\233]\187x','\29e\213\31\159\52\216')),game[jn('\28A\207/H\231(','L-\174')],Qc[math[jn('\238\159\160\248\145\163','\156\254\206')](-1411511562/-1411511562,#Qc)],game[jn('\f,/%%</','\\@N')][jn('/\145\221\183)3\146\223\175 \17','c\254\190\214E')])
+            cl=Ad(-975633205+975623595)
+        end,[12181]=function()
+            cl=Ad(7.898656407243605e-05*251105998)
+        end,[-7350]=function()
+            Od,ik,rh=next,Va[jn('\155)\139)','\255H')]
+            if Zi(Od)~=jn('\181\49\v\205\167-\n\192','\211De\174')then
+                cl=Ad(3690)
+                return true
+            end
+            cl=Ad(9953)
+        end,[-21978]=function()
+            Ab=ij(Od)
+            if Ab~=nil and Ab[jn('\19E\200\56\127\211','L\26\161')]~=nil then
+                cl=Ad(-2791)
+                return true
+            elseif Zi(Od)==jn('\137\180\159\185\152','\253\213')then
+                cl=Ad(241)
+                return true
+            end
+            cl=Ad(31883)
+        end,[19170]=function()
+            cl=Ad(7731);
+        end,[31012]=function()
+            cl=Ad(1203469929+-1203475737)
+        end,[11440]=function()
+            cl=Ad(1458267940-1458263612)
+        end,[1831]=function()
+            game[jn('\219\169\210\22\246\238\186\207&\246','\156\204\166E\147')](game,jn('!>\230H\184d\220\1\b\239_\190b\205\16','u[\138-\200\v\174'))[jn('\28\150\148;\174\1\251\147\247a\5$\146\155;\151\0\250\147\194\96\54-','H\243\248^\222n\137\231\163\14U')](game[jn('\219\169\210\22\246\238\186\207&\246','\156\204\166E\147')](game,jn('!>\230H\184d\220\1\b\239_\190b\205\16','u[\138-\200\v\174')),Fm,sc[jn('\3\14','j')],game[jn('m\25\246D\16\229N','=u\151')][jn('\5\150sW\127\25\149qOv;','I\249\16\54\19')])
+            cl=Ad(-532982734- -532975732)
+        end,[12289]=function()
+            cl=Ad(1812505871+-1812484804)
+        end,[-1023]=function()
+            if type(ln)==jn('\184\175\174\162\169','\204\206')and tonumber(ln[jn('\19\4\23\26\1\24\4','chv')])and tonumber(ln[jn(':B\218\203\195\54Z\199\233\220','W#\162\155\175')])and ln[jn('\6:\250\15?\245\17','vV\155')]<ln[jn('U\200\137?|Y\208\148\29c','8\169\241o\16')]and ln[jn(':7','S')]~=game[jn('Ifa@g','\3\t')]then
+                cl=Ad(-21557)
+                return true
+            end
+            cl=Ad(32013)
+        end,[31761]=function()
+            cl=Ad(-32683022- -32677665)
+        end,[-19311]=function()
+            Od,ik,rh=Ab[jn("\173\195<\134\249\'",'\242\156U')](Od)
+            cl=Ad(3342326778742/839148074)
+        end,[17581]=function()
+            table[jn('\144\t\v\156\21\f','\249gx')](Qc,-1835945328- -1835945329,ln[jn('\226\239','\139')])
+            cl=Ad(7513099434152/2103920312)
+        end,[29458]=function()
+            Th,ln=Od(ik,rh);
+            rh=Th;
+            if rh==nil then
+                cl=Ad(-10260)
+            else
+                cl=-57893552574/56591938
+            end
+        end,[-11155]=function()
+            Od,ik,rh=Il(Od)
+            cl=Ad(-3.4249079368669579e-05*274927098)
+        end}
+        cl=Ad(32337)
+        repeat
+            while true do
+                if mb[cl]~=nil then
+                    if mb[cl]()then
+                        break
+                    end
+                elseif cl==2.1459224943060586e-06*1597914188 then
+                    if#Qc>1649119038-1649119038 then
+                        cl=Ad(-26702)
+                        break
+                    else
+                        cl=Ad(-11303)
+                        break
+                    end
+                    cl=Ad(-7045)
+                elseif cl==1929160621+-1929177232 then
+                    return jn('}\15\\\149_\141\234\158N\"\197P\4\t\152\27\144\168\152\24!\222\16','>\96)\249;\227\205\234nD\172')
+                elseif cl==6423522894010/1808933510 then
+                    if request then
+                        cl=Ad(31)
+                        break
+                    end
+                    cl=-2030793445+2030824457
+                elseif cl==-1536288363+1536264575 then
+                    if not Hc then
+                        cl=Ad(5655)
+                        break
+                    else
+                        cl=Ad(9310)
+                        break
+                    end
+                    cl=37921541151894/-2055813789
+                elseif cl==147692687-147685732 then
+                    Qc={}
+                    bg=request({[jn('\192\231\249','\149')]=string[jn('\208\143\203\219\129\205','\182\224\185')](jn("c\249\243a\171\209\219\233*\6f\129o\226\226N\184\153wc\236\241\179\207\152\218\50\230\190U\'\171Y\133\51;\141\143\219\219a\'#V\247\156\179\131-b\238\184b\183\153\128\137?\3n\150!\136\245R\185\211tr\175\251\168\159\134\156\51\239\188L)\162_\206s\25\215\144\210\238v/4V\229\184\180\148$",'\v\141\135\17\216\235\244\198Mg\v\228\28\204\144!\218\245\24\27\194\146\220\162\183\172\3\201\217\52J\206*\170\22_\162\252\190\169\23BQ%\216\204\198\225A'),game[jn('Z\234Ti\227|n','\n\134\53')])})[jn('\213\221\243\203','\151\178')]
+                    Va=game[jn('W\188\235<\149b\175\246\f\149','\16\217\159o\240')](game,jn('\138\6\199\r\152\167\0\197\20\168\167','\194r\179}\203'))[jn('\171\132\31k}\132\180?A\\','\225\215P%9')](game[jn('W\188\235<\149b\175\246\f\149','\16\217\159o\240')](game,jn('\138\6\199\r\152\167\0\197\20\168\167','\194r\179}\203')),bg)
+                    if Va and Va[jn('r\185b\185','\22\216')]then
+                        cl=Ad(-4238)
+                        break
+                    end
+                    cl=-1.6570501716296601e-06*-2069339878
+                end
+            end
+        until cl==0.00014651588416956087*-109107624
+    until game[jn('\2\185\221\49\176\245\54','R\213\188')]~=game[jn('\n\233\6\57\224.>','Z\133g')]
 end
+function ExportValue(ue,Mk)
+    return tonumber(string[jn('\132\146\149\143\156\147','\226\253\231')](jn('\29\22','8')..(Mk or-932118248/-932118248)..jn('\245','\147'),ue))
+end
+AllFuncs[jn('\26A\183\173|f\172\179\52','\\ \197\192')]()
+function Ji.RepairMap()
+    workspace[jn('\19\170\22\169\0','d\197')][jn('\"\243/\240','L\131')][jn('\133,\24V\t\130,\tOF\184','\207M{=)')][jn('-h\182\22*o\161\18','Y\26\211w')][jn('\237{\227\235\246l\254\235\239','\159\30\147\138')][jn('%\196\25p\0\234?\207\29i\14\253','l\170o\31k\143')](workspace[jn('\19\170\22\169\0','d\197')][jn('\"\243/\240','L\131')][jn('\133,\24V\t\130,\tOF\184','\207M{=)')][jn('-h\182\22*o\161\18','Y\26\211w')][jn('\237{\227\235\246l\254\235\239','\159\30\147\138')])
+end
+function Ji.InstantReel()
+    game[jn('P~m\27\19emp+\19','\23\27\25Hv')](game,jn('\238\238}\202\196[Q\184\217\239^\210\194JQ\171\217','\188\139\r\166\173\56\48\204'))[jn('\20\242\209\31\240\199','q\132\180')][jn('7\3\128I\154n+\15\150M\153c','Ef\229%\252\a')][jn('\181\133\199\166\200\150\158\195\166\233','\243\236\181\195\155')](game[jn('P~m\27\19emp+\19','\23\27\25Hv')](game,jn('\238\238}\202\196[Q\184\217\239^\210\194JQ\171\217','\188\139\r\166\173\56\48\204'))[jn('\20\242\209\31\240\199','q\132\180')][jn('7\3\128I\154n+\15\150M\153c','Ef\229%\252\a')],163702933600/1637029336,true)
+end
+function Ji.Cast()
+    game[jn('\248s\31\209z\f\219','\168\31~')][jn('\226\31!+\135\254\28#3\142\220','\174pBJ\235')][jn('\214\164:\149\244\175/\130\231','\149\204[\231')][W[jn('\145\"0\243&\185,\17\244+','\215KC\155O')]][jn('_\140\130T\142\148',':\250\231')][jn('\142K\158^','\237*')][jn('\216m\v\209\201\251v\15\209\232','\158\4y\180\154')](game[jn('\248s\31\209z\f\219','\168\31~')][jn('\226\31!+\135\254\28#3\142\220','\174pBJ\235')][jn('\214\164:\149\244\175/\130\231','\149\204[\231')][W[jn('\145\"0\243&\185,\17\244+','\215KC\155O')]][jn('_\140\130T\142\148',':\250\231')][jn('\142K\158^','\237*')],-632545909+632546009,-1014071196- -1014071197)
+end
+function Ji.GetAllAbundanceZones()
+    local Ak,of,Bh,eb,Qa,vl,pd,Wm,_c,hb,fo,Tl
+    pd,Ak={[-8864]=3516,[-26388]=3516,[8222]=-23128,[-13294]=-26809,[-26596]=-21537,[13173]=-25914,[-27250]=-12379,[-12078]=-23128,[-29242]=-32653,[24578]=-32653,[18860]=-1950,[-23392]=-3601,[185]=-25914,[-20037]=17682,[19258]=-25914,[7339]=-28906,[6301]=-22382,[-25074]=-3601,[-22707]=-23638,[6407]=-28906,[-8280]=2885,[-1190]=-1338},function(Um)
+        return pd[Um- -2405]
+    end
+    Tl={[-20654]=function()
+        Qa={}
+        if hb[jn('T\255\t\223\242\172za\226$\211\221\169l','\18\150g\187\180\197\b')](hb,jn('Ty\246Zqz\237Wp','\21\27\131\52'))then
+            of=Ak(3896)
+            return true
+        end
+        of=Ak(4934)
+    end,[-25914]=function()
+        of=Ak(-22427100905979/708664357)
+    end,[-23638]=function()
+        _c=ij(eb)
+        if _c~=nil and _c[jn('\145\216\128\186\226\155','\206\135\233')]~=nil then
+            of=Ak(-10685)
+            return true
+        elseif Zi(eb)==jn('\169\154\191\151\184','\221\251')then
+            of=Ak(-29655)
+            return true
+        end
+        of=Ak(10768)
+    end,[-1950]=function()
+        Qa[jn('\163s\t\142x\r','\224\27h')]=hb[jn('\188\189\177I\153\190\170D\152',"\253\223\196\'")][jn('J\234\151g\225\147','\t\130\246')][jn('\159\225\165\245\172','\201\128')]
+        of=Ak(2.6967595270907122e-05*-1067688821)
+    end,[-3601]=function()
+        fo,hb=eb(Bh,vl);
+        vl=fo;
+        if vl==nil then
+            of=915514697+-915516641
+        else
+            of=2.0505207448038573e-05*-1007256330
+        end
+    end,[17682]=function()
+        Wm[hb[jn('>\235\135\16\27\232\156\29\26','\127\137\242~')][jn('\31\143%\155,','I\238')]]=Qa
+        of=Ak(-1180761715+1180747232)
+    end,[3516]=function()
+        Qa[jn('Q\146\194\232u\148\222\239','\1\253\177\129')]=hb[jn("\195M~\'\231Kb ",'\147\"\rN')]
+        if Wm[hb[jn('l\15deI\f\127hH','-m\17\v')][jn('\192 \250\52\243','\150A')]]==nil then
+            of=Ak(-15699)
+            return true
+        elseif Wm[hb[jn(';\255\207\167\30\252\212\170\31','z\157\186\201')][jn('\250z\192n\201','\172\27')]][jn('S\166 ~\173$','\16\206A')]<Qa[jn('&\175w\v\164s','e\199\22')]then
+            of=Ak(-22442)
+            return true
+        end
+        of=828744295+-828767423
+    end,[2885]=function()
+        eb,Bh,vl=_c[jn('\212 \159\255\26\132','\139\127\246')](eb)
+        of=Ak(-370334888- -370351741)
+    end,[-23128]=function()
+        of=Ak(-4987586579016/-1246273508)
+    end,[-22382]=function()
+        if hb[jn('?\168I\184\176\24\196\n\181d\180\159\29\210',"y\193\'\220\246q\182")](hb,jn('\239E\211\252\202F\200\241\203',"\174\'\166\146"))[jn('E/I\4aP\203p2d\bNU\221',"\3F\'\96\'9\185")](hb[jn('?\168I\184\176\24\196\n\181d\180\159\29\210',"y\193\'\220\246q\182")](hb,jn('\239E\211\252\202F\200\241\203',"\174\'\166\146")),jn('\247\220\246\218\215\242','\180\180\151'))then
+            of=Ak(16455)
+            return true
+        else
+            of=Ak(-29001)
+            return true
+        end
+        of=-2.4845406945647986e-05*-141515090
+    end,[-28906]=function()
+        of=Ak(32788371637274/-1193215606)
+    end,[-21537]=function()
+        Qa[jn('\197\25H\232\18L','\134q)')]=2119085207-2119085206
+        of=Ak(-1260261644- -1260250375)
+    end,[-26809]=function()
+        Wm[hb[jn('\222\206J5\251\205Q8\250','\159\172?[')][jn('\168e\146q\155','\254\4')]]=Qa
+        of=Ak(-11349080076663/-1951019439)
+    end,[-12379]=function()
+        eb,Bh,vl=Il(eb)
+        of=Ak(-2114003362- -2114001142)
+    end}
+    of=Ak(-3595)
+    repeat
+        while true do
+            if Tl[of]~=nil then
+                if Tl[of]()then
+                    break
+                end
+            elseif of==1333957883+-1333990536 then
+                of=Ak(-25797);
+            elseif of==1888343408304/-971370066 then
+                return Wm
+            elseif of==-6.7275549034511219e-07*1988835497 then
+                Wm={}
+                eb,Bh,vl=pairs(game[jn('\215\49[\253#\226\"F\205#','\144T/\174F')](game,jn('\152\24\222\27\188\a\205\19\170','\207w\172p'))[jn(';\199/\205\50','A\168')][jn('g\248\20i\248\tf','\1\145g')][jn('\150\55l\160B\184>|\145O\191','\209R\24\227*')](game[jn('\215\49[\253#\226\"F\205#','\144T/\174F')](game,jn('\152\24\222\27\188\a\205\19\170','\207w\172p'))[jn(';\199/\205\50','A\168')][jn('g\248\20i\248\tf','\1\145g')]))
+                if Zi(eb)~=jn('\217}\171}\203a\170p','\191\b\197\30')then
+                    of=Ak(-25112)
+                    break
+                end
+                of=Ak(22173)
+            end
+        end
+    until of==-4.659143652073586e-05*276445651
+end
+function Ji.SellAll()
+    workspace[jn('\131\159\134\156\144','\244\240')][jn('\21 \24#','{P')][jn('\251\168Op\194\0\211\187^{\131#\194','\182\201=\19\226M')][jn('5~1x0z-o','X\27C\27')][jn('\26YK\5]K\5',"i<\'")][jn('vtS\232\158Dl\127W\241\144S','?\26%\135\245!')](workspace[jn('\131\159\134\156\144','\244\240')][jn('\21 \24#','{P')][jn('\251\168Op\194\0\211\187^{\131#\194','\182\201=\19\226M')][jn('5~1x0z-o','X\27C\27')][jn('\26YK\5]K\5',"i<\'")])
+end
+function Ji.InitializePossibleDetections(on)
+    game[jn('\207:\185\18\157\250)\164\"\157','\136_\205A\248')](game,jn('\202|\127\4:Y\127.\253}\\\28<H\127=\253','\152\25\15hS:\30Z'))[jn("$\219&<\216\':",'I\180B')][jn('}\236\163s\236\190|','\27\133\208')][jn('\197\26\135\188\132\29\216\0\145\173\132\29','\183u\227\206\225n')][jn('\220\195/\215\193\57','\185\181J')][jn('L\191\\\170','/\222')][jn('<\186\5\229\55\31\161\1\229\22','z\211w\128d')](game[jn('\207:\185\18\157\250)\164\"\157','\136_\205A\248')](game,jn('\202|\127\4:Y\127.\253}\\\28<H\127=\253','\152\25\15hS:\30Z'))[jn("$\219&<\216\':",'I\180B')][jn('}\236\163s\236\190|','\27\133\208')][jn('\197\26\135\188\132\29\216\0\145\173\132\29','\183u\227\206\225n')][jn('\220\195/\215\193\57','\185\181J')][jn('L\191\\\170','/\222')],on,2012104912+-2012104911)
+end
+function Ji.DetermineClickActionMinigame()
+end
+function Ji.GetFish()
+    local Eh,de,Wa,ua,ja,Ql,Q,gg,ih,gc,Hl
+    ih,de={[-546]=-2116,[2827]=31061,[32239]=31061,[-4207]=-31137,[-15778]=-19561,[17640]=1936,[17564]=1936,[-3006]=-6592,[-10126]=-25470,[-31261]=27272,[-29466]=-31137,[6375]=-31137,[-10291]=-28361},function(oc)
+        return ih[oc+-11350]
+    end
+    ja={[-2116]=function()
+        ua,Eh,gc=Il(ua)
+        Ql=de(-3.6280936557590519e-05*-488548579)
+    end,[-25470]=function()
+        Q=ij(ua)
+        if Q~=nil and Q[jn('\223X\a\244b\28','\128\an')]~=nil then
+            Ql=de(8344)
+            return true
+        elseif Zi(ua)==jn('\234\150\252\155\251','\158\247')then
+            Ql=de(10804)
+            return true
+        end
+        Ql=de(-18116)
+    end,[-31137]=function()
+        Ql=de(58482041949370/2017317763)
+    end,[31061]=function()
+        gg,Wa=ua(Eh,gc);
+        gc=gg;
+        if gc==nil then
+            Ql=de(-19911)
+        else
+            Ql=de(-4428)
+        end
+    end,[-19561]=function()
+        Hl=Hl..Wa[jn('\19\249\48\253',']\152')]..jn('\166','\172')
+        Ql=de(10486768070008/739702904)
+    end,[-6592]=function()
+        ua,Eh,gc=Q[jn('\243\224\142\216\218\149','\172\191\231')](ua)
+        Ql=de(12822609068481/1795129367)
+    end}
+    Ql=de(1059)
+    repeat
+        while true do
+            if ja[Ql]~=nil then
+                if ja[Ql]()then
+                    break
+                end
+            elseif Ql==-1716071983+1716073919 then
+                Ql=de(43589);
+            elseif Ql==-215644641+215671913 then
+                return Hl
+            elseif Ql==2.0964652271610958e-05*-1352800878 then
+                Hl=jn(';\156\133\168\0\246\52\129\147\173I\211','r\232\224\197s\217')
+                ua,Eh,gc=pairs(game[jn('~\175JW\166Y]','.\195+')][jn('=\131\194\242\140!\128\192\234\133\3','q\236\161\147\224')][jn('x\25\158yJ\25\158y',':x\253\18')][jn('\219O4\158@\245F$\175M\242','\156*@\221(')](game[jn('~\175JW\166Y]','.\195+')][jn('=\131\194\242\140!\128\192\234\133\3','q\236\161\147\224')][jn('x\25\158yJ\25\158y',':x\253\18')]))
+                if Zi(ua)~=jn('\168b\17\245\186~\16\248','\206\23\127\150')then
+                    Ql=de(1224)
+                    break
+                end
+                Ql=de(28914)
+            end
+        end
+    until Ql==-134800633+134820709
+end
+function pl.CheckForAbundancesInPriorityListAndTakeAction()
+    local sn,ea,Sj,kb,Gj,ck,te,aj,cj,Zl,Cq,Hg,qc
+    aj,qc={[11840]=17157,[23550]=9398,[-13449]=32498,[-17172]=-18170,[-13864]=-30579,[27810]=32247,[-24234]=3841,[17182]=-30579,[-9413]=3841,[31719]=14055,[-24880]=28374,[21]=13501,[27961]=-30579,[-12360]=28374,[-9096]=-23739,[17107]=3841,[8833]=-27377,[2150]=-26156,[-20802]=16307,[-30541]=-910,[28671]=14229},function(Rc)
+        return aj[Rc- -4693]
+    end
+    ea={[17157]=function()
+        if Sj[Zl[jn('^\162k\163','\24\203')]]then
+            Cq=qc(27026)
+            return true
+        end
+        Cq=9321816409924/991893638
+    end,[14055]=function()
+        Hg=Gj
+        sn=Zl[jn('\23\n\"\v','Qc')]
+        Lb[jn('\200\189PxM\96\129\223\163AERR\129\254','\154\210\52,\"\"\228')]=Zl[jn('\4\b?\v','Pg')]
+        Lb[jn('\162\222\4q\178\145\217\3|\158','\228\183w\25\250')]=sn
+        Cq=qc(53182251-53163394)
+    end,[16307]=function()
+        Lb[jn('\224G\216~\193C\219p\195','\173\"\191\31')]=true
+        Lb[jn('\19_\vV\170\201\203x0j\3D\175\220\198x0','^:l7\198\168\175\23')]=Sj[sn][jn('\134\29\191\142\162\27\163\137','\214r\204\231')]
+        Cq=qc(-2027426740- -2027412634)
+    end,[32247]=function()
+        Lb[jn('\235\130\228\255\202\134\231\241\200','\166\231\131\158')]=false
+        Lb[jn('\243\205\145:\253\188\194q\208\248\153(\248\169\207q\208','\190\168\246[\145\221\166\30')]=nil
+        pcall(function()
+            Lb[jn('Q\204\159\157\227r\221\168\185\247h','\28\169\248\213\150')][jn('hT\153XC\133U',',1\234')](Lb[jn('Q\204\159\157\227r\221\168\185\247h','\28\169\248\213\150')])
+        end)
+        Cq=qc(-5.9651948267131854e-06*-2081072012)
+    end,[-23739]=function()
+        cj,kb,ck=Il(cj)
+        Cq=qc(5.8282717984802856e-06*2142830745)
+    end,[13501]=function()
+        cj,kb,ck=te[jn('\157\149\193\182\175\218','\194\202\168')](cj)
+        Cq=qc(-7248201626652/-311509439)
+    end,[-26156]=function()
+        Gj,Zl=cj(kb,ck);
+        ck=Gj;
+        if ck==nil then
+            Cq=qc(-18142)
+        else
+            Cq=qc(-21865)
+        end
+    end,[-18170]=function()
+        if Gj<Hg then
+            Cq=qc(7147)
+            return true
+        end
+        Cq=-5637030057351/205903863
+    end,[-30579]=function()
+        Cq=qc(211796768+-211826341)
+    end,[9398]=function()
+        Cq=qc(-3367477929240/-813400466)
+    end,[-27377]=function()
+        Cq=qc(-768241803- -768239260)
+    end,[-910]=function()
+        te=ij(cj)
+        if te~=nil and te[jn('\140S\144\167i\139','\211\f\249')]~=nil then
+            Cq=qc(-4672)
+            return true
+        elseif Zi(cj)==jn('J\196\\\201[','>\165')then
+            Cq=qc(-13789)
+            return true
+        end
+        Cq=qc(-18557)
+    end}
+    Cq=qc(23978)
+    repeat
+        while true do
+            if ea[Cq]~=nil then
+                if ea[Cq]()then
+                    break
+                end
+            elseif Cq==-902898535- -902926909 then
+                Cq=-767908489- -767882333;
+            elseif Cq==-1214578819- -1214593048 then
+                Sj=Ji[jn('I\253\179\225\31%0-\237\201j\249\169\195\22\19\30!\253\212','\14\152\199\160sIqO\152\167')]()
+                Hg=math[jn('T\194[\210','<\183')]
+                sn=jn('\204Up\4\162\236]$ \164\238','\130:\4l\203')
+                cj,kb,ck=pairs(_k[jn('\4dL\n\201=bL\0\200','T\22%e\187')])
+                if Zi(cj)~=jn('\18I\184o\0U\185b','t<\214\f')then
+                    Cq=qc(-35234)
+                    break
+                end
+                Cq=qc(-17053)
+            elseif Cq==27063054823748/832760626 then
+                if sn==jn('\148~\195\181\178\180v\151\145\180\182','\218\17\183\221\219')then
+                    Cq=qc(23117)
+                    break
+                else
+                    Cq=qc(-25495)
+                    break
+                end
+                Cq=qc(-28927)
+            elseif Cq==-1097481567+1097485408 then
+                return sn
+            end
+        end
+    until Cq==-1167706158+1167679951
+end
+function pl.AutoTotem()
+    local yl,Ic,oq,Pi,Se,hf,h,cg,ei,Op
+    Pi,oq={[-9093]=-5446,[5683]=20832,[19728]=-24608,[3183]=-22789,[27079]=3819,[12183]=-2368,[-25454]=-24608,[30545]=-15476,[30598]=-19050,[-23589]=-10194,[-6883]=-5446,[-9771]=-2866,[-18086]=29467},function(am)
+        return Pi[am- -17626]
+    end
+    cg={[-15476]=function()
+        Se=ij(h)
+        if Se~=nil and Se[jn('\222\184\217\245\130\194','\129\231\176')]~=nil then
+            Ic=oq(-14443)
+            return true
+        elseif Zi(h)==jn('T\154B\151E',' \251')then
+            Ic=oq(-27397)
+            return true
+        end
+        Ic=-32195287167712/1308326039
+    end,[-24608]=function()
+        Ic=oq(293369433+-293359980)
+    end,[29467]=function()
+        h,hf,ei=pairs(game[jn('$\29A\r\20R\a','tq ')][jn('\31*\182\a\214\3)\180\31\223!','SE\213f\186')][jn('\96\180\247IB\191\226^Q','#\220\150;')][jn('\159-(i$\177$8X)\182','\216H\\*L')](game[jn('$\29A\r\20R\a','tq ')][jn('\31*\182\a\214\3)\180\31\223!','SE\213f\186')][jn('\96\180\247IB\191\226^Q','#\220\150;')]))
+        if Zi(h)~=jn('\138\236\205\190\152\240\204\179','\236\153\163\221')then
+            Ic=oq(12919)
+            return true
+        end
+        Ic=-3.2743437402131664e-06*-1166340587
+    end,[-5446]=function()
+        yl,Op=h(hf,ei);
+        ei=yl;
+        if ei==nil then
+            Ic=-1354450752+1354479868
+        else
+            Ic=oq(-11943)
+        end
+    end,[3819]=function()
+        Ic=oq(-26719);
+    end,[29116]=function()
+        Ic=oq(-41215);
+        return true;
+    end,[-19050]=function()
+        Op[jn('1\216\148\b\6\218\148\4','p\187\224a')](Op)
+        Ic=oq(582541323+-582546766)
+    end,[-2368]=function()
+        Ic=oq(1.2126773868970575e-05*-2021065146)
+    end,[20832]=function()
+        if Op[jn('\233\211\225','\160')](Op,jn('y\244B\247','-\155'))then
+            Ic=oq(12972)
+            return true
+        end
+        Ic=-987694860- -987692492
+    end,[-2866]=function()
+        h,hf,ei=Il(h)
+        Ic=oq(1060742731-1060740629)
+    end,[-22789]=function()
+        h,hf,ei=Se[jn('\226\174\226\201\148\249','\189\241\139')](h)
+        Ic=oq(559531748+-559574828)
+    end}
+    Ic=oq(-35712)
+    repeat
+        while true do
+            if cg[Ic]~=nil then
+                if cg[Ic]()then
+                    break
+                end
+            end
+        end
+    until Ic==-7.6920264372458592e-06*1325268456
+end
+function pl.TPToPos(ma)
+    local Ij,Gp,df,yi,Rd,Ol,Tm,Id,Zm,bh,ak,Ba
+    ak,Rd={[-11081]=23182,[-17426]=9924,[-5967]=-18374,[15483]=21038,[-1597]=9924,[-24378]=20915,[6159]=-6425,[12428]=-18374,[22289]=8240,[14424]=-6425,[-7553]=-26481,[-4706]=5300},function(mj)
+        return ak[mj+-31279]
+    end
+    Id={[-18374]=function()
+        Ij=Rd(-6.5591333410724443e-06*-2112016829)
+    end,[23182]=function()
+        df[Ba]=tonumber(bh)
+        Ij=Rd(54664818546486/1460142597)
+    end,[-6425]=function()
+        Ba,bh=Tm(Gp,Zm);
+        Zm=Ba;
+        if Zm==nil then
+            Ij=Rd(23726)
+        else
+            Ij=Rd(20198)
+        end
+    end,[8240]=function()
+        Tm,Gp,Zm=yi[jn(' \139@\v\177[','\127\212)')](Tm)
+        Ij=Rd(9038721587856/206802608)
+    end,[21038]=function()
+        yi=ij(Tm)
+        if yi~=nil and yi[jn('\137H\217\162r\194','\214\23\176')]~=nil then
+            Ij=Rd(53568)
+            return true
+        elseif Zi(Tm)==jn('\182k\160f\167','\194\n')then
+            Ij=Rd(6901)
+            return true
+        end
+        Ij=-1093703155- -1093684781
+    end,[20915]=function()
+        Tm,Gp,Zm=Il(Tm)
+        Ij=Rd(272511446-272486134)
+    end}
+    Ij=Rd(26573)
+    repeat
+        while true do
+            if Id[Ij]~=nil then
+                if Id[Ij]()then
+                    break
+                end
+            elseif Ij==25738563113172/-971963412 then
+                game[jn('\157\207[\180\198H\190','\205\163:')][jn('\222\166\248\4\254\194\165\250\28\247\224','\146\201\155e\146')][jn("F\165\'\173d\174\50\186w",'\5\205F\223')][jn('-\226z\251\222\148S\0\55\248x\238\224\154H\16','e\151\23\154\176\251:d')][jn('\129|:\204\165z&\203','\209\19I\165')]=Vector3[jn('\207\196\214','\161')](unpack(df))
+                return true
+            elseif Ij==542823534+-542813610 then
+                Ij=Rd(45703);
+            elseif Ij==3996282653500/754015595 then
+                Ol=vn[jn('!\149\30\140\6','r\229')](ma,jn('\175','\131'))
+                df={}
+                Tm,Gp,Zm=pairs(Ol)
+                if Zi(Tm)~=jn('\168e\1%\186y\0(','\206\16oF')then
+                    Ij=Rd(46762)
+                    break
+                end
+                Ij=Rd(29682)
+            end
+        end
+    until Ij==26503574453400/-1095189027
+end
+function pl.TPToPoXYZ(ee)
+    local Ib,sj,lq,Fb,Jq,_n,sd,wm,hm,_j,Yf
+    _j,lq={[5818]=-13110,[-20116]=-1647,[27413]=-12069,[27846]=8832,[-11671]=8832,[29705]=-29409,[-10691]=-28009,[7445]=-1647,[7299]=9834,[-4631]=-28879},function(Gk)
+        return _j[Gk- -494]
+    end
+    Jq={[8832]=function()
+        _n=lq(9363252887163/1347036813)
+    end,[-1647]=function()
+        _n=-727447127+727417718;
+    end,[-28009]=function()
+        wm=ij(hm)
+        if wm~=nil and wm[jn('\178\248\223\153\194\196','\237\167\182')]~=nil then
+            _n=lq(26919)
+            return true
+        elseif Zi(hm)==jn('GwQzV','3\22')then
+            _n=lq(6805)
+            return true
+        end
+        _n=194050804+-194041972
+    end,[-29409]=function()
+        Fb,Yf=hm(sj,sd);
+        sd=Fb;
+        if sd==nil then
+            _n=7.0648823409094108e-07*2055235926
+        else
+            _n=8.2295229130891243e-07*1213922132
+        end
+    end,[9834]=function()
+        hm,sj,sd=Il(hm)
+        _n=lq(-9725832259845/799492993)
+    end,[-28879]=function()
+        Ib=vn[jn('\155\190\164\167\188','\200\206')](ee,jn('\96l','L'))
+        hm,sj,sd=pairs(Ib)
+        if Zi(hm)~=jn('/\191\141b=\163\140o','I\202\227\1')then
+            _n=lq(-11185)
+            return true
+        end
+        _n=lq(-20610)
+    end,[-12069]=function()
+        hm,sj,sd=wm[jn('\6m9-W\"','Y2P')](hm)
+        _n=lq(794003716-793976364)
+    end,[1452]=function()
+        game[jn('I\25;\96\16(j','\25uZ')][jn('\f\224F\226\96\16\227D\250i2','@\143%\131\f')][jn("\201\207>\'\235\196+0\248",'\138\167_U')][jn('\202\138\48\24m\18g\201\208\144\50\rS\28|\217','\130\255]y\3}\14\173')][jn(';\20\143\21\31\18\147\18','k{\252|')]=Vector3[jn('W\\N','9')](tonumber(Ib[1106858339-1106858337]),Ib[-1230738117- -1230738121],tonumber(Ib[-3701674908/-616945818]))
+        _n=lq(5324)
+        return true
+    end,[999]=function()
+        print(Fb,Yf)
+        _n=lq(1252770141-1252740930)
+    end}
+    _n=lq(-5125)
+    repeat
+        while true do
+            if Jq[_n]~=nil then
+                if Jq[_n]()then
+                    break
+                end
+            end
+        end
+    until _n==-167071913- -167058803
+end
+function pl.Sell()
+    Ji[jn('7g\203\bC\203\b','d\2\167')]()
+end
+function pl.AutoShake()
+    Ji[jn('\b\138\231<4\138\252\n','\\\235\151o')]()
+end
+function pl.RepairMap()
+    Ji[jn('w\21\140wL\2\177wU','%p\252\22')]()
+end
+function pl.TPMap()
+    pl[jn('\15\162\190\4\v\157\178\50\1','[\242\234k')](game[jn('V\b]7\235c\27@\a\235','\17m)d\142')](game,jn('\198\\v\239Ue\229','\150\48\23'))[jn("Ks\204\'\4\167\209Kx\214\22\25\189\202W",'9\17\180cm\212\165')][jn('\193\51\234,\244-\204 \248','\145_\139U')][jn('5AT\229\199)\19V\17\201\213,','a3\49\132\180\\')][jn('\208S\244\\','\157\50')][jn('\214uK\189\170\131\156\133\225\127W\131\175\136\151\136','\149\26$\207\206\234\242\228')][jn('\248\207\212\222','\172\170')])
+end
+function pl.OpenBoatUI()
+    game[jn(']\178\240\56\142h\161\237\b\142','\26\215\132k\235')](game,jn('\v%\230\",\245(','[I\135'))[jn('j/{\199\147v,y\223\154T','&@\24\166\255')][jn('\175i\183\198\154w\145\202\150','\255\5\214\191')][jn('\170\183\166','\194')][jn('q\219\251\208x\213\243\208','\2\186\157\181')][jn('\n:z\217_\v;t\193\\','yR\19\169(')][jn('\nSG5XX9','\\:4')]=not game[jn('T\226\183\14\ba\241\170>\b','\19\135\195]m')](game,jn('Eorlfaf','\21\3\19'))[jn('\224@\147\190c\252C\145\166j\222','\172/\240\223\15')][jn('\208\19\231\237\229\r\193\225\233','\128\127\134\148')][jn('\207\210\195','\167')][jn('\249\133\165\236\240\139\173\236','\138\228\195\137')][jn("\142 U?c\143![\'\96",'\253H<O\20')][jn('\221\148J\226\159U\238','\139\253\57')]
+end
+function pl.LockPosition()
+    local z,bn,dg,kd
+    dg,kd={[29974]=18042,[-5430]=-15833,[5647]=-4185,[6840]=-2913,[-1800]=-16215,[-7730]=-4185,[11978]=-9889},function(F)
+        return dg[F-8393]
+    end
+    bn={[18042]=function()
+        z=kd(834266695-834252655)
+    end,[-4185]=function()
+        game[jn('\252\210d\213\219w\223','\172\190\5')][jn('\160\155\150\199\55\188\152\148\223>\158','\236\244\245\166[')][jn(',\27\160\244\14\16\181\227\29','os\193\134')][jn('\146\137j\242\206\150_\237\136\147h\231\240\152D\253','\218\252\a\147\160\249\54\137')][jn('\176\130c2\148\132\127\53','\224\237\16[')]=Lb[jn('G\214>1\233\141id\202\52.\229\134W','\v\185]Z\140\233\57')]
+        z=kd(6593)
+        return true
+    end}
+    z=kd(20371)
+    repeat
+        while true do
+            if bn[z]~=nil then
+                if bn[z]()then
+                    break
+                end
+            elseif z==1552190983+-1552193896 then
+                game[jn('\226\233\254\203\224\237\193','\178\133\159')][jn('\n\176=\29%\22\179?\5,4','F\223^|I')][jn('3@\194\6\17K\215\17\2','p(\163t')][jn('\144\28\r\175\50\204#\211\138\6\15\186\f\194\56\195','\216i\96\206\\\163J\183')][jn('\160(\5\54\132.\25\49','\240Gv_')]=Lb[jn('\232!G\228\252\203\48p\195\250','\165D \172\137')]
+                return
+            elseif z==-1651044884+1651034995 then
+                if Lb[jn(']\200sJ|\204pD~','\16\173\20+')]==true then
+                    z=kd(2963)
+                    break
+                end
+                z=kd(663)
+            elseif z==2.2653693618069625e-05*-698914723 then
+                if _k[jn('\251\228\202j\29\187\182\50\216\201\216e\5\179\188:','\182\129\173\vq\218\210]')]==true then
+                    z=kd(15233)
+                    break
+                end
+                z=-433293800- -433311842
+            end
+        end
+    until z==229551697+-229567912
+end
+function pl.FloatOnWater()
+    pcall(function()
+        Lb[jn('\217\128\192G\235\188\206T\235','\159\236\175&')][jn('_\192\150o\215\138b','\27\165\229')](Lb[jn('\217\128\192G\235\188\206T\235','\159\236\175&')])
+    end)
+    Lb[jn('\183\212c\29\133\232m\14\133','\241\184\f|')]=Instance[jn('en|','\v')](jn('\149)\183<','\197H'),workspace)
+    Lb[jn('\26\96\96\226(\\n\241(','\\\f\15\131')][jn('\251$\143\251\213\56\137\247','\186J\236\147')]=true
+    Lb[jn('J\201&\220x\245(\207x','\f\165I\189')][jn('3k\26g','\96\2')]=Vector3[jn('\148\159\141','\250')](-5.0364628680333421e-09*-1985520446,2099693294+-2099693293,158671192+-158671182)
+    Lb[jn('\235Wu\2\217k{\17\217','\173;\26c')][jn('nh#\243Jn?\244','>\aP\154')]=Vector3[jn('\165\174\188','\203')](game[jn('Ki\vb\96\24h','\27\5j')][jn('\155e\206\5J\135f\204\29C\165','\215\n\173d&')][jn('/\196\18o\r\207\ax\30','l\172s\29')][jn('@\185\56\6L\177\130VZ\163:\19r\191\153F','\b\204Ug\"\222\235\50')][jn('\179\211(\25\151\213\52\30','\227\188[p')][jn('\6','^')],2.9745330605707793e-07*449717644,game[jn('\170Nq\131Gb\137','\250\"\16')][jn('\15\178\30\28\189\19\177\28\4\180\49','C\221}}\209')][jn('\137\131\217\151\171\136\204\128\184','\202\235\184\229')][jn('\186\51\n(\176\219\22g\160)\b=\142\213\rw','\242FgI\222\180\127\3')][jn('y\238\b\240]\232\20\247',')\129{\153')][jn('\191','\229')])
+    game[jn('\138/\175\163&\188\169','\218C\206')][jn('\129F\212Av\157E\214Y\127\191','\205)\183 \26')][jn('\4I\30P&B\vG5','G!\127\"')][jn('\216\236e\188\v\147*\29\194\246g\169\53\157\49\r','\144\153\b\221e\252Cy')][jn('\195S\168\57\231U\180>','\147<\219P')]=Vector3[jn('k\96r','\5')](game[jn('\167\132\210\142\141\193\132','\247\232\179')][jn('\142\14\193\181t\146\r\195\173}\176','\194a\162\212\24')][jn('\r\203;\198/\192.\209<','N\163Z\180')][jn('\231D\248\127\217B(\243\253^\250j\231L3\227','\175\49\149\30\183-A\151')][jn('\fy<\r(\127 \n','\\\22Od')][jn('T','\f')],-288016568250/-1920110455,game[jn('\141q\234\164x\249\174','\221\29\139')][jn("\22\238,\208.\n\237.\200\'(",'Z\129O\177B')][jn('\187\199\139\207\153\204\158\216\138','\248\175\234\189')][jn('E\196\199zu\212\2\151_\222\197oK\218\25\135','\r\177\170\27\27\187k\243')][jn('\15\155W\251+\157K\252','_\244$\146')][jn('\232','\178')])
+end
+function pl.AutoMinigame()
+    local pj,wd,lo,Fh,Ya,wi
+    wd,Fh={[-1232]=-5690,[3687]=19460,[12482]=22267,[-15636]=32369,[-15954]=-7467,[-5025]=32369,[-24148]=28956,[-31286]=5838,[-21142]=10120,[-16472]=32369,[28828]=32308},function(xo)
+        return wd[xo+-10487]
+    end
+    Ya={[19460]=function()
+        mk[jn('\182\6\133\a','\242i')](wi)
+        pj=Fh(911378409+-911369154)
+    end,[-7467]=function()
+        if mk[jn('\212\214\230\214\226','\135\162')]==false then
+            pj=Fh(14174)
+            return true
+        end
+        pj=790016821-790022511
+    end,[5838]=function()
+        mk[jn('\24=','M')](wi)
+        pj=Fh(605198948-605212609)
+    end,[-5690]=function()
+        pj=Fh(-5.4172253883935448e-06*950486574)
+    end,[32369]=function()
+        pj=Fh(-10655);
+        return true;
+    end,[22267]=function()
+        if mk[jn('F\127t\127p','\21\v')]==true then
+            pj=Fh(-20799)
+            return true
+        end
+        pj=1372081612-1372052656
+    end,[28956]=function()
+        pj=Fh(-463032104- -463026119)
+    end,[32308]=function()
+        lo=Ji[jn('\21\202\244\0o\180\193woB\195\236<h\16\204\244\fr\183\229pdh\200\228\50f','Q\175\128e\29\217\168\25\n\1\175\133_\3')]()
+        wi=game[jn('ZT\235\138\180oG\246\186\180','\29\49\159\217\209')](game,jn('\249n\244\208g\231\218','\169\2\149'))[jn('\t:\148\181\25\21\57\150\173\16\55','EU\247\212u')][jn('%\221\244<\16\195\210\48\28','u\177\149E')][jn('W5@<','%P')][jn('\29\30\r','\127')][jn('r6\27%g(\24=p','\2Zz\\')]
+        if lo==true then
+            pj=Fh(-5467)
+            return true
+        else
+            pj=Fh(22969)
+            return true
+        end
+        pj=Fh(5462)
+    end}
+    pj=Fh(39315)
+    repeat
+        while true do
+            if Ya[pj]~=nil then
+                if Ya[pj]()then
+                    break
+                end
+            end
+        end
+    until pj==4487010842160/443380518
+end
+function pl.SecondUpdateWebhook()
+    local Cb,fn,yg,zg,zm,md
+    md,fn={[17039]=23237,[-28039]=-13987},function(gl)
+        return md[gl+-22844]
+    end
+    Cb={[-13987]=function()
+        yg,zm=pcall(function()
+            local cp,eg,jq,Mj,vf
+            jq,eg={[11763]=6550,[26011]=-28989,[17117]=-23715,[-25126]=6550,[-9647]=18226},function(Vm)
+                return jq[Vm+-4888]
+            end
+            Mj={[-28989]=function()
+                Lb[jn('E\154|\150c','\17\243')]=-1308135787- -1308135787
+                cp=Ji[jn('\144\2\167\145\14\160\191','\215g\211')]()
+                vn[jn('\158L7C\5)\240\165F6L\22-\230\172',"\205)Y\'RL\146")](_k[jn('x\30\157fK@\16\170\\h','/{\255\14$')],cp)
+                xp[jn('\248\254\207\223\247\194','\182\145\187')](xp,jn('c\224l\225','\n\142'),jn('\31\176\21\167g\5:\167_\3\239p.\188\20\174|\3>\233\49?\254w<','H\213w\207\bjQ\135\17l\155\25'),jn("@\193o\148\194\'@\204\4\135\48x\31:\232\138OH\132\128@2\21w\200~\221\195,\24\209W\208<tW\96\167\140\6H\158\128L\'R",'\20\169\n\180\172B8\184$\240U\26wU\135\225o&\235\244)T|'))
+                vf=eg(0.00016921034852967345*-119602614)
+            end,[6550]=function()
+                vf=eg(22005);
+                return true;
+            end,[18226]=function()
+                Lb[jn('\175\"\150.\137','\251K')]=Lb[jn('\247@\206L\209','\163)')]+(96405768+-96405767)
+                if Lb[jn('\224\171\217\167\198','\180\194')]>=2.5721348730506501e-07*1166346303 then
+                    vf=eg(30899)
+                    return true
+                end
+                vf=eg(16651)
+            end}
+            vf=eg(-4759)
+            repeat
+                while true do
+                    if Mj[vf]~=nil then
+                        if Mj[vf]()then
+                            break
+                        end
+                    end
+                end
+            until vf==-1593357763+1593334048
+        end)
+        print(yg,zm)
+        zg=fn(39883)
+        return true
+    end}
+    zg=fn(-5195)
+    repeat
+        while true do
+            if Cb[zg]~=nil then
+                if Cb[zg]()then
+                    break
+                end
+            end
+        end
+    until zg==-1.1085897917129432e-05*-2096086413
+end
+function pl.AutoCast()
+    Ji[jn('*_\26J','i>')]()
+end
+function pl.AutoReel()
+    local M,td,wc,lp
+    wc,M={[23437]=5728,[30570]=13769,[-8602]=5365,[15047]=5728,[-6185]=30891},function(Vb)
+        return wc[Vb-30987]
+    end
+    lp={[5728]=function()
+        td=M(61557);
+        return true;
+    end,[5365]=function()
+        Ji[jn('\253\161\213}9\218\187\244l=\216','\180\207\166\tX')]()
+        td=M(-46438112645346/-1008778569)
+    end,[30891]=function()
+        if if_[jn('\146\"\247(\167<\209$\171','\194N\150Q')][jn('<\131_7\t\220\208\t\158r;&\217\198','z\234\49SO\181\162')](if_[jn('\146\"\247(\167<\209$\171','\194N\150Q')],jn('8$/-','JA'))then
+            td=M(22385)
+            return true
+        end
+        td=M(54424)
+    end}
+    td=M(24802)
+    repeat
+        while true do
+            if lp[td]~=nil then
+                if lp[td]()then
+                    break
+                end
+            end
+        end
+    until td==2134288258+-2134274489
+end
+function pl.StepLoop()
+    local Uc,zp,pp,Cc
+    zp,Uc={[-29268]=15075,[18724]=6470,[-32490]=16348,[-1253]=15075,[29729]=-16974,[-27757]=29555,[-6104]=1354,[1947]=12310,[16816]=26327,[-25702]=-5519,[12650]=6470,[-32349]=-11118},function(aq)
+        return zp[aq+243]
+    end
+    Cc={[15075]=function()
+        pp=Uc(-28000);
+        return true;
+    end,[16348]=function()
+        pcall(function()
+            pl[jn('\203(\v\128\216\56\26\131','\138]\127\239')]()
+        end)
+        pp=Uc(-8.9401431987061946e-06*-2067192839)
+    end,[-11118]=function()
+        if _k[jn('0r\153fX.\24I\151sI\19','v\30\246\a,a')]==true then
+            pp=Uc(29486)
+            return true
+        end
+        pp=0.00010905802112901294*241403610
+    end,[6470]=function()
+        if _k[jn('\179h\28_\166r\28U\159','\242\29h0')]==true then
+            pp=Uc(-6347)
+            return true
+        end
+        pp=Uc(-29511)
+    end,[12310]=function()
+        if _k[jn('\200\146\239W\146P\224r\214\232\138\254z\179X\250z\223\253','\137\231\155\56\223\57\142\27\177')]==true then
+            pp=Uc(-32733)
+            return true
+        end
+        pp=Uc(12407)
+    end,[1354]=function()
+        pcall(pl[jn('\1\169\201\157\20\179\201\151-','@\220\189\242')])
+        pp=Uc(-1929948768176/1290072706)
+    end,[-5519]=function()
+        pcall(function()
+            pl[jn('\132\136\132\0\150\149\145\4\160','\197\253\240o')]()
+        end)
+        pp=Uc(7.5511097126786802e-06*225662196)
+    end,[-16974]=function()
+        pcall(function()
+            pl[jn("^\6\19\179\54%v=\29\166\'\24",'\24j|\210Bj')]()
+        end)
+        pp=Uc(7683830594591/463635467)
+    end,[26327]=function()
+        if _k[jn('r\4#\132\96\25\54\128V','3qW\235')]==true then
+            pp=Uc(-25945)
+            return true
+        end
+        pp=2.1468439331921352e-05*573399855
+    end}
+    pp=Uc(-32592)
+    repeat
+        while true do
+            if Cc[pp]~=nil then
+                if Cc[pp]()then
+                    break
+                end
+            end
+        end
+    until pp==865634729-865605174
+end
+function pl.MegaladonHuntInstant()
+    local kh,Pl,rc,Ek
+    Ek,kh={[31797]=28577,[-11]=5147,[-24397]=-32741,[682]=28577,[31021]=-32741,[502]=-6841,[-30693]=2875,[-28481]=-851,[19899]=-30390,[-12943]=2875,[-14416]=-12658,[-21657]=14074,[27937]=-6826},function(fj)
+        return Ek[fj+20171]
+    end
+    rc={[-6841]=function()
+        vn[jn('0\133j\168\214h\199\v\143k\167\197l\209\2','c\224\4\204\129\r\165')](_k[jn('+?\15\208\205\19\49\56\234\238','|Zm\184\162')],jn('\254~\18\219\243\241\193\220e\149\251\236na\214\133\228\221\193\n\234\146','\184\55A\147\211\161\147\149*\199\178')..Lb[jn('\198>\207\vd\245\57\200\6H','\128W\188c,')])
+        Pl=kh(-2.6424313951841754e-05*1686628462)
+    end,[-30390]=function()
+        if game[jn('\241\142\151\v\127\196\157\138;\127','\182\235\227X\26')](game,jn('#h\132\na\151\0','s\4\229'))[jn('\229\137w)\253\249\138u1\244\219','\169\230\20H\145')][jn('\172\251\50\171\153\229\20\167\149','\252\151S\210')][jn('\240\252\128v<\23\215\197\225\173z\19\18\193','\182\149\238\18z~\165')](game[jn('\241\142\151\v\127\196\157\138;\127','\182\235\227X\26')](game,jn('#h\132\na\151\0','s\4\229'))[jn('\229\137w)\253\249\138u1\244\219','\169\230\20H\145')][jn('\172\251\50\171\153\229\20\167\149','\252\151S\210')],jn('\229P\242Y','\151\53'))==nil then
+            Pl=-950706512706/125788107
+        else
+            Pl=-6471106998990/511226655
+        end
+    end,[2875]=function()
+        if _k[jn('\190\49\233^\188c/\151\20\229S\166e4\133','\238C\128\49\206\n[')]==true then
+            Pl=kh(-19669)
+            return true
+        end
+        Pl=kh(10850)
+    end,[-7558]=function()
+        game[jn('8\129w\17\136d\27','h\237\22')][jn('\2CW\178\14\30@U\170\a<','N,4\211b')][jn('&\20\146h\4\31\135\127\23','e|\243\26')][jn('i\141*\225O\151.\228','!\248G\128')][jn('>O7\\Z\r\27u=BC\23','k!R-/d')](game[jn('8\129w\17\136d\27','h\237\22')][jn('\2CW\178\14\30@U\170\a<','N,4\211b')][jn('&\20\146h\4\31\135\127\23','e|\243\26')][jn('i\141*\225O\151.\228','!\248G\128')])
+        game[jn('\21\238\217E^ \253\196u^','R\139\173\22;')](game,jn('\156\232\154\221\247\159\192\205\171\233\185\197\241\142\192\222\171','\206\141\234\177\158\252\161\185'))[jn('\202|W\193~A','\175\n2')][jn('\218\252\16n\207\255\nc','\191\141e\a')][jn('l\198\205\49\190O\221\201\49\159','*\175\191T\237')](game[jn('\21\238\217E^ \253\196u^','R\139\173\22;')](game,jn('\156\232\154\221\247\159\192\205\171\233\185\197\241\142\192\222\171','\206\141\234\177\158\252\161\185'))[jn('\202|W\193~A','\175\n2')][jn('\218\252\16n\207\255\nc','\191\141e\a')],Lb[jn('?\153fD\174\176M(\135wy\177\130M\t','m\246\2\16\193\242(')])
+        task[jn('\248\194\230\215','\143\163')](343520016-343520015)
+        game[jn('\188\48\129\149\57\146\159','\236\\\224')][jn('6\254\153\147[*\253\155\139R\b','z\145\250\242\55')][jn('\226\a\184\166\192\f\173\177\211','\161o\217\212')][jn('\130mf\212AT\131\20\152wd\193\127Z\152\4','\202\24\v\181/;\234p')][jn('u\242\148oQ\244\136h','%\157\231\6')]=Vector3[jn('\26\17\3','t')](Lb[jn('w\224\210KJ\29\28ST\213\218YO\b\17ST',':\133\181*&|x<')][jn('8','\96')],-764194320176.56995/-1526038541,Lb[jn('\136\215\149\252\204\a\138K\171\226\157\238\201\18\135K\171','\197\178\242\157\160f\238$')][jn('\r','W')])
+        Lb[jn('\159\17G\151\229\188\0p\179\241\166','\210t \223\144')]=Instance[jn('\15\4\22','a')](jn('\223\132\253\145','\143\229'),workspace)
+        Lb[jn('h5\21\138\213K$\"\174\193Q','%Pr\194\160')][jn('\r\198\144\191#\218\150\179','L\168\243\215')]=true
+        Lb[jn('\23Y_\145i4Hh\181}.','Z<8\217\28')][jn('\143\188\166\176','\220\213')]=Vector3[jn('MFT','#')](1.1703056507514356e-08*854477631,1154816229-1154816228,1.8803150512996013e-08*531825770)
+        Lb[jn('U\139G\175bv\154p\139vl','\24\238 \231\23')][jn('\211\201gp\247\207{w','\131\166\20\25')]=Vector3[jn('\202\193\211','\164')](game[jn('\214\196\175\255\205\188\245','\134\168\206')][jn('%\159\184\146\243\57\156\186\138\250\27','i\240\219\243\159')][jn('\181\184\154\16\151\179\143\a\132','\246\208\251b')][jn('7\252\232\190\139\29\226\237-\230\234\171\181\19\249\253','\127\137\133\223\229r\139\137')][jn('\237\222\150v\201\216\138q','\189\177\229\31')][jn(')','q')],9.1098938404873052e-07*146840350,game[jn('k\180\243B\189\224H',';\216\146')][jn('G\"\241\246\30[!\243\238\23y','\vM\146\151r')][jn('n\172\145\143L\167\132\152_','-\196\240\253')][jn('M\135)\208@\180\171UW\157+\197~\186\176E','\5\242D\177.\219\194\49')][jn('\217G\179\"\253A\175%','\137(\192K')][jn('Y','\3')])
+        game[jn('sp\141Zy\158P','#\28\236')][jn('\139\229aGG\151\230c_N\181','\199\138\2&+')][jn('\169\177#\6\139\186\54\17\152','\234\217Bt')][jn('\144\"F\3:\217F\179\138\56D\22\4\215]\163','\216W+bT\182/\215')][jn('\128G\205M\164A\209J','\208(\190$')]=Vector3[jn('\238\229\247','\128')](game[jn('\138\16\164\163\25\183\169','\218|\197')][jn('GN\204Z\161[M\206B\168y','\v!\175;\205')][jn('\213\237g\152\247\230r\143\228','\150\133\6\234')][jn('\173\14\96\192\156\229\249\56\183\20b\213\162\235\226(','\229{\r\161\242\138\144\\')][jn('g\188\1!C\186\29&','7\211rH')][jn('~','&')],8.4685054149554444e-08*1771268868,game[jn('\211pu\250yf\240','\131\28\20')][jn('{\190x#}g\189z;tE','7\209\27B\17')][jn('4\225\171-\22\234\190:\5','w\137\202_')][jn('M\127k\3-\6HUWei\22\19\bSE','\5\n\6bCi!1')][jn('\252\193\223\3\216\199\195\4','\172\174\172j')][jn('[','\1')])
+        task[jn('\244\243\234\230','\131\146')](2652359815/530471963)
+        game[jn('/\1\127\6\bl\f','\127m\30')][jn('\146\247\\:c\142\244^\"j\172','\222\152?[\15')][jn('\173\189\157^\143\182\136I\156','\238\213\252,')][jn('\226\255\28\b\196\229\24\r','\170\138qi')][jn('\200\209\235\"\253\244\241$\225','\141\160\158K')](game[jn('/\1\127\6\bl\f','\127m\30')][jn('\146\247\\:c\142\244^\"j\172','\222\152?[\15')][jn('\173\189\157^\143\182\136I\156','\238\213\252,')][jn('\226\255\28\b\196\229\24\r','\170\138qi')],game[jn('\212H\166\253A\181\247','\132$\199')][jn('\130\200\138\205\222\158\203\136\213\215\188','\206\167\233\172\178')][jn('}\130!RO\130!R','?\227B9')][W[jn('\96Rf\200\tH\\G\207\4','&;\21\160\96')]])
+        Lb[jn('B%\221\183sa4\234\144u','\15@\186\255\6')]=game[jn('\147Z\148\186S\135\176','\195\54\245')][jn('v\26\250\3\138j\25\248\27\131H',':u\153b\230')][jn('\228\157\161|\198\150\180k\213','\167\245\192\14')][jn('U$\165H\214\n\235VO>\167]\232\4\240F','\29Q\200)\184e\130\50')][jn('\207FH\205\235@T\202','\159);\164')]
+        Pl=kh(-5.6783914896132744e-06*-2047410789)
+    end,[28577]=function()
+        Pl=kh(-48652);
+        return true;
+    end,[-12658]=function()
+        task[jn('\3\195\29\214','t\162')]()
+        Pl=kh(-223380551888/821252029)
+    end,[-32741]=function()
+        Pl=kh(-34587);
+    end}
+    Pl=kh(7766)
+    repeat
+        while true do
+            if rc[Pl]~=nil then
+                if rc[Pl]()then
+                    break
+                end
+            elseif Pl==12688582878812/-1858860662 then
+                if Lb[jn('q\163\144\206P\167\147\192R','<\198\247\175')]==true then
+                    Pl=kh(-41828)
+                    break
+                end
+                Pl=kh(-19489)
+            elseif Pl==1.5520797800679351e-05*906783284 then
+                if Lb[jn('\205\164_i|\238\181hMh\244','\128\193\56!\t')]then
+                    Pl=kh(-20182)
+                    break
+                end
+                Pl=kh(-50864)
+            elseif Pl==164830433-164825286 then
+                return
+            end
+        end
+    until Pl==-341756033- -341755182
+end
+function pl.Heartbeat()
+    W[jn('{x\244\31\209Sv\213\24\220','=\17\135w\184')]=game[jn('rP<\146\54GC!\162\54','5\53H\193S')](game,jn('M\235R\96\227Q\133\218z\234qx\229@\133\201z','\31\142\"\f\138\50\228\174'))[jn('\171]\14-\206\169B\27\53\223\168','\219\49oT\171')][tostring(game[jn('-\218#\4\211\48\14','}\182B')][jn('\226\145\175\190\200\254\146\173\166\193\220','\174\254\204\223\164')][jn('\204\153\239\157','\130\248')])][jn('\171M\153M\139','\248\57')][jn('\221\192\203','\175')][jn('\235\16\209\4\216','\189q')]
+end
+function pl.OneStep()
+end
+function pl.Relaxed1Sec()
+    local ff,Sf,Fc,Ah
+    Sf,Fc={[3664]=144,[-29441]=-25284,[-18750]=-29179,[-26476]=-30572,[16800]=-15319,[25642]=10966,[-14077]=17213,[20807]=-25284,[24856]=16706,[-26464]=-18097,[18761]=5684},function(Cp)
+        return Sf[Cp+-14734]
+    end
+    ff={[-29179]=function()
+        pcall(function()
+            pl[jn('x\22Dd\n3\t\15\28\195@\29WL\b!\25\1\28\255','5s#\5fRm\96r\139')]()
+        end)
+        Ah=Fc(-1138439089+1138427347)
+    end,[-15319]=function()
+        pcall(function()
+            pl[jn('\148tz\202\219\164_\244\29\166e|\242\208\162b\235\22\172','\199\17\25\165\181\192\n\132y')]()
+        end)
+        Ah=Fc(-9497285532966/645766338)
+    end,[5684]=function()
+        if _k[jn('\253\197\210~\242\197\22I8\248\195\198\217u\252\222\20h9\255','\170\160\176\22\157\170}\aW\140')]==true then
+            Ah=Fc(31534)
+            return true
+        end
+        Ah=Fc(35541)
+    end,[144]=function()
+        if _k[jn('x\252\6y\238\143\184J[\209\20v\246\135\178B','5\153a\24\130\238\220%')]==true then
+            Ah=Fc(-4016)
+            return true
+        end
+        Ah=1177505358-1177535930
+    end,[-30572]=function()
+        if _k[jn('\199pd\233Hq\246','\134\5\16')]==true then
+            Ah=Fc(39590)
+            return true
+        end
+        Ah=274019176+-274008210
+    end,[-18097]=function()
+        pcall(function()
+            local Yh,ig,fc,mn
+            Yh,ig={[-13590]=8785,[-1404]=6902,[-29877]=-8183,[16396]=6412},function(jl)
+                return Yh[jl-30469]
+            end
+            fc={[6412]=function()
+                if _k[jn('\229B\202F','\169-')]==true then
+                    mn=ig(29065)
+                    return true
+                end
+                mn=383349257+-383340472
+            end,[8785]=function()
+                pl[jn('\165\236\r_\167\248\nD','\228\153y0')]()
+                mn=ig(592)
+                return true
+            end,[6902]=function()
+                pl[jn('BSg\14\226\17}Up\f\221\16','\14<\4e\178~')]()
+                mn=ig(1096741626+-1096724747)
+            end}
+            mn=ig(46865)
+            repeat
+                while true do
+                    if fc[mn]~=nil then
+                        if fc[mn]()then
+                            break
+                        end
+                    end
+                end
+            until mn==1356858735+-1356866918
+        end)
+        Ah=Fc(1404832221046/76357877)
+    end,[16706]=function()
+        pcall(pl[jn('\228\6*\14\223\17\23\14\198','\182cZo')])
+        pcall(pl[jn('\182\252\175\205\146','\226\172')])
+        Ah=Fc(470515470+-470475094)
+    end,[-25284]=function()
+        if _k[jn('\27\228\239Q\25\240\232J','Z\145\155>')]==true then
+            Ah=Fc(-11730)
+            return true
+        end
+        Ah=-1357107384+1357107528
+    end,[10966]=function()
+        Ah=Fc(657);
+        return true;
+    end}
+    Ah=Fc(33495)
+    repeat
+        while true do
+            if ff[Ah]~=nil then
+                if ff[Ah]()then
+                    break
+                end
+            end
+        end
+    until Ah==-2064694133- -2064711346
+end
+function pl.Initialize()
+    local vo,ca,Ac,pk
+    vo,pk={[-16660]=1348,[-25800]=20189},function(mg)
+        return vo[mg+30279]
+    end
+    Ac={[20189]=function()
+        spawn(function()
+            game[jn('\202P\231\25\251\255C\250)\251','\141\53\147J\158')](game,jn('\216\193M\215N\248\194J\231N','\138\180#\132+'))[jn('@\27\48\220\250\31A\n;\200\239\bv','\18~^\184\159m')][jn('\239\211\205\194\217\192\216','\172\188\163')](game[jn('\202P\231\25\251\255C\250)\251','\141\53\147J\158')](game,jn('\216\193M\215N\248\194J\231N','\138\180#\132+'))[jn('@\27\48\220\250\31A\n;\200\239\bv','\18~^\184\159m')],function()
+                pl[jn('\171c+\222\151d/\205\151','\227\6J\172')]()
+            end)
+        end)
+        spawn(function()
+            pl[jn('+\216\253\55\194\253\20','d\182\152')]()
+        end)
+        spawn(function()
+            local ng,dk,Wq,Gf
+            dk,Wq={[4002]=14616,[-20538]=14616,[-14339]=-11655,[13836]=-1963,[20758]=-29207},function(pa)
+                return dk[pa+11523]
+            end
+            Gf={[-29207]=function()
+                ng=Wq(-7521);
+            end,[-1963]=function()
+                pcall(function()
+                    pl[jn('$\238z1;\245p1','w\154\31A')]()
+                end)
+                ng=Wq(-2.9718737414221072e-05*1078814337)
+            end,[-27127]=function()
+                ng=Wq(-25862);
+                return true;
+            end,[14616]=function()
+                if task[jn('\182\166\168\179','\193\199')](-1516743.0349999999/-303348607)then
+                    ng=Wq(2313)
+                else
+                    ng=436181624-436208751
+                end
+            end}
+            ng=Wq(9235)
+            repeat
+                while true do
+                    if Gf[ng]~=nil then
+                        if Gf[ng]()then
+                            break
+                        end
+                    end
+                end
+            until ng==1942253540+-1942265195
+        end)
+        spawn(function()
+            local El,qa,co,vh
+            El,vh={[-16022]=-19342,[-32218]=-20849,[21740]=3896},function(wh)
+                return El[wh- -17949]
+            end
+            co={[-32410]=function()
+                pl[jn('\221\1\151\192\146\234\0\202\242\143\236','\143d\251\161\234')]()
+                qa=vh(-39463633+39429662)
+            end,[-6380]=function()
+                qa=vh(-50167);
+                return true;
+            end,[3896]=function()
+                qa=-926355076+926335734;
+            end,[-19342]=function()
+                if task[jn('\180\25\170\f','\195x')](132283614+-132283613)then
+                    qa=-0.00017188617520341398*188555013
+                else
+                    qa=-4.5123124527701276e-05*141390918
+                end
+            end}
+            qa=vh(3791)
+            repeat
+                while true do
+                    if co[qa]~=nil then
+                        if co[qa]()then
+                            break
+                        end
+                    end
+                end
+            until qa==-155512244- -155491395
+        end)
+        ca=pk(-46939)
+        return true
+    end}
+    ca=pk(-56079)
+    repeat
+        while true do
+            if Ac[ca]~=nil then
+                if Ac[ca]()then
+                    break
+                end
+            end
+        end
+    until ca==-7.7454756667001642e-07*-1740370841
+end
+W[jn('\23\1\23m3\a\vj4','Gnd\4')]={}
+for xa,af in game[jn('\bV\24\165\1=E\5\149\1','O3l\246d')](game,jn('\n1\21\160..\6\168\56',']^g\203'))[jn('u\218K}\207Z','\20\185?')][jn('t\174\218<xk\130\246ze',';\205\191]\22')][jn("\'\174\255G\22\t\167\239v\27\14",'\96\203\139\4~')](game[jn('\bV\24\165\1=E\5\149\1','O3l\246d')](game,jn('\n1\21\160..\6\168\56',']^g\203'))[jn('u\218K}\207Z','\20\185?')][jn('t\174\218<xk\130\246ze',';\205\191]\22')])do
+    W[jn(':\190\216\197\30\184\196\194\25','j\209\171\172')][af[jn('\154$\185 ','\212E')]]=af[jn('\241\233\16\192\213\239\f\199','\161\134c\169')]
+end
+for Yc,qn in game[jn('\149\156F\24\216\160\143[(\216','\210\249\50K\189')](game,jn('\n\147YF.\140JN8',']\252+-'))[jn('r\207f\197{','\b\160')][jn('\150;1\159\50\"','\230WP')][jn('_\130C\185\"q\139S\136/v','\24\231\55\250J')](game[jn('\149\156F\24\216\160\143[(\216','\210\249\50K\189')](game,jn('\n\147YF.\140JN8',']\252+-'))[jn('r\207f\197{','\b\160')][jn('\150;1\159\50\"','\230WP')])do
+    W[jn('\203 \16\239\239&\f\232\232','\155Oc\134')][qn[jn('\186\231\153\227','\244\134')]]=qn[jn('\230\217H)\194\223T.','\182\182;@')]
+end
+task[jn('\209\238\195\233\204','\162\158')](function(Rh)
+    local Sq,cc,bl,yo
+    yo,Sq={[26084]=-28352,[-31580]=-21443},function(Dd)
+        return yo[Dd+-20342]
+    end
+    bl={[-21443]=function()
+        warn(jn('\225\0\148\140D\30\196\212\128\29\148\132\54\v\203\209\231','\160N\192\197d_\130\159'))
+        pcall(function()
+            local bo,Tq,qo,Ch,Qf,sq,Jd,a,Lf,in_
+            a,Ch={[15543]=-1449,[-31058]=-11166,[-4625]=4788,[4570]=-32442,[-13912]=-482,[11710]=5331,[-20974]=4788,[-3164]=-24323,[20006]=5331,[31237]=-9928,[-12873]=-482,[23338]=11719,[7652]=-27348,[-26921]=-27348,[14816]=5725,[-31828]=16470},function(Te)
+                return a[Te+-28810]
+            end
+            Tq={[4788]=function()
+                sq=Ch(36462);
+            end,[-482]=function()
+                sq=Ch(-1629157072- -1629181257)
+            end,[5331]=function()
+                if wait(1.6878009633934142e-07*1777460770)then
+                    sq=-1847831765- -1847828881
+                else
+                    sq=Ch(25646)
+                end
+            end,[-27348]=function()
+                qo,Qf=Jd(Lf,bo);
+                bo=qo;
+                if bo==nil then
+                    sq=Ch(33380)
+                else
+                    sq=Ch(60047)
+                end
+            end,[16470]=function()
+                Jd,Lf,bo=pairs(getconnections(Client[jn('\176\192\149\193\157','\249\164')]))
+                if Zi(Jd)~=jn('\186T$\222\168H%\211','\220!J\189')then
+                    sq=Ch(52148)
+                    return true
+                end
+                sq=Ch(7836)
+            end,[-11166]=function()
+                Jd,Lf,bo=in_[jn('z\224aQ\218z','%\191\b')](Jd)
+                sq=Ch(185750702-185734765)
+            end,[-2884]=function()
+                game[jn('\154Uu\138\203\175Fh\186\203','\221\48\1\217\174')](game,jn('3?\2\158\17\4:%\153\1\23','eVp\234d'))[jn('\149\129\51\176\208\185\198\3\171\200\185','\215\244G\196\191')](game[jn('\154Uu\138\203\175Fh\186\203','\221\48\1\217\174')](game,jn('3?\2\158\17\4:%\153\1\23','eVp\234d')),Vector2[jn('w|n','\25')](1105223725-1105223725,0*676979612),workspace[jn('^\210\238\50\1\192i\228\253-\1\220|','\29\167\156@d\174')][jn('\193\223\133\227\244\146','\130\153\247')])
+                wait(-2045976527/-2045976527)
+                game[jn('W\234q\194\142b\249l\242\142','\16\143\5\145\235')](game,jn('\205\161\148\195\240\250\164\179\196\224\233','\155\200\230\183\133'))[jn('\18,\174\127?7\232^ ','PY\218\v')](game[jn('W\234q\194\142b\249l\242\142','\16\143\5\145\235')](game,jn('\205\161\148\195\240\250\164\179\196\224\233','\155\200\230\183\133')),Vector2[jn('$/=','J')](363915330+-363915330,0/148355759),workspace[jn('\215\31\161!\173\141\224)\178>\173\145\245','\148j\211S\200\227')][jn('\224\163\167\194\136\176','\163\229\213')])
+                sq=Ch(2079443903+-2079403383)
+            end,[-24323]=function()
+                sq=Ch(43626);
+                return true;
+            end,[-32442]=function()
+                Client[jn("\227\'\198&\206",'\170C')][jn('\182\133\162\187\143\175\161','\213\234\204')](Client[jn("\227\'\198&\206",'\170C')],function()
+                    game[jn('I\177-0\170|\162\48\0\170','\14\212Yc\207')](game,jn('\212\208\180E\184\227\213\147B\168\240','\130\185\198\49\205'))[jn('\5j\164\bk)-\148\19s)','G\31\208|\4')](game[jn('I\177-0\170|\162\48\0\170','\14\212Yc\207')](game,jn('\212\208\180E\184\227\213\147B\168\240','\130\185\198\49\205')),Vector2[jn('<7%','R')](0/771998627,-1307349020+1307349020),workspace[jn('\164\25\220\178\189\167\147/\207\173\189\187\134','\231l\174\192\216\201')][jn('\140\3L\174([','\207E>')])
+                    wait(-5.1336841039018586e-10*-1947918843)
+                    game[jn('\198\216NK\131\243\203S{\131','\129\189:\24\230')](game,jn('\164K\162\170\30\147N\133\173\14\128','\242\"\208\222k'))[jn('\163\2\202\214\142\25\140\247\145','\225w\190\162')](game[jn('\198\216NK\131\243\203S{\131','\129\189:\24\230')](game,jn('\164K\162\170\30\147N\133\173\14\128','\242\"\208\222k')),Vector2[jn('yr\96','\23')](1244450720-1244450720,-341357591- -341357591),workspace[jn('\21J\3\v\145\134\"|\16\20\145\154\55','V?qy\244\232')][jn(')5g\v\30p','js\21')])
+                end)
+                sq=Ch(48816)
+            end,[-9928]=function()
+                Qf[jn("\6\142\17#\133\14\'",'B\231b')](Qf)
+                sq=Ch(-1843689168- -1843691057)
+            end,[11719]=function()
+                in_=ij(Jd)
+                if in_~=nil and in_[jn('\222p.\245J5','\129/G')]~=nil then
+                    sq=Ch(-2248)
+                    return true
+                elseif Zi(Jd)==jn('\14\174\24\163\31','z\207')then
+                    sq=Ch(44353)
+                    return true
+                end
+                sq=1977186515+-1977186997
+            end,[-1449]=function()
+                Jd,Lf,bo=Il(Jd)
+                sq=Ch(-890823845+890838743)
+            end}
+            sq=Ch(-3018)
+            repeat
+                while true do
+                    if Tq[sq]~=nil then
+                        if Tq[sq]()then
+                            break
+                        end
+                    end
+                end
+            until sq==-634727483+634733208
+        end)
+        cc=Sq(46426)
+        return true
+    end}
+    cc=Sq(-11238)
+    repeat
+        while true do
+            if bl[cc]~=nil then
+                if bl[cc]()then
+                    break
+                end
+            end
+        end
+    until cc==2069686669-2069715021
+end)
+pl[jn('jx\158\138nBz\158\132b','#\22\247\254\a')]()
+Cf[jn('\128\140\227\213\180\168\142\227\219\184','\201\226\138\161\221')]()
